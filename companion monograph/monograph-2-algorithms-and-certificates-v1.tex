@@ -1,0 +1,398 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\GammaSet}{\Gamma_{\mathrm{set}}}
+\newcommand{\GammaEff}{\Gamma_{\mathrm{eff}}}
+\newcommand{\GammaB}{\Gamma_{\mathcal B}}
+\newcommand{\eps}{\varepsilon}
+
+\title{Algorithms and Certificates for Finite Effective Causal Descent:\\
+Width-Based Synthesis for Sensor-Limited Mechanical Control}
+\author{Anonymous}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Finite decision systems under partial observation face a simple obstruction: a
+controller cannot choose different actions in scenarios that its sensors do not
+distinguish.  This article develops the finite algorithmic companion to
+effective causal descent.  The focus is not a broader philosophical taxonomy,
+but a proof-producing synthesis pipeline for finite sensor-limited mechanical
+models.  A finite presentation consists of policy variables, finite domains, and
+explicit local relations; global policies are exactly the assignments satisfying
+all relations.  Effectivity and bounded realisability are represented by finite
+implementation catalogues, costs, and budgets.  The main algorithmic layer is a
+certificate-producing dynamic program over tree decompositions, with ordinary
+and weighted-width bounds, independently checkable message tables, and typed
+certificates for policies, refutations, optimum costs, fibre conflicts, sensor
+repairs, finite-element rows, and sparsification ladders.  The mechanics layer
+turns certified affine response rows into inner and outer finite ECD models,
+proving the sound sandwich
+\(\Gamma(P^-)\subseteq\Gamma(P^{\mathrm{true}})\subseteq\Gamma(P^+)\).
+Width-adaptive sparsification gives monotone certified refinement rather than a
+performance claim.  An exact two-spring demonstrator and a finite prototype
+artifact exercise the certificate grammar, reject corrupted certificates, and
+produce controlled-width benchmark reports.  External solver output is treated
+only as auxiliary evidence unless cross-checked by native ECD certificates;
+timeouts and missing solvers remain inconclusive.
+\end{abstract}
+
+\noindent\textbf{Keywords:} finite effective causal descent; sensor-limited control;
+certifying algorithms; tree decompositions; weighted width; finite-element
+certification; sparsification; independent verification.
+
+\tableofcontents
+
+\section{Introduction}
+\label{sec:introduction}
+
+A mechanically admissible response need not be implementable by a controller
+whose observations fail to distinguish the situations requiring different
+actions.  A load case, damage state, or inspection record may determine which
+actions are safe, while the available sensor readings merge several such cases
+into one information state.  Once the information state is fixed, the controller
+has only one command available.  The first task is therefore not to solve a
+continuous mechanics problem in full generality, but to certify the finite
+relation between observations, admissible actions, and implementable policies in
+a declared model.
+
+This article develops the finite, proof-producing side of effective causal
+descent (ECD).  The foundational monograph supplies the presentation-relative
+language: local validity, compatibility of a diagram, effective realisability,
+and bounded realisability.  Here we specialize that language to explicit finite
+instances and to mechanically generated finite relations.  The guiding rule is:
+\emph{topological order is the constraint; feasibility is the priority}.  We
+first fix the finite input representation, then the certificate grammar, then
+the solver and verifier, then the mechanical relation generator, then the
+sparsification and benchmark layers.  Comparative performance claims come last
+and require experiments; they are not consequences of the structural theory.
+
+The contribution is organized around certificates.  A successful run should
+return a policy that an independent verifier checks.  A negative run should
+return a refutation certificate, not merely a solver log.  A mechanical row
+should carry the numerical or exact-arithmetic evidence justifying its safe,
+unsafe, or unresolved status.  A sparsified instance should come with interval
+bounds proving the appropriate inner--outer inclusions.  The computational
+statuses are deliberately limited: certified satisfiable, certified
+unsatisfiable, certified optimal, or inconclusive.
+
+\section{Finite ECD presentations}
+\label{sec:finite-presentations}
+
+\begin{definition}[Finite ECD presentation]
+A finite ECD presentation is a tuple
+\[
+  \mathcal P=(X,(D_x)_{x\in X},(S_i,R_i)_{i\in M}),
+\]
+where \(X\) is a finite set of policy variables, each \(D_x\) is a finite
+nonempty domain, each scope \(S_i\subseteq X\) is finite, and
+\[
+  R_i\subseteq\prod_{x\in S_i}D_x
+\]
+is an explicitly represented permitted table.  Its global policy space is
+\[
+  \Gamma(\mathcal P)=
+  \{a\in\prod_{x\in X}D_x: a|_{S_i}\in R_i\text{ for all }i\in M\}.
+\]
+\end{definition}
+
+In a sensor-limited mechanics model, a variable often has the form \((j,o)\),
+where \(j\) is an actuator or decision channel and \(o\) is an information state
+produced by the available sensors.  The finite relation tables record which
+joint commands are certified safe for each scenario or local mechanical
+constraint.
+
+\begin{definition}[Finite implementation catalogue]
+For controller \(j\), let \(\mathcal L_j\) be a finite catalogue of
+implementations with evaluation map \(\operatorname{eval}_j(\ell,o)\) and cost
+\(c_j(\ell)\).  Introduce implementation variables
+\(\ell_j\in\mathcal L_j\cup\{\bot\}\), where \(\bot\) is compatible with every
+behavioural assignment and has infinite cost.  A finite-cost catalogue policy is
+one satisfying
+\[
+  x_{j,o}=\operatorname{eval}_j(\ell_j,o)
+  \qquad(o\in O_j)
+\]
+with every \(\ell_j\ne\bot\).
+\end{definition}
+
+Thus finite set-theoretic existence is separated from existence in a declared
+implementation catalogue, and budgeted existence is separated again by a cost
+bound.  This is the finite analogue of the nested spaces
+\(\GammaSet\supseteq\GammaEff\supseteq\GammaB\), but it is entirely explicit.
+
+\section{Certificate grammar and status discipline}
+\label{sec:certificates}
+
+The verifier accepts typed certificates rather than solver narratives.  The
+current grammar contains the following core forms.
+
+\begin{center}
+\begin{tabular}{@{}p{0.23\linewidth}p{0.41\linewidth}p{0.25\linewidth}@{}}
+\toprule
+Certificate & Data & Certified claim\\
+\midrule
+\texttt{POLICY} & total assignment to all variables & global section\\
+\texttt{FIBRE-CONFLICT} & one observation fibre and excluded-action witnesses & no one-shot selector on that fibre\\
+\texttt{SENSOR-REPAIR} & selected sensors and conflict cores & sensor sufficiency or optimality in a finite master problem\\
+\texttt{TREE-DECOMP} & bags, edges, root, factor placement & valid decomposition\\
+\texttt{DP-REFUTATION} & decomposition and message tables & no global assignment\\
+\texttt{DP-OPTIMUM} & decomposition, message tables, root value & minimum finite cost\\
+\texttt{FE-ROW} & response interval and row status & safe, unsafe, or unresolved finite row\\
+\texttt{SPARSIFICATION-BATCH} & retained scopes and omitted-term bounds & inner--outer sparse model\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\begin{remark}[Status discipline]
+The implementation reports only four mathematical statuses:
+\texttt{CERTIFIED-SAT}, \texttt{CERTIFIED-UNSAT}, \texttt{CERTIFIED-OPT}, and
+\texttt{INCONCLUSIVE}.  A timeout, missing external solver, failed certificate
+verification, or unresolved numerical row is inconclusive.  It is never a proof
+of infeasibility.
+\end{remark}
+
+\section{One-shot fibres and causal compilation}
+\label{sec:fibres-compilation}
+
+\begin{theorem}[One-shot fibre criterion]
+Let \(o:W\to O\) be an observation map, let \(A\) be a finite action set, and
+let \(S_w\subseteq A\) be the actions admissible in scenario \(w\).  An
+observation-uniform action selector exists if and only if
+\[
+  A_z:=\bigcap_{w:o(w)=z}S_w\ne\varnothing
+\]
+for every realised observation value \(z\).  If a fibre fails, a certificate
+using at most \(|A|\) scenarios in that fibre excludes every action, and the
+bound is tight.
+\end{theorem}
+
+\begin{proof}
+A selector chooses one action \(a_z\) for every observation value.  The action is
+valid on the fibre over \(z\) exactly when \(a_z\in S_w\) for every scenario in
+that fibre, equivalently \(a_z\in A_z\).  If \(A_z=\varnothing\), choose for each
+action \(a\in A\) one scenario \(w_a\) in the fibre with \(a\notin S_{w_a}\).
+The distinct chosen scenarios exclude all actions and have cardinality at most
+\(|A|\).  Tightness is witnessed by \(S_{w_j}=A\setminus\{j\}\) for
+\(A=\{1,\ldots,k\}\).
+\end{proof}
+
+\begin{theorem}[Reachability-correct forbidden-tuple compilation]
+Consider a finite explicit history tree whose predictor nodes are partitioned
+into information cells.  Introduce one policy variable for each information
+cell.  For each unsafe leaf, read the information-cell/action labels along the
+root-to-leaf path.  If the path requires the same information cell to take two
+different actions, discard it.  Otherwise add the corresponding forbidden tuple.
+The resulting finite presentation has global assignments exactly the policies
+that avoid every unsafe leaf.
+\end{theorem}
+
+\begin{proof}
+A path requiring two different actions at one information cell is unrealisable
+by any observation-uniform policy, so it contributes no feasible unsafe
+execution.  Every remaining unsafe path is reached precisely when the policy
+matches all action labels on that path; forbidding the resulting tuple is
+therefore exactly the condition that this unsafe leaf is not reached.
+\end{proof}
+
+\section{Finite complexity boundary}
+\label{sec:complexity}
+
+The explicit-table representation fixes the complexity claims.  Verifying a
+proposed assignment is polynomial by scanning factor rows.  Unary constraints
+are solved by intersecting allowed values.  Boolean binary constraints are
+polynomial via 2-SAT.  Boolean ternary explicit-table CSP is NP-complete by the
+standard 3-SAT encoding, and binary disequality over three-element domains is
+NP-complete by graph 3-colouring.  Nonexistence is coNP-complete, and counting
+global assignments is \(\#\mathrm P\)-complete.
+
+These are not claims about arbitrary succinct generators.  Circuits, automata,
+and finite-element preprocessors change the input representation and require
+separate analysis.
+
+\section{Width-based certifying dynamic programming}
+\label{sec:width-dp}
+
+Let \((T,(B_t)_{t\in T})\) be a tree decomposition of the primal graph.  The
+solver orients \(T\) at a root, assigns each factor to a containing bag, and
+computes message tables from leaves to root.  A message entry summarizes the
+best extension of a boundary assignment through the processed subtree.
+
+For heterogeneous domains, the relevant state-space parameter is the weighted
+width
+\[
+  \lambda(T)=\max_{t\in T}\sum_{x\in B_t}\lceil\log_2|D_x|\rceil.
+\]
+Every bag table has at most \(2^{\lambda(T)}\) entries.  Thus the explicit-table
+recurrences run in \(\operatorname{poly}(|I|,|T|)2^{\lambda(T)}\), up to
+indexing and arithmetic factors.
+
+\begin{proposition}[DP certificate soundness]
+If an independent verifier recomputes all message tables of a
+\texttt{DP-REFUTATION} certificate and obtains an empty root table, then
+\(\Gamma(\mathcal P)=\varnothing\).  If it recomputes a \texttt{DP-OPTIMUM}
+certificate with root value \(c\), then there is a global assignment of cost
+\(c\), and no lower-cost assignment exists for the declared finite instance.
+\end{proposition}
+
+\begin{proof}
+By induction on the rooted decomposition, each message table is the exact
+aggregate of all assignments in the processed subtree agreeing with the boundary
+assignment.  Projection combines alternatives by minimization and combines
+independent subtree costs by addition.  The root has no boundary, so its table
+states exactly whether any global assignment exists and, when costs are present,
+the minimum cost.
+\end{proof}
+
+\section{Sensor repair}
+\label{sec:sensor-repair}
+
+A sensor architecture is part of the presentation.  For a one-shot conflict core
+\(C\subseteq W\), let
+\[
+  E_C=\{s:s\text{ is nonconstant on }C\}
+\]
+be the candidate sensors that separate the scenarios in the core.
+
+\begin{theorem}[One-shot sensor repair]
+A selected sensor family \(T\) repairs all listed one-shot conflict cores if and
+only if
+\[
+  T\cap E_C\ne\varnothing
+\]
+for every listed core \(C\).  If the list contains all minimal failing fibres,
+this hitting-set condition is exact for one-shot repair.
+\end{theorem}
+
+The theorem separates two tasks: synthesizing a policy for a fixed observation
+architecture, and designing an observation architecture that makes policy
+synthesis possible.  The second task contains hitting-set structure even when
+the first task is easy.
+
+\section{Certified affine mechanics front end}
+\label{sec:mechanics-front-end}
+
+The mechanics front end supplies finite relations; the finite solver certifies
+policies or refutations for those relations.  For affine response rows,
+\[
+  y_i(a)=d_i+\sum_{x\in S_i}g_{ix}a_x,
+\]
+exact arithmetic or certified intervals classify each row as safe, unsafe, or
+unresolved.  More generally, for a symmetric positive-definite discrete solve
+\(Ku=f\), residual \(r=f-K\widehat u\), and certified lower spectral bound
+\(\underline\lambda\le\lambda_{
+\min}(K)\), one has
+\[
+  \|u-\widehat u\|_2\le \frac{\|r\|_2}{\underline\lambda},
+  \qquad
+  |c^T(u-\widehat u)|\le
+  \|c\|_2\frac{\|r\|_2}{\underline\lambda}.
+\]
+Rows whose certified response intervals cross a threshold remain unresolved.
+
+\begin{proposition}[Inner--outer finite soundness]
+If finite row certificates give
+\[
+  R_i^-\subseteq R_i^{\mathrm{true}}\subseteq R_i^+
+\]
+for every factor, then
+\[
+  \Gamma(P^-)\subseteq\Gamma(P^{\mathrm{true}})\subseteq\Gamma(P^+).
+\]
+Thus inner satisfiability gives a certified true finite-model policy, and outer
+unsatisfiability gives a certified true finite-model refutation.  Inner
+unsatisfiability with outer satisfiability is inconclusive.
+\end{proposition}
+
+\section{Width-adaptive sparsification}
+\label{sec:sparsification}
+
+For affine rows, retain \(J_i\subseteq S_i\) and bound omitted terms by
+\[
+\underline\eta_i(J)=
+\sum_{x\in S_i\setminus J_i}\min_{v\in D_x}g_{ix}v,
+\qquad
+\overline\eta_i(J)=
+\sum_{x\in S_i\setminus J_i}\max_{v\in D_x}g_{ix}v.
+\]
+The inner sparse relation keeps a retained assignment only if every completion
+of omitted variables is certified safe.  The outer sparse relation keeps it if
+some completion is not certified unsafe.
+
+\begin{theorem}[Sparsification ladder]
+If retained scopes grow from \(J_i\) to \(J_i'\), then
+\[
+  \Gamma^-_J
+  \subseteq
+  \Gamma^-_{J'}
+  \subseteq
+  \Gamma^{\mathrm{true}}
+  \subseteq
+  \Gamma^+_{J'}
+  \subseteq
+  \Gamma^+_J.
+\]
+\end{theorem}
+
+This is a soundness theorem, not a performance theorem.  It says that refinement
+is monotone and certifiable; whether it improves runtime on a class of mechanics
+instances is an empirical question.
+
+\section{Prototype artifact and reproducibility}
+\label{sec:artifact}
+
+The current prototype is located at
+\begin{verbatim}
+/home/user/finite_ecd_prototype/
+\end{verbatim}
+It includes explicit-table solving, tree-decomposition DP certificates, exact
+affine row certificates, sparsification certificates, controlled-width benchmark
+generation, baseline encoders, optional external-solver adapters, external-result
+cross-checking, report summaries, and SVG plot generation.  The repository-ready
+entry point is
+\begin{verbatim}
+make reproduce
+\end{verbatim}
+with \texttt{./reproduce.sh} as an equivalent shell command.
+
+At the present stage, no repository URL or DOI has been supplied.  The paper
+should therefore use placeholder wording: an artifact containing the finite ECD
+prototype and reproduction scripts will be deposited in a public repository
+before publication.  The release manifest should be frozen only after deposit.
+
+\section{Limitations and conclusions}
+\label{sec:limitations}
+
+The companion theory is deliberately finite and certificate-driven.  It does not
+claim a universal dichotomy for all finite ECD instances, practical superiority
+over generic solvers, or continuum-mechanics validity from finite algebraic row
+certificates alone.  Its claim is narrower and checkable: once a finite source
+representation is declared, the solver and verifier can produce typed evidence
+for policies, refutations, optimum costs, sensor repairs, finite mechanical
+relations, and sparsification ladders.  The location of failure remains part of
+the presentation, and the certificate records the data needed to transport that
+claim.
+
+\input{companion-artifact-appendix-v1.tex}
+
+\end{document}
