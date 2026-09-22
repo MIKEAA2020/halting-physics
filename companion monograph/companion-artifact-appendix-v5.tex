@@ -1,0 +1,204 @@
+\appendix
+\section{Artifact, certificate formats, and reproducibility}
+\label{app:artifact}
+
+This appendix describes the finite ECD prototype accompanying the finite
+algorithmic and mechanics development. The artifact is a correctness and
+certificate harness for finite explicit-table instances, exact finite affine
+algebraic examples, and declared exact rational structural models. It is not a
+continuum-mechanics validator, and its external-baseline comparisons are
+cross-check studies rather than performance-superiority claims.
+
+\subsection{Finite instance format}
+
+A finite explicit-table ECD instance is encoded as a JSON object with the fields
+\texttt{variables}, \texttt{domains}, and \texttt{factors}. A typical Boolean
+example is
+\begin{verbatim}
+{
+  "variables": ["x0", "x1"],
+  "domains": {"x0": [0, 1], "x1": [0, 1]},
+  "value_costs": {"x0": {"0": 0, "1": 1}},
+  "factors": [
+    {"name": "neq", "scope": ["x0", "x1"],
+     "relation": [[0, 1], [1, 0]]}
+  ]
+}
+\end{verbatim}
+The field \texttt{variables} fixes the ordered policy variables; \texttt{domains}
+gives each finite domain; \texttt{factors} gives explicit permitted tuples on
+ordered scopes; and \texttt{value\_costs}, when present, supplies the nonnegative
+value costs \(\kappa\) of the article's value-cost remark for optimum
+certificates. The complexity and certificate claims made
+for this artifact are explicit-table claims unless a different generator is
+specified.
+
+\subsection{Native certificate schemas}
+
+The verifier recognises several certificate types. A \texttt{POLICY} certificate
+assigns one domain value to each variable and is checked by scanning all factor
+relations. A \texttt{FIBRE-CONFLICT} certificate names an observation fibre and,
+for each action, a scenario in that fibre excluding the action. A
+\texttt{SENSOR-REPAIR} certificate records a selected sensor set for the small
+one-shot repair examples; the optimality certificates are exhaustive
+certificates for small instances.
+
+A \texttt{TREE-DECOMP} certificate contains bags, tree edges, a root bag, and a
+factor-to-bag map:
+\begin{verbatim}
+{
+  "type": "TREE-DECOMP",
+  "root": "b0",
+  "bags": {"b0": ["x0", "x1"]},
+  "edges": [],
+  "factor_to_bag": {"neq": "b0"}
+}
+\end{verbatim}
+The verifier checks factor containment, tree connectivity, and the
+running-intersection property. A \texttt{DP-OPTIMUM} or \texttt{DP-REFUTATION}
+certificate contains a tree decomposition, dynamic-programming message tables,
+and a root optimum or refutation. The verifier recomputes all messages; solver
+logs are not treated as certificates. Gate outputs use the bookkeeping markers
+of the article's status discipline --- \texttt{VERIFIED}, \texttt{REJECTED},
+\texttt{COMPLETE}, and \texttt{RELATION-TABLE-LIMIT} --- which record the
+state of a harness check and are distinct from the four mathematical answer
+statuses.
+
+For exact affine mechanics-style examples, an \texttt{FE-ROW} certificate records
+the row name, action assignment, exact response interval, safety interval, and
+classification as \texttt{SAFE} or \texttt{UNSAFE}; exact rational rows are
+always one of these two. Interval-valued rows, arising from residual-bounded
+rather than exact arithmetic, additionally admit \texttt{UNRESOLVED}, which
+occurs exactly when the certified response interval crosses the declared safety
+threshold. An \texttt{FE-ROW-BATCH}
+collects such rows and includes the derived finite ECD relation-table instance.
+A \texttt{SPARSIFICATION-BATCH} records retained scopes, exact omitted-term
+intervals, retained-response intervals, and the corresponding inner and outer
+sparse finite instances. A sparsification-ladder check compares two such batches
+for retained scopes $J\subseteq J'$: coarse inner cylinders must refine into fine
+inner rows, and fine outer rows must project into coarse outer rows.
+
+\subsection{Declared structural models and mechanics certificates}
+
+The mechanics layer adds declared structural models with two kinds. A truss
+model lists nodes with rational coordinates and support flags, members with
+declared rational axial stiffnesses (direction cosines are rational because
+every member is axis-aligned or uses a 3-4-5 direction), actuators (node-force
+patterns or self-equilibrated axial member-pair patterns), load scenarios, and
+monitors (member forces or displacement components). A scalar-chain model lists
+grounded spring stiffnesses with the same actuator and monitor types.
+
+A \texttt{MECH-SOLVE} certificate records a scenario's load vector and exact
+displacement vector over the free degrees of freedom. The verifier re-assembles
+the stiffness matrix with independently written assembly code and checks
+$K\widehat u = f$ exactly by substitution. A \texttt{MECH-ROW-BATCH} records,
+for every scenario and monitor, the exact rational constant term and sparse
+actuator influence coefficients, together with the derived relation table over
+the row's support; the verifier regenerates every row and relation through its
+own assembly and solve code and compares. Rows whose support exceeds the
+recorded relation-enumeration cap are marked
+\texttt{RELATION-TABLE-LIMIT}. A \texttt{MECH-SPARSIFY-BATCH} records retained
+scopes, exact omitted intervals, inner and outer row counts, and the inner and
+outer finite instances; the ladder check verifies nesting, the inner-cylinder
+inclusion (through the two per-term extreme completions, which are binding
+because the response is linear in the omitted actuator values), and the outer
+projection.
+
+Instances derived from structural models come in two observation variants. In
+the \texttt{same} variant both load scenarios constrain one shared set of
+command variables; in the \texttt{split} variant each scenario constrains its
+own copy, realising a separating sensor. Decompositions are constructed by a
+deterministic minimum-fill elimination heuristic and validated by the
+tree-decomposition verifier.
+
+\subsection{Baseline encodings and external solvers}
+
+The script \texttt{baseline\_encode.py} emits DIMACS CNF, LP-format MILP, and a
+minimal CP-SAT-style forbidden-tuple JSON encoding for Boolean explicit-table
+instances. These encodings fix identical finite instances for external
+comparisons: the DIMACS encoding is consumed by the SAT solvers and z3, the
+LP-format encoding by the MILP solver, and the JSON encoding by the CP-SAT
+runner.
+
+External solver output is handled conservatively. The optional solver adapters
+record availability, timeouts, and raw status. The cross-checker accepts an
+external SAT or UNSAT result only when an independent native ECD certificate is
+also verified: SAT requires a policy certificate, and UNSAT requires a verified
+\texttt{DP-REFUTATION}. Missing solvers, timeouts, solver statuses without a
+certified claim such as a CP-SAT \texttt{UNKNOWN} returned within the limit, and
+unrecognised output are
+reported as \texttt{INCONCLUSIVE}.
+
+The external-baseline experiments of the article are executed by the sweep
+scripts and isolated runners
+\begin{center}
+\footnotesize
+\texttt{external\_baseline\_sweep.py}, \texttt{mechanics\_baseline\_sweep.py},\\
+\texttt{cpsat\_runner.py}, \texttt{highs\_runner.py},
+\texttt{native\_dp\_runner.py}.
+\end{center}
+\noindent The protocol fixes a 60-second wall-clock timeout, a 3\,GiB
+address-space cap, three repetitions per solver and instance with median
+timing, and single-threaded deterministic configurations for every solver;
+CP-SAT runs with one worker and a fixed random seed. In the mechanics study
+the native dynamic program runs as a bounded isolated process that emits and
+re-verifies its certificate, and FE preprocessing is accounted separately
+from the phase~4 report rather than charged to either side. Solvers are located on the path or through the
+environment variables
+\begin{center}
+\footnotesize
+\texttt{EXTERNAL\_ECD\_MINISAT}, \texttt{EXTERNAL\_ECD\_KISSAT},\\
+\texttt{EXTERNAL\_ECD\_Z3}, \texttt{EXTERNAL\_ECD\_CPSAT\_PYTHON},\\
+\texttt{EXTERNAL\_ECD\_HIGHS\_PYTHON};
+\end{center}
+with no solver available the emitted report is \texttt{INCONCLUSIVE}. Every
+external satisfiable model is parsed, converted to a policy on the original
+instance, and verified natively; every external unsatisfiable answer is
+cross-checked against a verified \texttt{DP-REFUTATION} certificate. The build
+provenance of every solver (source commit, compiler, and patches) is recorded
+in the release manifest.
+
+\subsection{Reproduction commands}
+
+From the artifact directory, the repository-ready entry point is
+\begin{verbatim}
+make reproduce
+\end{verbatim}
+or equivalently
+\begin{verbatim}
+./reproduce.sh
+\end{verbatim}
+This runs the smoke checks, the controlled-width benchmark sweep, the SVG plot
+generation, the gated external-baseline sweep, the mechanics benchmark suite,
+the width-adaptive sparsification study, and the comparative scaling study on
+mechanics-derived instances. The principal outputs are
+\begin{center}
+\texttt{repro\_report.json}, \texttt{reports/benchmark\_sweep.json},\\
+\texttt{reports/certificate\_size\_vs\_width.svg},\\
+\texttt{reports/verify\_time\_vs\_certificate\_size.svg},\\
+\texttt{reports/external\_baseline\_sweep.json},\\
+\texttt{reports/mechanics\_benchmarks.json},\\
+\texttt{reports/sparsification\_study.json}, and\\
+\texttt{reports/mechanics\_external\_baseline\_sweep.json}.
+\end{center}
+The recorded mechanics baseline sweep was executed in case chunks with the
+\texttt{-{}-only} and \texttt{-{}-merge} options of
+\texttt{mechanics\_baseline\_sweep.py}, which is equivalent to a single full
+invocation; the chunked invocation is documented in the release manifest. The
+dense-chain $n=16$ baseline encodings and the byte-identical duplicate native
+certificates are regenerable and are not archived; the study report references
+the archived phase~4 certificates.
+
+\subsection{Claim boundary}
+
+The artifact certifies finite explicit-table examples, exact finite affine
+algebraic models, and declared exact rational structural models
+(pin-jointed trusses with rational directions and grounded mass-spring
+chains). It does not certify continuum discretisation error, physical
+modelling adequacy, or practical superiority over external solvers. External
+baseline results are reported only under a fixed configuration of solver
+versions, hardware, time limits, memory limits, and encodings, as recorded in
+the release manifest; timeouts remain \texttt{INCONCLUSIVE}. The
+sparsification study certifies ladder soundness and monotonicity and records
+the measured width--inconclusiveness tradeoff; it does not claim a practical
+width-reduction benefit on the calibrated families.
