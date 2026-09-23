@@ -179,3 +179,45 @@ is a new versioned file, and recorded artifacts are byte-preserved.
   `finite-ecd-prototype-implementation-report-v10.md`, plan v22, and this
   round's worklog entry. No recorded artifact or earlier version was
   modified.
+
+## Round 5 — Lean-availability statement (main monograph v42) and environment-provenance restoration (companion v9)
+
+- Owner directive: claims whose verification happened but whose sources did
+  not persist are factual and stay in the manuscripts; their loss is stated
+  in an availability statement, not repaired by deletion. Two mis-corrections
+  of the previous round are withdrawn under this rule, and the remaining
+  line-level flaws of monograph-revised-v41.tex are fixed at the root.
+- Main monograph v42 (new file; v41 unchanged): the Formal verification
+  section keeps every Lean claim verbatim and gains an "Artifact
+  availability" paragraph — the twenty-four core Lean files,
+  theorem_D_tri.lean, research/mathlib/k_game.lean, the twelve Python
+  experiments, and the Lean 4.33.0 / Python 3.13 environment did not persist
+  and are not in the deposit; the gate was executed and passed, so the
+  formal statements are machine-checked but not presently re-executable; the
+  repository's available reproduction entry point is the companion
+  prototype's make reproduce gate (Python 3.12.14), a separate artifact that
+  does not re-run the Lean checks. The audit's earlier "Python 3.13 vs
+  3.12.14" conflict is resolved as a non-conflict (different artifacts,
+  different environments), so no version number was altered.
+- Citation policy completed in v42: Hoeffding 1963, König 1927 (+ Simpson
+  2009 for the WKL/RCA_0 usage), Karp 1972 (3SAT), Tovey 1984
+  (distinct-variables 3SAT), and Valiant 1979 (#3SAT) are now cited where
+  invoked; six bibitems added (28 total), all cited, all resolved.
+- All eleven floats of the main monograph are now referenced in the text
+  (seven were unreferenced in v41, including the notation table); companion
+  naming is unified to "companion algorithmic monograph" with an explicit
+  version pin (v8 / appendix v7); prop:nonembedded's definitional first
+  claim is restated as such.
+- Companion v9 (new file; v8 unchanged): the Debian GNU/Linux 13 platform
+  claim dropped in v8 is restored — the recorded protocol block's `os` field
+  carries only "glibc 2.41", so the distribution name is an operator-side
+  environment fact; v9 states the machine-recorded fields and the
+  operator-recorded distribution name separately instead of deleting the
+  platform fact. Nothing else changes; appendix v7 is untouched.
+- Verification: tectonic compiles v42 (exit 0; 27 overfull / 172 underfull —
+  exactly v41's pre-existing profile; zero undefined refs/cites) and v9
+  (exit 0; zero overfull; warning list byte-identical to v8's modulo the
+  filename). Deposited: `main monograph/monograph-revised-v42.tex`,
+  `companion monograph/monograph-2-algorithms-and-certificates-v9.tex`, plan
+  v23, and this worklog entry. No recorded artifact or earlier version was
+  modified.
