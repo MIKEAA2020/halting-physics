@@ -1,0 +1,109 @@
+\appendix
+\section{Artifact, certificate formats, and reproducibility}
+\label{app:artifact}
+
+This appendix describes the finite ECD prototype accompanying the finite
+algorithmic and mechanics development. The artifact is a correctness and
+certificate harness for finite explicit-table instances and exact finite affine
+algebraic examples. It is not a continuum-mechanics validator and it is not, by
+itself, a performance comparison with SAT, CP-SAT, MILP, or other external
+solvers.
+
+\subsection{Finite instance format}
+
+A finite explicit-table ECD instance is encoded as a JSON object with the fields
+\texttt{variables}, \texttt{domains}, and \texttt{factors}. A typical Boolean
+example is
+\begin{verbatim}
+{
+  "variables": ["x0", "x1"],
+  "domains": {"x0": [0, 1], "x1": [0, 1]},
+  "value_costs": {"x0": {"0": 0, "1": 1}},
+  "factors": [
+    {"name": "neq", "scope": ["x0", "x1"],
+     "relation": [[0, 1], [1, 0]]}
+  ]
+}
+\end{verbatim}
+The field \texttt{variables} fixes the ordered policy variables; \texttt{domains}
+gives each finite domain; \texttt{factors} gives explicit permitted tuples on
+ordered scopes; and \texttt{value\_costs}, when present, supplies nonnegative
+value costs for optimum certificates. The complexity and certificate claims made
+for this artifact are explicit-table claims unless a different generator is
+specified.
+
+\subsection{Native certificate schemas}
+
+The verifier recognises several certificate types. A \texttt{POLICY} certificate
+assigns one domain value to each variable and is checked by scanning all factor
+relations. A \texttt{FIBRE-CONFLICT} certificate names an observation fibre and,
+for each action, a scenario in that fibre excluding the action. A
+\texttt{SENSOR-REPAIR} certificate records a selected sensor set for the small
+one-shot repair examples; the current optimality certificates are exhaustive
+certificates for tiny instances.
+
+A \texttt{TREE-DECOMP} certificate contains bags, tree edges, a root bag, and a
+factor-to-bag map:
+\begin{verbatim}
+{
+  "type": "TREE-DECOMP",
+  "root": "b0",
+  "bags": {"b0": ["x0", "x1"]},
+  "edges": [],
+  "factor_to_bag": {"neq": "b0"}
+}
+\end{verbatim}
+The verifier checks factor containment, tree connectivity, and the
+running-intersection property. A \texttt{DP-OPTIMUM} or \texttt{DP-REFUTATION}
+certificate contains a tree decomposition, dynamic-programming message tables,
+and a root optimum or refutation. The verifier recomputes all messages; solver
+logs are not treated as certificates.
+
+For exact affine mechanics-style examples, an \texttt{FE-ROW} certificate records
+the row name, action assignment, exact response interval, safety interval, and
+classification as \texttt{SAFE} or \texttt{UNSAFE}. An \texttt{FE-ROW-BATCH}
+collects such rows and includes the derived finite ECD relation-table instance.
+A \texttt{SPARSIFICATION-BATCH} records retained scopes, exact omitted-term
+intervals, retained-response intervals, and the corresponding inner and outer
+sparse finite instances. A sparsification-ladder check compares two such batches
+for retained scopes $J\subseteq J'$: coarse inner cylinders must refine into fine
+inner rows, and fine outer rows must project into coarse outer rows.
+
+\subsection{Baseline encodings and external solvers}
+
+The script \texttt{baseline\_encode.py} emits DIMACS CNF, LP-format MILP, and a
+minimal CP-SAT-style forbidden-tuple JSON encoding for Boolean explicit-table
+instances. These encodings are supplied to make future comparisons use identical
+finite instances. They are not solver results.
+
+External solver output is handled conservatively. The optional solver adapters
+record availability, timeouts, and raw status. The cross-checker accepts an
+external SAT or UNSAT result only when an independent native ECD certificate is
+also verified: SAT requires a policy certificate, and UNSAT requires a verified
+\texttt{DP-REFUTATION}. Missing solvers, timeouts, and unrecognised output are
+reported as \texttt{INCONCLUSIVE}.
+
+\subsection{Reproduction commands}
+
+From the artifact directory, the repository-ready entry point is
+\begin{verbatim}
+make reproduce
+\end{verbatim}
+or equivalently
+\begin{verbatim}
+./reproduce.sh
+\end{verbatim}
+This runs the smoke checks, controlled-width benchmark sweep, and SVG plot
+generation. The principal outputs are \texttt{repro\_report.json},
+\texttt{reports/benchmark\_sweep.json},
+\texttt{reports/certificate\_size\_vs\_width.svg}, and
+\texttt{reports/verify\_time\_vs\_certificate\_size.svg}.
+
+\subsection{Claim boundary}
+
+The artifact certifies finite explicit-table examples and exact finite affine
+algebraic models. It does not certify continuum discretisation error, physical
+modelling adequacy, or practical superiority over external solvers. External
+baseline experiments should be reported only after solver versions, hardware,
+time limits, memory limits, and encodings have been fixed; timeouts remain
+\texttt{INCONCLUSIVE}.

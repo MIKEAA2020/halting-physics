@@ -1,0 +1,426 @@
+--- /home/user/manuscript-revised-v14.tex	2026-09-15 08:48:07.454578768 +0000
++++ /home/user/manuscript-revised-v15.tex	2026-09-15 08:57:19.556580353 +0000
+@@ -39,208 +39,196 @@
+ \maketitle
+ 
+ \begin{abstract}
+-This article studies decision-making under partial observation. Any
+-decision-maker that interacts with an environment through an observation
+-interface faces a basic constraint: two underlying worlds that produce the same
+-observation must receive the same response. Once this constraint
+-is made explicit, capability separates into four presentation-relative
+-diagnostics: objectwise local validity, compatibility of a declared diagram,
+-effective realisability, and bounded realisability. These diagnostics are not
+-invariants of bare capability predicates. They record the structural layer at
+-which success first fails in a chosen local-to-global representation, and the
+-analysis tracks the local-incidence data needed to preserve such diagnoses under
+-translation. The static kernel is a fibrewise selector lemma. Classical
+-compactness, Helly, and join-tree results provide certificate and gluing tools;
+-parity, support contextuality, and Bell coupling give finite representations. A
+-recursive selector game yields the binary DNR $\Pi^0_1$ class, with capability
+-characterised by PA oracle degrees; uniformly selecting from negatively
+-represented nonempty binary fibres has Weihrauch degree $\mathsf{WKL}$.
+-Countably nested distributed scopes realise path selection on computable binary
+-trees and provide a distributed $\mathsf K$ obstruction. A concrete
+-primitive-recursive game language has a $\Sigma^0_3$-complete capability index
+-set. The causal tier begins with finite extensive-form arenas fixed independently of
+-strategies. Backward induction shows that perfect-information node-local
+-nonemptiness implies global capability. Partial strategies and activated-valid
+-strategies form sheaves on prefix-closed patches; active sensing distinguishes
+-full-site local failure from cover-relative matching failure. Distributed
+-selectors supply a canonical incidence presentation in which compatibility
+-failures can appear; the private-information XOR team relation is the
+-deterministic CHSH constraint. Distributed selectors are
+-equivalent to blind-order one-shot arenas, while every finite pure-strategy
+-imperfect-information arena also has an extensional distributed compilation.
+-Mixed strategies on the Bell one-shot skeleton realise exactly the local
+-behaviours, and Bell coupling failure has a Farkas dual certificate. Finite
+-causal-poset protocols have unique confluent executions; every linear extension
+-gives a policy-independent imperfect-information arena with the same operational
+-loss. Global information recall makes pure action recall capability-redundant,
+-and acyclic record congruences support quotient backward induction. A countable
+-height-two arena realises the same DNR class and PA-degree spectrum as the static
+-effectivity example. Machine-checked artifacts cover the identified discrete and combinatorial
+-cores.
+-
++We study decision-making under partial observation through four
++presentation-relative diagnostics: objectwise local validity, compatibility of a
++declared diagram, effective realisability, and bounded realisability. The basic
++constraint is observational uniformity: an interface cannot support different
++responses to worlds it does not distinguish. The diagnostic labels are therefore
++not invariants of bare capability predicates; they record where success first
++fails in a chosen local-to-global presentation and which incidence data are
++needed to transport that diagnosis. The static kernel is a fibrewise selector
++lemma. Classical compactness, Helly, and join-tree results provide certificate
++and gluing tools; parity, support contextuality, source integration, and Bell
++coupling give finite representations. The obstruction datum records objectwise
++local success together with the nested global spaces
++$\Gamma_{\mathrm{set}}\supseteq\Gamma_{\mathrm{eff}}\supseteq
++\Gamma_{\mathcal B}$; terminal-category compression preserves the nested global
++spaces while erasing precisely the $\mathsf D$-gap. A recursive selector game
++yields the binary DNR $\Pi^0_1$ class, with capability characterised by PA oracle
++degrees; uniform binary fibre selection and nested-prefix path selection have
++Weihrauch degree $\mathsf{WKL}$. A concrete primitive-recursive game language has
++a $\Sigma^0_3$-complete capability index set, and exact counting of finite source
++integrations is $\#\mathrm P$-complete. The causal tier fixes extensive-form
++arenas independently of strategies. Backward induction shows that
++perfect-information node-local nonemptiness implies capability; activated-valid
++partial strategies form sheaves on prefix-closed patches; active sensing
++separates full-site local failure from cover-relative matching failure.
++Distributed selectors are equivalent, for pure-strategy capability and worldwise
++loss, to blind-order one-shot arenas, while arbitrary finite pure-strategy
++imperfect-information arenas admit extensional distributed compilations. Finite
++causal-poset protocols have unique confluent executions and linear-extension
++arenas with the same operational loss. Global information recall makes pure
++action recall capability-redundant, and a countable height-two arena realises the
++same DNR class and PA-degree spectrum as the static effectivity example.
++Machine-checked artifacts cover the identified discrete and combinatorial cores.
+ \end{abstract}
+ 
+ \tableofcontents
+ 
+ \section{Introduction}\label{sec:intro}
+ 
+-Any decision-maker or predictor that interacts with an environment solely through
+-an observation interface faces a fundamental constraint: it cannot choose
+-different responses for two underlying states of the world if those states
+-produce identical observations. Worlds that present the same observation must
+-elicit the same response. This requirement of observational uniformity holds
+-whether the decision-maker is an abstract algorithm, a physical mechanism, or an
+-embedded biological system.
+-
+-When additional structure is introduced, the question of whether a successful
+-policy exists becomes more nuanced. A failure can occur for different reasons.
+-For a given observation, there may be no single response that is valid across all
+-underlying worlds consistent with that observation. Valid choices may exist for
+-every isolated observation context, yet conflict when required to agree across
+-overlapping scopes. A family of mutually compatible choices may exist
+-mathematically, but no computable algorithm may generate it. A computable
+-strategy may exist in principle, but every such implementation may exceed a
+-specified bound on time, memory, communication, or another resource. Effective
+-causal descent (ECD) separates these modes of failure within a declared typed
+-presentation. The diagnostic labels classify presentations or packagings of a
+-problem, not bare capability predicates independently of their local incidence
+-data.
+-
+-The guiding question is therefore not merely whether a valid strategy exists,
+-but at which structural layer an obstruction first arises. A failure may
+-originate inside an individual observation fibre, in the attempt to glue locally
+-consistent data across overlapping contexts, in the transition from
+-set-theoretic solutions to computable implementations, or in the enforcement of a
+-resource budget. Because the same underlying decision problem can be organized in
+-more than one mathematical way, the diagnostic classification records properties
+-of a specific local-to-global representation.
+-
+-A running quality-control example provides the intended reading. A
+-single decision-maker sees only the exterior record of a box and must choose a
+-report--action pair. The visible label is the observation; the hidden condition
+-of the box is the world. If the same label covers both acceptable and defective
+-boxes, then no single response is valid for all worlds behind that label. This is
+-local impossibility. If several decision-makers see different attributes and
+-their locally consistent tables disagree on shared attributes, the obstruction is
+-contextual incompatibility. If the perfect table exists but encodes a
+-noncomputable set, the obstruction is noncomputability. If it is computable but
+-cannot be produced within the budget, the obstruction is resource exhaustion.
+-
+-The example is mnemonic rather than additional structure. The formal objects are
+-sets, maps, relations, diagrams, implementations, and loss functions. The four
+-questions remain separate throughout: whether local choices exist, whether they
+-glue, whether a glued choice is effectively realisable, and whether an effective
+-realisation satisfies the declared bound.
++Consider a decision-maker acting from partial observations: a label on a box, a
++sensor reading, a measurement record, or a local transcript. The hidden world may
++contain more information than the record reveals. Once two worlds produce the
++same record, however, the decision-maker has only one response available for
++both. This observational uniformity is the elementary constraint from which the
++selector problem begins.
++
++The same structure appears in algorithms reading inputs through an interface,
++physical instruments receiving measurement outcomes, distributed agents with
++private signals, and sequential controllers acting through histories. In each
++case, the policy is a function of the information presented to it, not of the
++hidden world itself. Asking only whether a successful policy exists therefore
++hides useful structure. A failure to find such a policy can occur at several
++levels:
++\begin{enumerate}[label=(\roman*)]
++\item \emph{Local impossibility}: for a fixed observation, no single response is
++valid for all worlds consistent with that observation.
++\item \emph{Contextual incompatibility}: valid choices exist in each isolated
++context, but cannot be made to agree across overlapping scopes.
++\item \emph{Noncomputability}: compatible choices exist as a set-theoretic
++family, but no computable implementation selects them.
++\item \emph{Resource exhaustion}: computable implementations exist, but all of
++them exceed the declared time, memory, communication, or other resource bound.
++\end{enumerate}
++
++Effective causal descent (ECD) separates these modes of failure inside a
++declared typed presentation. The guiding question is not merely whether a valid
++strategy exists, but at which structural layer an obstruction first appears. The
++same underlying decision problem can be organized in more than one mathematical
++way. A compressed presentation may preserve the yes--no capability predicate
++while hiding the difference between a missing local choice and a failure of
++compatibility. Conversely, a cover presentation may expose the incompatible
++commitments that a full global object absorbs as local emptiness. The diagnostic
++classification is therefore attached to a specific local-to-global
++representation, not to a bare capability predicate.
++
++A running quality-control example gives the intended reading. A single inspector
++sees only the exterior record of a box and must choose a report--action pair. The
++visible label is the observation; the hidden condition of the box is the world.
++If the same label covers both acceptable and defective boxes, then no single
++response is valid behind that label: the obstruction is local. If several
++inspectors see different attributes and their individually consistent tables
++disagree on shared attributes, the obstruction lies in combining the tables: it
++is a compatibility failure. If the perfect table exists but encodes a
++noncomputable set, the obstruction is effective. If the table is computable but
++cannot be produced within the budget, the obstruction is resource-bounded. The
++example is mnemonic rather than additional structure; the formal objects are
++sets, maps, relations, diagrams, implementations, and loss functions.
+ 
+ Unless a theorem states otherwise, the set-theoretic development is carried out
+ in ZFC. Finite constructions use only finite choice, and the computability
+ examples provide explicit set-theoretic selectors when needed.
+ 
+-The core architecture proceeds in stages. The minimal selector problem begins
+-with worlds, observable states, available choices, a validity relation, and a
+-declared policy class. Its basic lemma shows that a valid global policy is the
+-same thing as a choice, at each realised observation, of an action valid for all
+-worlds in the corresponding fibre. The prediction-game instantiation then
+-generates validity from dynamics, disclosure, actions, a query, a decoder, and a
+-loss, thereby separating dynamic evaluation from the underlying logical selection
+-structure.
+-
+-Multiple observation contexts are organized as diagrams of assignment spaces with
+-restriction maps enforcing agreement on shared variables. Objectwise validity
+-therefore gives a constrained diagram; when validity is preserved by restriction
+-to smaller subcontexts, it gives a descent system in the subfunctorial sense used
+-in Definition~\ref{def:Av}. Set-theoretic, effective, and resource-admissible
+-global families are nested subspaces of one ambient family space. The descent
+-kernel contains ordinary restriction agreement; arbitrary relational
+-compatibility belongs to separate constraint extensions.
+-
+-The static results include compactness and Helly bounds for local certificates,
+-a join-tree local-to-global theorem, a six-object parity obstruction,
+-support-level strong contextuality, and finite Bell coupling. Constraint-datum
+-isomorphisms preserve compatible families; affine systems have a complete
+-cokernel obstruction, and bijective constraint networks are governed by common
+-holonomy fixed points. Bell coupling infeasibility has a Farkas dual certificate. Finite source
+-integration provides a tabular application, and exact counting of global
+-integrations is $\#\mathrm P$-complete. The obstruction datum records the minimal
+-extensional information needed to transport the diagnostic outcome: objectwise
+-local success and the three nested global spaces. Terminal-category compression proves that the $\mathsf L/\mathsf D$
+-distinction cannot be recovered from global spaces alone. In the computability layer, the selector
+-set of the halting-stage selector game is a nonempty $\Pi^0_1$ class without
+-computable members. Nested countable distributed selectors give a second,
+-overlapping-scope $\mathsf K$ presentation. The DNR instance has the PA oracle
++The paper proceeds in three stages. First, the minimal selector kernel isolates
++observational uniformity. It consists of worlds, observable states, choices, a
++validity relation, and a policy class. The fibrewise selector lemma shows that a
++valid global policy is the same as a choice, at each realised observation, of an
++action valid for every world in the corresponding fibre. The prediction-game
++instantiation then explains where validity comes from: reports, disclosures,
++actions, dynamics, queries, decoders, and losses.
++
++Second, context diagrams and distributed selectors introduce overlap. Multiple
++observation contexts are organized as assignment spaces with restriction maps.
++Objectwise validity gives a constrained diagram; when validity is preserved by
++restriction to smaller subcontexts, it gives a descent system in the
++subfunctorial sense used in Definition~\ref{def:Av}. Set-theoretic, effective,
++and resource-admissible global families are nested subspaces of one ambient
++family space. The descent kernel uses ordinary restriction agreement; arbitrary
++relational compatibility belongs to separate constraint extensions.
++
++Third, the same typed language is used to locate standard finite, computable,
++quantitative, and causal obstructions. The finite theory includes compactness
++and Helly bounds for local certificates, join-tree gluing for acyclic context
++structures, a six-object parity obstruction, support-level strong contextuality,
++finite source integration, and Bell coupling. Constraint-datum isomorphisms
++preserve compatible families; affine systems have a complete cokernel
++obstruction; bijective constraint networks are governed by holonomy fixed
++points; Bell coupling infeasibility has a Farkas dual certificate; and exact
++counting of global integrations is $\#\mathrm P$-complete.
++
++The computability tier gives a separate form of failure. The selector set of the
++halting-stage game is a nonempty $\Pi^0_1$ class without computable members.
++Nested countable distributed selectors give a second, overlapping-scope
++$\mathsf K$ presentation of path selection. The DNR instance has the PA oracle
+ spectrum; its input-uniform path-selection operator, and uniform binary fibre
+ selection, have Weihrauch degree $\mathsf{WKL}$. Recursive capability is
+ $\Sigma^0_3$-complete for a concrete primitive-recursive presentation language.
+-Computational-class separation is distinguished from a deterministic-time
+-resource lower bound. A quantitative interlude separates pointwise,
+-observation-uniform, effective, and bounded worst-case optima, with a
+-Chebyshev-radius formula in passive metric prediction.
+-
+-The minimal selector lemma is noncausal. The causal tier starts
+-from a finite extensive-form arena fixed independently of the strategy. Backward
+-induction proves that perfect-information node-local nonemptiness already gives
+-a global strategy. Activated patch semantics represents contingent plans and
+-cover-relative matching. Section~\ref{subsec:oneshot} proves an exact normal
+-form for blind-order one-shot arenas and an extensional distributed compilation
+-for arbitrary finite pure-strategy imperfect-information arenas. On the Bell
+-one-shot skeleton, probability measures over pure strategies are exactly
+-couplings of deterministic response tables. Universally executed cuts may be
+-partially ordered: well-founded recursion gives one confluent operational
+-execution, and each linear extension yields an arena preserving its worldwise
+-loss. Contingent stage occurrence remains tree-indexed. A separate bounded-height
+-countable example transfers the halting-stage effectivity obstruction to the
+-causal presentation; no general infinite-arena hierarchy is inferred.
++Computational-class separation is distinguished from deterministic-time resource
++separation. A quantitative interlude separates pointwise, observation-uniform,
++effective, and bounded worst-case optima, with a Chebyshev-radius formula in
++passive metric prediction.
++
++The causal tier adds time while keeping the arena fixed before a strategy is
++chosen. Backward induction proves that perfect-information node-local
++nonemptiness already gives a global strategy. Activated patch semantics
++represents partial contingent plans and cover-relative matching. Blind-order
++one-shot arenas give an exact normal form for finite distributed selectors, and
++every finite pure-strategy imperfect-information arena has an extensional
++distributed compilation. On the Bell one-shot skeleton, probability measures over
++pure strategies are exactly couplings of deterministic response tables. Finite
++causal posets of universally executed cuts have unique confluent executions;
++each linear extension gives a policy-independent arena preserving worldwise
++loss. Contingent stage occurrence remains tree-indexed. A bounded-height
++countable arena transfers the halting-stage effectivity obstruction to the
++causal setting without asserting a general infinite-arena hierarchy.
+ 
+-Figure~\ref{fig:architecture} summarises the three canonical presentations and the nested realisation filters.
++Figure~\ref{fig:architecture} summarises the canonical presentations and the
++nested realisation filters.
+ 
+ \subsection*{Relation to established frameworks}
+ 
+-In this article, the phrase ``effective causal descent'' denotes a
+-presentation-level classification of selection problems subject to restriction
+-compatibility, computability filters, and resource constraints. It is an
+-analytical framework and should not be confused with effective descent in the
+-Barr--Beck or Grothendieck sense.
++The phrase ``effective causal descent'' denotes a presentation-level
++classification of selection problems subject to restriction compatibility,
++computability filters, and resource constraints. It is an analytical framework,
++not effective descent in the Barr--Beck or Grothendieck sense.
+ 
+ The fibrewise selector problem is closely related to uniform constraint
+ satisfaction. Its multi-context form connects directly with relational database
+ joins: in acyclic database schemes, join trees and separator consistency explain
+ when local tables can be amalgamated into a single global table
+ \cite{beerifagin}. The contextual formulation follows the sheaf-theoretic
+-treatment of empirical models by Abramsky and Brandenburger \cite{abramsky},
+-where measurement contexts are local observation scopes and contextuality is the
+-non-existence of a global section compatible with the local data. The Bell
++treatment of empirical models by Abramsky and Brandenburger, where measurement
++contexts are local observation scopes and contextuality is the non-existence of a
++global section compatible with the local data \cite{abramsky}. The Bell
+ presentation uses the deterministic-strategy coupling perspective: an empirical
+-behaviour admits a local hidden-variable model precisely when it is represented
+-by a probability measure over deterministic response tables with prescribed
+-marginals. Fine's theorem is the historically central result for the standard
+-$2\times2\times2$ scenario \cite{fine}, while the general finite statement follows
+-from the local polytope representation.
+-
+-The computability arguments use standard admissible numberings and index-set
+-methods \cite{kleene,rogers,soare}. Their interpretation as selection from
+-represented multivalued maps is related to computable analysis and effective
+-choice \cite{weihrauch}; in that setting, Weihrauch reducibility compares the
+-uniform computational content of mathematical existence principles rather than a
+-single fixed instance. The nonempty co-c.e. selector class is related to the
+-theory of $\Pi^0_1$ classes without computable members \cite{jockuschsoare}.
+-The least-fixed-point background for unguarded feedback is standard domain
+-theory \cite{abramskyjung}. The finite causal core uses the standard
+-extensive-form distinction between nature moves, decision nodes, and contingent
+-strategies \cite{osbornerubinstein}; the countable example has uniformly bounded
+-play length. The finite-poset protocol semantics is related to standard
++behaviour is local precisely when it is represented by a probability measure over
++deterministic response tables with prescribed marginals. Fine's theorem is the
++historically central result for the standard $2\times2\times2$ scenario
++\cite{fine}, while the general finite statement follows from the local polytope
++representation \cite{pitowsky}.
++
++The computability arguments use standard admissible numberings, index sets, and
++the theory of $\Pi^0_1$ classes \cite{kleene,jockuschsoare,rogers,soare}. Viewing
++policies as choices from represented multivalued maps connects the framework to
++computable analysis and Weihrauch complexity \cite{brattkagherardi,weihrauch},
++where reducibility calibrates the uniform algorithmic difficulty of mathematical
++choice principles. The causal tier uses the standard extensive-form distinction
++between nature moves, information sets, and contingent strategies
++\cite{osbornerubinstein}. The finite-poset protocol semantics is related to
+ partial-order models of concurrency, including event structures and Mazurkiewicz
+-traces; the role here is the loss-preserving translation from universally
+-executed cut posets to imperfect-information arenas. Past factorisation is
+-deliberately weaker than a structural causal model; comparison with structural
+-causal semantics therefore concerns possible extensions rather than an
++traces; the specific contribution here is the loss-preserving translation from
++universally executed cut posets to imperfect-information arenas. The
++least-fixed-point appendix uses standard domain theory \cite{abramskyjung}. Past
++factorisation is deliberately weaker than a structural causal model; comparison
++with structural causal semantics concerns possible extensions rather than an
+ identification \cite{pearl}.
+ 
+-The contextuality, Bell, compactness, join-tree, affine, DNR, WKL, and
+-backward-induction statements are standard in their native settings. Their role
+-in this article is to supply structured reference cases for one presentation-relative
+-selector formalism, together with explicit recursive, degree-theoretic, and
+-resource-separation results. This makes clear which distinctions are preserved
+-by translations and which depend on local incidence data.
++Many component theorems used here are standard in their native settings. Their
++role is to supply structured reference cases for one presentation-relative
++selector formalism. The added value is the common typing: local validity,
++compatibility, effective realisation, resource bounds, and their preservation or
++failure under translation are stated in one language.
+ 
+ \begin{figure}[htbp]
+ \centering
+@@ -288,11 +276,17 @@
+ observation fibre must be handled by one choice.
+ 
+ \begin{definition}[Selector problem]\label{def:selector}
+-A selector problem consists of nonempty sets $W$ of worlds, $Z$ of observable
+-states, and $C$ of choices; an observation interface $I:W\to Z$; a validity
+-relation $V\subseteq W\times C$, where $V(w,c)$ means that choice $c$ is valid in
+-world $w$; and a declared policy class $\Pi\subseteq C^Z$. For $z\in\im(I)$
+-define the common admissible-choice set
++A selector problem is a tuple $(W,Z,C,I,V,\Pi)$ consisting of:
++\begin{enumerate}[label=(\roman*)]
++\item a nonempty set $W$ of underlying worlds;
++\item a nonempty set $Z$ of observable states;
++\item a nonempty set $C$ of available choices;
++\item an observation interface $I:W\to Z$;
++\item a validity relation $V\subseteq W\times C$, where $V(w,c)$ means that
++choice $c$ is valid in world $w$;
++\item a declared policy class $\Pi\subseteq C^Z$.
++\end{enumerate}
++For $z\in\im(I)$ define the common admissible-choice set
+ \[
+ \Adm_V(z)=\{c\in C:\forall w\in I^{-1}(z),\ V(w,c)\}.
+ \]
+@@ -346,18 +340,23 @@
+ \[
+ G=(W,H,Z,R,A,M,Y,I,D,U,q,e,\ell),
+ \]
+-where $W,Z,R,A,M,H,Y$ are nonempty and
++where the carriers $W,Z,R,A,M,H,Y$ are nonempty. They represent, respectively,
++worlds, histories, observations, reports, actions, disclosed messages, and query
++values. The structural maps are
+ \[
+ I:W\to Z,\quad D:R\to M,\quad U:W\times M\times A\to H,
+ \]
+ \[
+ q:H\to Y,\quad e:R\to Y,\quad \ell:R\times Y\to[0,\infty].
+ \]
+-The loss acts directly on a report and a query value; in closed loop it is
+-evaluated as $\ell(r,q(h))$. The game is called \emph{exact} when
+-$\ell(r,y)=0$ if and only if $e(r)=y$; this condition constrains only the zero
+-level of the loss. A policy is
+-$\pi=(\pi_R,\pi_A)$ with
++Thus $I$ observes the world, $D$ records what a report discloses, $U$ updates the
++world-history after disclosure and action, $q$ asks the relevant question of the
++history, $e$ decodes the report, and $\ell$ measures loss. The loss acts directly
++on a report and a query value; in closed loop it is evaluated as $\ell(r,q(h))$.
++The game is called \emph{exact} when $\ell(r,y)=0$ if and only if $e(r)=y$; this
++condition constrains only the zero level of the loss.
++
++A policy is $\pi=(\pi_R,\pi_A)$ with
+ \[
+ \pi_R:Z\to R,\qquad \pi_A:Z\times R\to A.
+ \]

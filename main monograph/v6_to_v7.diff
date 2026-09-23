@@ -1,0 +1,180 @@
+--- /home/user/manuscript-revised-v6.tex	2026-09-15 04:01:46.202950026 +0000
++++ /home/user/manuscript-revised-v7.tex	2026-09-15 04:29:08.426847010 +0000
+@@ -89,6 +89,14 @@
+ diagnostic labels classify presentations or packagings of a problem,
+ not bare capability predicates independently of their local incidence data.
+ 
++The guiding question is therefore not only whether some successful policy exists,
++but where a failure first appears in the chosen presentation. A failure may occur
++inside one observation fibre, in the attempt to glue locally valid data across
++overlapping contexts, in the passage from set-theoretic sections to computable
++realisations, or in the imposition of a resource bound. The same capability
++predicate can be packaged in more than one way; the diagnostic records the
++chosen local-to-global account.
++
+ Unless a theorem states otherwise, the set-theoretic development is carried out
+ in ZFC. Finite constructions use only finite choice, and the computability
+ examples provide explicit set-theoretic selectors when needed.
+@@ -102,9 +110,10 @@
+ Multiple observation contexts are represented by a diagram of assignment spaces
+ with standard restriction agreement. Objectwise validity gives a constrained
+ diagram; when validity is stable under restriction, it gives a descent system in
+-the subfunctorial sense used in Definition~\ref{def:Av}. Set-theoretic, effective, and resource-admissible
+-global families are subsets of one ambient family space. The descent kernel contains ordinary restriction agreement; arbitrary relational
+-compatibility belongs to separate constraint extensions.
++the subfunctorial sense used in Definition~\ref{def:Av}. Set-theoretic,
++effective, and resource-admissible global families are subsets of one ambient
++family space. The descent kernel contains ordinary restriction agreement;
++arbitrary relational compatibility belongs to separate constraint extensions.
+ 
+ The static results include compactness and Helly bounds for local certificates,
+ a join-tree local-to-global theorem, a six-object parity obstruction,
+@@ -154,35 +163,43 @@
+ 
+ The fibrewise selector problem is a uniform constraint-satisfaction problem. Its
+ multi-context form is closely related to database joins and consistency of local
+-relations, where acyclicity controls global amalgamation
+-\cite{beerifagin}. The contextual packaging follows the sheaf-theoretic account
+-of empirical models and global assignments of Abramsky and Brandenburger
++relations, where acyclicity and join trees explain when pairwise-consistent local
++tables amalgamate into one global table \cite{beerifagin}. The contextual
++packaging follows the sheaf-theoretic account of empirical models by Abramsky and
++Brandenburger, in which measurement-context data are local sections and
++contextuality is detected by the absence of a compatible global assignment
+ \cite{abramsky}. The Bell result is a finite deterministic-strategy/coupling
+-characterisation; Fine's theorem is the historically central result for the
+-standard $2\times2\times2$ scenario \cite{fine}, while the general finite
+-statement follows from the local polytope representation. The computability
+-arguments use standard admissible numberings and index-set methods
+-\cite{kleene,rogers,soare}. Their interpretation as selection from represented
+-multivalued maps is related to computable analysis and effective choice
+-\cite{weihrauch}; the nonempty co-c.e. selector class is related to the theory
+-of $\Pi^0_1$ classes without computable members \cite{jockuschsoare}. The least-fixed-point background for unguarded feedback is
+-standard domain theory \cite{abramskyjung}. The finite causal core uses the
+-standard extensive-form distinction between nature moves, decision nodes, and
+-contingent strategies \cite{osbornerubinstein}; the countable example has
+-uniformly bounded play length. The finite-poset protocol semantics is related to
+-standard partial-order models of concurrency, including event structures and
+-Mazurkiewicz traces; the role here is the loss-preserving translation from
+-universally executed cut posets to imperfect-information arenas. Past factorisation is deliberately
+-weaker than a structural causal model; comparison with structural causal
+-semantics therefore concerns possible extensions rather than an identification
+-\cite{pearl}.
++characterisation: a local model is a probability measure over deterministic
++response tables with the prescribed setting marginals. Fine's theorem is the
++historically central result for the standard $2\times2\times2$ scenario
++\cite{fine}, while the general finite statement follows from the local polytope
++representation.
++
++The computability arguments use standard admissible numberings and index-set
++methods \cite{kleene,rogers,soare}. Their interpretation as selection from
++represented multivalued maps is related to computable analysis and effective
++choice \cite{weihrauch}; in that setting, Weihrauch reducibility compares the
++uniform computational content of mathematical existence principles rather than a
++single fixed instance. The nonempty co-c.e. selector class is related to the
++theory of $\Pi^0_1$ classes without computable members \cite{jockuschsoare}.
++The least-fixed-point background for unguarded feedback is standard domain
++theory \cite{abramskyjung}. The finite causal core uses the standard
++extensive-form distinction between nature moves, decision nodes, and contingent
++strategies \cite{osbornerubinstein}; the countable example has uniformly bounded
++play length. The finite-poset protocol semantics is related to standard
++partial-order models of concurrency, including event structures and Mazurkiewicz
++traces; the role here is the loss-preserving translation from universally
++executed cut posets to imperfect-information arenas. Past factorisation is
++deliberately weaker than a structural causal model; comparison with structural
++causal semantics therefore concerns possible extensions rather than an
++identification \cite{pearl}.
+ 
+ The contextuality, Bell, compactness, join-tree, affine, DNR, WKL, and
+-backward-induction statements are standard in their native settings. They are
+-represented in one presentation-relative selector formalism, together with
+-explicit recursive, degree-theoretic, and resource-separation results, so that
+-preserved and non-preserved diagnostic distinctions are stated with uniform
+-types.
++backward-induction statements are standard in their native settings. Their role
++in this article is to supply structured reference cases for one presentation-relative
++selector formalism, together with explicit recursive, degree-theoretic, and
++resource-separation results. This makes clear which distinctions are preserved
++by translations and which depend on local incidence data.
+ 
+ \begin{figure}[htbp]
+ \centering
+@@ -764,11 +781,13 @@
+ 
+ \section{Context diagrams and effective descent}\label{sec:descent}
+ 
+-The static contextual tier uses ordinary restriction agreement. Relational CSP
+-constraints can be added as a separate extension, but no arbitrary compatibility
+-predicate is part of the descent kernel. Arrows are oriented from larger contexts
+-to smaller contexts, so restriction is covariant; reversing all arrows gives the
+-usual presheaf convention.
++The static contextual tier treats a local assignment as a partial description of
++a possible global policy. Compatibility means that two such descriptions give
++the same value on their common overlap. Relational CSP constraints can be added
++as a separate extension, but the descent kernel itself uses ordinary restriction
++agreement. Arrows are oriented from larger contexts to smaller contexts, so
++restriction is covariant; reversing all arrows gives the usual presheaf
++convention.
+ 
+ \begin{definition}[Constrained assignment diagram]\label{def:restr}
+ A constrained assignment diagram consists of a small category $\mathcal C$, a
+@@ -1371,11 +1390,12 @@
+ 
+ \section{Distributed selectors and canonical compatibility presentations}\label{sec:distributed}
+ 
+-A single interface generates independent fibre constraints and cannot produce an
+-compatibility obstruction in its canonical discrete presentation in ZFC. Distributed observation supplies
+-a canonical packaging in which compatibility obstructions arise: one response
+-function must serve several overlapping
+-world scopes.
++A single interface generates independent fibre constraints and cannot produce a
++compatibility obstruction in its canonical discrete presentation in ZFC.
++Distributed observation changes the problem by reusing the same local response
++across several overlapping scopes. The obstruction is no longer that one fibre
++has no admissible value; it is that locally admissible responses cannot be chosen
++so as to agree on shared observations.
+ 
+ \begin{definition}[Distributed selector problem]\label{def:distributed}
+ A distributed selector problem consists of a nonempty world set $W$, a finite
+@@ -2251,6 +2271,11 @@
+ 
+ \subsection{Finite Bell coupling}
+ 
++The Bell presentation replaces a deterministic global assignment by a probability
++measure on deterministic response tables. The local data are the observed
++setting-indexed distributions; compatibility asks whether they are all marginals
++of one measure on complete response tables.
++
+ \begin{definition}[Distributional coupling diagram]\label{def:bellpack}
+ For a finite Bell scenario, let $X_i$ and $O_i$ be the settings and outcomes of
+ party $i$, and fix a behaviour $p=(p_{\mathbf x})_{\mathbf x}$ with
+@@ -2465,7 +2490,9 @@
+ 
+ Abstract effectivity is relative to a realisation map. Ordinary computability is
+ a special case in which the domains carry effective representations and the
+-realisation image is a class of computable maps.
++realisation image is a class of computable maps. The relevant distinction is
++between a nonempty set of valid sections and the existence of a uniform procedure
++or implementation selecting one of them.
+ 
+ \begin{definition}[Uniform binary fibre selection]
+ \label{def:fibsel-weihrauch}
+@@ -3007,11 +3034,13 @@
+ 
+ \section{Extensive-form causal descent}\label{sec:feedback}
+ 
+-The causal tier begins with perfect-information arenas, where backward induction
+-completely characterises capability. Intrinsic compatibility obstructions arise
+-only after choices are shared across information-limited contexts; Corollary~\ref{cor:team-decision} supplies that imperfect-information case. Declared
+-covers may still exhibit presentation-relative matching failure, as active
+-sensing shows.
++The causal tier fixes the arena before a strategy is chosen. In
++perfect-information arenas, backward induction characterises capability because
++each reached decision node may be solved using the information available at that
++node. Compatibility obstructions arise only after choices are shared across
++information-limited contexts; Corollary~\ref{cor:team-decision} supplies that
++imperfect-information case. Declared covers may still exhibit
++presentation-relative matching failure, as active sensing shows.
+ 
+ \begin{definition}[Finite extensive prediction arena]\label{def:arena}
+ A finite extensive prediction arena consists of a finite rooted tree
