@@ -662,7 +662,8 @@ def main():
         "status_agreement_with_native": sum(
             1 for c in cases_out for e in c["external"]
             if e["classification"] is not None
-            and e["classification"] == c["native"]["dp_status"].replace("CERTIFIED-", "").replace("OPT", "SAT")),
+            and e["classification"] == c["native"]["dp_status"].replace("CERTIFIED-", "").replace("OPT", "SAT")
+            and e["cross_check"]["status"] in ("VERIFIED-SAT", "VERIFIED-UNSAT")),
     }
     out = {"status": "COMPLETE", "protocol": protocol, "cases": cases_out,
            "summary": summary}

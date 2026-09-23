@@ -394,7 +394,8 @@ def main() -> None:
             1 for c in cases_out for e in c.get("external", [])
             if e["classification"] is not None
             and c.get("native", {}).get("status") is not None
-            and e["classification"] == c["native"]["status"].replace("DP-", "").replace("OPTIMUM", "SAT").replace("REFUTATION", "UNSAT")),
+            and e["classification"] == c["native"]["status"].replace("DP-", "").replace("OPTIMUM", "SAT").replace("REFUTATION", "UNSAT")
+            and e["cross_check"]["status"] in ("VERIFIED-SAT", "VERIFIED-UNSAT")),
     }
     out = {"status": "COMPLETE", "phase": "6 comparative scaling study on mechanics instances",
            "protocol": protocol, "cases": cases_out, "summary": summary}
