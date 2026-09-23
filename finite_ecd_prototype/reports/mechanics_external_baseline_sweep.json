@@ -1,0 +1,1589 @@
+{
+  "status": "COMPLETE",
+  "phase": "6 comparative scaling study on mechanics instances",
+  "protocol": {
+    "timeout_seconds": 60.0,
+    "memory_limit_bytes": 3221225472,
+    "memory_limit_note": "address space cap applied to every solver process and to the native runner",
+    "repetitions": 3,
+    "timing": "wall clock over the whole process; median of repetitions reported",
+    "determinism": "single-threaded configurations; CP-SAT num_workers=1 with random_seed=1; minisat and kissat default deterministic configurations; no randomization flags otherwise",
+    "hardware": {
+      "cpu": "Intel(R) Xeon(R) Processor",
+      "cores": 2,
+      "ram_total": "4.1Gi",
+      "os": "glibc 2.41",
+      "kernel": "5.10.134-013.15.kangaroo.al8.x86_64",
+      "machine_python": "3.12.14",
+      "note": "wall-clock timings are whole-process and include solver startup; machine is a shared two-core virtual machine"
+    },
+    "solvers": {
+      "minisat": "minisat 2.2 series (arminbiere mirror commit 16982a5, gcc 14.2, -O3)",
+      "kissat": "kissat 4.0.4 (commit 8af8e56, gcc 14.2, -O3)",
+      "z3": "Z3 version 5.1.0 - 64 bit",
+      "cpsat": "OR-Tools CP-SAT 9.15.6755",
+      "highs": "HiGHS MILP 1.15.1"
+    },
+    "native_pipeline": "native_dp_runner.py: load instance, tree-decomposition DP, certificate re-verification, policy reconstruction and verification, certificate emission; bounded by the same timeout and address-space cap",
+    "fe_accounting": "FE preprocessing and certified relation generation are recorded separately from the recorded mechanics benchmark suite and excluded from both native and external timings",
+    "cross_check_discipline": "external SAT models are verified natively as policies on the original instance; external UNSAT answers are cross-checked against verified DP-REFUTATION certificates; solver logs are not certificates"
+  },
+  "cases": [
+    {
+      "family": "ten-bar",
+      "size": 1,
+      "observation": "same",
+      "instance": "examples/mech_ten_bar_same_instance.json",
+      "variables": 4,
+      "factors": 20,
+      "cnf_clauses": 82,
+      "encode_seconds": 0.000406,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 0.0114,
+        "fe_verify_seconds": 0.0107,
+        "instance_bytes": 21366,
+        "row_batch_bytes": 29797
+      },
+      "expected": "UNSAT",
+      "native": {
+        "status": "DP-REFUTATION",
+        "dp_status": "CERTIFIED-UNSAT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": null,
+        "dp_seconds": 0.000583,
+        "verify_seconds": 0.000629,
+        "certificate_bytes": 7164,
+        "wall_seconds": 0.065113,
+        "peak_rss_kib": 18700,
+        "certificate_file": "examples/mech_ten_bar_same_dp_certificate.json",
+        "certificate_note": "the native runner's certificate is byte-identical to the phase 4 certificate for the same instance and decomposition; the duplicate file is not archived"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "UNSAT",
+          "seconds_median": 0.002836,
+          "seconds_min": 0.002747,
+          "seconds_max": 0.003019,
+          "peak_rss_kib": 16580,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "UNSAT",
+          "seconds_median": 0.002225,
+          "seconds_min": 0.002094,
+          "seconds_max": 0.002279,
+          "peak_rss_kib": 16584,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "UNSAT",
+          "seconds_median": 0.00314,
+          "seconds_min": 0.003084,
+          "seconds_max": 0.003349,
+          "peak_rss_kib": 16584,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "UNSAT",
+          "seconds_median": 0.362636,
+          "seconds_min": 0.353364,
+          "seconds_max": 0.374606,
+          "peak_rss_kib": 95260,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 0.2634897280004225,
+          "solve_seconds": 0.0019357089986442588,
+          "inner_peak_rss_kib": 92452
+        },
+        {
+          "solver": "highs",
+          "classification": "UNSAT",
+          "seconds_median": 0.106156,
+          "seconds_min": 0.104888,
+          "seconds_max": 0.113252,
+          "peak_rss_kib": 37424,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 0.05981059300029301,
+          "solve_seconds": 0.0007166209979914129,
+          "inner_peak_rss_kib": 35380
+        }
+      ]
+    },
+    {
+      "family": "ten-bar",
+      "size": 1,
+      "observation": "split",
+      "instance": "examples/mech_ten_bar_split_instance.json",
+      "variables": 8,
+      "factors": 20,
+      "cnf_clauses": 82,
+      "encode_seconds": 0.000342,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 0.0102,
+        "fe_verify_seconds": 0.0105,
+        "instance_bytes": 22875,
+        "row_batch_bytes": 29797
+      },
+      "expected": "SAT",
+      "native": {
+        "status": "DP-OPTIMUM",
+        "dp_status": "CERTIFIED-OPT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": 4,
+        "dp_seconds": 0.001011,
+        "verify_seconds": 0.00117,
+        "policy_verified": true,
+        "policy_errors": [],
+        "policy_seconds": 0.000247,
+        "certificate_bytes": 15118,
+        "wall_seconds": 0.119293,
+        "peak_rss_kib": 18700,
+        "certificate_file": "examples/mech_ten_bar_split_dp_certificate.json",
+        "certificate_note": "the native runner's certificate is byte-identical to the phase 4 certificate for the same instance and decomposition; the duplicate file is not archived"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "SAT",
+          "seconds_median": 0.002971,
+          "seconds_min": 0.002586,
+          "seconds_max": 0.003229,
+          "peak_rss_kib": 16652,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "SAT",
+          "seconds_median": 0.002113,
+          "seconds_min": 0.002041,
+          "seconds_max": 0.002165,
+          "peak_rss_kib": 16656,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "SAT",
+          "seconds_median": 0.011584,
+          "seconds_min": 0.003248,
+          "seconds_max": 0.012072,
+          "peak_rss_kib": 16656,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "SAT",
+          "seconds_median": 0.383638,
+          "seconds_min": 0.378872,
+          "seconds_max": 0.389919,
+          "peak_rss_kib": 96120,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 0.27770254599818145,
+          "solve_seconds": 0.0025622280008974485,
+          "inner_peak_rss_kib": 92232
+        },
+        {
+          "solver": "highs",
+          "classification": "SAT",
+          "seconds_median": 0.126719,
+          "seconds_min": 0.120554,
+          "seconds_max": 0.129322,
+          "peak_rss_kib": 37932,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 0.06204184500165866,
+          "solve_seconds": 0.006079079998016823,
+          "inner_peak_rss_kib": 35788
+        }
+      ]
+    },
+    {
+      "family": "chain-pretension",
+      "size": 256,
+      "observation": "same",
+      "instance": "examples/mech_chain256_same_instance.json",
+      "variables": 256,
+      "factors": 512,
+      "cnf_clauses": 512,
+      "encode_seconds": 0.001562,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 0.6049,
+        "fe_verify_seconds": 0.6218,
+        "instance_bytes": 99578,
+        "row_batch_bytes": 186322
+      },
+      "expected": "UNSAT",
+      "native": {
+        "status": "DP-REFUTATION",
+        "dp_status": "CERTIFIED-UNSAT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": null,
+        "dp_seconds": 0.011848,
+        "verify_seconds": 0.017969,
+        "certificate_bytes": 117087,
+        "wall_seconds": 0.11528,
+        "peak_rss_kib": 20628,
+        "certificate_file": "examples/mech_chain256_same_dp_certificate.json",
+        "certificate_note": "the native runner's certificate is byte-identical to the phase 4 certificate for the same instance and decomposition; the duplicate file is not archived"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "UNSAT",
+          "seconds_median": 0.005381,
+          "seconds_min": 0.003181,
+          "seconds_max": 0.007603,
+          "peak_rss_kib": 17640,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "UNSAT",
+          "seconds_median": 0.002421,
+          "seconds_min": 0.002348,
+          "seconds_max": 0.003695,
+          "peak_rss_kib": 17640,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "UNSAT",
+          "seconds_median": 0.004127,
+          "seconds_min": 0.003675,
+          "seconds_max": 0.004138,
+          "peak_rss_kib": 17772,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "UNSAT",
+          "seconds_median": 0.387761,
+          "seconds_min": 0.384876,
+          "seconds_max": 0.467199,
+          "peak_rss_kib": 93244,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 0.352122332998988,
+          "solve_seconds": 0.0015556399994238745,
+          "inner_peak_rss_kib": 90476
+        },
+        {
+          "solver": "highs",
+          "classification": "UNSAT",
+          "seconds_median": 0.121864,
+          "seconds_min": 0.106499,
+          "seconds_max": 0.138408,
+          "peak_rss_kib": 37980,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 0.06009790200187126,
+          "solve_seconds": 0.0005604269972536713,
+          "inner_peak_rss_kib": 37600
+        }
+      ]
+    },
+    {
+      "family": "chain-pretension",
+      "size": 256,
+      "observation": "split",
+      "instance": "examples/mech_chain256_split_instance.json",
+      "variables": 512,
+      "factors": 512,
+      "cnf_clauses": 512,
+      "encode_seconds": 0.002769,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 0.6071,
+        "fe_verify_seconds": 0.6232,
+        "instance_bytes": 145847,
+        "row_batch_bytes": 186322
+      },
+      "expected": "SAT",
+      "native": {
+        "status": "DP-OPTIMUM",
+        "dp_status": "CERTIFIED-OPT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": 257,
+        "dp_seconds": 0.031551,
+        "verify_seconds": 0.049997,
+        "policy_verified": true,
+        "policy_errors": [],
+        "policy_seconds": 0.002653,
+        "certificate_bytes": 299906,
+        "wall_seconds": 0.165989,
+        "peak_rss_kib": 22868,
+        "certificate_file": "examples/mech_chain256_split_dp_certificate.json",
+        "certificate_note": "the native runner's certificate is byte-identical to the phase 4 certificate for the same instance and decomposition; the duplicate file is not archived"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "SAT",
+          "seconds_median": 0.003058,
+          "seconds_min": 0.002924,
+          "seconds_max": 0.00347,
+          "peak_rss_kib": 18184,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "SAT",
+          "seconds_median": 0.002361,
+          "seconds_min": 0.002255,
+          "seconds_max": 0.002398,
+          "peak_rss_kib": 18192,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "SAT",
+          "seconds_median": 0.00355,
+          "seconds_min": 0.003421,
+          "seconds_max": 0.003618,
+          "peak_rss_kib": 18192,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "SAT",
+          "seconds_median": 0.398966,
+          "seconds_min": 0.397866,
+          "seconds_max": 0.414711,
+          "peak_rss_kib": 96192,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 0.29058560200064676,
+          "solve_seconds": 0.0025917439998011105,
+          "inner_peak_rss_kib": 93628
+        },
+        {
+          "solver": "highs",
+          "classification": "SAT",
+          "seconds_median": 0.117433,
+          "seconds_min": 0.115973,
+          "seconds_max": 0.133182,
+          "peak_rss_kib": 38028,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 0.06320970600063447,
+          "solve_seconds": 0.0006912770004419144,
+          "inner_peak_rss_kib": 37280
+        }
+      ]
+    },
+    {
+      "family": "chain-pretension",
+      "size": 1024,
+      "observation": "same",
+      "instance": "examples/mech_chain1024_same_instance.json",
+      "variables": 1024,
+      "factors": 2048,
+      "cnf_clauses": 2048,
+      "encode_seconds": 0.005896,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 10.6066,
+        "fe_verify_seconds": 10.7139,
+        "instance_bytes": 400044,
+        "row_batch_bytes": 747238
+      },
+      "expected": "UNSAT",
+      "native": {
+        "status": "DP-REFUTATION",
+        "dp_status": "CERTIFIED-UNSAT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": null,
+        "dp_seconds": 0.088819,
+        "verify_seconds": 0.156418,
+        "certificate_bytes": 471409,
+        "wall_seconds": 0.366107,
+        "peak_rss_kib": 26652,
+        "certificate_file": "examples/mech_chain1024_same_dp_certificate.json",
+        "certificate_note": "the native runner's certificate is byte-identical to the phase 4 certificate for the same instance and decomposition; the duplicate file is not archived"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "UNSAT",
+          "seconds_median": 0.00312,
+          "seconds_min": 0.002879,
+          "seconds_max": 0.00362,
+          "peak_rss_kib": 20484,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "UNSAT",
+          "seconds_median": 0.002241,
+          "seconds_min": 0.00224,
+          "seconds_max": 0.002345,
+          "peak_rss_kib": 20484,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "UNSAT",
+          "seconds_median": 0.003877,
+          "seconds_min": 0.003646,
+          "seconds_max": 0.003984,
+          "peak_rss_kib": 20484,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "UNSAT",
+          "seconds_median": 0.365911,
+          "seconds_min": 0.360086,
+          "seconds_max": 0.377509,
+          "peak_rss_kib": 94996,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 0.2753579060008633,
+          "solve_seconds": 0.0014794349990552291,
+          "inner_peak_rss_kib": 92052
+        },
+        {
+          "solver": "highs",
+          "classification": "UNSAT",
+          "seconds_median": 0.115359,
+          "seconds_min": 0.113635,
+          "seconds_max": 0.119044,
+          "peak_rss_kib": 39228,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 0.06339751400082605,
+          "solve_seconds": 0.0010940769971057307,
+          "inner_peak_rss_kib": 38484
+        }
+      ]
+    },
+    {
+      "family": "chain-pretension",
+      "size": 1024,
+      "observation": "split",
+      "instance": "examples/mech_chain1024_split_instance.json",
+      "variables": 2048,
+      "factors": 2048,
+      "cnf_clauses": 2048,
+      "encode_seconds": 0.007062,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 10.3292,
+        "fe_verify_seconds": 10.5963,
+        "instance_bytes": 586164,
+        "row_batch_bytes": 747238
+      },
+      "expected": "SAT",
+      "native": {
+        "status": "DP-OPTIMUM",
+        "dp_status": "CERTIFIED-OPT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": 1025,
+        "dp_seconds": 0.297949,
+        "verify_seconds": 0.55805,
+        "policy_verified": true,
+        "policy_errors": [],
+        "policy_seconds": 0.010673,
+        "certificate_bytes": 1206698,
+        "wall_seconds": 1.016802,
+        "peak_rss_kib": 35564,
+        "certificate_file": "examples/mech_chain1024_split_dp_certificate.json",
+        "certificate_note": "the native runner's certificate is byte-identical to the phase 4 certificate for the same instance and decomposition; the duplicate file is not archived"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "SAT",
+          "seconds_median": 0.003205,
+          "seconds_min": 0.003081,
+          "seconds_max": 0.003721,
+          "peak_rss_kib": 22432,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "SAT",
+          "seconds_median": 0.002414,
+          "seconds_min": 0.002369,
+          "seconds_max": 0.002457,
+          "peak_rss_kib": 22432,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "SAT",
+          "seconds_median": 0.004708,
+          "seconds_min": 0.004513,
+          "seconds_max": 0.004718,
+          "peak_rss_kib": 22432,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "SAT",
+          "seconds_median": 0.37037,
+          "seconds_min": 0.350039,
+          "seconds_max": 0.385462,
+          "peak_rss_kib": 98872,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 0.29129965900210664,
+          "solve_seconds": 0.0026808529983100016,
+          "inner_peak_rss_kib": 94952
+        },
+        {
+          "solver": "highs",
+          "classification": "SAT",
+          "seconds_median": 0.115679,
+          "seconds_min": 0.115186,
+          "seconds_max": 0.133509,
+          "peak_rss_kib": 40408,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 0.06403351999688311,
+          "solve_seconds": 0.0015828880023036618,
+          "inner_peak_rss_kib": 40212
+        }
+      ]
+    },
+    {
+      "family": "dense-chain",
+      "size": 8,
+      "observation": "same",
+      "instance": "examples/mech_dense8_same_instance.json",
+      "variables": 8,
+      "factors": 2,
+      "cnf_clauses": 487,
+      "encode_seconds": 0.002265,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 0.0062,
+        "fe_verify_seconds": 0.0062,
+        "instance_bytes": 4478,
+        "row_batch_bytes": 5907
+      },
+      "expected": "UNSAT",
+      "native": {
+        "status": "DP-REFUTATION",
+        "dp_status": "CERTIFIED-UNSAT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": null,
+        "dp_seconds": 0.006144,
+        "verify_seconds": 0.008441,
+        "certificate_bytes": 130883,
+        "wall_seconds": 0.115216,
+        "peak_rss_kib": 22436,
+        "certificate_file": "examples/mech_dense8_same_dp_certificate.json",
+        "certificate_note": "the native runner's certificate is byte-identical to the phase 4 certificate for the same instance and decomposition; the duplicate file is not archived"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "UNSAT",
+          "seconds_median": 0.004058,
+          "seconds_min": 0.003756,
+          "seconds_max": 0.004661,
+          "peak_rss_kib": 22436,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "UNSAT",
+          "seconds_median": 0.002479,
+          "seconds_min": 0.002453,
+          "seconds_max": 0.002531,
+          "peak_rss_kib": 22436,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "UNSAT",
+          "seconds_median": 0.003478,
+          "seconds_min": 0.003417,
+          "seconds_max": 0.003581,
+          "peak_rss_kib": 22436,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "UNSAT",
+          "seconds_median": 0.35765,
+          "seconds_min": 0.355078,
+          "seconds_max": 0.37773,
+          "peak_rss_kib": 96008,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 0.26204411299841013,
+          "solve_seconds": 0.0056859409996832255,
+          "inner_peak_rss_kib": 93180
+        },
+        {
+          "solver": "highs",
+          "classification": "UNSAT",
+          "seconds_median": 0.111908,
+          "seconds_min": 0.110901,
+          "seconds_max": 0.118003,
+          "peak_rss_kib": 38228,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 0.06063605999952415,
+          "solve_seconds": 0.003700455999933183,
+          "inner_peak_rss_kib": 36020
+        }
+      ]
+    },
+    {
+      "family": "dense-chain",
+      "size": 8,
+      "observation": "split",
+      "instance": "examples/mech_dense8_split_instance.json",
+      "variables": 16,
+      "factors": 2,
+      "cnf_clauses": 487,
+      "encode_seconds": 0.002368,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 0.0061,
+        "fe_verify_seconds": 0.0062,
+        "instance_bytes": 5887,
+        "row_batch_bytes": 5907
+      },
+      "expected": "SAT",
+      "native": {
+        "status": "DP-OPTIMUM",
+        "dp_status": "CERTIFIED-OPT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": 2,
+        "dp_seconds": 0.012142,
+        "verify_seconds": 0.017431,
+        "policy_verified": true,
+        "policy_errors": [],
+        "policy_seconds": 0.000135,
+        "certificate_bytes": 276563,
+        "wall_seconds": 0.115253,
+        "peak_rss_kib": 22508,
+        "certificate_file": "examples/mech_dense8_split_dp_certificate.json",
+        "certificate_note": "the native runner's certificate is byte-identical to the phase 4 certificate for the same instance and decomposition; the duplicate file is not archived"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "SAT",
+          "seconds_median": 0.004301,
+          "seconds_min": 0.00409,
+          "seconds_max": 0.004577,
+          "peak_rss_kib": 22508,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "SAT",
+          "seconds_median": 0.003661,
+          "seconds_min": 0.00356,
+          "seconds_max": 0.003954,
+          "peak_rss_kib": 22508,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "SAT",
+          "seconds_median": 0.003506,
+          "seconds_min": 0.003494,
+          "seconds_max": 0.003638,
+          "peak_rss_kib": 22508,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "SAT",
+          "seconds_median": 0.367082,
+          "seconds_min": 0.363597,
+          "seconds_max": 0.374524,
+          "peak_rss_kib": 96860,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 0.2650883009991958,
+          "solve_seconds": 0.005279981000057887,
+          "inner_peak_rss_kib": 92256
+        },
+        {
+          "solver": "highs",
+          "classification": "SAT",
+          "seconds_median": 0.12205,
+          "seconds_min": 0.114858,
+          "seconds_max": 0.133126,
+          "peak_rss_kib": 38408,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 0.07852455400279723,
+          "solve_seconds": 0.01028604399834876,
+          "inner_peak_rss_kib": 36016
+        }
+      ]
+    },
+    {
+      "family": "dense-chain",
+      "size": 16,
+      "observation": "same",
+      "instance": "examples/mech_dense16_same_instance.json",
+      "variables": 16,
+      "factors": 2,
+      "cnf_clauses": 130942,
+      "encode_seconds": 1.07743,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 2.6681,
+        "fe_verify_seconds": 2.6618,
+        "instance_bytes": 32016,
+        "row_batch_bytes": 37525
+      },
+      "expected": "UNSAT",
+      "native": {
+        "status": "DP-REFUTATION",
+        "dp_status": "CERTIFIED-UNSAT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": null,
+        "dp_seconds": 2.197764,
+        "verify_seconds": 3.121037,
+        "certificate_bytes": 57087388,
+        "wall_seconds": 7.17926,
+        "peak_rss_kib": 444684,
+        "certificate_file": "examples/mech_dense16_same_dp_certificate.json",
+        "certificate_note": "the native runner's certificate is byte-identical to the phase 4 certificate for the same instance and decomposition; the duplicate file is not archived"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": null,
+          "seconds_median": 60.003579,
+          "seconds_min": 60.003573,
+          "seconds_max": 60.004152,
+          "peak_rss_kib": 104052,
+          "returncode": -9,
+          "cross_check": {
+            "status": "INCONCLUSIVE",
+            "reason": "external run did not produce a recognised status"
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "UNSAT",
+          "seconds_median": 3.774778,
+          "seconds_min": 3.734561,
+          "seconds_max": 3.776974,
+          "peak_rss_kib": 104060,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "UNSAT",
+          "seconds_median": 1.647958,
+          "seconds_min": 1.647634,
+          "seconds_max": 1.661935,
+          "peak_rss_kib": 104060,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "UNSAT",
+          "seconds_median": 49.517847,
+          "seconds_min": 48.963642,
+          "seconds_max": 49.552592,
+          "peak_rss_kib": 479028,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 1.7016936460022407,
+          "solve_seconds": 46.71305582999776,
+          "inner_peak_rss_kib": 477996
+        },
+        {
+          "solver": "highs",
+          "classification": null,
+          "seconds_median": 65.743743,
+          "seconds_min": 65.651963,
+          "seconds_max": 65.960924,
+          "peak_rss_kib": 540144,
+          "returncode": 0,
+          "cross_check": {
+            "status": "INCONCLUSIVE",
+            "reason": "external run did not produce a recognised status"
+          },
+          "build_seconds": 1.1765382430021418,
+          "solve_seconds": 64.72581342699777,
+          "inner_peak_rss_kib": 537756
+        }
+      ]
+    },
+    {
+      "family": "dense-chain",
+      "size": 16,
+      "observation": "split",
+      "instance": "examples/mech_dense16_split_instance.json",
+      "variables": 32,
+      "factors": 2,
+      "cnf_clauses": 130942,
+      "encode_seconds": 1.126068,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 2.656,
+        "fe_verify_seconds": 2.672,
+        "instance_bytes": 34854,
+        "row_batch_bytes": 37525
+      },
+      "expected": "SAT",
+      "native": {
+        "status": "DP-OPTIMUM",
+        "dp_status": "CERTIFIED-OPT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": 2,
+        "dp_seconds": 4.652083,
+        "verify_seconds": 6.208411,
+        "policy_verified": true,
+        "policy_errors": [],
+        "policy_seconds": 0.000591,
+        "certificate_bytes": 115626447,
+        "wall_seconds": 14.542195,
+        "peak_rss_kib": 875344,
+        "certificate_file": "examples/mech_dense16_split_dp_certificate.json",
+        "certificate_note": "the native runner's certificate is byte-identical to the phase 4 certificate for the same instance and decomposition; the duplicate file is not archived"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": null,
+          "seconds_median": 60.003629,
+          "seconds_min": 60.003616,
+          "seconds_max": 60.003818,
+          "peak_rss_kib": 76904,
+          "returncode": -9,
+          "cross_check": {
+            "status": "INCONCLUSIVE",
+            "reason": "external run did not produce a recognised status"
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "SAT",
+          "seconds_median": 0.366642,
+          "seconds_min": 0.36574,
+          "seconds_max": 0.369697,
+          "peak_rss_kib": 76904,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "SAT",
+          "seconds_median": 0.355277,
+          "seconds_min": 0.355214,
+          "seconds_max": 0.357831,
+          "peak_rss_kib": 76904,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "SAT",
+          "seconds_median": 4.289216,
+          "seconds_min": 4.256033,
+          "seconds_max": 4.313157,
+          "peak_rss_kib": 466360,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 1.7810405070013076,
+          "solve_seconds": 1.8090563069999916,
+          "inner_peak_rss_kib": 466076
+        },
+        {
+          "solver": "highs",
+          "classification": "SAT",
+          "seconds_median": 5.202669,
+          "seconds_min": 5.202482,
+          "seconds_max": 5.210286,
+          "peak_rss_kib": 379532,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 1.320748750000348,
+          "solve_seconds": 3.811319985998125,
+          "inner_peak_rss_kib": 379260
+        }
+      ]
+    },
+    {
+      "family": "lattice",
+      "size": 1,
+      "observation": "same",
+      "instance": "examples/mech_latticeC1_same_instance.json",
+      "variables": 6,
+      "factors": 18,
+      "cnf_clauses": 196,
+      "encode_seconds": 0.000963,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 0.0169,
+        "fe_verify_seconds": 0.0167,
+        "instance_bytes": 86469,
+        "row_batch_bytes": 102535
+      },
+      "expected": "UNSAT",
+      "native": {
+        "status": "DP-REFUTATION",
+        "dp_status": "CERTIFIED-UNSAT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": null,
+        "dp_seconds": 0.001797,
+        "verify_seconds": 0.002241,
+        "certificate_bytes": 29659,
+        "wall_seconds": 0.115348,
+        "peak_rss_kib": 19252,
+        "certificate_file": "examples/mech_latticeC1_same_dp_certificate.json",
+        "certificate_note": "the native runner's certificate is byte-identical to the phase 4 certificate for the same instance and decomposition; the duplicate file is not archived"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "UNSAT",
+          "seconds_median": 0.003256,
+          "seconds_min": 0.002929,
+          "seconds_max": 0.003736,
+          "peak_rss_kib": 16900,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "UNSAT",
+          "seconds_median": 0.002211,
+          "seconds_min": 0.002203,
+          "seconds_max": 0.002273,
+          "peak_rss_kib": 16900,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "UNSAT",
+          "seconds_median": 0.003056,
+          "seconds_min": 0.003011,
+          "seconds_max": 0.003172,
+          "peak_rss_kib": 16900,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "UNSAT",
+          "seconds_median": 0.371654,
+          "seconds_min": 0.370434,
+          "seconds_max": 0.377841,
+          "peak_rss_kib": 95376,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 0.2775754130016139,
+          "solve_seconds": 0.002727470000536414,
+          "inner_peak_rss_kib": 91832
+        },
+        {
+          "solver": "highs",
+          "classification": "UNSAT",
+          "seconds_median": 0.114978,
+          "seconds_min": 0.108503,
+          "seconds_max": 0.119304,
+          "peak_rss_kib": 37944,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 0.06186059999890858,
+          "solve_seconds": 0.001230220001161797,
+          "inner_peak_rss_kib": 35956
+        }
+      ]
+    },
+    {
+      "family": "lattice",
+      "size": 1,
+      "observation": "split",
+      "instance": "examples/mech_latticeC1_split_instance.json",
+      "variables": 12,
+      "factors": 18,
+      "cnf_clauses": 196,
+      "encode_seconds": 0.001019,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 0.0164,
+        "fe_verify_seconds": 0.0167,
+        "instance_bytes": 88520,
+        "row_batch_bytes": 102535
+      },
+      "expected": "SAT",
+      "native": {
+        "status": "DP-OPTIMUM",
+        "dp_status": "CERTIFIED-OPT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": 4,
+        "dp_seconds": 0.0032,
+        "verify_seconds": 0.004263,
+        "policy_verified": true,
+        "policy_errors": [],
+        "policy_seconds": 0.000852,
+        "certificate_bytes": 61916,
+        "wall_seconds": 0.115624,
+        "peak_rss_kib": 19456,
+        "certificate_file": "examples/mech_latticeC1_split_dp_certificate.json",
+        "certificate_note": "the native runner's certificate is byte-identical to the phase 4 certificate for the same instance and decomposition; the duplicate file is not archived"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "SAT",
+          "seconds_median": 0.00311,
+          "seconds_min": 0.002894,
+          "seconds_max": 0.003499,
+          "peak_rss_kib": 17036,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "SAT",
+          "seconds_median": 0.002366,
+          "seconds_min": 0.002315,
+          "seconds_max": 0.002391,
+          "peak_rss_kib": 17036,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "SAT",
+          "seconds_median": 0.003336,
+          "seconds_min": 0.003189,
+          "seconds_max": 0.00363,
+          "peak_rss_kib": 17036,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "SAT",
+          "seconds_median": 0.363602,
+          "seconds_min": 0.361437,
+          "seconds_max": 0.370228,
+          "peak_rss_kib": 96208,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 0.26892808100092225,
+          "solve_seconds": 0.003189063001627801,
+          "inner_peak_rss_kib": 93864
+        },
+        {
+          "solver": "highs",
+          "classification": "SAT",
+          "seconds_median": 0.111996,
+          "seconds_min": 0.108711,
+          "seconds_max": 0.113705,
+          "peak_rss_kib": 37796,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 0.05998895200173138,
+          "solve_seconds": 0.004336105997936102,
+          "inner_peak_rss_kib": 35576
+        }
+      ]
+    },
+    {
+      "family": "lattice",
+      "size": 2,
+      "observation": "same",
+      "instance": "examples/mech_latticeC2_same_instance.json",
+      "variables": 12,
+      "factors": 36,
+      "cnf_clauses": 26568,
+      "encode_seconds": 0.23763,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 3.3583,
+        "fe_verify_seconds": 3.5018,
+        "instance_bytes": 21290991,
+        "row_batch_bytes": 24219525
+      },
+      "expected": "UNSAT",
+      "native": {
+        "status": "DP-REFUTATION",
+        "dp_status": "CERTIFIED-UNSAT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": null,
+        "dp_seconds": 0.132833,
+        "verify_seconds": 0.192724,
+        "certificate_bytes": 2849955,
+        "wall_seconds": 0.918556,
+        "peak_rss_kib": 98664,
+        "certificate_file": "examples/mech_latticeC2_same_dp_certificate.json",
+        "certificate_note": "the native runner's certificate is byte-identical to the phase 4 certificate for the same instance and decomposition; the duplicate file is not archived"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "UNSAT",
+          "seconds_median": 2.002455,
+          "seconds_min": 1.98115,
+          "seconds_max": 2.033285,
+          "peak_rss_kib": 106888,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "UNSAT",
+          "seconds_median": 0.13908,
+          "seconds_min": 0.138425,
+          "seconds_max": 0.139888,
+          "peak_rss_kib": 106892,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "UNSAT",
+          "seconds_median": 0.474336,
+          "seconds_min": 0.47398,
+          "seconds_max": 0.483022,
+          "peak_rss_kib": 106896,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "UNSAT",
+          "seconds_median": 1.715783,
+          "seconds_min": 1.715259,
+          "seconds_max": 1.736455,
+          "peak_rss_kib": 158352,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 0.5108485399978235,
+          "solve_seconds": 1.02432008300093,
+          "inner_peak_rss_kib": 157156
+        },
+        {
+          "solver": "highs",
+          "classification": "UNSAT",
+          "seconds_median": 6.033914,
+          "seconds_min": 5.735801,
+          "seconds_max": 6.420613,
+          "peak_rss_kib": 106896,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 0.2372225269973569,
+          "solve_seconds": 5.449524319003103,
+          "inner_peak_rss_kib": 106896
+        }
+      ]
+    },
+    {
+      "family": "lattice",
+      "size": 2,
+      "observation": "split",
+      "instance": "examples/mech_latticeC2_split_instance.json",
+      "variables": 24,
+      "factors": 36,
+      "cnf_clauses": 26568,
+      "encode_seconds": 0.262383,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 3.4039,
+        "fe_verify_seconds": 3.4788,
+        "instance_bytes": 21297412,
+        "row_batch_bytes": 24219525
+      },
+      "expected": "SAT",
+      "native": {
+        "status": "DP-OPTIMUM",
+        "dp_status": "CERTIFIED-OPT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": 10,
+        "dp_seconds": 0.282504,
+        "verify_seconds": 0.326754,
+        "policy_verified": true,
+        "policy_errors": [],
+        "policy_seconds": 0.181041,
+        "certificate_bytes": 5796262,
+        "wall_seconds": 1.470306,
+        "peak_rss_kib": 132992,
+        "certificate_file": "examples/mech_latticeC2_split_dp_certificate.json",
+        "certificate_note": "the native runner's certificate is byte-identical to the phase 4 certificate for the same instance and decomposition; the duplicate file is not archived"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "SAT",
+          "seconds_median": 1.29363,
+          "seconds_min": 1.281813,
+          "seconds_max": 1.307229,
+          "peak_rss_kib": 119888,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "SAT",
+          "seconds_median": 0.034041,
+          "seconds_min": 0.034013,
+          "seconds_max": 0.035328,
+          "peak_rss_kib": 119888,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "SAT",
+          "seconds_median": 0.569004,
+          "seconds_min": 0.562359,
+          "seconds_max": 0.570026,
+          "peak_rss_kib": 119888,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "SAT",
+          "seconds_median": 0.859736,
+          "seconds_min": 0.846538,
+          "seconds_max": 0.875747,
+          "peak_rss_kib": 158560,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 0.515696864000347,
+          "solve_seconds": 0.15243261599971447,
+          "inner_peak_rss_kib": 158560
+        },
+        {
+          "solver": "highs",
+          "classification": "SAT",
+          "seconds_median": 0.945586,
+          "seconds_min": 0.930343,
+          "seconds_max": 0.953739,
+          "peak_rss_kib": 119888,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 0.298902659000305,
+          "solve_seconds": 0.6030737019973458,
+          "inner_peak_rss_kib": 119888
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "instances": 14,
+    "native_certificates_verified": 14,
+    "native_policies_verified": 7,
+    "native_inconclusive": 0,
+    "external_runs": 70,
+    "external_sat_cross_checked": 34,
+    "external_unsat_cross_checked": 33,
+    "external_inconclusive": 3,
+    "external_rejected": 0,
+    "status_agreement_with_native": 67
+  }
+}

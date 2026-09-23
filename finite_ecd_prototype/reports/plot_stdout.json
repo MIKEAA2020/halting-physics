@@ -1,0 +1,7 @@
+{
+  "status": "COMPLETE",
+  "plots": [
+    "reports/certificate_size_vs_width.svg",
+    "reports/verify_time_vs_certificate_size.svg"
+  ]
+}

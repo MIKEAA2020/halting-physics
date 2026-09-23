@@ -1,0 +1,10 @@
+{
+  "availability": {
+    "minisat": false,
+    "kissat": false,
+    "z3": false
+  },
+  "runs": [],
+  "status": "INCONCLUSIVE",
+  "reason": "no supported external solver installed"
+}

@@ -1,0 +1,332 @@
+{
+  "generator": {
+    "returncode": 0,
+    "stdout": "{\n  \"R1\": [\n    [\n      0,\n      1\n    ],\n    [\n      1,\n      0\n    ]\n  ],\n  \"R2\": [\n    [\n      1,\n      1\n    ]\n  ]\n}\n",
+    "stderr": ""
+  },
+  "mechanics_ten_bar": {
+    "row_batch_verify": "VERIFIED",
+    "corrupted_row_batch_verify": "REJECTED",
+    "same_observation": {
+      "tree_decomp_verify": "VERIFIED",
+      "dp_type": "DP-REFUTATION",
+      "dp_status": "CERTIFIED-UNSAT",
+      "dp_verify": "VERIFIED"
+    },
+    "split_observation": {
+      "tree_decomp_verify": "VERIFIED",
+      "dp_type": "DP-OPTIMUM",
+      "dp_status": "CERTIFIED-OPT",
+      "dp_verify": "VERIFIED"
+    },
+    "sensor_repair_status": "CERTIFIED-OPT",
+    "sensor_repair_verify": "VERIFIED"
+  },
+  "mechanics_chain16": {
+    "row_batch_verify": "VERIFIED",
+    "dp_type": "DP-REFUTATION",
+    "dp_status": "CERTIFIED-UNSAT",
+    "dp_verify": "VERIFIED"
+  },
+  "same_observation": {
+    "status": "CERTIFIED-UNSAT",
+    "assignment": null
+  },
+  "split_observation": {
+    "status": "CERTIFIED-SAT",
+    "assignment": {
+      "cmd_low": [
+        0,
+        1
+      ],
+      "cmd_high": [
+        1,
+        1
+      ]
+    }
+  },
+  "fibre_conflict_verify": {
+    "status": "VERIFIED",
+    "errors": []
+  },
+  "bad_fibre_conflict_verify": {
+    "status": "REJECTED",
+    "errors": [
+      "scenario 'load_1' does not exclude action (0, 1)",
+      "actions not excluded: [(0, 0)]"
+    ]
+  },
+  "sensor_repair": {
+    "type": "SENSOR-REPAIR",
+    "status": "CERTIFIED-OPT",
+    "selected": [
+      "threshold"
+    ],
+    "size": 1,
+    "fibres": {
+      "('same', 'low')": [
+        "load_1"
+      ],
+      "('same', 'high')": [
+        "load_2"
+      ]
+    },
+    "optimality": "brute-force enumeration of smaller sensor subsets"
+  },
+  "sensor_repair_verify": {
+    "status": "VERIFIED",
+    "errors": []
+  },
+  "bad_sensor_repair_verify": {
+    "status": "REJECTED",
+    "errors": [
+      "selected sensors leave failing fibre ('same', 'c')"
+    ]
+  },
+  "tree_decomp_verify": {
+    "status": "VERIFIED",
+    "errors": []
+  },
+  "dp_optimum": {
+    "type": "DP-OPTIMUM",
+    "status": "CERTIFIED-OPT",
+    "optimum_cost": 3
+  },
+  "dp_optimum_verify": {
+    "status": "VERIFIED",
+    "errors": []
+  },
+  "dp_refutation": {
+    "type": "DP-REFUTATION",
+    "status": "CERTIFIED-UNSAT",
+    "optimum_cost": null
+  },
+  "dp_refutation_verify": {
+    "status": "VERIFIED",
+    "errors": []
+  },
+  "bad_dp_verify": {
+    "status": "REJECTED",
+    "errors": [
+      "message mismatch at bag bag0, assignment [0, 1]"
+    ]
+  },
+  "fe_rows": {
+    "type": "FE-ROW-BATCH",
+    "status": "CERTIFIED",
+    "row_count": 8
+  },
+  "fe_rows_verify": {
+    "status": "VERIFIED",
+    "errors": []
+  },
+  "bad_fe_rows_verify": {
+    "status": "REJECTED",
+    "errors": [
+      "row 0: classification 'SAFE' should be 'UNSAFE'"
+    ]
+  },
+  "sparsification": {
+    "type": "SPARSIFICATION-BATCH",
+    "status": "CERTIFIED",
+    "row_count": 4
+  },
+  "sparsification_verify": {
+    "status": "VERIFIED",
+    "errors": []
+  },
+  "bad_sparsification_verify": {
+    "status": "REJECTED",
+    "errors": [
+      "row 0 field inner disagrees with regeneration"
+    ]
+  },
+  "path_tree_decomp_verify": {
+    "status": "VERIFIED",
+    "errors": []
+  },
+  "path_dp_optimum": {
+    "type": "DP-OPTIMUM",
+    "status": "CERTIFIED-OPT",
+    "optimum_cost": 1
+  },
+  "path_dp_optimum_verify": {
+    "status": "VERIFIED",
+    "errors": []
+  },
+  "path_dp_refutation": {
+    "type": "DP-REFUTATION",
+    "status": "CERTIFIED-UNSAT"
+  },
+  "path_dp_refutation_verify": {
+    "status": "VERIFIED",
+    "errors": []
+  },
+  "baseline_dimacs": {
+    "returncode": 0,
+    "bytes": 207
+  },
+  "baseline_milp_lp": {
+    "returncode": 0,
+    "bytes": 188
+  },
+  "baseline_cpsat_json": {
+    "returncode": 0,
+    "bytes": 883
+  },
+  "external_missing_solver": {
+    "solver": "missing-test",
+    "status": "INCONCLUSIVE",
+    "reason": "executable 'definitely_missing_solver' not found",
+    "command": [
+      "definitely_missing_solver",
+      "examples/path3_sat.cnf"
+    ]
+  },
+  "generated_path6": {
+    "generator_returncode": 0,
+    "td_verify": {
+      "status": "VERIFIED",
+      "errors": []
+    },
+    "dp_status": "CERTIFIED-OPT",
+    "dp_verify": {
+      "status": "VERIFIED",
+      "errors": []
+    }
+  },
+  "generated_binary_tree_depth2": {
+    "generator_returncode": 0,
+    "td_verify": {
+      "status": "VERIFIED",
+      "errors": []
+    },
+    "dp_status": "CERTIFIED-OPT",
+    "dp_verify": {
+      "status": "VERIFIED",
+      "errors": []
+    }
+  },
+  "sparsification_ladder_verify": {
+    "status": "VERIFIED",
+    "errors": []
+  },
+  "four_actuator_frame": {
+    "fe_verify": {
+      "status": "VERIFIED",
+      "errors": []
+    },
+    "dp_status": "CERTIFIED-OPT",
+    "dp_type": "DP-OPTIMUM",
+    "dp_verify": {
+      "status": "VERIFIED",
+      "errors": []
+    }
+  },
+  "external_cross_check_sat": {
+    "status": "VERIFIED-SAT",
+    "external_status": "CERTIFIED-SAT-EXTERNAL",
+    "errors": []
+  },
+  "external_cross_check_unsat": {
+    "status": "VERIFIED-UNSAT",
+    "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+    "errors": []
+  },
+  "external_cross_check_no_cert": {
+    "status": "INCONCLUSIVE",
+    "reason": "external SAT has no independently verified policy certificate"
+  },
+  "generated_band7_w2": {
+    "generator_returncode": 0,
+    "td_verify": {
+      "status": "VERIFIED",
+      "errors": []
+    },
+    "dp_status": "CERTIFIED-OPT",
+    "dp_verify": {
+      "status": "VERIFIED",
+      "errors": []
+    }
+  },
+  "generated_grid2x4": {
+    "generator_returncode": 0,
+    "td_verify": {
+      "status": "VERIFIED",
+      "errors": []
+    },
+    "dp_status": "CERTIFIED-OPT",
+    "dp_verify": {
+      "status": "VERIFIED",
+      "errors": []
+    }
+  },
+  "grid2x4_summary": {
+    "instance": "examples/generated_grid2x4_instance.json",
+    "variables": 8,
+    "domain_value_count": 16,
+    "factors": 10,
+    "factor_rows": 20,
+    "instance_bytes": 3093,
+    "tree_decomp": "examples/generated_grid2x4_tree_decomp.json",
+    "bags": 3,
+    "width": 3,
+    "weighted_width": 4,
+    "tree_decomp_bytes": 649,
+    "tree_decomp_verify_status": "VERIFIED",
+    "tree_decomp_verify_errors": [],
+    "tree_decomp_verify_seconds": 4.3452000682009384e-05,
+    "certificate": "examples/generated_grid2x4_dp_certificate.json",
+    "certificate_type": "DP-OPTIMUM",
+    "certificate_status": "CERTIFIED-OPT",
+    "certificate_bytes": 8604,
+    "certificate_verify_status": "VERIFIED",
+    "certificate_verify_errors": [],
+    "certificate_verify_seconds": 0.0009074629997485317,
+    "optimum_cost": 4
+  },
+  "expected_gate": {
+    "same_observation": "CERTIFIED-UNSAT",
+    "split_observation": "CERTIFIED-SAT",
+    "fibre_conflict_verify": "VERIFIED",
+    "bad_fibre_conflict_verify": "REJECTED",
+    "sensor_repair": "CERTIFIED-OPT",
+    "sensor_repair_verify": "VERIFIED",
+    "bad_sensor_repair_verify": "REJECTED",
+    "tree_decomp_verify": "VERIFIED",
+    "dp_optimum": "DP-OPTIMUM/CERTIFIED-OPT/3",
+    "dp_optimum_verify": "VERIFIED",
+    "dp_refutation": "DP-REFUTATION/CERTIFIED-UNSAT",
+    "dp_refutation_verify": "VERIFIED",
+    "bad_dp_verify": "REJECTED",
+    "fe_rows_verify": "VERIFIED",
+    "bad_fe_rows_verify": "REJECTED",
+    "sparsification_verify": "VERIFIED",
+    "bad_sparsification_verify": "REJECTED",
+    "path_tree_decomp_verify": "VERIFIED",
+    "path_dp_optimum": "DP-OPTIMUM/CERTIFIED-OPT/1",
+    "path_dp_optimum_verify": "VERIFIED",
+    "path_dp_refutation": "DP-REFUTATION/CERTIFIED-UNSAT",
+    "path_dp_refutation_verify": "VERIFIED",
+    "baseline_encoders": "returncode 0",
+    "external_missing_solver": "INCONCLUSIVE",
+    "generated_path6": "VERIFIED",
+    "generated_binary_tree_depth2": "VERIFIED",
+    "sparsification_ladder_verify": "VERIFIED",
+    "four_actuator_frame": "VERIFIED",
+    "external_cross_check_sat": "VERIFIED-SAT",
+    "external_cross_check_unsat": "VERIFIED-UNSAT",
+    "external_cross_check_no_cert": "INCONCLUSIVE",
+    "generated_band7_w2": "VERIFIED",
+    "generated_grid2x4": "VERIFIED",
+    "grid2x4_summary": "VERIFIED",
+    "mechanics_ten_bar_row_batch_verify": "VERIFIED",
+    "mechanics_ten_bar_corrupted_row_batch_verify": "REJECTED",
+    "mechanics_ten_bar_same_observation": "DP-REFUTATION/CERTIFIED-UNSAT",
+    "mechanics_ten_bar_split_observation": "DP-OPTIMUM/CERTIFIED-OPT",
+    "mechanics_ten_bar_sensor_repair": "CERTIFIED-OPT",
+    "mechanics_ten_bar_sensor_repair_verify": "VERIFIED",
+    "mechanics_chain16_row_batch_verify": "VERIFIED",
+    "mechanics_chain16_dp": "DP-REFUTATION/CERTIFIED-UNSAT"
+  }
+}

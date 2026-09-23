@@ -1,0 +1,5 @@
+{
+  "minisat": false,
+  "kissat": false,
+  "z3": false
+}

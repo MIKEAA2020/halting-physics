@@ -1,0 +1,359 @@
+{
+  "status": "COMPLETE",
+  "cases": [
+    {
+      "family": "path",
+      "size": 4,
+      "prefix": "examples/sweep_path4",
+      "generator": {
+        "instance": "examples/sweep_path4_instance.json",
+        "tree_decomp": "examples/sweep_path4_tree_decomp.json",
+        "metadata": {
+          "family": "path-neq",
+          "known_treewidth": 1,
+          "known_pathwidth": 1
+        }
+      },
+      "dp_returncode": 0,
+      "summary": {
+        "instance": "examples/sweep_path4_instance.json",
+        "variables": 4,
+        "domain_value_count": 8,
+        "factors": 3,
+        "factor_rows": 6,
+        "instance_bytes": 1177,
+        "tree_decomp": "examples/sweep_path4_tree_decomp.json",
+        "bags": 3,
+        "width": 1,
+        "weighted_width": 2,
+        "tree_decomp_bytes": 443,
+        "tree_decomp_verify_status": "VERIFIED",
+        "tree_decomp_verify_errors": [],
+        "tree_decomp_verify_seconds": 3.17150006594602e-05,
+        "certificate": "examples/sweep_path4_dp_certificate.json",
+        "certificate_type": "DP-OPTIMUM",
+        "certificate_status": "CERTIFIED-OPT",
+        "certificate_bytes": 2673,
+        "certificate_verify_status": "VERIFIED",
+        "certificate_verify_errors": [],
+        "certificate_verify_seconds": 0.00040457399882143363,
+        "optimum_cost": 2
+      }
+    },
+    {
+      "family": "path",
+      "size": 6,
+      "prefix": "examples/sweep_path6",
+      "generator": {
+        "instance": "examples/sweep_path6_instance.json",
+        "tree_decomp": "examples/sweep_path6_tree_decomp.json",
+        "metadata": {
+          "family": "path-neq",
+          "known_treewidth": 1,
+          "known_pathwidth": 1
+        }
+      },
+      "dp_returncode": 0,
+      "summary": {
+        "instance": "examples/sweep_path6_instance.json",
+        "variables": 6,
+        "domain_value_count": 12,
+        "factors": 5,
+        "factor_rows": 10,
+        "instance_bytes": 1779,
+        "tree_decomp": "examples/sweep_path6_tree_decomp.json",
+        "bags": 5,
+        "width": 1,
+        "weighted_width": 2,
+        "tree_decomp_bytes": 655,
+        "tree_decomp_verify_status": "VERIFIED",
+        "tree_decomp_verify_errors": [],
+        "tree_decomp_verify_seconds": 6.0548998590093106e-05,
+        "certificate": "examples/sweep_path6_dp_certificate.json",
+        "certificate_type": "DP-OPTIMUM",
+        "certificate_status": "CERTIFIED-OPT",
+        "certificate_bytes": 4357,
+        "certificate_verify_status": "VERIFIED",
+        "certificate_verify_errors": [],
+        "certificate_verify_seconds": 0.0005791709991171956,
+        "optimum_cost": 3
+      }
+    },
+    {
+      "family": "path",
+      "size": 8,
+      "prefix": "examples/sweep_path8",
+      "generator": {
+        "instance": "examples/sweep_path8_instance.json",
+        "tree_decomp": "examples/sweep_path8_tree_decomp.json",
+        "metadata": {
+          "family": "path-neq",
+          "known_treewidth": 1,
+          "known_pathwidth": 1
+        }
+      },
+      "dp_returncode": 0,
+      "summary": {
+        "instance": "examples/sweep_path8_instance.json",
+        "variables": 8,
+        "domain_value_count": 16,
+        "factors": 7,
+        "factor_rows": 14,
+        "instance_bytes": 2381,
+        "tree_decomp": "examples/sweep_path8_tree_decomp.json",
+        "bags": 7,
+        "width": 1,
+        "weighted_width": 2,
+        "tree_decomp_bytes": 867,
+        "tree_decomp_verify_status": "VERIFIED",
+        "tree_decomp_verify_errors": [],
+        "tree_decomp_verify_seconds": 5.663000047206879e-05,
+        "certificate": "examples/sweep_path8_dp_certificate.json",
+        "certificate_type": "DP-OPTIMUM",
+        "certificate_status": "CERTIFIED-OPT",
+        "certificate_bytes": 6041,
+        "certificate_verify_status": "VERIFIED",
+        "certificate_verify_errors": [],
+        "certificate_verify_seconds": 0.000647707001917297,
+        "optimum_cost": 4
+      }
+    },
+    {
+      "family": "band",
+      "size": 6,
+      "prefix": "examples/sweep_band6_w2",
+      "generator": {
+        "instance": "examples/sweep_band6_w2_instance.json",
+        "tree_decomp": "examples/sweep_band6_w2_tree_decomp.json",
+        "metadata": {
+          "family": "banded-chain-not-all-equal",
+          "n": 6,
+          "decomposition_width": 2
+        }
+      },
+      "dp_returncode": 0,
+      "summary": {
+        "instance": "examples/sweep_band6_w2_instance.json",
+        "variables": 6,
+        "domain_value_count": 12,
+        "factors": 4,
+        "factor_rows": 24,
+        "instance_bytes": 2686,
+        "tree_decomp": "examples/sweep_band6_w2_tree_decomp.json",
+        "bags": 4,
+        "width": 2,
+        "weighted_width": 3,
+        "tree_decomp_bytes": 589,
+        "tree_decomp_verify_status": "VERIFIED",
+        "tree_decomp_verify_errors": [],
+        "tree_decomp_verify_seconds": 3.959600144298747e-05,
+        "certificate": "examples/sweep_band6_w2_dp_certificate.json",
+        "certificate_type": "DP-OPTIMUM",
+        "certificate_status": "CERTIFIED-OPT",
+        "certificate_bytes": 7124,
+        "certificate_verify_status": "VERIFIED",
+        "certificate_verify_errors": [],
+        "certificate_verify_seconds": 0.0007557380013167858,
+        "optimum_cost": 2
+      }
+    },
+    {
+      "family": "band",
+      "size": 8,
+      "prefix": "examples/sweep_band8_w2",
+      "generator": {
+        "instance": "examples/sweep_band8_w2_instance.json",
+        "tree_decomp": "examples/sweep_band8_w2_tree_decomp.json",
+        "metadata": {
+          "family": "banded-chain-not-all-equal",
+          "n": 8,
+          "decomposition_width": 2
+        }
+      },
+      "dp_returncode": 0,
+      "summary": {
+        "instance": "examples/sweep_band8_w2_instance.json",
+        "variables": 8,
+        "domain_value_count": 16,
+        "factors": 6,
+        "factor_rows": 36,
+        "instance_bytes": 3842,
+        "tree_decomp": "examples/sweep_band8_w2_tree_decomp.json",
+        "bags": 6,
+        "width": 2,
+        "weighted_width": 3,
+        "tree_decomp_bytes": 811,
+        "tree_decomp_verify_status": "VERIFIED",
+        "tree_decomp_verify_errors": [],
+        "tree_decomp_verify_seconds": 5.5827000323915854e-05,
+        "certificate": "examples/sweep_band8_w2_dp_certificate.json",
+        "certificate_type": "DP-OPTIMUM",
+        "certificate_status": "CERTIFIED-OPT",
+        "certificate_bytes": 10762,
+        "certificate_verify_status": "VERIFIED",
+        "certificate_verify_errors": [],
+        "certificate_verify_seconds": 0.001033808002830483,
+        "optimum_cost": 2
+      }
+    },
+    {
+      "family": "band",
+      "size": 10,
+      "prefix": "examples/sweep_band10_w2",
+      "generator": {
+        "instance": "examples/sweep_band10_w2_instance.json",
+        "tree_decomp": "examples/sweep_band10_w2_tree_decomp.json",
+        "metadata": {
+          "family": "banded-chain-not-all-equal",
+          "n": 10,
+          "decomposition_width": 2
+        }
+      },
+      "dp_returncode": 0,
+      "summary": {
+        "instance": "examples/sweep_band10_w2_instance.json",
+        "variables": 10,
+        "domain_value_count": 20,
+        "factors": 8,
+        "factor_rows": 48,
+        "instance_bytes": 4999,
+        "tree_decomp": "examples/sweep_band10_w2_tree_decomp.json",
+        "bags": 8,
+        "width": 2,
+        "weighted_width": 3,
+        "tree_decomp_bytes": 1033,
+        "tree_decomp_verify_status": "VERIFIED",
+        "tree_decomp_verify_errors": [],
+        "tree_decomp_verify_seconds": 0.00012768300075549632,
+        "certificate": "examples/sweep_band10_w2_dp_certificate.json",
+        "certificate_type": "DP-OPTIMUM",
+        "certificate_status": "CERTIFIED-OPT",
+        "certificate_bytes": 14400,
+        "certificate_verify_status": "VERIFIED",
+        "certificate_verify_errors": [],
+        "certificate_verify_seconds": 0.001331341998593416,
+        "optimum_cost": 3
+      }
+    },
+    {
+      "family": "grid",
+      "size": 2,
+      "prefix": "examples/sweep_grid2x3",
+      "generator": {
+        "instance": "examples/sweep_grid2x3_instance.json",
+        "tree_decomp": "examples/sweep_grid2x3_tree_decomp.json",
+        "metadata": {
+          "family": "grid-neq",
+          "rows": 2,
+          "cols": 3,
+          "supplied_decomposition_width": 3
+        }
+      },
+      "dp_returncode": 0,
+      "summary": {
+        "instance": "examples/sweep_grid2x3_instance.json",
+        "variables": 6,
+        "domain_value_count": 12,
+        "factors": 7,
+        "factor_rows": 14,
+        "instance_bytes": 2264,
+        "tree_decomp": "examples/sweep_grid2x3_tree_decomp.json",
+        "bags": 2,
+        "width": 3,
+        "weighted_width": 4,
+        "tree_decomp_bytes": 485,
+        "tree_decomp_verify_status": "VERIFIED",
+        "tree_decomp_verify_errors": [],
+        "tree_decomp_verify_seconds": 4.966300184605643e-05,
+        "certificate": "examples/sweep_grid2x3_dp_certificate.json",
+        "certificate_type": "DP-OPTIMUM",
+        "certificate_status": "CERTIFIED-OPT",
+        "certificate_bytes": 5781,
+        "certificate_verify_status": "VERIFIED",
+        "certificate_verify_errors": [],
+        "certificate_verify_seconds": 0.0006754819987691008,
+        "optimum_cost": 3
+      }
+    },
+    {
+      "family": "grid",
+      "size": 2,
+      "prefix": "examples/sweep_grid2x4",
+      "generator": {
+        "instance": "examples/sweep_grid2x4_instance.json",
+        "tree_decomp": "examples/sweep_grid2x4_tree_decomp.json",
+        "metadata": {
+          "family": "grid-neq",
+          "rows": 2,
+          "cols": 4,
+          "supplied_decomposition_width": 3
+        }
+      },
+      "dp_returncode": 0,
+      "summary": {
+        "instance": "examples/sweep_grid2x4_instance.json",
+        "variables": 8,
+        "domain_value_count": 16,
+        "factors": 10,
+        "factor_rows": 20,
+        "instance_bytes": 3093,
+        "tree_decomp": "examples/sweep_grid2x4_tree_decomp.json",
+        "bags": 3,
+        "width": 3,
+        "weighted_width": 4,
+        "tree_decomp_bytes": 649,
+        "tree_decomp_verify_status": "VERIFIED",
+        "tree_decomp_verify_errors": [],
+        "tree_decomp_verify_seconds": 6.32840019534342e-05,
+        "certificate": "examples/sweep_grid2x4_dp_certificate.json",
+        "certificate_type": "DP-OPTIMUM",
+        "certificate_status": "CERTIFIED-OPT",
+        "certificate_bytes": 8605,
+        "certificate_verify_status": "VERIFIED",
+        "certificate_verify_errors": [],
+        "certificate_verify_seconds": 0.0009061679993465077,
+        "optimum_cost": 4
+      }
+    },
+    {
+      "family": "grid",
+      "size": 2,
+      "prefix": "examples/sweep_grid2x5",
+      "generator": {
+        "instance": "examples/sweep_grid2x5_instance.json",
+        "tree_decomp": "examples/sweep_grid2x5_tree_decomp.json",
+        "metadata": {
+          "family": "grid-neq",
+          "rows": 2,
+          "cols": 5,
+          "supplied_decomposition_width": 3
+        }
+      },
+      "dp_returncode": 0,
+      "summary": {
+        "instance": "examples/sweep_grid2x5_instance.json",
+        "variables": 10,
+        "domain_value_count": 20,
+        "factors": 13,
+        "factor_rows": 26,
+        "instance_bytes": 3922,
+        "tree_decomp": "examples/sweep_grid2x5_tree_decomp.json",
+        "bags": 4,
+        "width": 3,
+        "weighted_width": 4,
+        "tree_decomp_bytes": 813,
+        "tree_decomp_verify_status": "VERIFIED",
+        "tree_decomp_verify_errors": [],
+        "tree_decomp_verify_seconds": 4.857499880017713e-05,
+        "certificate": "examples/sweep_grid2x5_dp_certificate.json",
+        "certificate_type": "DP-OPTIMUM",
+        "certificate_status": "CERTIFIED-OPT",
+        "certificate_bytes": 11429,
+        "certificate_verify_status": "VERIFIED",
+        "certificate_verify_errors": [],
+        "certificate_verify_seconds": 0.0011541269996087067,
+        "optimum_cost": 5
+      }
+    }
+  ]
+}
