@@ -274,3 +274,52 @@ book). Implemented in the agreed order:
   monograph/monograph-2-algorithms-and-certificates-v10.tex`, `main
   monograph/monograph-revised-v43.tex`, plan v24, and this worklog entry.
   No recorded artifact or earlier version was modified.
+
+## Round 7: four-part owner audit and structural implementation (companion v11 / appendix v8 / main v44)
+
+A five-way line-level audit (remnants ×2, clarity/flow ×2, cross-book
+alignment ×1, all spot-verified) found: main v43 remnant-clean with three
+moderate defects; companion v10 remnant-clean with one major-severity defect
+(the §13↔Appendix A duplication cluster); the roadmap and Conclusion both
+omitting the entire functorial tier; one unparseable orphan paragraph in the
+definitional heart; and a set of precision-level gaps. The withdrawn-footnote
+passage of §13.2 was re-reviewed against the v4-tag artifact source and
+confirmed accurate in all four forensic claims.
+
+Implementation per repo convention (new version files, nothing overwritten):
+
+- `companion monograph/companion-artifact-appendix-v8.tex`: §13↔A
+  consolidation back-pointers (\ref-based), phase-4 gloss, "new subsection"
+  fix; operational content unchanged.
+- `companion monograph/monograph-2-algorithms-and-certificates-v11.tex`:
+  §13↔A consolidation (§13.1 canonical, replication list and archive-policy
+  mechanics delegated), §1 sensor-repair contribution item + roadmap clause +
+  main-v44 pin, §9 purpose-first opening + Γ^true binding + numeric-domains
+  qualifier move, W/o=obs/O_j/κ notation fixes, §10 seam clause and dedup,
+  §12 Table-1 citation + zero-extension gloss, verification-gate table
+  captioned as Table 5 with the Remark 3.1 pointer, Table 8 referenced,
+  repository URL inserted, withdrawal-footnote micro-edits, \input bumped to
+  appendix v8.
+- `main monograph/monograph-revised-v44.tex`: roadmap fourth stage + §4
+  clause + scope-paragraph companion disclosure + Conclusion final paragraph
+  (the bracketing fix), orphan patch-category paragraph relocated to the
+  full patch-site collapse corollary, §11 subdivided 6→14 subsections
+  (six new headings + three promoted \paragraph units; no theorem numbers
+  move), §12.13 orientation sentence, "companion morphism theory" →
+  "accompanying", inner–outer twin cross-link, pins bumped to v11/v8,
+  repository URL in the availability paragraph, DNR/PA/CHSH/PR expansions +
+  Popescu–Rohrlich bibitem, represented-realisation scope clause, §12
+  re-derivation citations (def:morphism-levels and the functor proof),
+  CHSH recollection compression, def:epsEC commentary relocation +
+  punctuation fix, variance-recollection trim, "below" markers,
+  rem:ladder/tab:presentations anchor, monograph lexicon unification,
+  -ize/-ise and French-spacing normalization, blank-run collapse.
+- plan v25 records the audit basis, all changes, verification, and remaining
+  items (round-8 incorporation candidates remain owner decisions).
+
+Verification: tectonic compiles main v44 with exactly v43's warning profile
+(same nine overfull lines shifted, same 172 underfull lines, zero errors,
+zero undefined references) and companion v11 with v10's underfull set and
+zero overfull boxes; all new cross-references resolve in both PDFs; the
+withdrawal footnote, both version pins, and the two repository URLs render
+correctly. No recorded artifact or earlier version was modified.
