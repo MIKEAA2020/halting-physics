@@ -138,3 +138,44 @@ is a new versioned file, and recorded artifacts are byte-preserved.
    remain outside the artifact scope;
 3. release manifest refresh to be frozen at the next artifact release,
    incorporating the v2 replication and dense-extension outputs.
+
+---
+
+## Round 4 — audit of v7 against the deposited artifact; companion monograph v8 / appendix v7
+
+- A line-level audit of the v7 manuscript and appendix v6 was executed
+  against the artifact ground truth now in the repository: every recorded
+  number cited by the manuscript was re-derived from the deposited JSON
+  reports (mechanics benchmarks, sparsification study, recorded and v2
+  sweeps, dense-extension generation and sweep, large-artifact manifest,
+  controlled-width external baselines, repro gate) and the harness source
+  (limit semantics, CP-SAT status mapping, evidence-gated agreement
+  counter).
+- Confirmed correct: the withdrawal of the v6 "corrected accounting"; all
+  cells of Tables 2, 3, 5, and 6; the extension widths, certificate sizes,
+  accounting, and manifest; the FE preprocessing times and the replication
+  summary.
+- Residual flaws corrected at the root in v8 / appendix v7 (new files;
+  nothing overwritten): v7 still input appendix v5 so the compiled v7
+  document omitted the entire v6 appendix content; Table 4 carried medians
+  from an unrecorded session instead of the recorded report (now
+  tabulated from `reports/external_baseline_sweep.json`, with the recorded
+  peak memory 100.2 MiB); the extension table's UNK legend was factually
+  wrong for the two n=18 CP-SAT cells (one killed at the ninety-second
+  hard cap, one UNKNOWN after the soft solver limit was overshot) and is
+  relabelled and redefined with the two-tier limit disclosed; the
+  replication comparison now states all three mismatch classes found by
+  `diff_reports.py` (29 mismatches, not just file names); the OOM resident
+  set is quoted from the kernel line and converted correctly (about
+  3.6 GiB, not 3.75); the unsourced "Debian GNU/Linux 13" claim is dropped
+  in favour of the recorded protocol fields; the scope-only lattice rows
+  now state that the artifact records the influence-scope size (18/24)
+  while the tabulated 17/23 are the implied treewidths; the chain-pretension
+  rung range and the chain n=8 split timings are displayed per the stated
+  conventions; the two overfull hboxes carried since v5 are resolved (v8
+  compiles with zero overfull boxes).
+- Deposited: `companion monograph/monograph-2-algorithms-and-certificates-v8.tex`,
+  `companion monograph/companion-artifact-appendix-v7.tex`,
+  `finite-ecd-prototype-implementation-report-v10.md`, plan v22, and this
+  round's worklog entry. No recorded artifact or earlier version was
+  modified.
