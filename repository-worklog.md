@@ -221,3 +221,56 @@ is a new versioned file, and recorded artifacts are byte-preserved.
   `companion monograph/monograph-2-algorithms-and-certificates-v9.tex`, plan
   v23, and this worklog entry. No recorded artifact or earlier version was
   modified.
+
+---
+
+## Round 6: pedagogical, game-theoretic, and visual enhancements (v10 / v43)
+
+Owner question: do the main or companion monographs merit additional
+non-decorative pedagogical/expository/physical/game-theoretic
+enhancements, additional non-decorative tables/figures/visual aids, or
+supplements with delegation? The assessment round identified six genuine
+gaps (and an explicit do-not-add list: no intuition glosses on the
+presentation-relative diagnostic, no in-scope game theory beyond the
+books' own fences, no timing plots, no forced delegation out of either
+book). Implemented in the agreed order:
+
+- Companion v10 (new file; v9 unchanged): Example 6.4 works a
+  hand-verifiable four-variable dynamic program end to end (message
+  tables nu_1=(1,0), nu_2=(1,1), root value 2, optimal sections
+  (1,0,0,1)/(0,1,1,0), brute-force cross-check, DP-OPTIMUM and
+  DP-REFUTATION certificate readings, weighted width 2); Figure 1 is a
+  five-panel structural schematic of the two-spring demonstrator and the
+  four benchmark families drawn after mechanics_gen.py (ten-bar 3x4 bays
+  with 3-4-5 diagonals; pretension chain with self-equilibrated pairs;
+  dense chain with alternating stiffnesses; two-bay-row cross-braced
+  lattice); Section 10 gains a physical reading paragraph mirroring the
+  foundational monograph's Bell reading (the obstruction sits in the
+  observation map, not the mechanics; the repairing sensor is an
+  instrumentation decision with certified justification); Section 9 gains
+  Table `tab:ladder-outcomes` with the three certificate-bearing ladder
+  outcomes, refinement stability, and the new certified cost bracket
+  min_{Gamma^+_J} kappa <= min_{Gamma^true} kappa <= min_{Gamma^-_J}
+  kappa. All example arithmetic was machine-verified by brute force
+  before insertion; the example is scoped as pedagogical, not a recorded
+  artifact run.
+- Main v43 (new file; v42 unchanged): Remark 12.59 unifies verified
+  certificates with winning pure strategies in the tabular verifier game
+  of Theorem 12.40 (policy = winning strategy, refutation = no winning
+  strategy, inconclusive = absence of a game-outcome certificate); the
+  functorial chapter gains its first commutative diagrams (the naturality
+  square of the base-isomorphism definition and the retraction square +
+  idempotence triangle of the terminal-compression theorem, via tikzcd);
+  the companion version pin is bumped to v10 / appendix v7 per the v23
+  remaining-items list.
+- Verification: tectonic compiles v10 (zero errors, zero overfull, v9's
+  underfull sites unchanged plus one benign site of the grammar table's
+  pre-existing class; zero undefined references; figure/table/example
+  pages visually verified) and v43 (zero errors, zero undefined
+  references; exactly v42's nine overfull lines at shifted positions,
+  with the +2/+13/+35/+53 offsets matching the inserted line counts;
+  diagram and remark pages visually verified). Appendix v7 is untouched.
+- Deposited: `companion
+  monograph/monograph-2-algorithms-and-certificates-v10.tex`, `main
+  monograph/monograph-revised-v43.tex`, plan v24, and this worklog entry.
+  No recorded artifact or earlier version was modified.
