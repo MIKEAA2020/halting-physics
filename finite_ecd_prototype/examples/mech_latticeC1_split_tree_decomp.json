@@ -1,0 +1,142 @@
+{
+  "type": "TREE-DECOMP",
+  "root": "b_pair_d0_0m__load_bot",
+  "bags": {
+    "b_pair_d0_0m__load_bot": [
+      "pair_d0_0m__load_bot",
+      "pair_d0_0p__load_bot",
+      "pair_d0_1m__load_bot",
+      "pair_d0_1p__load_bot",
+      "pair_v1_0__load_bot",
+      "pair_v1_1__load_bot"
+    ],
+    "b_pair_d0_0p__load_bot": [
+      "pair_d0_0p__load_bot",
+      "pair_d0_1m__load_bot",
+      "pair_d0_1p__load_bot",
+      "pair_v1_0__load_bot",
+      "pair_v1_1__load_bot"
+    ],
+    "b_pair_d0_1m__load_bot": [
+      "pair_d0_1m__load_bot",
+      "pair_d0_1p__load_bot",
+      "pair_v1_0__load_bot",
+      "pair_v1_1__load_bot"
+    ],
+    "b_pair_d0_1p__load_bot": [
+      "pair_d0_1p__load_bot",
+      "pair_v1_0__load_bot",
+      "pair_v1_1__load_bot"
+    ],
+    "b_pair_v1_0__load_bot": [
+      "pair_v1_0__load_bot",
+      "pair_v1_1__load_bot"
+    ],
+    "b_pair_v1_1__load_bot": [
+      "pair_v1_1__load_bot"
+    ],
+    "b_pair_d0_0m__load_top": [
+      "pair_d0_0m__load_top",
+      "pair_d0_0p__load_top",
+      "pair_d0_1m__load_top",
+      "pair_d0_1p__load_top",
+      "pair_v1_0__load_top",
+      "pair_v1_1__load_top"
+    ],
+    "b_pair_d0_0p__load_top": [
+      "pair_d0_0p__load_top",
+      "pair_d0_1m__load_top",
+      "pair_d0_1p__load_top",
+      "pair_v1_0__load_top",
+      "pair_v1_1__load_top"
+    ],
+    "b_pair_d0_1m__load_top": [
+      "pair_d0_1m__load_top",
+      "pair_d0_1p__load_top",
+      "pair_v1_0__load_top",
+      "pair_v1_1__load_top"
+    ],
+    "b_pair_d0_1p__load_top": [
+      "pair_d0_1p__load_top",
+      "pair_v1_0__load_top",
+      "pair_v1_1__load_top"
+    ],
+    "b_pair_v1_0__load_top": [
+      "pair_v1_0__load_top",
+      "pair_v1_1__load_top"
+    ],
+    "b_pair_v1_1__load_top": [
+      "pair_v1_1__load_top"
+    ]
+  },
+  "edges": [
+    [
+      "b_pair_d0_0m__load_bot",
+      "b_pair_d0_0p__load_bot"
+    ],
+    [
+      "b_pair_d0_0p__load_bot",
+      "b_pair_d0_1m__load_bot"
+    ],
+    [
+      "b_pair_d0_1m__load_bot",
+      "b_pair_d0_1p__load_bot"
+    ],
+    [
+      "b_pair_d0_1p__load_bot",
+      "b_pair_v1_0__load_bot"
+    ],
+    [
+      "b_pair_v1_0__load_bot",
+      "b_pair_v1_1__load_bot"
+    ],
+    [
+      "b_pair_d0_0m__load_top",
+      "b_pair_d0_0p__load_top"
+    ],
+    [
+      "b_pair_d0_0p__load_top",
+      "b_pair_d0_1m__load_top"
+    ],
+    [
+      "b_pair_d0_1m__load_top",
+      "b_pair_d0_1p__load_top"
+    ],
+    [
+      "b_pair_d0_1p__load_top",
+      "b_pair_v1_0__load_top"
+    ],
+    [
+      "b_pair_v1_0__load_top",
+      "b_pair_v1_1__load_top"
+    ],
+    [
+      "b_pair_d0_0m__load_bot",
+      "b_pair_d0_0m__load_top"
+    ]
+  ],
+  "factor_to_bag": {
+    "load_top__force_h0_0": "b_pair_d0_0m__load_top",
+    "load_top__force_h0_1": "b_pair_d0_0p__load_top",
+    "load_top__force_h0_2": "b_pair_d0_0m__load_top",
+    "load_top__force_v1_0": "b_pair_d0_0m__load_top",
+    "load_top__force_v1_1": "b_pair_d0_0m__load_top",
+    "load_top__force_d0_0p": "b_pair_d0_0m__load_top",
+    "load_top__force_d0_0m": "b_pair_d0_0m__load_top",
+    "load_top__force_d0_1p": "b_pair_d0_0m__load_top",
+    "load_top__force_d0_1m": "b_pair_d0_0m__load_top",
+    "load_bot__force_h0_0": "b_pair_d0_0m__load_bot",
+    "load_bot__force_h0_1": "b_pair_d0_0p__load_bot",
+    "load_bot__force_h0_2": "b_pair_d0_0m__load_bot",
+    "load_bot__force_v1_0": "b_pair_d0_0m__load_bot",
+    "load_bot__force_v1_1": "b_pair_d0_0m__load_bot",
+    "load_bot__force_d0_0p": "b_pair_d0_0m__load_bot",
+    "load_bot__force_d0_0m": "b_pair_d0_0m__load_bot",
+    "load_bot__force_d0_1p": "b_pair_d0_0m__load_bot",
+    "load_bot__force_d0_1m": "b_pair_d0_0m__load_bot"
+  },
+  "metadata": {
+    "construction": "deterministic min-fill elimination",
+    "width": 5
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "type": "DP-REFUTATION",
+  "status": "CERTIFIED-UNSAT",
+  "tree_decomp": {
+    "type": "TREE-DECOMP",
+    "root": "b01",
+    "bags": {
+      "b01": [
+        "x0",
+        "x1"
+      ],
+      "b12": [
+        "x1",
+        "x2"
+      ]
+    },
+    "edges": [
+      [
+        "b01",
+        "b12"
+      ]
+    ],
+    "factor_to_bag": {
+      "x0_zero": "b01",
+      "eq01": "b01",
+      "x1_one": "b01",
+      "free12": "b12"
+    }
+  },
+  "root": "b01",
+  "optimum_cost": null,
+  "root_assignment": null,
+  "messages": {
+    "b01": {
+      "bag": [
+        "x0",
+        "x1"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b12": {
+      "bag": [
+        "x1",
+        "x2"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1
+          ],
+          "cost": 0
+        }
+      ]
+    }
+  },
+  "argmins": {
+    "b12": {
+      "[0, 0]": {},
+      "[0, 1]": {},
+      "[1, 0]": {},
+      "[1, 1]": {}
+    },
+    "b01": {}
+  }
+}

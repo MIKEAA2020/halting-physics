@@ -1,0 +1,234 @@
+{
+  "name": "cross_braced_lattice_1",
+  "kind": "truss",
+  "nodes": [
+    {
+      "id": "n_0_0",
+      "x": "0",
+      "y": "0",
+      "support": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "id": "n_0_1",
+      "x": "0",
+      "y": "4",
+      "support": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "id": "n_0_2",
+      "x": "0",
+      "y": "8",
+      "support": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "id": "n_1_0",
+      "x": "3",
+      "y": "0"
+    },
+    {
+      "id": "n_1_1",
+      "x": "3",
+      "y": "4"
+    },
+    {
+      "id": "n_1_2",
+      "x": "3",
+      "y": "8"
+    }
+  ],
+  "supports": [
+    {
+      "node": "n_0_0"
+    },
+    {
+      "node": "n_0_1"
+    },
+    {
+      "node": "n_0_2"
+    }
+  ],
+  "members": [
+    {
+      "name": "h0_0",
+      "a": "n_0_0",
+      "b": "n_1_0",
+      "k": "1"
+    },
+    {
+      "name": "h0_1",
+      "a": "n_0_1",
+      "b": "n_1_1",
+      "k": "1"
+    },
+    {
+      "name": "h0_2",
+      "a": "n_0_2",
+      "b": "n_1_2",
+      "k": "1"
+    },
+    {
+      "name": "v1_0",
+      "a": "n_1_0",
+      "b": "n_1_1",
+      "k": "1"
+    },
+    {
+      "name": "v1_1",
+      "a": "n_1_1",
+      "b": "n_1_2",
+      "k": "1"
+    },
+    {
+      "name": "d0_0p",
+      "a": "n_0_0",
+      "b": "n_1_1",
+      "k": "1"
+    },
+    {
+      "name": "d0_0m",
+      "a": "n_0_1",
+      "b": "n_1_0",
+      "k": "1"
+    },
+    {
+      "name": "d0_1p",
+      "a": "n_0_1",
+      "b": "n_1_2",
+      "k": "1"
+    },
+    {
+      "name": "d0_1m",
+      "a": "n_0_2",
+      "b": "n_1_1",
+      "k": "1"
+    }
+  ],
+  "actuators": [
+    {
+      "name": "pair_v1_0",
+      "type": "member-pair",
+      "member": "v1_0",
+      "sign": "-1"
+    },
+    {
+      "name": "pair_v1_1",
+      "type": "member-pair",
+      "member": "v1_1",
+      "sign": "-1"
+    },
+    {
+      "name": "pair_d0_0p",
+      "type": "member-pair",
+      "member": "d0_0p",
+      "sign": "-1"
+    },
+    {
+      "name": "pair_d0_0m",
+      "type": "member-pair",
+      "member": "d0_0m",
+      "sign": "-1"
+    },
+    {
+      "name": "pair_d0_1p",
+      "type": "member-pair",
+      "member": "d0_1p",
+      "sign": "-1"
+    },
+    {
+      "name": "pair_d0_1m",
+      "type": "member-pair",
+      "member": "d0_1m",
+      "sign": "-1"
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "load_top",
+      "forces": [
+        {
+          "node": "n_1_2",
+          "components": [
+            "1",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "load_bot",
+      "forces": [
+        {
+          "node": "n_1_0",
+          "components": [
+            "1",
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "monitors": [
+    {
+      "name": "force_h0_0",
+      "type": "member-force",
+      "member": "h0_0"
+    },
+    {
+      "name": "force_h0_1",
+      "type": "member-force",
+      "member": "h0_1"
+    },
+    {
+      "name": "force_h0_2",
+      "type": "member-force",
+      "member": "h0_2"
+    },
+    {
+      "name": "force_v1_0",
+      "type": "member-force",
+      "member": "v1_0"
+    },
+    {
+      "name": "force_v1_1",
+      "type": "member-force",
+      "member": "v1_1"
+    },
+    {
+      "name": "force_d0_0p",
+      "type": "member-force",
+      "member": "d0_0p"
+    },
+    {
+      "name": "force_d0_0m",
+      "type": "member-force",
+      "member": "d0_0m"
+    },
+    {
+      "name": "force_d0_1p",
+      "type": "member-force",
+      "member": "d0_1p"
+    },
+    {
+      "name": "force_d0_1m",
+      "type": "member-force",
+      "member": "d0_1m"
+    }
+  ],
+  "actuator_domain": [
+    0,
+    1
+  ],
+  "safe_interval": [
+    "-1",
+    "1/2"
+  ]
+}

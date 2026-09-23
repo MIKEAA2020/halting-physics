@@ -1,0 +1,17 @@
+{
+  "type": "SENSOR-REPAIR",
+  "status": "CERTIFIED-OPT",
+  "selected": [
+    "threshold"
+  ],
+  "size": 1,
+  "fibres": {
+    "('same', 'low')": [
+      "load_1"
+    ],
+    "('same', 'high')": [
+      "load_2"
+    ]
+  },
+  "optimality": "brute-force enumeration of smaller sensor subsets"
+}

@@ -1,0 +1,169 @@
+c var 1 act_n3
+c var 2 act_n4
+c var 3 act_n5
+c var 4 act_n6
+c forbid load_low__force_top_left {'act_n3': 0, 'act_n4': 0, 'act_n5': 0, 'act_n6': 0}
+c forbid load_low__force_top_left {'act_n3': 0, 'act_n4': 0, 'act_n5': 1, 'act_n6': 1}
+c forbid load_low__force_top_left {'act_n3': 0, 'act_n4': 1, 'act_n5': 0, 'act_n6': 0}
+c forbid load_low__force_top_left {'act_n3': 0, 'act_n4': 1, 'act_n5': 1, 'act_n6': 1}
+c forbid load_low__force_top_left {'act_n3': 1, 'act_n4': 0, 'act_n5': 1, 'act_n6': 1}
+c forbid load_low__force_top_left {'act_n3': 1, 'act_n4': 1, 'act_n5': 0, 'act_n6': 1}
+c forbid load_low__force_top_left {'act_n3': 1, 'act_n4': 1, 'act_n5': 1, 'act_n6': 1}
+c forbid load_low__force_bot_left {'act_n3': 0, 'act_n4': 0, 'act_n5': 0, 'act_n6': 0}
+c forbid load_low__force_bot_left {'act_n3': 0, 'act_n4': 0, 'act_n5': 1, 'act_n6': 1}
+c forbid load_low__force_bot_left {'act_n3': 0, 'act_n4': 1, 'act_n5': 1, 'act_n6': 1}
+c forbid load_low__force_bot_left {'act_n3': 1, 'act_n4': 0, 'act_n5': 0, 'act_n6': 0}
+c forbid load_low__force_bot_left {'act_n3': 1, 'act_n4': 0, 'act_n5': 1, 'act_n6': 1}
+c forbid load_low__force_bot_left {'act_n3': 1, 'act_n4': 1, 'act_n5': 1, 'act_n6': 1}
+c forbid load_low__force_vert_tip {'act_n3': 0, 'act_n4': 0, 'act_n5': 0, 'act_n6': 1}
+c forbid load_low__force_vert_tip {'act_n3': 0, 'act_n4': 1, 'act_n5': 0, 'act_n6': 1}
+c forbid load_low__force_vert_tip {'act_n3': 1, 'act_n4': 0, 'act_n5': 0, 'act_n6': 1}
+c forbid load_low__force_vert_tip {'act_n3': 1, 'act_n4': 1, 'act_n5': 0, 'act_n6': 1}
+c forbid load_low__force_diag_14 {'act_n3': 0, 'act_n4': 1, 'act_n5': 1, 'act_n6': 1}
+c forbid load_low__force_diag_14 {'act_n3': 1, 'act_n4': 0, 'act_n5': 1, 'act_n6': 1}
+c forbid load_low__force_diag_14 {'act_n3': 1, 'act_n4': 1, 'act_n5': 0, 'act_n6': 1}
+c forbid load_low__force_diag_14 {'act_n3': 1, 'act_n4': 1, 'act_n5': 1, 'act_n6': 0}
+c forbid load_low__force_diag_14 {'act_n3': 1, 'act_n4': 1, 'act_n5': 1, 'act_n6': 1}
+c forbid load_low__force_diag_23 {'act_n3': 0, 'act_n4': 1, 'act_n5': 1, 'act_n6': 1}
+c forbid load_low__force_diag_23 {'act_n3': 1, 'act_n4': 0, 'act_n5': 0, 'act_n6': 1}
+c forbid load_low__force_diag_23 {'act_n3': 1, 'act_n4': 0, 'act_n5': 1, 'act_n6': 1}
+c forbid load_low__force_diag_23 {'act_n3': 1, 'act_n4': 1, 'act_n5': 0, 'act_n6': 1}
+c forbid load_low__force_diag_23 {'act_n3': 1, 'act_n4': 1, 'act_n5': 1, 'act_n6': 0}
+c forbid load_low__force_diag_23 {'act_n3': 1, 'act_n4': 1, 'act_n5': 1, 'act_n6': 1}
+c forbid load_low__force_diag_36 {'act_n3': 0, 'act_n4': 1, 'act_n5': 1, 'act_n6': 1}
+c forbid load_low__force_diag_45 {'act_n3': 0, 'act_n4': 1, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_top_left {'act_n3': 0, 'act_n4': 0, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_top_left {'act_n3': 0, 'act_n4': 0, 'act_n5': 0, 'act_n6': 1}
+c forbid load_high__force_top_left {'act_n3': 0, 'act_n4': 0, 'act_n5': 1, 'act_n6': 0}
+c forbid load_high__force_top_left {'act_n3': 0, 'act_n4': 1, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_top_left {'act_n3': 0, 'act_n4': 1, 'act_n5': 0, 'act_n6': 1}
+c forbid load_high__force_top_left {'act_n3': 0, 'act_n4': 1, 'act_n5': 1, 'act_n6': 0}
+c forbid load_high__force_top_left {'act_n3': 1, 'act_n4': 0, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_top_left {'act_n3': 1, 'act_n4': 1, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_top_left {'act_n3': 1, 'act_n4': 1, 'act_n5': 1, 'act_n6': 1}
+c forbid load_high__force_top_right {'act_n3': 0, 'act_n4': 0, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_top_right {'act_n3': 0, 'act_n4': 1, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_top_right {'act_n3': 1, 'act_n4': 0, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_top_right {'act_n3': 1, 'act_n4': 1, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_bot_left {'act_n3': 0, 'act_n4': 0, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_bot_left {'act_n3': 0, 'act_n4': 0, 'act_n5': 0, 'act_n6': 1}
+c forbid load_high__force_bot_left {'act_n3': 0, 'act_n4': 0, 'act_n5': 1, 'act_n6': 0}
+c forbid load_high__force_bot_left {'act_n3': 0, 'act_n4': 1, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_bot_left {'act_n3': 1, 'act_n4': 0, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_bot_left {'act_n3': 1, 'act_n4': 0, 'act_n5': 0, 'act_n6': 1}
+c forbid load_high__force_bot_left {'act_n3': 1, 'act_n4': 0, 'act_n5': 1, 'act_n6': 0}
+c forbid load_high__force_bot_left {'act_n3': 1, 'act_n4': 1, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_vert_tip {'act_n3': 0, 'act_n4': 0, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_vert_tip {'act_n3': 0, 'act_n4': 0, 'act_n5': 0, 'act_n6': 1}
+c forbid load_high__force_vert_tip {'act_n3': 0, 'act_n4': 0, 'act_n5': 1, 'act_n6': 1}
+c forbid load_high__force_vert_tip {'act_n3': 0, 'act_n4': 1, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_vert_tip {'act_n3': 0, 'act_n4': 1, 'act_n5': 0, 'act_n6': 1}
+c forbid load_high__force_vert_tip {'act_n3': 0, 'act_n4': 1, 'act_n5': 1, 'act_n6': 1}
+c forbid load_high__force_vert_tip {'act_n3': 1, 'act_n4': 0, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_vert_tip {'act_n3': 1, 'act_n4': 0, 'act_n5': 0, 'act_n6': 1}
+c forbid load_high__force_vert_tip {'act_n3': 1, 'act_n4': 0, 'act_n5': 1, 'act_n6': 1}
+c forbid load_high__force_vert_tip {'act_n3': 1, 'act_n4': 1, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_vert_tip {'act_n3': 1, 'act_n4': 1, 'act_n5': 0, 'act_n6': 1}
+c forbid load_high__force_vert_tip {'act_n3': 1, 'act_n4': 1, 'act_n5': 1, 'act_n6': 1}
+c forbid load_high__force_diag_14 {'act_n3': 0, 'act_n4': 0, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_diag_14 {'act_n3': 1, 'act_n4': 0, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_diag_14 {'act_n3': 1, 'act_n4': 1, 'act_n5': 1, 'act_n6': 1}
+c forbid load_high__force_diag_23 {'act_n3': 0, 'act_n4': 0, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_diag_23 {'act_n3': 1, 'act_n4': 0, 'act_n5': 1, 'act_n6': 1}
+c forbid load_high__force_diag_23 {'act_n3': 1, 'act_n4': 1, 'act_n5': 1, 'act_n6': 1}
+c forbid load_high__force_diag_36 {'act_n3': 0, 'act_n4': 0, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_diag_36 {'act_n3': 0, 'act_n4': 1, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_diag_36 {'act_n3': 1, 'act_n4': 0, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_diag_36 {'act_n3': 1, 'act_n4': 1, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_diag_45 {'act_n3': 0, 'act_n4': 0, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_diag_45 {'act_n3': 0, 'act_n4': 0, 'act_n5': 0, 'act_n6': 1}
+c forbid load_high__force_diag_45 {'act_n3': 0, 'act_n4': 1, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_diag_45 {'act_n3': 0, 'act_n4': 1, 'act_n5': 0, 'act_n6': 1}
+c forbid load_high__force_diag_45 {'act_n3': 0, 'act_n4': 1, 'act_n5': 1, 'act_n6': 0}
+c forbid load_high__force_diag_45 {'act_n3': 1, 'act_n4': 0, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_diag_45 {'act_n3': 1, 'act_n4': 0, 'act_n5': 0, 'act_n6': 1}
+c forbid load_high__force_diag_45 {'act_n3': 1, 'act_n4': 1, 'act_n5': 0, 'act_n6': 0}
+c forbid load_high__force_diag_45 {'act_n3': 1, 'act_n4': 1, 'act_n5': 0, 'act_n6': 1}
+p cnf 4 82
+1 2 3 4 0
+1 2 -3 -4 0
+1 -2 3 4 0
+1 -2 -3 -4 0
+-1 2 -3 -4 0
+-1 -2 3 -4 0
+-1 -2 -3 -4 0
+1 2 3 4 0
+1 2 -3 -4 0
+1 -2 -3 -4 0
+-1 2 3 4 0
+-1 2 -3 -4 0
+-1 -2 -3 -4 0
+1 2 3 -4 0
+1 -2 3 -4 0
+-1 2 3 -4 0
+-1 -2 3 -4 0
+1 -2 -3 -4 0
+-1 2 -3 -4 0
+-1 -2 3 -4 0
+-1 -2 -3 4 0
+-1 -2 -3 -4 0
+1 -2 -3 -4 0
+-1 2 3 -4 0
+-1 2 -3 -4 0
+-1 -2 3 -4 0
+-1 -2 -3 4 0
+-1 -2 -3 -4 0
+1 -2 -3 -4 0
+1 -2 3 4 0
+1 2 3 4 0
+1 2 3 -4 0
+1 2 -3 4 0
+1 -2 3 4 0
+1 -2 3 -4 0
+1 -2 -3 4 0
+-1 2 3 4 0
+-1 -2 3 4 0
+-1 -2 -3 -4 0
+1 2 3 4 0
+1 -2 3 4 0
+-1 2 3 4 0
+-1 -2 3 4 0
+1 2 3 4 0
+1 2 3 -4 0
+1 2 -3 4 0
+1 -2 3 4 0
+-1 2 3 4 0
+-1 2 3 -4 0
+-1 2 -3 4 0
+-1 -2 3 4 0
+1 2 3 4 0
+1 2 3 -4 0
+1 2 -3 -4 0
+1 -2 3 4 0
+1 -2 3 -4 0
+1 -2 -3 -4 0
+-1 2 3 4 0
+-1 2 3 -4 0
+-1 2 -3 -4 0
+-1 -2 3 4 0
+-1 -2 3 -4 0
+-1 -2 -3 -4 0
+1 2 3 4 0
+-1 2 3 4 0
+-1 -2 -3 -4 0
+1 2 3 4 0
+-1 2 -3 -4 0
+-1 -2 -3 -4 0
+1 2 3 4 0
+1 -2 3 4 0
+-1 2 3 4 0
+-1 -2 3 4 0
+1 2 3 4 0
+1 2 3 -4 0
+1 -2 3 4 0
+1 -2 3 -4 0
+1 -2 -3 4 0
+-1 2 3 4 0
+-1 2 3 -4 0
+-1 -2 3 4 0
+-1 -2 3 -4 0

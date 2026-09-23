@@ -1,0 +1,1 @@
+{"status": "DP-REFUTATION", "dp_status": "CERTIFIED-UNSAT", "certificate_verified": true, "certificate_errors": [], "optimum_cost": null, "dp_seconds": 0.088819, "verify_seconds": 0.156418, "certificate_bytes": 471409, "wall_seconds": 0.273876, "peak_rss_kib": 26652}

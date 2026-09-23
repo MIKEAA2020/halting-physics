@@ -1,0 +1,10 @@
+{
+  "name": "two_spring_exact_affine",
+  "variables": ["a1", "a2"],
+  "domains": {"a1": [0, 1], "a2": [0, 1]},
+  "safe_interval": ["-1/4", "1/4"],
+  "rows": [
+    {"name": "load_1", "d": "1/2", "coeffs": {"a1": "-1/2", "a2": "-1/2"}},
+    {"name": "load_2", "d": "1", "coeffs": {"a1": "-1/2", "a2": "-1/2"}}
+  ]
+}

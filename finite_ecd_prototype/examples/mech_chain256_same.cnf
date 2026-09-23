@@ -1,0 +1,1281 @@
+c var 1 p1
+c var 2 p2
+c var 3 p3
+c var 4 p4
+c var 5 p5
+c var 6 p6
+c var 7 p7
+c var 8 p8
+c var 9 p9
+c var 10 p10
+c var 11 p11
+c var 12 p12
+c var 13 p13
+c var 14 p14
+c var 15 p15
+c var 16 p16
+c var 17 p17
+c var 18 p18
+c var 19 p19
+c var 20 p20
+c var 21 p21
+c var 22 p22
+c var 23 p23
+c var 24 p24
+c var 25 p25
+c var 26 p26
+c var 27 p27
+c var 28 p28
+c var 29 p29
+c var 30 p30
+c var 31 p31
+c var 32 p32
+c var 33 p33
+c var 34 p34
+c var 35 p35
+c var 36 p36
+c var 37 p37
+c var 38 p38
+c var 39 p39
+c var 40 p40
+c var 41 p41
+c var 42 p42
+c var 43 p43
+c var 44 p44
+c var 45 p45
+c var 46 p46
+c var 47 p47
+c var 48 p48
+c var 49 p49
+c var 50 p50
+c var 51 p51
+c var 52 p52
+c var 53 p53
+c var 54 p54
+c var 55 p55
+c var 56 p56
+c var 57 p57
+c var 58 p58
+c var 59 p59
+c var 60 p60
+c var 61 p61
+c var 62 p62
+c var 63 p63
+c var 64 p64
+c var 65 p65
+c var 66 p66
+c var 67 p67
+c var 68 p68
+c var 69 p69
+c var 70 p70
+c var 71 p71
+c var 72 p72
+c var 73 p73
+c var 74 p74
+c var 75 p75
+c var 76 p76
+c var 77 p77
+c var 78 p78
+c var 79 p79
+c var 80 p80
+c var 81 p81
+c var 82 p82
+c var 83 p83
+c var 84 p84
+c var 85 p85
+c var 86 p86
+c var 87 p87
+c var 88 p88
+c var 89 p89
+c var 90 p90
+c var 91 p91
+c var 92 p92
+c var 93 p93
+c var 94 p94
+c var 95 p95
+c var 96 p96
+c var 97 p97
+c var 98 p98
+c var 99 p99
+c var 100 p100
+c var 101 p101
+c var 102 p102
+c var 103 p103
+c var 104 p104
+c var 105 p105
+c var 106 p106
+c var 107 p107
+c var 108 p108
+c var 109 p109
+c var 110 p110
+c var 111 p111
+c var 112 p112
+c var 113 p113
+c var 114 p114
+c var 115 p115
+c var 116 p116
+c var 117 p117
+c var 118 p118
+c var 119 p119
+c var 120 p120
+c var 121 p121
+c var 122 p122
+c var 123 p123
+c var 124 p124
+c var 125 p125
+c var 126 p126
+c var 127 p127
+c var 128 p128
+c var 129 p129
+c var 130 p130
+c var 131 p131
+c var 132 p132
+c var 133 p133
+c var 134 p134
+c var 135 p135
+c var 136 p136
+c var 137 p137
+c var 138 p138
+c var 139 p139
+c var 140 p140
+c var 141 p141
+c var 142 p142
+c var 143 p143
+c var 144 p144
+c var 145 p145
+c var 146 p146
+c var 147 p147
+c var 148 p148
+c var 149 p149
+c var 150 p150
+c var 151 p151
+c var 152 p152
+c var 153 p153
+c var 154 p154
+c var 155 p155
+c var 156 p156
+c var 157 p157
+c var 158 p158
+c var 159 p159
+c var 160 p160
+c var 161 p161
+c var 162 p162
+c var 163 p163
+c var 164 p164
+c var 165 p165
+c var 166 p166
+c var 167 p167
+c var 168 p168
+c var 169 p169
+c var 170 p170
+c var 171 p171
+c var 172 p172
+c var 173 p173
+c var 174 p174
+c var 175 p175
+c var 176 p176
+c var 177 p177
+c var 178 p178
+c var 179 p179
+c var 180 p180
+c var 181 p181
+c var 182 p182
+c var 183 p183
+c var 184 p184
+c var 185 p185
+c var 186 p186
+c var 187 p187
+c var 188 p188
+c var 189 p189
+c var 190 p190
+c var 191 p191
+c var 192 p192
+c var 193 p193
+c var 194 p194
+c var 195 p195
+c var 196 p196
+c var 197 p197
+c var 198 p198
+c var 199 p199
+c var 200 p200
+c var 201 p201
+c var 202 p202
+c var 203 p203
+c var 204 p204
+c var 205 p205
+c var 206 p206
+c var 207 p207
+c var 208 p208
+c var 209 p209
+c var 210 p210
+c var 211 p211
+c var 212 p212
+c var 213 p213
+c var 214 p214
+c var 215 p215
+c var 216 p216
+c var 217 p217
+c var 218 p218
+c var 219 p219
+c var 220 p220
+c var 221 p221
+c var 222 p222
+c var 223 p223
+c var 224 p224
+c var 225 p225
+c var 226 p226
+c var 227 p227
+c var 228 p228
+c var 229 p229
+c var 230 p230
+c var 231 p231
+c var 232 p232
+c var 233 p233
+c var 234 p234
+c var 235 p235
+c var 236 p236
+c var 237 p237
+c var 238 p238
+c var 239 p239
+c var 240 p240
+c var 241 p241
+c var 242 p242
+c var 243 p243
+c var 244 p244
+c var 245 p245
+c var 246 p246
+c var 247 p247
+c var 248 p248
+c var 249 p249
+c var 250 p250
+c var 251 p251
+c var 252 p252
+c var 253 p253
+c var 254 p254
+c var 255 p255
+c var 256 p256
+c forbid load_low__t1 {'p1': 0}
+c forbid load_low__t2 {'p2': 1}
+c forbid load_low__t3 {'p3': 1}
+c forbid load_low__t4 {'p4': 1}
+c forbid load_low__t5 {'p5': 1}
+c forbid load_low__t6 {'p6': 1}
+c forbid load_low__t7 {'p7': 1}
+c forbid load_low__t8 {'p8': 1}
+c forbid load_low__t9 {'p9': 1}
+c forbid load_low__t10 {'p10': 1}
+c forbid load_low__t11 {'p11': 1}
+c forbid load_low__t12 {'p12': 1}
+c forbid load_low__t13 {'p13': 1}
+c forbid load_low__t14 {'p14': 1}
+c forbid load_low__t15 {'p15': 1}
+c forbid load_low__t16 {'p16': 1}
+c forbid load_low__t17 {'p17': 1}
+c forbid load_low__t18 {'p18': 1}
+c forbid load_low__t19 {'p19': 1}
+c forbid load_low__t20 {'p20': 1}
+c forbid load_low__t21 {'p21': 1}
+c forbid load_low__t22 {'p22': 1}
+c forbid load_low__t23 {'p23': 1}
+c forbid load_low__t24 {'p24': 1}
+c forbid load_low__t25 {'p25': 1}
+c forbid load_low__t26 {'p26': 1}
+c forbid load_low__t27 {'p27': 1}
+c forbid load_low__t28 {'p28': 1}
+c forbid load_low__t29 {'p29': 1}
+c forbid load_low__t30 {'p30': 1}
+c forbid load_low__t31 {'p31': 1}
+c forbid load_low__t32 {'p32': 1}
+c forbid load_low__t33 {'p33': 1}
+c forbid load_low__t34 {'p34': 1}
+c forbid load_low__t35 {'p35': 1}
+c forbid load_low__t36 {'p36': 1}
+c forbid load_low__t37 {'p37': 1}
+c forbid load_low__t38 {'p38': 1}
+c forbid load_low__t39 {'p39': 1}
+c forbid load_low__t40 {'p40': 1}
+c forbid load_low__t41 {'p41': 1}
+c forbid load_low__t42 {'p42': 1}
+c forbid load_low__t43 {'p43': 1}
+c forbid load_low__t44 {'p44': 1}
+c forbid load_low__t45 {'p45': 1}
+c forbid load_low__t46 {'p46': 1}
+c forbid load_low__t47 {'p47': 1}
+c forbid load_low__t48 {'p48': 1}
+c forbid load_low__t49 {'p49': 1}
+c forbid load_low__t50 {'p50': 1}
+c forbid load_low__t51 {'p51': 1}
+c forbid load_low__t52 {'p52': 1}
+c forbid load_low__t53 {'p53': 1}
+c forbid load_low__t54 {'p54': 1}
+c forbid load_low__t55 {'p55': 1}
+c forbid load_low__t56 {'p56': 1}
+c forbid load_low__t57 {'p57': 1}
+c forbid load_low__t58 {'p58': 1}
+c forbid load_low__t59 {'p59': 1}
+c forbid load_low__t60 {'p60': 1}
+c forbid load_low__t61 {'p61': 1}
+c forbid load_low__t62 {'p62': 1}
+c forbid load_low__t63 {'p63': 1}
+c forbid load_low__t64 {'p64': 1}
+c forbid load_low__t65 {'p65': 1}
+c forbid load_low__t66 {'p66': 1}
+c forbid load_low__t67 {'p67': 1}
+c forbid load_low__t68 {'p68': 1}
+c forbid load_low__t69 {'p69': 1}
+c forbid load_low__t70 {'p70': 1}
+c forbid load_low__t71 {'p71': 1}
+c forbid load_low__t72 {'p72': 1}
+c forbid load_low__t73 {'p73': 1}
+c forbid load_low__t74 {'p74': 1}
+c forbid load_low__t75 {'p75': 1}
+c forbid load_low__t76 {'p76': 1}
+c forbid load_low__t77 {'p77': 1}
+c forbid load_low__t78 {'p78': 1}
+c forbid load_low__t79 {'p79': 1}
+c forbid load_low__t80 {'p80': 1}
+c forbid load_low__t81 {'p81': 1}
+c forbid load_low__t82 {'p82': 1}
+c forbid load_low__t83 {'p83': 1}
+c forbid load_low__t84 {'p84': 1}
+c forbid load_low__t85 {'p85': 1}
+c forbid load_low__t86 {'p86': 1}
+c forbid load_low__t87 {'p87': 1}
+c forbid load_low__t88 {'p88': 1}
+c forbid load_low__t89 {'p89': 1}
+c forbid load_low__t90 {'p90': 1}
+c forbid load_low__t91 {'p91': 1}
+c forbid load_low__t92 {'p92': 1}
+c forbid load_low__t93 {'p93': 1}
+c forbid load_low__t94 {'p94': 1}
+c forbid load_low__t95 {'p95': 1}
+c forbid load_low__t96 {'p96': 1}
+c forbid load_low__t97 {'p97': 1}
+c forbid load_low__t98 {'p98': 1}
+c forbid load_low__t99 {'p99': 1}
+c forbid load_low__t100 {'p100': 1}
+c forbid load_low__t101 {'p101': 1}
+c forbid load_low__t102 {'p102': 1}
+c forbid load_low__t103 {'p103': 1}
+c forbid load_low__t104 {'p104': 1}
+c forbid load_low__t105 {'p105': 1}
+c forbid load_low__t106 {'p106': 1}
+c forbid load_low__t107 {'p107': 1}
+c forbid load_low__t108 {'p108': 1}
+c forbid load_low__t109 {'p109': 1}
+c forbid load_low__t110 {'p110': 1}
+c forbid load_low__t111 {'p111': 1}
+c forbid load_low__t112 {'p112': 1}
+c forbid load_low__t113 {'p113': 1}
+c forbid load_low__t114 {'p114': 1}
+c forbid load_low__t115 {'p115': 1}
+c forbid load_low__t116 {'p116': 1}
+c forbid load_low__t117 {'p117': 1}
+c forbid load_low__t118 {'p118': 1}
+c forbid load_low__t119 {'p119': 1}
+c forbid load_low__t120 {'p120': 1}
+c forbid load_low__t121 {'p121': 1}
+c forbid load_low__t122 {'p122': 1}
+c forbid load_low__t123 {'p123': 1}
+c forbid load_low__t124 {'p124': 1}
+c forbid load_low__t125 {'p125': 1}
+c forbid load_low__t126 {'p126': 1}
+c forbid load_low__t127 {'p127': 1}
+c forbid load_low__t128 {'p128': 1}
+c forbid load_low__t129 {'p129': 1}
+c forbid load_low__t130 {'p130': 1}
+c forbid load_low__t131 {'p131': 1}
+c forbid load_low__t132 {'p132': 1}
+c forbid load_low__t133 {'p133': 1}
+c forbid load_low__t134 {'p134': 1}
+c forbid load_low__t135 {'p135': 1}
+c forbid load_low__t136 {'p136': 1}
+c forbid load_low__t137 {'p137': 1}
+c forbid load_low__t138 {'p138': 1}
+c forbid load_low__t139 {'p139': 1}
+c forbid load_low__t140 {'p140': 1}
+c forbid load_low__t141 {'p141': 1}
+c forbid load_low__t142 {'p142': 1}
+c forbid load_low__t143 {'p143': 1}
+c forbid load_low__t144 {'p144': 1}
+c forbid load_low__t145 {'p145': 1}
+c forbid load_low__t146 {'p146': 1}
+c forbid load_low__t147 {'p147': 1}
+c forbid load_low__t148 {'p148': 1}
+c forbid load_low__t149 {'p149': 1}
+c forbid load_low__t150 {'p150': 1}
+c forbid load_low__t151 {'p151': 1}
+c forbid load_low__t152 {'p152': 1}
+c forbid load_low__t153 {'p153': 1}
+c forbid load_low__t154 {'p154': 1}
+c forbid load_low__t155 {'p155': 1}
+c forbid load_low__t156 {'p156': 1}
+c forbid load_low__t157 {'p157': 1}
+c forbid load_low__t158 {'p158': 1}
+c forbid load_low__t159 {'p159': 1}
+c forbid load_low__t160 {'p160': 1}
+c forbid load_low__t161 {'p161': 1}
+c forbid load_low__t162 {'p162': 1}
+c forbid load_low__t163 {'p163': 1}
+c forbid load_low__t164 {'p164': 1}
+c forbid load_low__t165 {'p165': 1}
+c forbid load_low__t166 {'p166': 1}
+c forbid load_low__t167 {'p167': 1}
+c forbid load_low__t168 {'p168': 1}
+c forbid load_low__t169 {'p169': 1}
+c forbid load_low__t170 {'p170': 1}
+c forbid load_low__t171 {'p171': 1}
+c forbid load_low__t172 {'p172': 1}
+c forbid load_low__t173 {'p173': 1}
+c forbid load_low__t174 {'p174': 1}
+c forbid load_low__t175 {'p175': 1}
+c forbid load_low__t176 {'p176': 1}
+c forbid load_low__t177 {'p177': 1}
+c forbid load_low__t178 {'p178': 1}
+c forbid load_low__t179 {'p179': 1}
+c forbid load_low__t180 {'p180': 1}
+c forbid load_low__t181 {'p181': 1}
+c forbid load_low__t182 {'p182': 1}
+c forbid load_low__t183 {'p183': 1}
+c forbid load_low__t184 {'p184': 1}
+c forbid load_low__t185 {'p185': 1}
+c forbid load_low__t186 {'p186': 1}
+c forbid load_low__t187 {'p187': 1}
+c forbid load_low__t188 {'p188': 1}
+c forbid load_low__t189 {'p189': 1}
+c forbid load_low__t190 {'p190': 1}
+c forbid load_low__t191 {'p191': 1}
+c forbid load_low__t192 {'p192': 1}
+c forbid load_low__t193 {'p193': 1}
+c forbid load_low__t194 {'p194': 1}
+c forbid load_low__t195 {'p195': 1}
+c forbid load_low__t196 {'p196': 1}
+c forbid load_low__t197 {'p197': 1}
+c forbid load_low__t198 {'p198': 1}
+c forbid load_low__t199 {'p199': 1}
+c forbid load_low__t200 {'p200': 1}
+c forbid load_low__t201 {'p201': 1}
+c forbid load_low__t202 {'p202': 1}
+c forbid load_low__t203 {'p203': 1}
+c forbid load_low__t204 {'p204': 1}
+c forbid load_low__t205 {'p205': 1}
+c forbid load_low__t206 {'p206': 1}
+c forbid load_low__t207 {'p207': 1}
+c forbid load_low__t208 {'p208': 1}
+c forbid load_low__t209 {'p209': 1}
+c forbid load_low__t210 {'p210': 1}
+c forbid load_low__t211 {'p211': 1}
+c forbid load_low__t212 {'p212': 1}
+c forbid load_low__t213 {'p213': 1}
+c forbid load_low__t214 {'p214': 1}
+c forbid load_low__t215 {'p215': 1}
+c forbid load_low__t216 {'p216': 1}
+c forbid load_low__t217 {'p217': 1}
+c forbid load_low__t218 {'p218': 1}
+c forbid load_low__t219 {'p219': 1}
+c forbid load_low__t220 {'p220': 1}
+c forbid load_low__t221 {'p221': 1}
+c forbid load_low__t222 {'p222': 1}
+c forbid load_low__t223 {'p223': 1}
+c forbid load_low__t224 {'p224': 1}
+c forbid load_low__t225 {'p225': 1}
+c forbid load_low__t226 {'p226': 1}
+c forbid load_low__t227 {'p227': 1}
+c forbid load_low__t228 {'p228': 1}
+c forbid load_low__t229 {'p229': 1}
+c forbid load_low__t230 {'p230': 1}
+c forbid load_low__t231 {'p231': 1}
+c forbid load_low__t232 {'p232': 1}
+c forbid load_low__t233 {'p233': 1}
+c forbid load_low__t234 {'p234': 1}
+c forbid load_low__t235 {'p235': 1}
+c forbid load_low__t236 {'p236': 1}
+c forbid load_low__t237 {'p237': 1}
+c forbid load_low__t238 {'p238': 1}
+c forbid load_low__t239 {'p239': 1}
+c forbid load_low__t240 {'p240': 1}
+c forbid load_low__t241 {'p241': 1}
+c forbid load_low__t242 {'p242': 1}
+c forbid load_low__t243 {'p243': 1}
+c forbid load_low__t244 {'p244': 1}
+c forbid load_low__t245 {'p245': 1}
+c forbid load_low__t246 {'p246': 1}
+c forbid load_low__t247 {'p247': 1}
+c forbid load_low__t248 {'p248': 1}
+c forbid load_low__t249 {'p249': 1}
+c forbid load_low__t250 {'p250': 1}
+c forbid load_low__t251 {'p251': 1}
+c forbid load_low__t252 {'p252': 1}
+c forbid load_low__t253 {'p253': 1}
+c forbid load_low__t254 {'p254': 1}
+c forbid load_low__t255 {'p255': 1}
+c forbid load_low__t256 {'p256': 1}
+c forbid load_high__t1 {'p1': 0}
+c forbid load_high__t2 {'p2': 0}
+c forbid load_high__t3 {'p3': 0}
+c forbid load_high__t4 {'p4': 0}
+c forbid load_high__t5 {'p5': 0}
+c forbid load_high__t6 {'p6': 0}
+c forbid load_high__t7 {'p7': 0}
+c forbid load_high__t8 {'p8': 0}
+c forbid load_high__t9 {'p9': 0}
+c forbid load_high__t10 {'p10': 0}
+c forbid load_high__t11 {'p11': 0}
+c forbid load_high__t12 {'p12': 0}
+c forbid load_high__t13 {'p13': 0}
+c forbid load_high__t14 {'p14': 0}
+c forbid load_high__t15 {'p15': 0}
+c forbid load_high__t16 {'p16': 0}
+c forbid load_high__t17 {'p17': 0}
+c forbid load_high__t18 {'p18': 0}
+c forbid load_high__t19 {'p19': 0}
+c forbid load_high__t20 {'p20': 0}
+c forbid load_high__t21 {'p21': 0}
+c forbid load_high__t22 {'p22': 0}
+c forbid load_high__t23 {'p23': 0}
+c forbid load_high__t24 {'p24': 0}
+c forbid load_high__t25 {'p25': 0}
+c forbid load_high__t26 {'p26': 0}
+c forbid load_high__t27 {'p27': 0}
+c forbid load_high__t28 {'p28': 0}
+c forbid load_high__t29 {'p29': 0}
+c forbid load_high__t30 {'p30': 0}
+c forbid load_high__t31 {'p31': 0}
+c forbid load_high__t32 {'p32': 0}
+c forbid load_high__t33 {'p33': 0}
+c forbid load_high__t34 {'p34': 0}
+c forbid load_high__t35 {'p35': 0}
+c forbid load_high__t36 {'p36': 0}
+c forbid load_high__t37 {'p37': 0}
+c forbid load_high__t38 {'p38': 0}
+c forbid load_high__t39 {'p39': 0}
+c forbid load_high__t40 {'p40': 0}
+c forbid load_high__t41 {'p41': 0}
+c forbid load_high__t42 {'p42': 0}
+c forbid load_high__t43 {'p43': 0}
+c forbid load_high__t44 {'p44': 0}
+c forbid load_high__t45 {'p45': 0}
+c forbid load_high__t46 {'p46': 0}
+c forbid load_high__t47 {'p47': 0}
+c forbid load_high__t48 {'p48': 0}
+c forbid load_high__t49 {'p49': 0}
+c forbid load_high__t50 {'p50': 0}
+c forbid load_high__t51 {'p51': 0}
+c forbid load_high__t52 {'p52': 0}
+c forbid load_high__t53 {'p53': 0}
+c forbid load_high__t54 {'p54': 0}
+c forbid load_high__t55 {'p55': 0}
+c forbid load_high__t56 {'p56': 0}
+c forbid load_high__t57 {'p57': 0}
+c forbid load_high__t58 {'p58': 0}
+c forbid load_high__t59 {'p59': 0}
+c forbid load_high__t60 {'p60': 0}
+c forbid load_high__t61 {'p61': 0}
+c forbid load_high__t62 {'p62': 0}
+c forbid load_high__t63 {'p63': 0}
+c forbid load_high__t64 {'p64': 0}
+c forbid load_high__t65 {'p65': 0}
+c forbid load_high__t66 {'p66': 0}
+c forbid load_high__t67 {'p67': 0}
+c forbid load_high__t68 {'p68': 0}
+c forbid load_high__t69 {'p69': 0}
+c forbid load_high__t70 {'p70': 0}
+c forbid load_high__t71 {'p71': 0}
+c forbid load_high__t72 {'p72': 0}
+c forbid load_high__t73 {'p73': 0}
+c forbid load_high__t74 {'p74': 0}
+c forbid load_high__t75 {'p75': 0}
+c forbid load_high__t76 {'p76': 0}
+c forbid load_high__t77 {'p77': 0}
+c forbid load_high__t78 {'p78': 0}
+c forbid load_high__t79 {'p79': 0}
+c forbid load_high__t80 {'p80': 0}
+c forbid load_high__t81 {'p81': 0}
+c forbid load_high__t82 {'p82': 0}
+c forbid load_high__t83 {'p83': 0}
+c forbid load_high__t84 {'p84': 0}
+c forbid load_high__t85 {'p85': 0}
+c forbid load_high__t86 {'p86': 0}
+c forbid load_high__t87 {'p87': 0}
+c forbid load_high__t88 {'p88': 0}
+c forbid load_high__t89 {'p89': 0}
+c forbid load_high__t90 {'p90': 0}
+c forbid load_high__t91 {'p91': 0}
+c forbid load_high__t92 {'p92': 0}
+c forbid load_high__t93 {'p93': 0}
+c forbid load_high__t94 {'p94': 0}
+c forbid load_high__t95 {'p95': 0}
+c forbid load_high__t96 {'p96': 0}
+c forbid load_high__t97 {'p97': 0}
+c forbid load_high__t98 {'p98': 0}
+c forbid load_high__t99 {'p99': 0}
+c forbid load_high__t100 {'p100': 0}
+c forbid load_high__t101 {'p101': 0}
+c forbid load_high__t102 {'p102': 0}
+c forbid load_high__t103 {'p103': 0}
+c forbid load_high__t104 {'p104': 0}
+c forbid load_high__t105 {'p105': 0}
+c forbid load_high__t106 {'p106': 0}
+c forbid load_high__t107 {'p107': 0}
+c forbid load_high__t108 {'p108': 0}
+c forbid load_high__t109 {'p109': 0}
+c forbid load_high__t110 {'p110': 0}
+c forbid load_high__t111 {'p111': 0}
+c forbid load_high__t112 {'p112': 0}
+c forbid load_high__t113 {'p113': 0}
+c forbid load_high__t114 {'p114': 0}
+c forbid load_high__t115 {'p115': 0}
+c forbid load_high__t116 {'p116': 0}
+c forbid load_high__t117 {'p117': 0}
+c forbid load_high__t118 {'p118': 0}
+c forbid load_high__t119 {'p119': 0}
+c forbid load_high__t120 {'p120': 0}
+c forbid load_high__t121 {'p121': 0}
+c forbid load_high__t122 {'p122': 0}
+c forbid load_high__t123 {'p123': 0}
+c forbid load_high__t124 {'p124': 0}
+c forbid load_high__t125 {'p125': 0}
+c forbid load_high__t126 {'p126': 0}
+c forbid load_high__t127 {'p127': 0}
+c forbid load_high__t128 {'p128': 0}
+c forbid load_high__t129 {'p129': 0}
+c forbid load_high__t130 {'p130': 0}
+c forbid load_high__t131 {'p131': 0}
+c forbid load_high__t132 {'p132': 0}
+c forbid load_high__t133 {'p133': 0}
+c forbid load_high__t134 {'p134': 0}
+c forbid load_high__t135 {'p135': 0}
+c forbid load_high__t136 {'p136': 0}
+c forbid load_high__t137 {'p137': 0}
+c forbid load_high__t138 {'p138': 0}
+c forbid load_high__t139 {'p139': 0}
+c forbid load_high__t140 {'p140': 0}
+c forbid load_high__t141 {'p141': 0}
+c forbid load_high__t142 {'p142': 0}
+c forbid load_high__t143 {'p143': 0}
+c forbid load_high__t144 {'p144': 0}
+c forbid load_high__t145 {'p145': 0}
+c forbid load_high__t146 {'p146': 0}
+c forbid load_high__t147 {'p147': 0}
+c forbid load_high__t148 {'p148': 0}
+c forbid load_high__t149 {'p149': 0}
+c forbid load_high__t150 {'p150': 0}
+c forbid load_high__t151 {'p151': 0}
+c forbid load_high__t152 {'p152': 0}
+c forbid load_high__t153 {'p153': 0}
+c forbid load_high__t154 {'p154': 0}
+c forbid load_high__t155 {'p155': 0}
+c forbid load_high__t156 {'p156': 0}
+c forbid load_high__t157 {'p157': 0}
+c forbid load_high__t158 {'p158': 0}
+c forbid load_high__t159 {'p159': 0}
+c forbid load_high__t160 {'p160': 0}
+c forbid load_high__t161 {'p161': 0}
+c forbid load_high__t162 {'p162': 0}
+c forbid load_high__t163 {'p163': 0}
+c forbid load_high__t164 {'p164': 0}
+c forbid load_high__t165 {'p165': 0}
+c forbid load_high__t166 {'p166': 0}
+c forbid load_high__t167 {'p167': 0}
+c forbid load_high__t168 {'p168': 0}
+c forbid load_high__t169 {'p169': 0}
+c forbid load_high__t170 {'p170': 0}
+c forbid load_high__t171 {'p171': 0}
+c forbid load_high__t172 {'p172': 0}
+c forbid load_high__t173 {'p173': 0}
+c forbid load_high__t174 {'p174': 0}
+c forbid load_high__t175 {'p175': 0}
+c forbid load_high__t176 {'p176': 0}
+c forbid load_high__t177 {'p177': 0}
+c forbid load_high__t178 {'p178': 0}
+c forbid load_high__t179 {'p179': 0}
+c forbid load_high__t180 {'p180': 0}
+c forbid load_high__t181 {'p181': 0}
+c forbid load_high__t182 {'p182': 0}
+c forbid load_high__t183 {'p183': 0}
+c forbid load_high__t184 {'p184': 0}
+c forbid load_high__t185 {'p185': 0}
+c forbid load_high__t186 {'p186': 0}
+c forbid load_high__t187 {'p187': 0}
+c forbid load_high__t188 {'p188': 0}
+c forbid load_high__t189 {'p189': 0}
+c forbid load_high__t190 {'p190': 0}
+c forbid load_high__t191 {'p191': 0}
+c forbid load_high__t192 {'p192': 0}
+c forbid load_high__t193 {'p193': 0}
+c forbid load_high__t194 {'p194': 0}
+c forbid load_high__t195 {'p195': 0}
+c forbid load_high__t196 {'p196': 0}
+c forbid load_high__t197 {'p197': 0}
+c forbid load_high__t198 {'p198': 0}
+c forbid load_high__t199 {'p199': 0}
+c forbid load_high__t200 {'p200': 0}
+c forbid load_high__t201 {'p201': 0}
+c forbid load_high__t202 {'p202': 0}
+c forbid load_high__t203 {'p203': 0}
+c forbid load_high__t204 {'p204': 0}
+c forbid load_high__t205 {'p205': 0}
+c forbid load_high__t206 {'p206': 0}
+c forbid load_high__t207 {'p207': 0}
+c forbid load_high__t208 {'p208': 0}
+c forbid load_high__t209 {'p209': 0}
+c forbid load_high__t210 {'p210': 0}
+c forbid load_high__t211 {'p211': 0}
+c forbid load_high__t212 {'p212': 0}
+c forbid load_high__t213 {'p213': 0}
+c forbid load_high__t214 {'p214': 0}
+c forbid load_high__t215 {'p215': 0}
+c forbid load_high__t216 {'p216': 0}
+c forbid load_high__t217 {'p217': 0}
+c forbid load_high__t218 {'p218': 0}
+c forbid load_high__t219 {'p219': 0}
+c forbid load_high__t220 {'p220': 0}
+c forbid load_high__t221 {'p221': 0}
+c forbid load_high__t222 {'p222': 0}
+c forbid load_high__t223 {'p223': 0}
+c forbid load_high__t224 {'p224': 0}
+c forbid load_high__t225 {'p225': 0}
+c forbid load_high__t226 {'p226': 0}
+c forbid load_high__t227 {'p227': 0}
+c forbid load_high__t228 {'p228': 0}
+c forbid load_high__t229 {'p229': 0}
+c forbid load_high__t230 {'p230': 0}
+c forbid load_high__t231 {'p231': 0}
+c forbid load_high__t232 {'p232': 0}
+c forbid load_high__t233 {'p233': 0}
+c forbid load_high__t234 {'p234': 0}
+c forbid load_high__t235 {'p235': 0}
+c forbid load_high__t236 {'p236': 0}
+c forbid load_high__t237 {'p237': 0}
+c forbid load_high__t238 {'p238': 0}
+c forbid load_high__t239 {'p239': 0}
+c forbid load_high__t240 {'p240': 0}
+c forbid load_high__t241 {'p241': 0}
+c forbid load_high__t242 {'p242': 0}
+c forbid load_high__t243 {'p243': 0}
+c forbid load_high__t244 {'p244': 0}
+c forbid load_high__t245 {'p245': 0}
+c forbid load_high__t246 {'p246': 0}
+c forbid load_high__t247 {'p247': 0}
+c forbid load_high__t248 {'p248': 0}
+c forbid load_high__t249 {'p249': 0}
+c forbid load_high__t250 {'p250': 0}
+c forbid load_high__t251 {'p251': 0}
+c forbid load_high__t252 {'p252': 0}
+c forbid load_high__t253 {'p253': 0}
+c forbid load_high__t254 {'p254': 0}
+c forbid load_high__t255 {'p255': 0}
+c forbid load_high__t256 {'p256': 0}
+p cnf 256 512
+1 0
+-2 0
+-3 0
+-4 0
+-5 0
+-6 0
+-7 0
+-8 0
+-9 0
+-10 0
+-11 0
+-12 0
+-13 0
+-14 0
+-15 0
+-16 0
+-17 0
+-18 0
+-19 0
+-20 0
+-21 0
+-22 0
+-23 0
+-24 0
+-25 0
+-26 0
+-27 0
+-28 0
+-29 0
+-30 0
+-31 0
+-32 0
+-33 0
+-34 0
+-35 0
+-36 0
+-37 0
+-38 0
+-39 0
+-40 0
+-41 0
+-42 0
+-43 0
+-44 0
+-45 0
+-46 0
+-47 0
+-48 0
+-49 0
+-50 0
+-51 0
+-52 0
+-53 0
+-54 0
+-55 0
+-56 0
+-57 0
+-58 0
+-59 0
+-60 0
+-61 0
+-62 0
+-63 0
+-64 0
+-65 0
+-66 0
+-67 0
+-68 0
+-69 0
+-70 0
+-71 0
+-72 0
+-73 0
+-74 0
+-75 0
+-76 0
+-77 0
+-78 0
+-79 0
+-80 0
+-81 0
+-82 0
+-83 0
+-84 0
+-85 0
+-86 0
+-87 0
+-88 0
+-89 0
+-90 0
+-91 0
+-92 0
+-93 0
+-94 0
+-95 0
+-96 0
+-97 0
+-98 0
+-99 0
+-100 0
+-101 0
+-102 0
+-103 0
+-104 0
+-105 0
+-106 0
+-107 0
+-108 0
+-109 0
+-110 0
+-111 0
+-112 0
+-113 0
+-114 0
+-115 0
+-116 0
+-117 0
+-118 0
+-119 0
+-120 0
+-121 0
+-122 0
+-123 0
+-124 0
+-125 0
+-126 0
+-127 0
+-128 0
+-129 0
+-130 0
+-131 0
+-132 0
+-133 0
+-134 0
+-135 0
+-136 0
+-137 0
+-138 0
+-139 0
+-140 0
+-141 0
+-142 0
+-143 0
+-144 0
+-145 0
+-146 0
+-147 0
+-148 0
+-149 0
+-150 0
+-151 0
+-152 0
+-153 0
+-154 0
+-155 0
+-156 0
+-157 0
+-158 0
+-159 0
+-160 0
+-161 0
+-162 0
+-163 0
+-164 0
+-165 0
+-166 0
+-167 0
+-168 0
+-169 0
+-170 0
+-171 0
+-172 0
+-173 0
+-174 0
+-175 0
+-176 0
+-177 0
+-178 0
+-179 0
+-180 0
+-181 0
+-182 0
+-183 0
+-184 0
+-185 0
+-186 0
+-187 0
+-188 0
+-189 0
+-190 0
+-191 0
+-192 0
+-193 0
+-194 0
+-195 0
+-196 0
+-197 0
+-198 0
+-199 0
+-200 0
+-201 0
+-202 0
+-203 0
+-204 0
+-205 0
+-206 0
+-207 0
+-208 0
+-209 0
+-210 0
+-211 0
+-212 0
+-213 0
+-214 0
+-215 0
+-216 0
+-217 0
+-218 0
+-219 0
+-220 0
+-221 0
+-222 0
+-223 0
+-224 0
+-225 0
+-226 0
+-227 0
+-228 0
+-229 0
+-230 0
+-231 0
+-232 0
+-233 0
+-234 0
+-235 0
+-236 0
+-237 0
+-238 0
+-239 0
+-240 0
+-241 0
+-242 0
+-243 0
+-244 0
+-245 0
+-246 0
+-247 0
+-248 0
+-249 0
+-250 0
+-251 0
+-252 0
+-253 0
+-254 0
+-255 0
+-256 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0
+64 0
+65 0
+66 0
+67 0
+68 0
+69 0
+70 0
+71 0
+72 0
+73 0
+74 0
+75 0
+76 0
+77 0
+78 0
+79 0
+80 0
+81 0
+82 0
+83 0
+84 0
+85 0
+86 0
+87 0
+88 0
+89 0
+90 0
+91 0
+92 0
+93 0
+94 0
+95 0
+96 0
+97 0
+98 0
+99 0
+100 0
+101 0
+102 0
+103 0
+104 0
+105 0
+106 0
+107 0
+108 0
+109 0
+110 0
+111 0
+112 0
+113 0
+114 0
+115 0
+116 0
+117 0
+118 0
+119 0
+120 0
+121 0
+122 0
+123 0
+124 0
+125 0
+126 0
+127 0
+128 0
+129 0
+130 0
+131 0
+132 0
+133 0
+134 0
+135 0
+136 0
+137 0
+138 0
+139 0
+140 0
+141 0
+142 0
+143 0
+144 0
+145 0
+146 0
+147 0
+148 0
+149 0
+150 0
+151 0
+152 0
+153 0
+154 0
+155 0
+156 0
+157 0
+158 0
+159 0
+160 0
+161 0
+162 0
+163 0
+164 0
+165 0
+166 0
+167 0
+168 0
+169 0
+170 0
+171 0
+172 0
+173 0
+174 0
+175 0
+176 0
+177 0
+178 0
+179 0
+180 0
+181 0
+182 0
+183 0
+184 0
+185 0
+186 0
+187 0
+188 0
+189 0
+190 0
+191 0
+192 0
+193 0
+194 0
+195 0
+196 0
+197 0
+198 0
+199 0
+200 0
+201 0
+202 0
+203 0
+204 0
+205 0
+206 0
+207 0
+208 0
+209 0
+210 0
+211 0
+212 0
+213 0
+214 0
+215 0
+216 0
+217 0
+218 0
+219 0
+220 0
+221 0
+222 0
+223 0
+224 0
+225 0
+226 0
+227 0
+228 0
+229 0
+230 0
+231 0
+232 0
+233 0
+234 0
+235 0
+236 0
+237 0
+238 0
+239 0
+240 0
+241 0
+242 0
+243 0
+244 0
+245 0
+246 0
+247 0
+248 0
+249 0
+250 0
+251 0
+252 0
+253 0
+254 0
+255 0
+256 0

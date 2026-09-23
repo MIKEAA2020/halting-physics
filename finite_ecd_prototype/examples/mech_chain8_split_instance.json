@@ -1,0 +1,337 @@
+{
+  "variables": [
+    "p1__load_low",
+    "p2__load_low",
+    "p3__load_low",
+    "p4__load_low",
+    "p5__load_low",
+    "p6__load_low",
+    "p7__load_low",
+    "p8__load_low",
+    "p1__load_high",
+    "p2__load_high",
+    "p3__load_high",
+    "p4__load_high",
+    "p5__load_high",
+    "p6__load_high",
+    "p7__load_high",
+    "p8__load_high"
+  ],
+  "domains": {
+    "p1__load_low": [
+      0,
+      1
+    ],
+    "p2__load_low": [
+      0,
+      1
+    ],
+    "p3__load_low": [
+      0,
+      1
+    ],
+    "p4__load_low": [
+      0,
+      1
+    ],
+    "p5__load_low": [
+      0,
+      1
+    ],
+    "p6__load_low": [
+      0,
+      1
+    ],
+    "p7__load_low": [
+      0,
+      1
+    ],
+    "p8__load_low": [
+      0,
+      1
+    ],
+    "p1__load_high": [
+      0,
+      1
+    ],
+    "p2__load_high": [
+      0,
+      1
+    ],
+    "p3__load_high": [
+      0,
+      1
+    ],
+    "p4__load_high": [
+      0,
+      1
+    ],
+    "p5__load_high": [
+      0,
+      1
+    ],
+    "p6__load_high": [
+      0,
+      1
+    ],
+    "p7__load_high": [
+      0,
+      1
+    ],
+    "p8__load_high": [
+      0,
+      1
+    ]
+  },
+  "value_costs": {
+    "p1__load_low": {
+      "0": 0,
+      "1": 1
+    },
+    "p2__load_low": {
+      "0": 0,
+      "1": 1
+    },
+    "p3__load_low": {
+      "0": 0,
+      "1": 1
+    },
+    "p4__load_low": {
+      "0": 0,
+      "1": 1
+    },
+    "p5__load_low": {
+      "0": 0,
+      "1": 1
+    },
+    "p6__load_low": {
+      "0": 0,
+      "1": 1
+    },
+    "p7__load_low": {
+      "0": 0,
+      "1": 1
+    },
+    "p8__load_low": {
+      "0": 0,
+      "1": 1
+    },
+    "p1__load_high": {
+      "0": 0,
+      "1": 1
+    },
+    "p2__load_high": {
+      "0": 0,
+      "1": 1
+    },
+    "p3__load_high": {
+      "0": 0,
+      "1": 1
+    },
+    "p4__load_high": {
+      "0": 0,
+      "1": 1
+    },
+    "p5__load_high": {
+      "0": 0,
+      "1": 1
+    },
+    "p6__load_high": {
+      "0": 0,
+      "1": 1
+    },
+    "p7__load_high": {
+      "0": 0,
+      "1": 1
+    },
+    "p8__load_high": {
+      "0": 0,
+      "1": 1
+    }
+  },
+  "factors": [
+    {
+      "name": "load_low__t1",
+      "scope": [
+        "p1__load_low"
+      ],
+      "relation": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "load_low__t2",
+      "scope": [
+        "p2__load_low"
+      ],
+      "relation": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "name": "load_low__t3",
+      "scope": [
+        "p3__load_low"
+      ],
+      "relation": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "name": "load_low__t4",
+      "scope": [
+        "p4__load_low"
+      ],
+      "relation": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "name": "load_low__t5",
+      "scope": [
+        "p5__load_low"
+      ],
+      "relation": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "name": "load_low__t6",
+      "scope": [
+        "p6__load_low"
+      ],
+      "relation": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "name": "load_low__t7",
+      "scope": [
+        "p7__load_low"
+      ],
+      "relation": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "name": "load_low__t8",
+      "scope": [
+        "p8__load_low"
+      ],
+      "relation": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "name": "load_high__t1",
+      "scope": [
+        "p1__load_high"
+      ],
+      "relation": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "load_high__t2",
+      "scope": [
+        "p2__load_high"
+      ],
+      "relation": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "load_high__t3",
+      "scope": [
+        "p3__load_high"
+      ],
+      "relation": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "load_high__t4",
+      "scope": [
+        "p4__load_high"
+      ],
+      "relation": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "load_high__t5",
+      "scope": [
+        "p5__load_high"
+      ],
+      "relation": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "load_high__t6",
+      "scope": [
+        "p6__load_high"
+      ],
+      "relation": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "load_high__t7",
+      "scope": [
+        "p7__load_high"
+      ],
+      "relation": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "name": "load_high__t8",
+      "scope": [
+        "p8__load_high"
+      ],
+      "relation": [
+        [
+          1
+        ]
+      ]
+    }
+  ],
+  "metadata": {
+    "family": "chain_pretension_8",
+    "observation": "split",
+    "actuator_count": 8,
+    "row_count": 16,
+    "max_scope": 1
+  }
+}

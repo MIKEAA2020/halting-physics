@@ -1,0 +1,10 @@
+{
+  "variables": ["x0", "x1", "x2"],
+  "domains": {"x0": [0, 1], "x1": [0, 1], "x2": [0, 1]},
+  "factors": [
+    {"name": "x0_zero", "scope": ["x0"], "relation": [[0]]},
+    {"name": "eq01", "scope": ["x0", "x1"], "relation": [[0, 0], [1, 1]]},
+    {"name": "x1_one", "scope": ["x1"], "relation": [[1]]},
+    {"name": "free12", "scope": ["x1", "x2"], "relation": [[0, 0], [0, 1], [1, 0], [1, 1]]}
+  ]
+}

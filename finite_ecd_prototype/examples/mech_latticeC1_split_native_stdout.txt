@@ -1,0 +1,1 @@
+{"status": "DP-OPTIMUM", "dp_status": "CERTIFIED-OPT", "certificate_verified": true, "certificate_errors": [], "optimum_cost": 4, "dp_seconds": 0.0032, "verify_seconds": 0.004263, "policy_verified": true, "policy_errors": [], "policy_seconds": 0.000852, "certificate_bytes": 61916, "wall_seconds": 0.012512, "peak_rss_kib": 19456}

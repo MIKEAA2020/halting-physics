@@ -1,0 +1,188 @@
+{
+  "format": "minimal-cpsat-forbidden-tuples",
+  "variables": [
+    {
+      "name": "x0",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x1",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x2",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x3",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x4",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x5",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x6",
+      "domain": [
+        0,
+        1
+      ]
+    }
+  ],
+  "forbidden_assignments": [
+    {
+      "name": "neq0_1",
+      "scope": [
+        "x0",
+        "x1"
+      ],
+      "tuple": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "neq0_1",
+      "scope": [
+        "x0",
+        "x1"
+      ],
+      "tuple": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "neq0_2",
+      "scope": [
+        "x0",
+        "x2"
+      ],
+      "tuple": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "neq0_2",
+      "scope": [
+        "x0",
+        "x2"
+      ],
+      "tuple": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "neq1_3",
+      "scope": [
+        "x1",
+        "x3"
+      ],
+      "tuple": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "neq1_3",
+      "scope": [
+        "x1",
+        "x3"
+      ],
+      "tuple": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "neq1_4",
+      "scope": [
+        "x1",
+        "x4"
+      ],
+      "tuple": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "neq1_4",
+      "scope": [
+        "x1",
+        "x4"
+      ],
+      "tuple": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "neq2_5",
+      "scope": [
+        "x2",
+        "x5"
+      ],
+      "tuple": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "neq2_5",
+      "scope": [
+        "x2",
+        "x5"
+      ],
+      "tuple": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "neq2_6",
+      "scope": [
+        "x2",
+        "x6"
+      ],
+      "tuple": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "neq2_6",
+      "scope": [
+        "x2",
+        "x6"
+      ],
+      "tuple": [
+        1,
+        1
+      ]
+    }
+  ]
+}

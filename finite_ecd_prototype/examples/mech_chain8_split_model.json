@@ -1,0 +1,159 @@
+{
+  "name": "chain_pretension_8",
+  "kind": "scalar-chain",
+  "nodes": 8,
+  "springs": [
+    {
+      "name": "s1",
+      "k": "1"
+    },
+    {
+      "name": "s2",
+      "k": "1"
+    },
+    {
+      "name": "s3",
+      "k": "1"
+    },
+    {
+      "name": "s4",
+      "k": "1"
+    },
+    {
+      "name": "s5",
+      "k": "1"
+    },
+    {
+      "name": "s6",
+      "k": "1"
+    },
+    {
+      "name": "s7",
+      "k": "1"
+    },
+    {
+      "name": "s8",
+      "k": "1"
+    }
+  ],
+  "actuators": [
+    {
+      "name": "p1",
+      "type": "spring-pair",
+      "spring": 1,
+      "sign": "-1"
+    },
+    {
+      "name": "p2",
+      "type": "spring-pair",
+      "spring": 2,
+      "sign": "-1"
+    },
+    {
+      "name": "p3",
+      "type": "spring-pair",
+      "spring": 3,
+      "sign": "-1"
+    },
+    {
+      "name": "p4",
+      "type": "spring-pair",
+      "spring": 4,
+      "sign": "-1"
+    },
+    {
+      "name": "p5",
+      "type": "spring-pair",
+      "spring": 5,
+      "sign": "-1"
+    },
+    {
+      "name": "p6",
+      "type": "spring-pair",
+      "spring": 6,
+      "sign": "-1"
+    },
+    {
+      "name": "p7",
+      "type": "spring-pair",
+      "spring": 7,
+      "sign": "-1"
+    },
+    {
+      "name": "p8",
+      "type": "spring-pair",
+      "spring": 8,
+      "sign": "-1"
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "load_low",
+      "forces": [
+        {
+          "node": 1,
+          "component": "1"
+        }
+      ]
+    },
+    {
+      "name": "load_high",
+      "forces": [
+        {
+          "node": 8,
+          "component": "1"
+        }
+      ]
+    }
+  ],
+  "monitors": [
+    {
+      "name": "t1",
+      "type": "spring-force",
+      "spring": 1
+    },
+    {
+      "name": "t2",
+      "type": "spring-force",
+      "spring": 2
+    },
+    {
+      "name": "t3",
+      "type": "spring-force",
+      "spring": 3
+    },
+    {
+      "name": "t4",
+      "type": "spring-force",
+      "spring": 4
+    },
+    {
+      "name": "t5",
+      "type": "spring-force",
+      "spring": 5
+    },
+    {
+      "name": "t6",
+      "type": "spring-force",
+      "spring": 6
+    },
+    {
+      "name": "t7",
+      "type": "spring-force",
+      "spring": 7
+    },
+    {
+      "name": "t8",
+      "type": "spring-force",
+      "spring": 8
+    }
+  ],
+  "actuator_domain": [
+    0,
+    1
+  ],
+  "safe_interval": [
+    "-1/4",
+    "3/4"
+  ]
+}

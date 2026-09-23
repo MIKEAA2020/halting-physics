@@ -1,0 +1,247 @@
+{
+  "type": "FE-ROW-BATCH",
+  "status": "CERTIFIED",
+  "model": "two_spring_exact_affine",
+  "instance": {
+    "variables": [
+      "a1",
+      "a2"
+    ],
+    "domains": {
+      "a1": [
+        0,
+        1
+      ],
+      "a2": [
+        0,
+        1
+      ]
+    },
+    "factors": [
+      {
+        "name": "load_1",
+        "scope": [
+          "a1",
+          "a2"
+        ],
+        "relation": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "name": "load_2",
+        "scope": [
+          "a1",
+          "a2"
+        ],
+        "relation": [
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ]
+  },
+  "rows": [
+    {
+      "type": "FE-ROW",
+      "model": "two_spring_exact_affine",
+      "row": "load_1",
+      "variables": [
+        "a1",
+        "a2"
+      ],
+      "assignment": {
+        "a1": 0,
+        "a2": 0
+      },
+      "exact": true,
+      "response": "1/2",
+      "interval": [
+        "1/2",
+        "1/2"
+      ],
+      "safe_interval": [
+        "-1/4",
+        "1/4"
+      ],
+      "classification": "SAFE"
+    },
+    {
+      "type": "FE-ROW",
+      "model": "two_spring_exact_affine",
+      "row": "load_1",
+      "variables": [
+        "a1",
+        "a2"
+      ],
+      "assignment": {
+        "a1": 0,
+        "a2": 1
+      },
+      "exact": true,
+      "response": "0",
+      "interval": [
+        "0",
+        "0"
+      ],
+      "safe_interval": [
+        "-1/4",
+        "1/4"
+      ],
+      "classification": "SAFE"
+    },
+    {
+      "type": "FE-ROW",
+      "model": "two_spring_exact_affine",
+      "row": "load_1",
+      "variables": [
+        "a1",
+        "a2"
+      ],
+      "assignment": {
+        "a1": 1,
+        "a2": 0
+      },
+      "exact": true,
+      "response": "0",
+      "interval": [
+        "0",
+        "0"
+      ],
+      "safe_interval": [
+        "-1/4",
+        "1/4"
+      ],
+      "classification": "SAFE"
+    },
+    {
+      "type": "FE-ROW",
+      "model": "two_spring_exact_affine",
+      "row": "load_1",
+      "variables": [
+        "a1",
+        "a2"
+      ],
+      "assignment": {
+        "a1": 1,
+        "a2": 1
+      },
+      "exact": true,
+      "response": "-1/2",
+      "interval": [
+        "-1/2",
+        "-1/2"
+      ],
+      "safe_interval": [
+        "-1/4",
+        "1/4"
+      ],
+      "classification": "UNSAFE"
+    },
+    {
+      "type": "FE-ROW",
+      "model": "two_spring_exact_affine",
+      "row": "load_2",
+      "variables": [
+        "a1",
+        "a2"
+      ],
+      "assignment": {
+        "a1": 0,
+        "a2": 0
+      },
+      "exact": true,
+      "response": "1",
+      "interval": [
+        "1",
+        "1"
+      ],
+      "safe_interval": [
+        "-1/4",
+        "1/4"
+      ],
+      "classification": "UNSAFE"
+    },
+    {
+      "type": "FE-ROW",
+      "model": "two_spring_exact_affine",
+      "row": "load_2",
+      "variables": [
+        "a1",
+        "a2"
+      ],
+      "assignment": {
+        "a1": 0,
+        "a2": 1
+      },
+      "exact": true,
+      "response": "1/2",
+      "interval": [
+        "1/2",
+        "1/2"
+      ],
+      "safe_interval": [
+        "-1/4",
+        "1/4"
+      ],
+      "classification": "UNSAFE"
+    },
+    {
+      "type": "FE-ROW",
+      "model": "two_spring_exact_affine",
+      "row": "load_2",
+      "variables": [
+        "a1",
+        "a2"
+      ],
+      "assignment": {
+        "a1": 1,
+        "a2": 0
+      },
+      "exact": true,
+      "response": "1/2",
+      "interval": [
+        "1/2",
+        "1/2"
+      ],
+      "safe_interval": [
+        "-1/4",
+        "1/4"
+      ],
+      "classification": "UNSAFE"
+    },
+    {
+      "type": "FE-ROW",
+      "model": "two_spring_exact_affine",
+      "row": "load_2",
+      "variables": [
+        "a1",
+        "a2"
+      ],
+      "assignment": {
+        "a1": 1,
+        "a2": 1
+      },
+      "exact": true,
+      "response": "0",
+      "interval": [
+        "0",
+        "0"
+      ],
+      "safe_interval": [
+        "-1/4",
+        "1/4"
+      ],
+      "classification": "SAFE"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "actions": [[0,0], [0,1], [1,0], [1,1]],
+  "scenarios": [
+    {"name": "load_1", "observation": "same", "admissible": [[0,1], [1,0]]},
+    {"name": "load_2", "observation": "same", "admissible": [[1,1]]}
+  ],
+  "sensors": [
+    {"name": "threshold", "values": {"load_1": "low", "load_2": "high"}},
+    {"name": "constant", "values": {"load_1": "c", "load_2": "c"}}
+  ]
+}

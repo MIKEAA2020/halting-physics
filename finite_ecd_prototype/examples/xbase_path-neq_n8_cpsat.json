@@ -1,0 +1,217 @@
+{
+  "format": "minimal-cpsat-forbidden-tuples",
+  "variables": [
+    {
+      "name": "x0",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x1",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x2",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x3",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x4",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x5",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x6",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x7",
+      "domain": [
+        0,
+        1
+      ]
+    }
+  ],
+  "forbidden_assignments": [
+    {
+      "name": "neq0_1",
+      "scope": [
+        "x0",
+        "x1"
+      ],
+      "tuple": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "neq0_1",
+      "scope": [
+        "x0",
+        "x1"
+      ],
+      "tuple": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "neq1_2",
+      "scope": [
+        "x1",
+        "x2"
+      ],
+      "tuple": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "neq1_2",
+      "scope": [
+        "x1",
+        "x2"
+      ],
+      "tuple": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "neq2_3",
+      "scope": [
+        "x2",
+        "x3"
+      ],
+      "tuple": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "neq2_3",
+      "scope": [
+        "x2",
+        "x3"
+      ],
+      "tuple": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "neq3_4",
+      "scope": [
+        "x3",
+        "x4"
+      ],
+      "tuple": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "neq3_4",
+      "scope": [
+        "x3",
+        "x4"
+      ],
+      "tuple": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "neq4_5",
+      "scope": [
+        "x4",
+        "x5"
+      ],
+      "tuple": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "neq4_5",
+      "scope": [
+        "x4",
+        "x5"
+      ],
+      "tuple": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "neq5_6",
+      "scope": [
+        "x5",
+        "x6"
+      ],
+      "tuple": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "neq5_6",
+      "scope": [
+        "x5",
+        "x6"
+      ],
+      "tuple": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "neq6_7",
+      "scope": [
+        "x6",
+        "x7"
+      ],
+      "tuple": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "neq6_7",
+      "scope": [
+        "x6",
+        "x7"
+      ],
+      "tuple": [
+        1,
+        1
+      ]
+    }
+  ]
+}

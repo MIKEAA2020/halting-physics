@@ -1,0 +1,68 @@
+{
+  "type": "DP-OPTIMUM",
+  "status": "CERTIFIED-OPT",
+  "tree_decomp": {
+    "type": "TREE-DECOMP",
+    "root": "bag0",
+    "bags": {
+      "bag0": [
+        "x",
+        "y"
+      ]
+    },
+    "edges": [],
+    "factor_to_bag": {
+      "xor": "bag0"
+    }
+  },
+  "root": "bag0",
+  "optimum_cost": 3,
+  "root_assignment": [
+    1,
+    0
+  ],
+  "messages": {
+    "bag0": {
+      "bag": [
+        "x",
+        "y"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1
+          ],
+          "cost": 8
+        },
+        {
+          "assignment": [
+            1,
+            0
+          ],
+          "cost": 3
+        },
+        {
+          "assignment": [
+            1,
+            1
+          ],
+          "cost": null
+        }
+      ]
+    }
+  },
+  "argmins": {
+    "bag0": {
+      "[0, 1]": {},
+      "[1, 0]": {}
+    }
+  }
+}

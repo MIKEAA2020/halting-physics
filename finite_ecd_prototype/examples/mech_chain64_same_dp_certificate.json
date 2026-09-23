@@ -1,0 +1,1873 @@
+{
+  "type": "DP-REFUTATION",
+  "status": "CERTIFIED-UNSAT",
+  "tree_decomp": {
+    "type": "TREE-DECOMP",
+    "root": "b_p1",
+    "bags": {
+      "b_p1": [
+        "p1"
+      ],
+      "b_p10": [
+        "p10"
+      ],
+      "b_p11": [
+        "p11"
+      ],
+      "b_p12": [
+        "p12"
+      ],
+      "b_p13": [
+        "p13"
+      ],
+      "b_p14": [
+        "p14"
+      ],
+      "b_p15": [
+        "p15"
+      ],
+      "b_p16": [
+        "p16"
+      ],
+      "b_p17": [
+        "p17"
+      ],
+      "b_p18": [
+        "p18"
+      ],
+      "b_p19": [
+        "p19"
+      ],
+      "b_p2": [
+        "p2"
+      ],
+      "b_p20": [
+        "p20"
+      ],
+      "b_p21": [
+        "p21"
+      ],
+      "b_p22": [
+        "p22"
+      ],
+      "b_p23": [
+        "p23"
+      ],
+      "b_p24": [
+        "p24"
+      ],
+      "b_p25": [
+        "p25"
+      ],
+      "b_p26": [
+        "p26"
+      ],
+      "b_p27": [
+        "p27"
+      ],
+      "b_p28": [
+        "p28"
+      ],
+      "b_p29": [
+        "p29"
+      ],
+      "b_p3": [
+        "p3"
+      ],
+      "b_p30": [
+        "p30"
+      ],
+      "b_p31": [
+        "p31"
+      ],
+      "b_p32": [
+        "p32"
+      ],
+      "b_p33": [
+        "p33"
+      ],
+      "b_p34": [
+        "p34"
+      ],
+      "b_p35": [
+        "p35"
+      ],
+      "b_p36": [
+        "p36"
+      ],
+      "b_p37": [
+        "p37"
+      ],
+      "b_p38": [
+        "p38"
+      ],
+      "b_p39": [
+        "p39"
+      ],
+      "b_p4": [
+        "p4"
+      ],
+      "b_p40": [
+        "p40"
+      ],
+      "b_p41": [
+        "p41"
+      ],
+      "b_p42": [
+        "p42"
+      ],
+      "b_p43": [
+        "p43"
+      ],
+      "b_p44": [
+        "p44"
+      ],
+      "b_p45": [
+        "p45"
+      ],
+      "b_p46": [
+        "p46"
+      ],
+      "b_p47": [
+        "p47"
+      ],
+      "b_p48": [
+        "p48"
+      ],
+      "b_p49": [
+        "p49"
+      ],
+      "b_p5": [
+        "p5"
+      ],
+      "b_p50": [
+        "p50"
+      ],
+      "b_p51": [
+        "p51"
+      ],
+      "b_p52": [
+        "p52"
+      ],
+      "b_p53": [
+        "p53"
+      ],
+      "b_p54": [
+        "p54"
+      ],
+      "b_p55": [
+        "p55"
+      ],
+      "b_p56": [
+        "p56"
+      ],
+      "b_p57": [
+        "p57"
+      ],
+      "b_p58": [
+        "p58"
+      ],
+      "b_p59": [
+        "p59"
+      ],
+      "b_p6": [
+        "p6"
+      ],
+      "b_p60": [
+        "p60"
+      ],
+      "b_p61": [
+        "p61"
+      ],
+      "b_p62": [
+        "p62"
+      ],
+      "b_p63": [
+        "p63"
+      ],
+      "b_p64": [
+        "p64"
+      ],
+      "b_p7": [
+        "p7"
+      ],
+      "b_p8": [
+        "p8"
+      ],
+      "b_p9": [
+        "p9"
+      ]
+    },
+    "edges": [
+      [
+        "b_p1",
+        "b_p10"
+      ],
+      [
+        "b_p10",
+        "b_p11"
+      ],
+      [
+        "b_p11",
+        "b_p12"
+      ],
+      [
+        "b_p12",
+        "b_p13"
+      ],
+      [
+        "b_p13",
+        "b_p14"
+      ],
+      [
+        "b_p14",
+        "b_p15"
+      ],
+      [
+        "b_p15",
+        "b_p16"
+      ],
+      [
+        "b_p16",
+        "b_p17"
+      ],
+      [
+        "b_p17",
+        "b_p18"
+      ],
+      [
+        "b_p18",
+        "b_p19"
+      ],
+      [
+        "b_p19",
+        "b_p2"
+      ],
+      [
+        "b_p2",
+        "b_p20"
+      ],
+      [
+        "b_p20",
+        "b_p21"
+      ],
+      [
+        "b_p21",
+        "b_p22"
+      ],
+      [
+        "b_p22",
+        "b_p23"
+      ],
+      [
+        "b_p23",
+        "b_p24"
+      ],
+      [
+        "b_p24",
+        "b_p25"
+      ],
+      [
+        "b_p25",
+        "b_p26"
+      ],
+      [
+        "b_p26",
+        "b_p27"
+      ],
+      [
+        "b_p27",
+        "b_p28"
+      ],
+      [
+        "b_p28",
+        "b_p29"
+      ],
+      [
+        "b_p29",
+        "b_p3"
+      ],
+      [
+        "b_p3",
+        "b_p30"
+      ],
+      [
+        "b_p30",
+        "b_p31"
+      ],
+      [
+        "b_p31",
+        "b_p32"
+      ],
+      [
+        "b_p32",
+        "b_p33"
+      ],
+      [
+        "b_p33",
+        "b_p34"
+      ],
+      [
+        "b_p34",
+        "b_p35"
+      ],
+      [
+        "b_p35",
+        "b_p36"
+      ],
+      [
+        "b_p36",
+        "b_p37"
+      ],
+      [
+        "b_p37",
+        "b_p38"
+      ],
+      [
+        "b_p38",
+        "b_p39"
+      ],
+      [
+        "b_p39",
+        "b_p4"
+      ],
+      [
+        "b_p4",
+        "b_p40"
+      ],
+      [
+        "b_p40",
+        "b_p41"
+      ],
+      [
+        "b_p41",
+        "b_p42"
+      ],
+      [
+        "b_p42",
+        "b_p43"
+      ],
+      [
+        "b_p43",
+        "b_p44"
+      ],
+      [
+        "b_p44",
+        "b_p45"
+      ],
+      [
+        "b_p45",
+        "b_p46"
+      ],
+      [
+        "b_p46",
+        "b_p47"
+      ],
+      [
+        "b_p47",
+        "b_p48"
+      ],
+      [
+        "b_p48",
+        "b_p49"
+      ],
+      [
+        "b_p49",
+        "b_p5"
+      ],
+      [
+        "b_p5",
+        "b_p50"
+      ],
+      [
+        "b_p50",
+        "b_p51"
+      ],
+      [
+        "b_p51",
+        "b_p52"
+      ],
+      [
+        "b_p52",
+        "b_p53"
+      ],
+      [
+        "b_p53",
+        "b_p54"
+      ],
+      [
+        "b_p54",
+        "b_p55"
+      ],
+      [
+        "b_p55",
+        "b_p56"
+      ],
+      [
+        "b_p56",
+        "b_p57"
+      ],
+      [
+        "b_p57",
+        "b_p58"
+      ],
+      [
+        "b_p58",
+        "b_p59"
+      ],
+      [
+        "b_p59",
+        "b_p6"
+      ],
+      [
+        "b_p6",
+        "b_p60"
+      ],
+      [
+        "b_p60",
+        "b_p61"
+      ],
+      [
+        "b_p61",
+        "b_p62"
+      ],
+      [
+        "b_p62",
+        "b_p63"
+      ],
+      [
+        "b_p63",
+        "b_p64"
+      ],
+      [
+        "b_p64",
+        "b_p7"
+      ],
+      [
+        "b_p7",
+        "b_p8"
+      ],
+      [
+        "b_p8",
+        "b_p9"
+      ]
+    ],
+    "factor_to_bag": {
+      "load_low__t1": "b_p1",
+      "load_low__t2": "b_p2",
+      "load_low__t3": "b_p3",
+      "load_low__t4": "b_p4",
+      "load_low__t5": "b_p5",
+      "load_low__t6": "b_p6",
+      "load_low__t7": "b_p7",
+      "load_low__t8": "b_p8",
+      "load_low__t9": "b_p9",
+      "load_low__t10": "b_p10",
+      "load_low__t11": "b_p11",
+      "load_low__t12": "b_p12",
+      "load_low__t13": "b_p13",
+      "load_low__t14": "b_p14",
+      "load_low__t15": "b_p15",
+      "load_low__t16": "b_p16",
+      "load_low__t17": "b_p17",
+      "load_low__t18": "b_p18",
+      "load_low__t19": "b_p19",
+      "load_low__t20": "b_p20",
+      "load_low__t21": "b_p21",
+      "load_low__t22": "b_p22",
+      "load_low__t23": "b_p23",
+      "load_low__t24": "b_p24",
+      "load_low__t25": "b_p25",
+      "load_low__t26": "b_p26",
+      "load_low__t27": "b_p27",
+      "load_low__t28": "b_p28",
+      "load_low__t29": "b_p29",
+      "load_low__t30": "b_p30",
+      "load_low__t31": "b_p31",
+      "load_low__t32": "b_p32",
+      "load_low__t33": "b_p33",
+      "load_low__t34": "b_p34",
+      "load_low__t35": "b_p35",
+      "load_low__t36": "b_p36",
+      "load_low__t37": "b_p37",
+      "load_low__t38": "b_p38",
+      "load_low__t39": "b_p39",
+      "load_low__t40": "b_p40",
+      "load_low__t41": "b_p41",
+      "load_low__t42": "b_p42",
+      "load_low__t43": "b_p43",
+      "load_low__t44": "b_p44",
+      "load_low__t45": "b_p45",
+      "load_low__t46": "b_p46",
+      "load_low__t47": "b_p47",
+      "load_low__t48": "b_p48",
+      "load_low__t49": "b_p49",
+      "load_low__t50": "b_p50",
+      "load_low__t51": "b_p51",
+      "load_low__t52": "b_p52",
+      "load_low__t53": "b_p53",
+      "load_low__t54": "b_p54",
+      "load_low__t55": "b_p55",
+      "load_low__t56": "b_p56",
+      "load_low__t57": "b_p57",
+      "load_low__t58": "b_p58",
+      "load_low__t59": "b_p59",
+      "load_low__t60": "b_p60",
+      "load_low__t61": "b_p61",
+      "load_low__t62": "b_p62",
+      "load_low__t63": "b_p63",
+      "load_low__t64": "b_p64",
+      "load_high__t1": "b_p1",
+      "load_high__t2": "b_p2",
+      "load_high__t3": "b_p3",
+      "load_high__t4": "b_p4",
+      "load_high__t5": "b_p5",
+      "load_high__t6": "b_p6",
+      "load_high__t7": "b_p7",
+      "load_high__t8": "b_p8",
+      "load_high__t9": "b_p9",
+      "load_high__t10": "b_p10",
+      "load_high__t11": "b_p11",
+      "load_high__t12": "b_p12",
+      "load_high__t13": "b_p13",
+      "load_high__t14": "b_p14",
+      "load_high__t15": "b_p15",
+      "load_high__t16": "b_p16",
+      "load_high__t17": "b_p17",
+      "load_high__t18": "b_p18",
+      "load_high__t19": "b_p19",
+      "load_high__t20": "b_p20",
+      "load_high__t21": "b_p21",
+      "load_high__t22": "b_p22",
+      "load_high__t23": "b_p23",
+      "load_high__t24": "b_p24",
+      "load_high__t25": "b_p25",
+      "load_high__t26": "b_p26",
+      "load_high__t27": "b_p27",
+      "load_high__t28": "b_p28",
+      "load_high__t29": "b_p29",
+      "load_high__t30": "b_p30",
+      "load_high__t31": "b_p31",
+      "load_high__t32": "b_p32",
+      "load_high__t33": "b_p33",
+      "load_high__t34": "b_p34",
+      "load_high__t35": "b_p35",
+      "load_high__t36": "b_p36",
+      "load_high__t37": "b_p37",
+      "load_high__t38": "b_p38",
+      "load_high__t39": "b_p39",
+      "load_high__t40": "b_p40",
+      "load_high__t41": "b_p41",
+      "load_high__t42": "b_p42",
+      "load_high__t43": "b_p43",
+      "load_high__t44": "b_p44",
+      "load_high__t45": "b_p45",
+      "load_high__t46": "b_p46",
+      "load_high__t47": "b_p47",
+      "load_high__t48": "b_p48",
+      "load_high__t49": "b_p49",
+      "load_high__t50": "b_p50",
+      "load_high__t51": "b_p51",
+      "load_high__t52": "b_p52",
+      "load_high__t53": "b_p53",
+      "load_high__t54": "b_p54",
+      "load_high__t55": "b_p55",
+      "load_high__t56": "b_p56",
+      "load_high__t57": "b_p57",
+      "load_high__t58": "b_p58",
+      "load_high__t59": "b_p59",
+      "load_high__t60": "b_p60",
+      "load_high__t61": "b_p61",
+      "load_high__t62": "b_p62",
+      "load_high__t63": "b_p63",
+      "load_high__t64": "b_p64"
+    }
+  },
+  "root": "b_p1",
+  "optimum_cost": null,
+  "root_assignment": null,
+  "messages": {
+    "b_p1": {
+      "bag": [
+        "p1"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p10": {
+      "bag": [
+        "p10"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p11": {
+      "bag": [
+        "p11"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p12": {
+      "bag": [
+        "p12"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p13": {
+      "bag": [
+        "p13"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p14": {
+      "bag": [
+        "p14"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p15": {
+      "bag": [
+        "p15"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p16": {
+      "bag": [
+        "p16"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p17": {
+      "bag": [
+        "p17"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p18": {
+      "bag": [
+        "p18"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p19": {
+      "bag": [
+        "p19"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p2": {
+      "bag": [
+        "p2"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p20": {
+      "bag": [
+        "p20"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p21": {
+      "bag": [
+        "p21"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p22": {
+      "bag": [
+        "p22"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p23": {
+      "bag": [
+        "p23"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p24": {
+      "bag": [
+        "p24"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p25": {
+      "bag": [
+        "p25"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p26": {
+      "bag": [
+        "p26"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p27": {
+      "bag": [
+        "p27"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p28": {
+      "bag": [
+        "p28"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p29": {
+      "bag": [
+        "p29"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p3": {
+      "bag": [
+        "p3"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p30": {
+      "bag": [
+        "p30"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p31": {
+      "bag": [
+        "p31"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p32": {
+      "bag": [
+        "p32"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p33": {
+      "bag": [
+        "p33"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p34": {
+      "bag": [
+        "p34"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p35": {
+      "bag": [
+        "p35"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p36": {
+      "bag": [
+        "p36"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p37": {
+      "bag": [
+        "p37"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p38": {
+      "bag": [
+        "p38"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p39": {
+      "bag": [
+        "p39"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p4": {
+      "bag": [
+        "p4"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p40": {
+      "bag": [
+        "p40"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p41": {
+      "bag": [
+        "p41"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p42": {
+      "bag": [
+        "p42"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p43": {
+      "bag": [
+        "p43"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p44": {
+      "bag": [
+        "p44"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p45": {
+      "bag": [
+        "p45"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p46": {
+      "bag": [
+        "p46"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p47": {
+      "bag": [
+        "p47"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p48": {
+      "bag": [
+        "p48"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p49": {
+      "bag": [
+        "p49"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p5": {
+      "bag": [
+        "p5"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p50": {
+      "bag": [
+        "p50"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p51": {
+      "bag": [
+        "p51"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p52": {
+      "bag": [
+        "p52"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p53": {
+      "bag": [
+        "p53"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p54": {
+      "bag": [
+        "p54"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p55": {
+      "bag": [
+        "p55"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p56": {
+      "bag": [
+        "p56"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p57": {
+      "bag": [
+        "p57"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p58": {
+      "bag": [
+        "p58"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p59": {
+      "bag": [
+        "p59"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p6": {
+      "bag": [
+        "p6"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p60": {
+      "bag": [
+        "p60"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p61": {
+      "bag": [
+        "p61"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p62": {
+      "bag": [
+        "p62"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p63": {
+      "bag": [
+        "p63"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p64": {
+      "bag": [
+        "p64"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p7": {
+      "bag": [
+        "p7"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p8": {
+      "bag": [
+        "p8"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p9": {
+      "bag": [
+        "p9"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    }
+  },
+  "argmins": {
+    "b_p9": {},
+    "b_p8": {},
+    "b_p7": {},
+    "b_p64": {},
+    "b_p63": {},
+    "b_p62": {},
+    "b_p61": {},
+    "b_p60": {},
+    "b_p6": {},
+    "b_p59": {},
+    "b_p58": {},
+    "b_p57": {},
+    "b_p56": {},
+    "b_p55": {},
+    "b_p54": {},
+    "b_p53": {},
+    "b_p52": {},
+    "b_p51": {},
+    "b_p50": {},
+    "b_p5": {},
+    "b_p49": {},
+    "b_p48": {},
+    "b_p47": {},
+    "b_p46": {},
+    "b_p45": {},
+    "b_p44": {},
+    "b_p43": {},
+    "b_p42": {},
+    "b_p41": {},
+    "b_p40": {},
+    "b_p4": {},
+    "b_p39": {},
+    "b_p38": {},
+    "b_p37": {},
+    "b_p36": {},
+    "b_p35": {},
+    "b_p34": {},
+    "b_p33": {},
+    "b_p32": {},
+    "b_p31": {},
+    "b_p30": {},
+    "b_p3": {},
+    "b_p29": {},
+    "b_p28": {},
+    "b_p27": {},
+    "b_p26": {},
+    "b_p25": {},
+    "b_p24": {},
+    "b_p23": {},
+    "b_p22": {},
+    "b_p21": {},
+    "b_p20": {},
+    "b_p2": {},
+    "b_p19": {},
+    "b_p18": {},
+    "b_p17": {},
+    "b_p16": {},
+    "b_p15": {},
+    "b_p14": {},
+    "b_p13": {},
+    "b_p12": {},
+    "b_p11": {},
+    "b_p10": {},
+    "b_p1": {}
+  }
+}

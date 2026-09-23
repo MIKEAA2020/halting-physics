@@ -1,0 +1,86 @@
+c var 1 x0
+c var 2 x1
+c var 3 x2
+c var 4 x3
+c var 5 x4
+c var 6 x5
+c var 7 x6
+c var 8 x7
+c var 9 x8
+c var 10 x9
+c var 11 x10
+c var 12 x11
+c var 13 x12
+c var 14 x13
+c var 15 x14
+c var 16 x15
+c var 17 x16
+c forbid neq0_1 {'x0': 0, 'x1': 0}
+c forbid neq0_1 {'x0': 1, 'x1': 1}
+c forbid neq1_2 {'x1': 0, 'x2': 0}
+c forbid neq1_2 {'x1': 1, 'x2': 1}
+c forbid neq2_3 {'x2': 0, 'x3': 0}
+c forbid neq2_3 {'x2': 1, 'x3': 1}
+c forbid neq3_4 {'x3': 0, 'x4': 0}
+c forbid neq3_4 {'x3': 1, 'x4': 1}
+c forbid neq4_5 {'x4': 0, 'x5': 0}
+c forbid neq4_5 {'x4': 1, 'x5': 1}
+c forbid neq5_6 {'x5': 0, 'x6': 0}
+c forbid neq5_6 {'x5': 1, 'x6': 1}
+c forbid neq6_7 {'x6': 0, 'x7': 0}
+c forbid neq6_7 {'x6': 1, 'x7': 1}
+c forbid neq7_8 {'x7': 0, 'x8': 0}
+c forbid neq7_8 {'x7': 1, 'x8': 1}
+c forbid neq8_9 {'x8': 0, 'x9': 0}
+c forbid neq8_9 {'x8': 1, 'x9': 1}
+c forbid neq9_10 {'x9': 0, 'x10': 0}
+c forbid neq9_10 {'x9': 1, 'x10': 1}
+c forbid neq10_11 {'x10': 0, 'x11': 0}
+c forbid neq10_11 {'x10': 1, 'x11': 1}
+c forbid neq11_12 {'x11': 0, 'x12': 0}
+c forbid neq11_12 {'x11': 1, 'x12': 1}
+c forbid neq12_13 {'x12': 0, 'x13': 0}
+c forbid neq12_13 {'x12': 1, 'x13': 1}
+c forbid neq13_14 {'x13': 0, 'x14': 0}
+c forbid neq13_14 {'x13': 1, 'x14': 1}
+c forbid neq14_15 {'x14': 0, 'x15': 0}
+c forbid neq14_15 {'x14': 1, 'x15': 1}
+c forbid neq15_16 {'x15': 0, 'x16': 0}
+c forbid neq15_16 {'x15': 1, 'x16': 1}
+c forbid neq16_0 {'x16': 0, 'x0': 0}
+c forbid neq16_0 {'x16': 1, 'x0': 1}
+p cnf 17 34
+1 2 0
+-1 -2 0
+2 3 0
+-2 -3 0
+3 4 0
+-3 -4 0
+4 5 0
+-4 -5 0
+5 6 0
+-5 -6 0
+6 7 0
+-6 -7 0
+7 8 0
+-7 -8 0
+8 9 0
+-8 -9 0
+9 10 0
+-9 -10 0
+10 11 0
+-10 -11 0
+11 12 0
+-11 -12 0
+12 13 0
+-12 -13 0
+13 14 0
+-13 -14 0
+14 15 0
+-14 -15 0
+15 16 0
+-15 -16 0
+16 17 0
+-16 -17 0
+17 1 0
+-17 -1 0

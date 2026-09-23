@@ -1,0 +1,7 @@
+{
+  "actions": [[0,0], [0,1], [1,0], [1,1]],
+  "scenarios": [
+    {"name": "load_1", "observation": "same", "admissible": [[0,1], [1,0]]},
+    {"name": "load_2", "observation": "same", "admissible": [[1,1]]}
+  ]
+}

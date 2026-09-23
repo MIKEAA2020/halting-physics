@@ -1,0 +1,72 @@
+{
+  "format": "minimal-cpsat-forbidden-tuples",
+  "variables": [
+    {
+      "name": "x0",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x1",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x2",
+      "domain": [
+        0,
+        1
+      ]
+    }
+  ],
+  "forbidden_assignments": [
+    {
+      "name": "neq01",
+      "scope": [
+        "x0",
+        "x1"
+      ],
+      "tuple": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "neq01",
+      "scope": [
+        "x0",
+        "x1"
+      ],
+      "tuple": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "neq12",
+      "scope": [
+        "x1",
+        "x2"
+      ],
+      "tuple": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "neq12",
+      "scope": [
+        "x1",
+        "x2"
+      ],
+      "tuple": [
+        1,
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,999 @@
+{
+  "name": "chain_pretension_64",
+  "kind": "scalar-chain",
+  "nodes": 64,
+  "springs": [
+    {
+      "name": "s1",
+      "k": "1"
+    },
+    {
+      "name": "s2",
+      "k": "1"
+    },
+    {
+      "name": "s3",
+      "k": "1"
+    },
+    {
+      "name": "s4",
+      "k": "1"
+    },
+    {
+      "name": "s5",
+      "k": "1"
+    },
+    {
+      "name": "s6",
+      "k": "1"
+    },
+    {
+      "name": "s7",
+      "k": "1"
+    },
+    {
+      "name": "s8",
+      "k": "1"
+    },
+    {
+      "name": "s9",
+      "k": "1"
+    },
+    {
+      "name": "s10",
+      "k": "1"
+    },
+    {
+      "name": "s11",
+      "k": "1"
+    },
+    {
+      "name": "s12",
+      "k": "1"
+    },
+    {
+      "name": "s13",
+      "k": "1"
+    },
+    {
+      "name": "s14",
+      "k": "1"
+    },
+    {
+      "name": "s15",
+      "k": "1"
+    },
+    {
+      "name": "s16",
+      "k": "1"
+    },
+    {
+      "name": "s17",
+      "k": "1"
+    },
+    {
+      "name": "s18",
+      "k": "1"
+    },
+    {
+      "name": "s19",
+      "k": "1"
+    },
+    {
+      "name": "s20",
+      "k": "1"
+    },
+    {
+      "name": "s21",
+      "k": "1"
+    },
+    {
+      "name": "s22",
+      "k": "1"
+    },
+    {
+      "name": "s23",
+      "k": "1"
+    },
+    {
+      "name": "s24",
+      "k": "1"
+    },
+    {
+      "name": "s25",
+      "k": "1"
+    },
+    {
+      "name": "s26",
+      "k": "1"
+    },
+    {
+      "name": "s27",
+      "k": "1"
+    },
+    {
+      "name": "s28",
+      "k": "1"
+    },
+    {
+      "name": "s29",
+      "k": "1"
+    },
+    {
+      "name": "s30",
+      "k": "1"
+    },
+    {
+      "name": "s31",
+      "k": "1"
+    },
+    {
+      "name": "s32",
+      "k": "1"
+    },
+    {
+      "name": "s33",
+      "k": "1"
+    },
+    {
+      "name": "s34",
+      "k": "1"
+    },
+    {
+      "name": "s35",
+      "k": "1"
+    },
+    {
+      "name": "s36",
+      "k": "1"
+    },
+    {
+      "name": "s37",
+      "k": "1"
+    },
+    {
+      "name": "s38",
+      "k": "1"
+    },
+    {
+      "name": "s39",
+      "k": "1"
+    },
+    {
+      "name": "s40",
+      "k": "1"
+    },
+    {
+      "name": "s41",
+      "k": "1"
+    },
+    {
+      "name": "s42",
+      "k": "1"
+    },
+    {
+      "name": "s43",
+      "k": "1"
+    },
+    {
+      "name": "s44",
+      "k": "1"
+    },
+    {
+      "name": "s45",
+      "k": "1"
+    },
+    {
+      "name": "s46",
+      "k": "1"
+    },
+    {
+      "name": "s47",
+      "k": "1"
+    },
+    {
+      "name": "s48",
+      "k": "1"
+    },
+    {
+      "name": "s49",
+      "k": "1"
+    },
+    {
+      "name": "s50",
+      "k": "1"
+    },
+    {
+      "name": "s51",
+      "k": "1"
+    },
+    {
+      "name": "s52",
+      "k": "1"
+    },
+    {
+      "name": "s53",
+      "k": "1"
+    },
+    {
+      "name": "s54",
+      "k": "1"
+    },
+    {
+      "name": "s55",
+      "k": "1"
+    },
+    {
+      "name": "s56",
+      "k": "1"
+    },
+    {
+      "name": "s57",
+      "k": "1"
+    },
+    {
+      "name": "s58",
+      "k": "1"
+    },
+    {
+      "name": "s59",
+      "k": "1"
+    },
+    {
+      "name": "s60",
+      "k": "1"
+    },
+    {
+      "name": "s61",
+      "k": "1"
+    },
+    {
+      "name": "s62",
+      "k": "1"
+    },
+    {
+      "name": "s63",
+      "k": "1"
+    },
+    {
+      "name": "s64",
+      "k": "1"
+    }
+  ],
+  "actuators": [
+    {
+      "name": "p1",
+      "type": "spring-pair",
+      "spring": 1,
+      "sign": "-1"
+    },
+    {
+      "name": "p2",
+      "type": "spring-pair",
+      "spring": 2,
+      "sign": "-1"
+    },
+    {
+      "name": "p3",
+      "type": "spring-pair",
+      "spring": 3,
+      "sign": "-1"
+    },
+    {
+      "name": "p4",
+      "type": "spring-pair",
+      "spring": 4,
+      "sign": "-1"
+    },
+    {
+      "name": "p5",
+      "type": "spring-pair",
+      "spring": 5,
+      "sign": "-1"
+    },
+    {
+      "name": "p6",
+      "type": "spring-pair",
+      "spring": 6,
+      "sign": "-1"
+    },
+    {
+      "name": "p7",
+      "type": "spring-pair",
+      "spring": 7,
+      "sign": "-1"
+    },
+    {
+      "name": "p8",
+      "type": "spring-pair",
+      "spring": 8,
+      "sign": "-1"
+    },
+    {
+      "name": "p9",
+      "type": "spring-pair",
+      "spring": 9,
+      "sign": "-1"
+    },
+    {
+      "name": "p10",
+      "type": "spring-pair",
+      "spring": 10,
+      "sign": "-1"
+    },
+    {
+      "name": "p11",
+      "type": "spring-pair",
+      "spring": 11,
+      "sign": "-1"
+    },
+    {
+      "name": "p12",
+      "type": "spring-pair",
+      "spring": 12,
+      "sign": "-1"
+    },
+    {
+      "name": "p13",
+      "type": "spring-pair",
+      "spring": 13,
+      "sign": "-1"
+    },
+    {
+      "name": "p14",
+      "type": "spring-pair",
+      "spring": 14,
+      "sign": "-1"
+    },
+    {
+      "name": "p15",
+      "type": "spring-pair",
+      "spring": 15,
+      "sign": "-1"
+    },
+    {
+      "name": "p16",
+      "type": "spring-pair",
+      "spring": 16,
+      "sign": "-1"
+    },
+    {
+      "name": "p17",
+      "type": "spring-pair",
+      "spring": 17,
+      "sign": "-1"
+    },
+    {
+      "name": "p18",
+      "type": "spring-pair",
+      "spring": 18,
+      "sign": "-1"
+    },
+    {
+      "name": "p19",
+      "type": "spring-pair",
+      "spring": 19,
+      "sign": "-1"
+    },
+    {
+      "name": "p20",
+      "type": "spring-pair",
+      "spring": 20,
+      "sign": "-1"
+    },
+    {
+      "name": "p21",
+      "type": "spring-pair",
+      "spring": 21,
+      "sign": "-1"
+    },
+    {
+      "name": "p22",
+      "type": "spring-pair",
+      "spring": 22,
+      "sign": "-1"
+    },
+    {
+      "name": "p23",
+      "type": "spring-pair",
+      "spring": 23,
+      "sign": "-1"
+    },
+    {
+      "name": "p24",
+      "type": "spring-pair",
+      "spring": 24,
+      "sign": "-1"
+    },
+    {
+      "name": "p25",
+      "type": "spring-pair",
+      "spring": 25,
+      "sign": "-1"
+    },
+    {
+      "name": "p26",
+      "type": "spring-pair",
+      "spring": 26,
+      "sign": "-1"
+    },
+    {
+      "name": "p27",
+      "type": "spring-pair",
+      "spring": 27,
+      "sign": "-1"
+    },
+    {
+      "name": "p28",
+      "type": "spring-pair",
+      "spring": 28,
+      "sign": "-1"
+    },
+    {
+      "name": "p29",
+      "type": "spring-pair",
+      "spring": 29,
+      "sign": "-1"
+    },
+    {
+      "name": "p30",
+      "type": "spring-pair",
+      "spring": 30,
+      "sign": "-1"
+    },
+    {
+      "name": "p31",
+      "type": "spring-pair",
+      "spring": 31,
+      "sign": "-1"
+    },
+    {
+      "name": "p32",
+      "type": "spring-pair",
+      "spring": 32,
+      "sign": "-1"
+    },
+    {
+      "name": "p33",
+      "type": "spring-pair",
+      "spring": 33,
+      "sign": "-1"
+    },
+    {
+      "name": "p34",
+      "type": "spring-pair",
+      "spring": 34,
+      "sign": "-1"
+    },
+    {
+      "name": "p35",
+      "type": "spring-pair",
+      "spring": 35,
+      "sign": "-1"
+    },
+    {
+      "name": "p36",
+      "type": "spring-pair",
+      "spring": 36,
+      "sign": "-1"
+    },
+    {
+      "name": "p37",
+      "type": "spring-pair",
+      "spring": 37,
+      "sign": "-1"
+    },
+    {
+      "name": "p38",
+      "type": "spring-pair",
+      "spring": 38,
+      "sign": "-1"
+    },
+    {
+      "name": "p39",
+      "type": "spring-pair",
+      "spring": 39,
+      "sign": "-1"
+    },
+    {
+      "name": "p40",
+      "type": "spring-pair",
+      "spring": 40,
+      "sign": "-1"
+    },
+    {
+      "name": "p41",
+      "type": "spring-pair",
+      "spring": 41,
+      "sign": "-1"
+    },
+    {
+      "name": "p42",
+      "type": "spring-pair",
+      "spring": 42,
+      "sign": "-1"
+    },
+    {
+      "name": "p43",
+      "type": "spring-pair",
+      "spring": 43,
+      "sign": "-1"
+    },
+    {
+      "name": "p44",
+      "type": "spring-pair",
+      "spring": 44,
+      "sign": "-1"
+    },
+    {
+      "name": "p45",
+      "type": "spring-pair",
+      "spring": 45,
+      "sign": "-1"
+    },
+    {
+      "name": "p46",
+      "type": "spring-pair",
+      "spring": 46,
+      "sign": "-1"
+    },
+    {
+      "name": "p47",
+      "type": "spring-pair",
+      "spring": 47,
+      "sign": "-1"
+    },
+    {
+      "name": "p48",
+      "type": "spring-pair",
+      "spring": 48,
+      "sign": "-1"
+    },
+    {
+      "name": "p49",
+      "type": "spring-pair",
+      "spring": 49,
+      "sign": "-1"
+    },
+    {
+      "name": "p50",
+      "type": "spring-pair",
+      "spring": 50,
+      "sign": "-1"
+    },
+    {
+      "name": "p51",
+      "type": "spring-pair",
+      "spring": 51,
+      "sign": "-1"
+    },
+    {
+      "name": "p52",
+      "type": "spring-pair",
+      "spring": 52,
+      "sign": "-1"
+    },
+    {
+      "name": "p53",
+      "type": "spring-pair",
+      "spring": 53,
+      "sign": "-1"
+    },
+    {
+      "name": "p54",
+      "type": "spring-pair",
+      "spring": 54,
+      "sign": "-1"
+    },
+    {
+      "name": "p55",
+      "type": "spring-pair",
+      "spring": 55,
+      "sign": "-1"
+    },
+    {
+      "name": "p56",
+      "type": "spring-pair",
+      "spring": 56,
+      "sign": "-1"
+    },
+    {
+      "name": "p57",
+      "type": "spring-pair",
+      "spring": 57,
+      "sign": "-1"
+    },
+    {
+      "name": "p58",
+      "type": "spring-pair",
+      "spring": 58,
+      "sign": "-1"
+    },
+    {
+      "name": "p59",
+      "type": "spring-pair",
+      "spring": 59,
+      "sign": "-1"
+    },
+    {
+      "name": "p60",
+      "type": "spring-pair",
+      "spring": 60,
+      "sign": "-1"
+    },
+    {
+      "name": "p61",
+      "type": "spring-pair",
+      "spring": 61,
+      "sign": "-1"
+    },
+    {
+      "name": "p62",
+      "type": "spring-pair",
+      "spring": 62,
+      "sign": "-1"
+    },
+    {
+      "name": "p63",
+      "type": "spring-pair",
+      "spring": 63,
+      "sign": "-1"
+    },
+    {
+      "name": "p64",
+      "type": "spring-pair",
+      "spring": 64,
+      "sign": "-1"
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "load_low",
+      "forces": [
+        {
+          "node": 1,
+          "component": "1"
+        }
+      ]
+    },
+    {
+      "name": "load_high",
+      "forces": [
+        {
+          "node": 64,
+          "component": "1"
+        }
+      ]
+    }
+  ],
+  "monitors": [
+    {
+      "name": "t1",
+      "type": "spring-force",
+      "spring": 1
+    },
+    {
+      "name": "t2",
+      "type": "spring-force",
+      "spring": 2
+    },
+    {
+      "name": "t3",
+      "type": "spring-force",
+      "spring": 3
+    },
+    {
+      "name": "t4",
+      "type": "spring-force",
+      "spring": 4
+    },
+    {
+      "name": "t5",
+      "type": "spring-force",
+      "spring": 5
+    },
+    {
+      "name": "t6",
+      "type": "spring-force",
+      "spring": 6
+    },
+    {
+      "name": "t7",
+      "type": "spring-force",
+      "spring": 7
+    },
+    {
+      "name": "t8",
+      "type": "spring-force",
+      "spring": 8
+    },
+    {
+      "name": "t9",
+      "type": "spring-force",
+      "spring": 9
+    },
+    {
+      "name": "t10",
+      "type": "spring-force",
+      "spring": 10
+    },
+    {
+      "name": "t11",
+      "type": "spring-force",
+      "spring": 11
+    },
+    {
+      "name": "t12",
+      "type": "spring-force",
+      "spring": 12
+    },
+    {
+      "name": "t13",
+      "type": "spring-force",
+      "spring": 13
+    },
+    {
+      "name": "t14",
+      "type": "spring-force",
+      "spring": 14
+    },
+    {
+      "name": "t15",
+      "type": "spring-force",
+      "spring": 15
+    },
+    {
+      "name": "t16",
+      "type": "spring-force",
+      "spring": 16
+    },
+    {
+      "name": "t17",
+      "type": "spring-force",
+      "spring": 17
+    },
+    {
+      "name": "t18",
+      "type": "spring-force",
+      "spring": 18
+    },
+    {
+      "name": "t19",
+      "type": "spring-force",
+      "spring": 19
+    },
+    {
+      "name": "t20",
+      "type": "spring-force",
+      "spring": 20
+    },
+    {
+      "name": "t21",
+      "type": "spring-force",
+      "spring": 21
+    },
+    {
+      "name": "t22",
+      "type": "spring-force",
+      "spring": 22
+    },
+    {
+      "name": "t23",
+      "type": "spring-force",
+      "spring": 23
+    },
+    {
+      "name": "t24",
+      "type": "spring-force",
+      "spring": 24
+    },
+    {
+      "name": "t25",
+      "type": "spring-force",
+      "spring": 25
+    },
+    {
+      "name": "t26",
+      "type": "spring-force",
+      "spring": 26
+    },
+    {
+      "name": "t27",
+      "type": "spring-force",
+      "spring": 27
+    },
+    {
+      "name": "t28",
+      "type": "spring-force",
+      "spring": 28
+    },
+    {
+      "name": "t29",
+      "type": "spring-force",
+      "spring": 29
+    },
+    {
+      "name": "t30",
+      "type": "spring-force",
+      "spring": 30
+    },
+    {
+      "name": "t31",
+      "type": "spring-force",
+      "spring": 31
+    },
+    {
+      "name": "t32",
+      "type": "spring-force",
+      "spring": 32
+    },
+    {
+      "name": "t33",
+      "type": "spring-force",
+      "spring": 33
+    },
+    {
+      "name": "t34",
+      "type": "spring-force",
+      "spring": 34
+    },
+    {
+      "name": "t35",
+      "type": "spring-force",
+      "spring": 35
+    },
+    {
+      "name": "t36",
+      "type": "spring-force",
+      "spring": 36
+    },
+    {
+      "name": "t37",
+      "type": "spring-force",
+      "spring": 37
+    },
+    {
+      "name": "t38",
+      "type": "spring-force",
+      "spring": 38
+    },
+    {
+      "name": "t39",
+      "type": "spring-force",
+      "spring": 39
+    },
+    {
+      "name": "t40",
+      "type": "spring-force",
+      "spring": 40
+    },
+    {
+      "name": "t41",
+      "type": "spring-force",
+      "spring": 41
+    },
+    {
+      "name": "t42",
+      "type": "spring-force",
+      "spring": 42
+    },
+    {
+      "name": "t43",
+      "type": "spring-force",
+      "spring": 43
+    },
+    {
+      "name": "t44",
+      "type": "spring-force",
+      "spring": 44
+    },
+    {
+      "name": "t45",
+      "type": "spring-force",
+      "spring": 45
+    },
+    {
+      "name": "t46",
+      "type": "spring-force",
+      "spring": 46
+    },
+    {
+      "name": "t47",
+      "type": "spring-force",
+      "spring": 47
+    },
+    {
+      "name": "t48",
+      "type": "spring-force",
+      "spring": 48
+    },
+    {
+      "name": "t49",
+      "type": "spring-force",
+      "spring": 49
+    },
+    {
+      "name": "t50",
+      "type": "spring-force",
+      "spring": 50
+    },
+    {
+      "name": "t51",
+      "type": "spring-force",
+      "spring": 51
+    },
+    {
+      "name": "t52",
+      "type": "spring-force",
+      "spring": 52
+    },
+    {
+      "name": "t53",
+      "type": "spring-force",
+      "spring": 53
+    },
+    {
+      "name": "t54",
+      "type": "spring-force",
+      "spring": 54
+    },
+    {
+      "name": "t55",
+      "type": "spring-force",
+      "spring": 55
+    },
+    {
+      "name": "t56",
+      "type": "spring-force",
+      "spring": 56
+    },
+    {
+      "name": "t57",
+      "type": "spring-force",
+      "spring": 57
+    },
+    {
+      "name": "t58",
+      "type": "spring-force",
+      "spring": 58
+    },
+    {
+      "name": "t59",
+      "type": "spring-force",
+      "spring": 59
+    },
+    {
+      "name": "t60",
+      "type": "spring-force",
+      "spring": 60
+    },
+    {
+      "name": "t61",
+      "type": "spring-force",
+      "spring": 61
+    },
+    {
+      "name": "t62",
+      "type": "spring-force",
+      "spring": 62
+    },
+    {
+      "name": "t63",
+      "type": "spring-force",
+      "spring": 63
+    },
+    {
+      "name": "t64",
+      "type": "spring-force",
+      "spring": 64
+    }
+  ],
+  "actuator_domain": [
+    0,
+    1
+  ],
+  "safe_interval": [
+    "-1/4",
+    "3/4"
+  ]
+}

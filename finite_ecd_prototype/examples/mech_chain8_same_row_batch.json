@@ -1,0 +1,428 @@
+{
+  "type": "MECH-ROW-BATCH",
+  "status": "CERTIFIED",
+  "model": "chain_pretension_8",
+  "kind": "scalar-chain",
+  "safe_interval": [
+    "-1/4",
+    "3/4"
+  ],
+  "actuator_domain": [
+    "0",
+    "1"
+  ],
+  "relation_cap": null,
+  "solves": [
+    {
+      "type": "MECH-SOLVE",
+      "scenario": "load_low",
+      "dofs": [
+        "node1/x",
+        "node2/x",
+        "node3/x",
+        "node4/x",
+        "node5/x",
+        "node6/x",
+        "node7/x",
+        "node8/x"
+      ],
+      "load": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "displacement": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "type": "MECH-SOLVE",
+      "scenario": "load_high",
+      "dofs": [
+        "node1/x",
+        "node2/x",
+        "node3/x",
+        "node4/x",
+        "node5/x",
+        "node6/x",
+        "node7/x",
+        "node8/x"
+      ],
+      "load": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "displacement": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "scenario": "load_low",
+      "monitor": "t1",
+      "constant": "1",
+      "coeffs": {
+        "p1": "-1"
+      }
+    },
+    {
+      "scenario": "load_low",
+      "monitor": "t2",
+      "constant": "0",
+      "coeffs": {
+        "p2": "-1"
+      }
+    },
+    {
+      "scenario": "load_low",
+      "monitor": "t3",
+      "constant": "0",
+      "coeffs": {
+        "p3": "-1"
+      }
+    },
+    {
+      "scenario": "load_low",
+      "monitor": "t4",
+      "constant": "0",
+      "coeffs": {
+        "p4": "-1"
+      }
+    },
+    {
+      "scenario": "load_low",
+      "monitor": "t5",
+      "constant": "0",
+      "coeffs": {
+        "p5": "-1"
+      }
+    },
+    {
+      "scenario": "load_low",
+      "monitor": "t6",
+      "constant": "0",
+      "coeffs": {
+        "p6": "-1"
+      }
+    },
+    {
+      "scenario": "load_low",
+      "monitor": "t7",
+      "constant": "0",
+      "coeffs": {
+        "p7": "-1"
+      }
+    },
+    {
+      "scenario": "load_low",
+      "monitor": "t8",
+      "constant": "0",
+      "coeffs": {
+        "p8": "-1"
+      }
+    },
+    {
+      "scenario": "load_high",
+      "monitor": "t1",
+      "constant": "1",
+      "coeffs": {
+        "p1": "-1"
+      }
+    },
+    {
+      "scenario": "load_high",
+      "monitor": "t2",
+      "constant": "1",
+      "coeffs": {
+        "p2": "-1"
+      }
+    },
+    {
+      "scenario": "load_high",
+      "monitor": "t3",
+      "constant": "1",
+      "coeffs": {
+        "p3": "-1"
+      }
+    },
+    {
+      "scenario": "load_high",
+      "monitor": "t4",
+      "constant": "1",
+      "coeffs": {
+        "p4": "-1"
+      }
+    },
+    {
+      "scenario": "load_high",
+      "monitor": "t5",
+      "constant": "1",
+      "coeffs": {
+        "p5": "-1"
+      }
+    },
+    {
+      "scenario": "load_high",
+      "monitor": "t6",
+      "constant": "1",
+      "coeffs": {
+        "p6": "-1"
+      }
+    },
+    {
+      "scenario": "load_high",
+      "monitor": "t7",
+      "constant": "1",
+      "coeffs": {
+        "p7": "-1"
+      }
+    },
+    {
+      "scenario": "load_high",
+      "monitor": "t8",
+      "constant": "1",
+      "coeffs": {
+        "p8": "-1"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "scenario": "load_low",
+      "monitor": "t1",
+      "scope": [
+        "p1"
+      ],
+      "relation": [
+        [
+          "1"
+        ]
+      ]
+    },
+    {
+      "scenario": "load_low",
+      "monitor": "t2",
+      "scope": [
+        "p2"
+      ],
+      "relation": [
+        [
+          "0"
+        ]
+      ]
+    },
+    {
+      "scenario": "load_low",
+      "monitor": "t3",
+      "scope": [
+        "p3"
+      ],
+      "relation": [
+        [
+          "0"
+        ]
+      ]
+    },
+    {
+      "scenario": "load_low",
+      "monitor": "t4",
+      "scope": [
+        "p4"
+      ],
+      "relation": [
+        [
+          "0"
+        ]
+      ]
+    },
+    {
+      "scenario": "load_low",
+      "monitor": "t5",
+      "scope": [
+        "p5"
+      ],
+      "relation": [
+        [
+          "0"
+        ]
+      ]
+    },
+    {
+      "scenario": "load_low",
+      "monitor": "t6",
+      "scope": [
+        "p6"
+      ],
+      "relation": [
+        [
+          "0"
+        ]
+      ]
+    },
+    {
+      "scenario": "load_low",
+      "monitor": "t7",
+      "scope": [
+        "p7"
+      ],
+      "relation": [
+        [
+          "0"
+        ]
+      ]
+    },
+    {
+      "scenario": "load_low",
+      "monitor": "t8",
+      "scope": [
+        "p8"
+      ],
+      "relation": [
+        [
+          "0"
+        ]
+      ]
+    },
+    {
+      "scenario": "load_high",
+      "monitor": "t1",
+      "scope": [
+        "p1"
+      ],
+      "relation": [
+        [
+          "1"
+        ]
+      ]
+    },
+    {
+      "scenario": "load_high",
+      "monitor": "t2",
+      "scope": [
+        "p2"
+      ],
+      "relation": [
+        [
+          "1"
+        ]
+      ]
+    },
+    {
+      "scenario": "load_high",
+      "monitor": "t3",
+      "scope": [
+        "p3"
+      ],
+      "relation": [
+        [
+          "1"
+        ]
+      ]
+    },
+    {
+      "scenario": "load_high",
+      "monitor": "t4",
+      "scope": [
+        "p4"
+      ],
+      "relation": [
+        [
+          "1"
+        ]
+      ]
+    },
+    {
+      "scenario": "load_high",
+      "monitor": "t5",
+      "scope": [
+        "p5"
+      ],
+      "relation": [
+        [
+          "1"
+        ]
+      ]
+    },
+    {
+      "scenario": "load_high",
+      "monitor": "t6",
+      "scope": [
+        "p6"
+      ],
+      "relation": [
+        [
+          "1"
+        ]
+      ]
+    },
+    {
+      "scenario": "load_high",
+      "monitor": "t7",
+      "scope": [
+        "p7"
+      ],
+      "relation": [
+        [
+          "1"
+        ]
+      ]
+    },
+    {
+      "scenario": "load_high",
+      "monitor": "t8",
+      "scope": [
+        "p8"
+      ],
+      "relation": [
+        [
+          "1"
+        ]
+      ]
+    }
+  ],
+  "scope_sizes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "max_scope": 1
+}

@@ -1,0 +1,9 @@
+{
+  "solver": "missing-test",
+  "status": "INCONCLUSIVE",
+  "reason": "executable 'definitely_missing_solver' not found",
+  "command": [
+    "definitely_missing_solver",
+    "examples/path3_sat.cnf"
+  ]
+}

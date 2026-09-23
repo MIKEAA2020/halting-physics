@@ -1,0 +1,219 @@
+{
+  "format": "minimal-cpsat-forbidden-tuples",
+  "variables": [
+    {
+      "name": "x0",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x1",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x2",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x3",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x4",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x5",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x6",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "x7",
+      "domain": [
+        0,
+        1
+      ]
+    }
+  ],
+  "forbidden_assignments": [
+    {
+      "name": "window0",
+      "scope": [
+        "x0",
+        "x1",
+        "x2"
+      ],
+      "tuple": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "window0",
+      "scope": [
+        "x0",
+        "x1",
+        "x2"
+      ],
+      "tuple": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "window1",
+      "scope": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "tuple": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "window1",
+      "scope": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "tuple": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "window2",
+      "scope": [
+        "x2",
+        "x3",
+        "x4"
+      ],
+      "tuple": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "window2",
+      "scope": [
+        "x2",
+        "x3",
+        "x4"
+      ],
+      "tuple": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "window3",
+      "scope": [
+        "x3",
+        "x4",
+        "x5"
+      ],
+      "tuple": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "window3",
+      "scope": [
+        "x3",
+        "x4",
+        "x5"
+      ],
+      "tuple": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "window4",
+      "scope": [
+        "x4",
+        "x5",
+        "x6"
+      ],
+      "tuple": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "window4",
+      "scope": [
+        "x4",
+        "x5",
+        "x6"
+      ],
+      "tuple": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "window5",
+      "scope": [
+        "x5",
+        "x6",
+        "x7"
+      ],
+      "tuple": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "window5",
+      "scope": [
+        "x5",
+        "x6",
+        "x7"
+      ],
+      "tuple": [
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

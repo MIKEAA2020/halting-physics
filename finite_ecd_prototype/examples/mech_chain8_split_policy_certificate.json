@@ -1,0 +1,21 @@
+{
+  "type": "POLICY",
+  "assignment": {
+    "p1__load_high": 1,
+    "p1__load_low": 1,
+    "p2__load_high": 1,
+    "p2__load_low": 0,
+    "p3__load_high": 1,
+    "p3__load_low": 0,
+    "p4__load_high": 1,
+    "p4__load_low": 0,
+    "p5__load_high": 1,
+    "p5__load_low": 0,
+    "p6__load_high": 1,
+    "p6__load_low": 0,
+    "p7__load_high": 1,
+    "p7__load_low": 0,
+    "p8__load_high": 1,
+    "p8__load_low": 0
+  }
+}

@@ -1,0 +1,637 @@
+c var 1 x0
+c var 2 x1
+c var 3 x2
+c var 4 x3
+c var 5 x4
+c var 6 x5
+c var 7 x6
+c var 8 x7
+c var 9 x8
+c var 10 x9
+c var 11 x10
+c var 12 x11
+c var 13 x12
+c var 14 x13
+c var 15 x14
+c var 16 x15
+c var 17 x16
+c var 18 x17
+c var 19 x18
+c var 20 x19
+c var 21 x20
+c var 22 x21
+c var 23 x22
+c var 24 x23
+c var 25 x24
+c var 26 x25
+c var 27 x26
+c var 28 x27
+c var 29 x28
+c var 30 x29
+c var 31 x30
+c var 32 x31
+c var 33 x32
+c var 34 x33
+c var 35 x34
+c var 36 x35
+c var 37 x36
+c var 38 x37
+c var 39 x38
+c var 40 x39
+c var 41 x40
+c var 42 x41
+c var 43 x42
+c var 44 x43
+c var 45 x44
+c var 46 x45
+c var 47 x46
+c var 48 x47
+c var 49 x48
+c var 50 x49
+c var 51 x50
+c var 52 x51
+c var 53 x52
+c var 54 x53
+c var 55 x54
+c var 56 x55
+c var 57 x56
+c var 58 x57
+c var 59 x58
+c var 60 x59
+c var 61 x60
+c var 62 x61
+c var 63 x62
+c var 64 x63
+c var 65 x64
+c var 66 x65
+c var 67 x66
+c var 68 x67
+c var 69 x68
+c var 70 x69
+c var 71 x70
+c var 72 x71
+c var 73 x72
+c var 74 x73
+c var 75 x74
+c var 76 x75
+c var 77 x76
+c var 78 x77
+c var 79 x78
+c var 80 x79
+c var 81 x80
+c var 82 x81
+c var 83 x82
+c var 84 x83
+c var 85 x84
+c var 86 x85
+c var 87 x86
+c var 88 x87
+c var 89 x88
+c var 90 x89
+c var 91 x90
+c var 92 x91
+c var 93 x92
+c var 94 x93
+c var 95 x94
+c var 96 x95
+c var 97 x96
+c var 98 x97
+c var 99 x98
+c var 100 x99
+c var 101 x100
+c var 102 x101
+c var 103 x102
+c var 104 x103
+c var 105 x104
+c var 106 x105
+c var 107 x106
+c var 108 x107
+c var 109 x108
+c var 110 x109
+c var 111 x110
+c var 112 x111
+c var 113 x112
+c var 114 x113
+c var 115 x114
+c var 116 x115
+c var 117 x116
+c var 118 x117
+c var 119 x118
+c var 120 x119
+c var 121 x120
+c var 122 x121
+c var 123 x122
+c var 124 x123
+c var 125 x124
+c var 126 x125
+c var 127 x126
+c var 128 x127
+c forbid neq0_1 {'x0': 0, 'x1': 0}
+c forbid neq0_1 {'x0': 1, 'x1': 1}
+c forbid neq1_2 {'x1': 0, 'x2': 0}
+c forbid neq1_2 {'x1': 1, 'x2': 1}
+c forbid neq2_3 {'x2': 0, 'x3': 0}
+c forbid neq2_3 {'x2': 1, 'x3': 1}
+c forbid neq3_4 {'x3': 0, 'x4': 0}
+c forbid neq3_4 {'x3': 1, 'x4': 1}
+c forbid neq4_5 {'x4': 0, 'x5': 0}
+c forbid neq4_5 {'x4': 1, 'x5': 1}
+c forbid neq5_6 {'x5': 0, 'x6': 0}
+c forbid neq5_6 {'x5': 1, 'x6': 1}
+c forbid neq6_7 {'x6': 0, 'x7': 0}
+c forbid neq6_7 {'x6': 1, 'x7': 1}
+c forbid neq7_8 {'x7': 0, 'x8': 0}
+c forbid neq7_8 {'x7': 1, 'x8': 1}
+c forbid neq8_9 {'x8': 0, 'x9': 0}
+c forbid neq8_9 {'x8': 1, 'x9': 1}
+c forbid neq9_10 {'x9': 0, 'x10': 0}
+c forbid neq9_10 {'x9': 1, 'x10': 1}
+c forbid neq10_11 {'x10': 0, 'x11': 0}
+c forbid neq10_11 {'x10': 1, 'x11': 1}
+c forbid neq11_12 {'x11': 0, 'x12': 0}
+c forbid neq11_12 {'x11': 1, 'x12': 1}
+c forbid neq12_13 {'x12': 0, 'x13': 0}
+c forbid neq12_13 {'x12': 1, 'x13': 1}
+c forbid neq13_14 {'x13': 0, 'x14': 0}
+c forbid neq13_14 {'x13': 1, 'x14': 1}
+c forbid neq14_15 {'x14': 0, 'x15': 0}
+c forbid neq14_15 {'x14': 1, 'x15': 1}
+c forbid neq15_16 {'x15': 0, 'x16': 0}
+c forbid neq15_16 {'x15': 1, 'x16': 1}
+c forbid neq16_17 {'x16': 0, 'x17': 0}
+c forbid neq16_17 {'x16': 1, 'x17': 1}
+c forbid neq17_18 {'x17': 0, 'x18': 0}
+c forbid neq17_18 {'x17': 1, 'x18': 1}
+c forbid neq18_19 {'x18': 0, 'x19': 0}
+c forbid neq18_19 {'x18': 1, 'x19': 1}
+c forbid neq19_20 {'x19': 0, 'x20': 0}
+c forbid neq19_20 {'x19': 1, 'x20': 1}
+c forbid neq20_21 {'x20': 0, 'x21': 0}
+c forbid neq20_21 {'x20': 1, 'x21': 1}
+c forbid neq21_22 {'x21': 0, 'x22': 0}
+c forbid neq21_22 {'x21': 1, 'x22': 1}
+c forbid neq22_23 {'x22': 0, 'x23': 0}
+c forbid neq22_23 {'x22': 1, 'x23': 1}
+c forbid neq23_24 {'x23': 0, 'x24': 0}
+c forbid neq23_24 {'x23': 1, 'x24': 1}
+c forbid neq24_25 {'x24': 0, 'x25': 0}
+c forbid neq24_25 {'x24': 1, 'x25': 1}
+c forbid neq25_26 {'x25': 0, 'x26': 0}
+c forbid neq25_26 {'x25': 1, 'x26': 1}
+c forbid neq26_27 {'x26': 0, 'x27': 0}
+c forbid neq26_27 {'x26': 1, 'x27': 1}
+c forbid neq27_28 {'x27': 0, 'x28': 0}
+c forbid neq27_28 {'x27': 1, 'x28': 1}
+c forbid neq28_29 {'x28': 0, 'x29': 0}
+c forbid neq28_29 {'x28': 1, 'x29': 1}
+c forbid neq29_30 {'x29': 0, 'x30': 0}
+c forbid neq29_30 {'x29': 1, 'x30': 1}
+c forbid neq30_31 {'x30': 0, 'x31': 0}
+c forbid neq30_31 {'x30': 1, 'x31': 1}
+c forbid neq31_32 {'x31': 0, 'x32': 0}
+c forbid neq31_32 {'x31': 1, 'x32': 1}
+c forbid neq32_33 {'x32': 0, 'x33': 0}
+c forbid neq32_33 {'x32': 1, 'x33': 1}
+c forbid neq33_34 {'x33': 0, 'x34': 0}
+c forbid neq33_34 {'x33': 1, 'x34': 1}
+c forbid neq34_35 {'x34': 0, 'x35': 0}
+c forbid neq34_35 {'x34': 1, 'x35': 1}
+c forbid neq35_36 {'x35': 0, 'x36': 0}
+c forbid neq35_36 {'x35': 1, 'x36': 1}
+c forbid neq36_37 {'x36': 0, 'x37': 0}
+c forbid neq36_37 {'x36': 1, 'x37': 1}
+c forbid neq37_38 {'x37': 0, 'x38': 0}
+c forbid neq37_38 {'x37': 1, 'x38': 1}
+c forbid neq38_39 {'x38': 0, 'x39': 0}
+c forbid neq38_39 {'x38': 1, 'x39': 1}
+c forbid neq39_40 {'x39': 0, 'x40': 0}
+c forbid neq39_40 {'x39': 1, 'x40': 1}
+c forbid neq40_41 {'x40': 0, 'x41': 0}
+c forbid neq40_41 {'x40': 1, 'x41': 1}
+c forbid neq41_42 {'x41': 0, 'x42': 0}
+c forbid neq41_42 {'x41': 1, 'x42': 1}
+c forbid neq42_43 {'x42': 0, 'x43': 0}
+c forbid neq42_43 {'x42': 1, 'x43': 1}
+c forbid neq43_44 {'x43': 0, 'x44': 0}
+c forbid neq43_44 {'x43': 1, 'x44': 1}
+c forbid neq44_45 {'x44': 0, 'x45': 0}
+c forbid neq44_45 {'x44': 1, 'x45': 1}
+c forbid neq45_46 {'x45': 0, 'x46': 0}
+c forbid neq45_46 {'x45': 1, 'x46': 1}
+c forbid neq46_47 {'x46': 0, 'x47': 0}
+c forbid neq46_47 {'x46': 1, 'x47': 1}
+c forbid neq47_48 {'x47': 0, 'x48': 0}
+c forbid neq47_48 {'x47': 1, 'x48': 1}
+c forbid neq48_49 {'x48': 0, 'x49': 0}
+c forbid neq48_49 {'x48': 1, 'x49': 1}
+c forbid neq49_50 {'x49': 0, 'x50': 0}
+c forbid neq49_50 {'x49': 1, 'x50': 1}
+c forbid neq50_51 {'x50': 0, 'x51': 0}
+c forbid neq50_51 {'x50': 1, 'x51': 1}
+c forbid neq51_52 {'x51': 0, 'x52': 0}
+c forbid neq51_52 {'x51': 1, 'x52': 1}
+c forbid neq52_53 {'x52': 0, 'x53': 0}
+c forbid neq52_53 {'x52': 1, 'x53': 1}
+c forbid neq53_54 {'x53': 0, 'x54': 0}
+c forbid neq53_54 {'x53': 1, 'x54': 1}
+c forbid neq54_55 {'x54': 0, 'x55': 0}
+c forbid neq54_55 {'x54': 1, 'x55': 1}
+c forbid neq55_56 {'x55': 0, 'x56': 0}
+c forbid neq55_56 {'x55': 1, 'x56': 1}
+c forbid neq56_57 {'x56': 0, 'x57': 0}
+c forbid neq56_57 {'x56': 1, 'x57': 1}
+c forbid neq57_58 {'x57': 0, 'x58': 0}
+c forbid neq57_58 {'x57': 1, 'x58': 1}
+c forbid neq58_59 {'x58': 0, 'x59': 0}
+c forbid neq58_59 {'x58': 1, 'x59': 1}
+c forbid neq59_60 {'x59': 0, 'x60': 0}
+c forbid neq59_60 {'x59': 1, 'x60': 1}
+c forbid neq60_61 {'x60': 0, 'x61': 0}
+c forbid neq60_61 {'x60': 1, 'x61': 1}
+c forbid neq61_62 {'x61': 0, 'x62': 0}
+c forbid neq61_62 {'x61': 1, 'x62': 1}
+c forbid neq62_63 {'x62': 0, 'x63': 0}
+c forbid neq62_63 {'x62': 1, 'x63': 1}
+c forbid neq63_64 {'x63': 0, 'x64': 0}
+c forbid neq63_64 {'x63': 1, 'x64': 1}
+c forbid neq64_65 {'x64': 0, 'x65': 0}
+c forbid neq64_65 {'x64': 1, 'x65': 1}
+c forbid neq65_66 {'x65': 0, 'x66': 0}
+c forbid neq65_66 {'x65': 1, 'x66': 1}
+c forbid neq66_67 {'x66': 0, 'x67': 0}
+c forbid neq66_67 {'x66': 1, 'x67': 1}
+c forbid neq67_68 {'x67': 0, 'x68': 0}
+c forbid neq67_68 {'x67': 1, 'x68': 1}
+c forbid neq68_69 {'x68': 0, 'x69': 0}
+c forbid neq68_69 {'x68': 1, 'x69': 1}
+c forbid neq69_70 {'x69': 0, 'x70': 0}
+c forbid neq69_70 {'x69': 1, 'x70': 1}
+c forbid neq70_71 {'x70': 0, 'x71': 0}
+c forbid neq70_71 {'x70': 1, 'x71': 1}
+c forbid neq71_72 {'x71': 0, 'x72': 0}
+c forbid neq71_72 {'x71': 1, 'x72': 1}
+c forbid neq72_73 {'x72': 0, 'x73': 0}
+c forbid neq72_73 {'x72': 1, 'x73': 1}
+c forbid neq73_74 {'x73': 0, 'x74': 0}
+c forbid neq73_74 {'x73': 1, 'x74': 1}
+c forbid neq74_75 {'x74': 0, 'x75': 0}
+c forbid neq74_75 {'x74': 1, 'x75': 1}
+c forbid neq75_76 {'x75': 0, 'x76': 0}
+c forbid neq75_76 {'x75': 1, 'x76': 1}
+c forbid neq76_77 {'x76': 0, 'x77': 0}
+c forbid neq76_77 {'x76': 1, 'x77': 1}
+c forbid neq77_78 {'x77': 0, 'x78': 0}
+c forbid neq77_78 {'x77': 1, 'x78': 1}
+c forbid neq78_79 {'x78': 0, 'x79': 0}
+c forbid neq78_79 {'x78': 1, 'x79': 1}
+c forbid neq79_80 {'x79': 0, 'x80': 0}
+c forbid neq79_80 {'x79': 1, 'x80': 1}
+c forbid neq80_81 {'x80': 0, 'x81': 0}
+c forbid neq80_81 {'x80': 1, 'x81': 1}
+c forbid neq81_82 {'x81': 0, 'x82': 0}
+c forbid neq81_82 {'x81': 1, 'x82': 1}
+c forbid neq82_83 {'x82': 0, 'x83': 0}
+c forbid neq82_83 {'x82': 1, 'x83': 1}
+c forbid neq83_84 {'x83': 0, 'x84': 0}
+c forbid neq83_84 {'x83': 1, 'x84': 1}
+c forbid neq84_85 {'x84': 0, 'x85': 0}
+c forbid neq84_85 {'x84': 1, 'x85': 1}
+c forbid neq85_86 {'x85': 0, 'x86': 0}
+c forbid neq85_86 {'x85': 1, 'x86': 1}
+c forbid neq86_87 {'x86': 0, 'x87': 0}
+c forbid neq86_87 {'x86': 1, 'x87': 1}
+c forbid neq87_88 {'x87': 0, 'x88': 0}
+c forbid neq87_88 {'x87': 1, 'x88': 1}
+c forbid neq88_89 {'x88': 0, 'x89': 0}
+c forbid neq88_89 {'x88': 1, 'x89': 1}
+c forbid neq89_90 {'x89': 0, 'x90': 0}
+c forbid neq89_90 {'x89': 1, 'x90': 1}
+c forbid neq90_91 {'x90': 0, 'x91': 0}
+c forbid neq90_91 {'x90': 1, 'x91': 1}
+c forbid neq91_92 {'x91': 0, 'x92': 0}
+c forbid neq91_92 {'x91': 1, 'x92': 1}
+c forbid neq92_93 {'x92': 0, 'x93': 0}
+c forbid neq92_93 {'x92': 1, 'x93': 1}
+c forbid neq93_94 {'x93': 0, 'x94': 0}
+c forbid neq93_94 {'x93': 1, 'x94': 1}
+c forbid neq94_95 {'x94': 0, 'x95': 0}
+c forbid neq94_95 {'x94': 1, 'x95': 1}
+c forbid neq95_96 {'x95': 0, 'x96': 0}
+c forbid neq95_96 {'x95': 1, 'x96': 1}
+c forbid neq96_97 {'x96': 0, 'x97': 0}
+c forbid neq96_97 {'x96': 1, 'x97': 1}
+c forbid neq97_98 {'x97': 0, 'x98': 0}
+c forbid neq97_98 {'x97': 1, 'x98': 1}
+c forbid neq98_99 {'x98': 0, 'x99': 0}
+c forbid neq98_99 {'x98': 1, 'x99': 1}
+c forbid neq99_100 {'x99': 0, 'x100': 0}
+c forbid neq99_100 {'x99': 1, 'x100': 1}
+c forbid neq100_101 {'x100': 0, 'x101': 0}
+c forbid neq100_101 {'x100': 1, 'x101': 1}
+c forbid neq101_102 {'x101': 0, 'x102': 0}
+c forbid neq101_102 {'x101': 1, 'x102': 1}
+c forbid neq102_103 {'x102': 0, 'x103': 0}
+c forbid neq102_103 {'x102': 1, 'x103': 1}
+c forbid neq103_104 {'x103': 0, 'x104': 0}
+c forbid neq103_104 {'x103': 1, 'x104': 1}
+c forbid neq104_105 {'x104': 0, 'x105': 0}
+c forbid neq104_105 {'x104': 1, 'x105': 1}
+c forbid neq105_106 {'x105': 0, 'x106': 0}
+c forbid neq105_106 {'x105': 1, 'x106': 1}
+c forbid neq106_107 {'x106': 0, 'x107': 0}
+c forbid neq106_107 {'x106': 1, 'x107': 1}
+c forbid neq107_108 {'x107': 0, 'x108': 0}
+c forbid neq107_108 {'x107': 1, 'x108': 1}
+c forbid neq108_109 {'x108': 0, 'x109': 0}
+c forbid neq108_109 {'x108': 1, 'x109': 1}
+c forbid neq109_110 {'x109': 0, 'x110': 0}
+c forbid neq109_110 {'x109': 1, 'x110': 1}
+c forbid neq110_111 {'x110': 0, 'x111': 0}
+c forbid neq110_111 {'x110': 1, 'x111': 1}
+c forbid neq111_112 {'x111': 0, 'x112': 0}
+c forbid neq111_112 {'x111': 1, 'x112': 1}
+c forbid neq112_113 {'x112': 0, 'x113': 0}
+c forbid neq112_113 {'x112': 1, 'x113': 1}
+c forbid neq113_114 {'x113': 0, 'x114': 0}
+c forbid neq113_114 {'x113': 1, 'x114': 1}
+c forbid neq114_115 {'x114': 0, 'x115': 0}
+c forbid neq114_115 {'x114': 1, 'x115': 1}
+c forbid neq115_116 {'x115': 0, 'x116': 0}
+c forbid neq115_116 {'x115': 1, 'x116': 1}
+c forbid neq116_117 {'x116': 0, 'x117': 0}
+c forbid neq116_117 {'x116': 1, 'x117': 1}
+c forbid neq117_118 {'x117': 0, 'x118': 0}
+c forbid neq117_118 {'x117': 1, 'x118': 1}
+c forbid neq118_119 {'x118': 0, 'x119': 0}
+c forbid neq118_119 {'x118': 1, 'x119': 1}
+c forbid neq119_120 {'x119': 0, 'x120': 0}
+c forbid neq119_120 {'x119': 1, 'x120': 1}
+c forbid neq120_121 {'x120': 0, 'x121': 0}
+c forbid neq120_121 {'x120': 1, 'x121': 1}
+c forbid neq121_122 {'x121': 0, 'x122': 0}
+c forbid neq121_122 {'x121': 1, 'x122': 1}
+c forbid neq122_123 {'x122': 0, 'x123': 0}
+c forbid neq122_123 {'x122': 1, 'x123': 1}
+c forbid neq123_124 {'x123': 0, 'x124': 0}
+c forbid neq123_124 {'x123': 1, 'x124': 1}
+c forbid neq124_125 {'x124': 0, 'x125': 0}
+c forbid neq124_125 {'x124': 1, 'x125': 1}
+c forbid neq125_126 {'x125': 0, 'x126': 0}
+c forbid neq125_126 {'x125': 1, 'x126': 1}
+c forbid neq126_127 {'x126': 0, 'x127': 0}
+c forbid neq126_127 {'x126': 1, 'x127': 1}
+p cnf 128 254
+1 2 0
+-1 -2 0
+2 3 0
+-2 -3 0
+3 4 0
+-3 -4 0
+4 5 0
+-4 -5 0
+5 6 0
+-5 -6 0
+6 7 0
+-6 -7 0
+7 8 0
+-7 -8 0
+8 9 0
+-8 -9 0
+9 10 0
+-9 -10 0
+10 11 0
+-10 -11 0
+11 12 0
+-11 -12 0
+12 13 0
+-12 -13 0
+13 14 0
+-13 -14 0
+14 15 0
+-14 -15 0
+15 16 0
+-15 -16 0
+16 17 0
+-16 -17 0
+17 18 0
+-17 -18 0
+18 19 0
+-18 -19 0
+19 20 0
+-19 -20 0
+20 21 0
+-20 -21 0
+21 22 0
+-21 -22 0
+22 23 0
+-22 -23 0
+23 24 0
+-23 -24 0
+24 25 0
+-24 -25 0
+25 26 0
+-25 -26 0
+26 27 0
+-26 -27 0
+27 28 0
+-27 -28 0
+28 29 0
+-28 -29 0
+29 30 0
+-29 -30 0
+30 31 0
+-30 -31 0
+31 32 0
+-31 -32 0
+32 33 0
+-32 -33 0
+33 34 0
+-33 -34 0
+34 35 0
+-34 -35 0
+35 36 0
+-35 -36 0
+36 37 0
+-36 -37 0
+37 38 0
+-37 -38 0
+38 39 0
+-38 -39 0
+39 40 0
+-39 -40 0
+40 41 0
+-40 -41 0
+41 42 0
+-41 -42 0
+42 43 0
+-42 -43 0
+43 44 0
+-43 -44 0
+44 45 0
+-44 -45 0
+45 46 0
+-45 -46 0
+46 47 0
+-46 -47 0
+47 48 0
+-47 -48 0
+48 49 0
+-48 -49 0
+49 50 0
+-49 -50 0
+50 51 0
+-50 -51 0
+51 52 0
+-51 -52 0
+52 53 0
+-52 -53 0
+53 54 0
+-53 -54 0
+54 55 0
+-54 -55 0
+55 56 0
+-55 -56 0
+56 57 0
+-56 -57 0
+57 58 0
+-57 -58 0
+58 59 0
+-58 -59 0
+59 60 0
+-59 -60 0
+60 61 0
+-60 -61 0
+61 62 0
+-61 -62 0
+62 63 0
+-62 -63 0
+63 64 0
+-63 -64 0
+64 65 0
+-64 -65 0
+65 66 0
+-65 -66 0
+66 67 0
+-66 -67 0
+67 68 0
+-67 -68 0
+68 69 0
+-68 -69 0
+69 70 0
+-69 -70 0
+70 71 0
+-70 -71 0
+71 72 0
+-71 -72 0
+72 73 0
+-72 -73 0
+73 74 0
+-73 -74 0
+74 75 0
+-74 -75 0
+75 76 0
+-75 -76 0
+76 77 0
+-76 -77 0
+77 78 0
+-77 -78 0
+78 79 0
+-78 -79 0
+79 80 0
+-79 -80 0
+80 81 0
+-80 -81 0
+81 82 0
+-81 -82 0
+82 83 0
+-82 -83 0
+83 84 0
+-83 -84 0
+84 85 0
+-84 -85 0
+85 86 0
+-85 -86 0
+86 87 0
+-86 -87 0
+87 88 0
+-87 -88 0
+88 89 0
+-88 -89 0
+89 90 0
+-89 -90 0
+90 91 0
+-90 -91 0
+91 92 0
+-91 -92 0
+92 93 0
+-92 -93 0
+93 94 0
+-93 -94 0
+94 95 0
+-94 -95 0
+95 96 0
+-95 -96 0
+96 97 0
+-96 -97 0
+97 98 0
+-97 -98 0
+98 99 0
+-98 -99 0
+99 100 0
+-99 -100 0
+100 101 0
+-100 -101 0
+101 102 0
+-101 -102 0
+102 103 0
+-102 -103 0
+103 104 0
+-103 -104 0
+104 105 0
+-104 -105 0
+105 106 0
+-105 -106 0
+106 107 0
+-106 -107 0
+107 108 0
+-107 -108 0
+108 109 0
+-108 -109 0
+109 110 0
+-109 -110 0
+110 111 0
+-110 -111 0
+111 112 0
+-111 -112 0
+112 113 0
+-112 -113 0
+113 114 0
+-113 -114 0
+114 115 0
+-114 -115 0
+115 116 0
+-115 -116 0
+116 117 0
+-116 -117 0
+117 118 0
+-117 -118 0
+118 119 0
+-118 -119 0
+119 120 0
+-119 -120 0
+120 121 0
+-120 -121 0
+121 122 0
+-121 -122 0
+122 123 0
+-122 -123 0
+123 124 0
+-123 -124 0
+124 125 0
+-124 -125 0
+125 126 0
+-125 -126 0
+126 127 0
+-126 -127 0
+127 128 0
+-127 -128 0

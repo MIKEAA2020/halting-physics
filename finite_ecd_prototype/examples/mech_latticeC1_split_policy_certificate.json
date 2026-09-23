@@ -1,0 +1,17 @@
+{
+  "type": "POLICY",
+  "assignment": {
+    "pair_d0_0m__load_bot": 1,
+    "pair_d0_0p__load_bot": 1,
+    "pair_d0_1m__load_bot": 0,
+    "pair_d0_1p__load_bot": 0,
+    "pair_v1_0__load_bot": 0,
+    "pair_v1_1__load_bot": 0,
+    "pair_d0_0m__load_top": 0,
+    "pair_d0_0p__load_top": 0,
+    "pair_d0_1m__load_top": 1,
+    "pair_d0_1p__load_top": 1,
+    "pair_v1_0__load_top": 0,
+    "pair_v1_1__load_top": 0
+  }
+}

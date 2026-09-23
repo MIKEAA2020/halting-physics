@@ -1,0 +1,289 @@
+{
+  "type": "DP-REFUTATION",
+  "status": "CERTIFIED-UNSAT",
+  "tree_decomp": {
+    "type": "TREE-DECOMP",
+    "root": "b1",
+    "bags": {
+      "b1": [
+        "x0",
+        "x1",
+        "x2"
+      ],
+      "b2": [
+        "x0",
+        "x2",
+        "x3"
+      ],
+      "b3": [
+        "x0",
+        "x3",
+        "x4"
+      ]
+    },
+    "edges": [
+      [
+        "b1",
+        "b2"
+      ],
+      [
+        "b2",
+        "b3"
+      ]
+    ],
+    "factor_to_bag": {
+      "neq0_1": "b1",
+      "neq1_2": "b1",
+      "neq2_3": "b2",
+      "neq3_4": "b3",
+      "neq4_0": "b3"
+    }
+  },
+  "root": "b1",
+  "optimum_cost": null,
+  "root_assignment": null,
+  "messages": {
+    "b1": {
+      "bag": [
+        "x0",
+        "x1",
+        "x2"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b2": {
+      "bag": [
+        "x0",
+        "x2",
+        "x3"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0
+          ],
+          "cost": 1
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1
+          ],
+          "cost": 1
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b3": {
+      "bag": [
+        "x0",
+        "x3",
+        "x4"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1
+          ],
+          "cost": 1
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        }
+      ]
+    }
+  },
+  "argmins": {
+    "b3": {
+      "[0, 0, 1]": {},
+      "[1, 1, 0]": {}
+    },
+    "b2": {
+      "[0, 1, 0]": {
+        "b3": [
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 1]": {
+        "b3": [
+          1,
+          1,
+          0
+        ]
+      }
+    },
+    "b1": {}
+  }
+}

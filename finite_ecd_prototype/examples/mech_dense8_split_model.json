@@ -1,0 +1,124 @@
+{
+  "name": "dense_chain_8",
+  "kind": "scalar-chain",
+  "nodes": 8,
+  "springs": [
+    {
+      "name": "s1",
+      "k": "1"
+    },
+    {
+      "name": "s2",
+      "k": "2"
+    },
+    {
+      "name": "s3",
+      "k": "1"
+    },
+    {
+      "name": "s4",
+      "k": "2"
+    },
+    {
+      "name": "s5",
+      "k": "1"
+    },
+    {
+      "name": "s6",
+      "k": "2"
+    },
+    {
+      "name": "s7",
+      "k": "1"
+    },
+    {
+      "name": "s8",
+      "k": "2"
+    }
+  ],
+  "actuators": [
+    {
+      "name": "a1",
+      "type": "node-force",
+      "node": 1,
+      "component": "-1/2"
+    },
+    {
+      "name": "a2",
+      "type": "node-force",
+      "node": 2,
+      "component": "-1/2"
+    },
+    {
+      "name": "a3",
+      "type": "node-force",
+      "node": 3,
+      "component": "-1/2"
+    },
+    {
+      "name": "a4",
+      "type": "node-force",
+      "node": 4,
+      "component": "-1/2"
+    },
+    {
+      "name": "a5",
+      "type": "node-force",
+      "node": 5,
+      "component": "-1/2"
+    },
+    {
+      "name": "a6",
+      "type": "node-force",
+      "node": 6,
+      "component": "-1/2"
+    },
+    {
+      "name": "a7",
+      "type": "node-force",
+      "node": 7,
+      "component": "-1/2"
+    },
+    {
+      "name": "a8",
+      "type": "node-force",
+      "node": 8,
+      "component": "-1/2"
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "load_low",
+      "forces": [
+        {
+          "node": 1,
+          "component": "1"
+        }
+      ]
+    },
+    {
+      "name": "load_high",
+      "forces": [
+        {
+          "node": 8,
+          "component": "1"
+        }
+      ]
+    }
+  ],
+  "monitors": [
+    {
+      "name": "u4",
+      "type": "node-displacement",
+      "node": 4
+    }
+  ],
+  "actuator_domain": [
+    0,
+    1
+  ],
+  "safe_interval": [
+    "1/4",
+    "9/8"
+  ]
+}

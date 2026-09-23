@@ -1,0 +1,85 @@
+{
+  "type": "TREE-DECOMP",
+  "root": "b_pair_d0_0m",
+  "bags": {
+    "b_pair_d0_0m": [
+      "pair_d0_0m",
+      "pair_d0_0p",
+      "pair_d0_1m",
+      "pair_d0_1p",
+      "pair_v1_0",
+      "pair_v1_1"
+    ],
+    "b_pair_d0_0p": [
+      "pair_d0_0p",
+      "pair_d0_1m",
+      "pair_d0_1p",
+      "pair_v1_0",
+      "pair_v1_1"
+    ],
+    "b_pair_d0_1m": [
+      "pair_d0_1m",
+      "pair_d0_1p",
+      "pair_v1_0",
+      "pair_v1_1"
+    ],
+    "b_pair_d0_1p": [
+      "pair_d0_1p",
+      "pair_v1_0",
+      "pair_v1_1"
+    ],
+    "b_pair_v1_0": [
+      "pair_v1_0",
+      "pair_v1_1"
+    ],
+    "b_pair_v1_1": [
+      "pair_v1_1"
+    ]
+  },
+  "edges": [
+    [
+      "b_pair_d0_0m",
+      "b_pair_d0_0p"
+    ],
+    [
+      "b_pair_d0_0p",
+      "b_pair_d0_1m"
+    ],
+    [
+      "b_pair_d0_1m",
+      "b_pair_d0_1p"
+    ],
+    [
+      "b_pair_d0_1p",
+      "b_pair_v1_0"
+    ],
+    [
+      "b_pair_v1_0",
+      "b_pair_v1_1"
+    ]
+  ],
+  "factor_to_bag": {
+    "load_top__force_h0_0": "b_pair_d0_0m",
+    "load_top__force_h0_1": "b_pair_d0_0p",
+    "load_top__force_h0_2": "b_pair_d0_0m",
+    "load_top__force_v1_0": "b_pair_d0_0m",
+    "load_top__force_v1_1": "b_pair_d0_0m",
+    "load_top__force_d0_0p": "b_pair_d0_0m",
+    "load_top__force_d0_0m": "b_pair_d0_0m",
+    "load_top__force_d0_1p": "b_pair_d0_0m",
+    "load_top__force_d0_1m": "b_pair_d0_0m",
+    "load_bot__force_h0_0": "b_pair_d0_0m",
+    "load_bot__force_h0_1": "b_pair_d0_0p",
+    "load_bot__force_h0_2": "b_pair_d0_0m",
+    "load_bot__force_v1_0": "b_pair_d0_0m",
+    "load_bot__force_v1_1": "b_pair_d0_0m",
+    "load_bot__force_d0_0p": "b_pair_d0_0m",
+    "load_bot__force_d0_0m": "b_pair_d0_0m",
+    "load_bot__force_d0_1p": "b_pair_d0_0m",
+    "load_bot__force_d0_1m": "b_pair_d0_0m"
+  },
+  "metadata": {
+    "construction": "deterministic min-fill elimination",
+    "width": 5
+  }
+}

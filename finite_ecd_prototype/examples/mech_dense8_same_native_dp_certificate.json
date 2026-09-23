@@ -1,0 +1,8632 @@
+{
+  "type": "DP-REFUTATION",
+  "status": "CERTIFIED-UNSAT",
+  "tree_decomp": {
+    "type": "TREE-DECOMP",
+    "root": "b_a1",
+    "bags": {
+      "b_a1": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8"
+      ],
+      "b_a2": [
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8"
+      ],
+      "b_a3": [
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8"
+      ],
+      "b_a4": [
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8"
+      ],
+      "b_a5": [
+        "a5",
+        "a6",
+        "a7",
+        "a8"
+      ],
+      "b_a6": [
+        "a6",
+        "a7",
+        "a8"
+      ],
+      "b_a7": [
+        "a7",
+        "a8"
+      ],
+      "b_a8": [
+        "a8"
+      ]
+    },
+    "edges": [
+      [
+        "b_a1",
+        "b_a2"
+      ],
+      [
+        "b_a2",
+        "b_a3"
+      ],
+      [
+        "b_a3",
+        "b_a4"
+      ],
+      [
+        "b_a4",
+        "b_a5"
+      ],
+      [
+        "b_a5",
+        "b_a6"
+      ],
+      [
+        "b_a6",
+        "b_a7"
+      ],
+      [
+        "b_a7",
+        "b_a8"
+      ]
+    ],
+    "factor_to_bag": {
+      "load_low__u4": "b_a1",
+      "load_high__u4": "b_a1"
+    }
+  },
+  "root": "b_a1",
+  "optimum_cost": null,
+  "root_assignment": null,
+  "messages": {
+    "b_a1": {
+      "bag": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_a2": {
+      "bag": [
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        }
+      ]
+    },
+    "b_a3": {
+      "bag": [
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        }
+      ]
+    },
+    "b_a4": {
+      "bag": [
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        }
+      ]
+    },
+    "b_a5": {
+      "bag": [
+        "a5",
+        "a6",
+        "a7",
+        "a8"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        }
+      ]
+    },
+    "b_a6": {
+      "bag": [
+        "a6",
+        "a7",
+        "a8"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        }
+      ]
+    },
+    "b_a7": {
+      "bag": [
+        "a7",
+        "a8"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1
+          ],
+          "cost": 0
+        }
+      ]
+    },
+    "b_a8": {
+      "bag": [
+        "a8"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": 0
+        }
+      ]
+    }
+  },
+  "argmins": {
+    "b_a8": {
+      "[0]": {},
+      "[1]": {}
+    },
+    "b_a7": {
+      "[0, 0]": {
+        "b_a8": [
+          0
+        ]
+      },
+      "[0, 1]": {
+        "b_a8": [
+          1
+        ]
+      },
+      "[1, 0]": {
+        "b_a8": [
+          0
+        ]
+      },
+      "[1, 1]": {
+        "b_a8": [
+          1
+        ]
+      }
+    },
+    "b_a6": {
+      "[0, 0, 0]": {
+        "b_a7": [
+          0,
+          0
+        ]
+      },
+      "[0, 0, 1]": {
+        "b_a7": [
+          0,
+          1
+        ]
+      },
+      "[0, 1, 0]": {
+        "b_a7": [
+          1,
+          0
+        ]
+      },
+      "[0, 1, 1]": {
+        "b_a7": [
+          1,
+          1
+        ]
+      },
+      "[1, 0, 0]": {
+        "b_a7": [
+          0,
+          0
+        ]
+      },
+      "[1, 0, 1]": {
+        "b_a7": [
+          0,
+          1
+        ]
+      },
+      "[1, 1, 0]": {
+        "b_a7": [
+          1,
+          0
+        ]
+      },
+      "[1, 1, 1]": {
+        "b_a7": [
+          1,
+          1
+        ]
+      }
+    },
+    "b_a5": {
+      "[0, 0, 0, 0]": {
+        "b_a6": [
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 0, 1]": {
+        "b_a6": [
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 1, 0]": {
+        "b_a6": [
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 1, 1]": {
+        "b_a6": [
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 0, 0]": {
+        "b_a6": [
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 0, 1]": {
+        "b_a6": [
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 1, 0]": {
+        "b_a6": [
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 1, 1]": {
+        "b_a6": [
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 0, 0]": {
+        "b_a6": [
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 0, 1]": {
+        "b_a6": [
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 1, 0]": {
+        "b_a6": [
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 1, 1]": {
+        "b_a6": [
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 0, 0]": {
+        "b_a6": [
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 0, 1]": {
+        "b_a6": [
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 1, 0]": {
+        "b_a6": [
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 1, 1]": {
+        "b_a6": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "b_a4": {
+      "[0, 0, 0, 0, 0]": {
+        "b_a5": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 0, 0, 1]": {
+        "b_a5": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 0, 1, 0]": {
+        "b_a5": [
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 0, 1, 1]": {
+        "b_a5": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 0, 1, 0, 0]": {
+        "b_a5": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 1, 0, 1]": {
+        "b_a5": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 1, 1, 0]": {
+        "b_a5": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 1, 1, 1]": {
+        "b_a5": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 0, 0, 0]": {
+        "b_a5": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 0, 0, 1]": {
+        "b_a5": [
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 0, 1, 0]": {
+        "b_a5": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 0, 1, 1]": {
+        "b_a5": [
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 1, 0, 0]": {
+        "b_a5": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 1, 0, 1]": {
+        "b_a5": [
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 1, 1, 0]": {
+        "b_a5": [
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 1, 1, 1]": {
+        "b_a5": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 0, 0, 0]": {
+        "b_a5": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 0, 0, 1]": {
+        "b_a5": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 0, 1, 0]": {
+        "b_a5": [
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 0, 1, 1]": {
+        "b_a5": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 1, 0, 0]": {
+        "b_a5": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 1, 0, 1]": {
+        "b_a5": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 1, 1, 0]": {
+        "b_a5": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 1, 1, 1]": {
+        "b_a5": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 0, 0, 0]": {
+        "b_a5": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 0, 0, 1]": {
+        "b_a5": [
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 0, 1, 0]": {
+        "b_a5": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 0, 1, 1]": {
+        "b_a5": [
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 1, 0, 0]": {
+        "b_a5": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 1, 0, 1]": {
+        "b_a5": [
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 1, 1, 0]": {
+        "b_a5": [
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 1, 1, 1]": {
+        "b_a5": [
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "b_a3": {
+      "[0, 0, 0, 0, 0, 0]": {
+        "b_a4": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 0, 0, 0, 1]": {
+        "b_a4": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 0, 0, 1, 0]": {
+        "b_a4": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 0, 0, 1, 1]": {
+        "b_a4": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 0, 0, 1, 0, 0]": {
+        "b_a4": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 0, 1, 0, 1]": {
+        "b_a4": [
+          0,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 0, 1, 1, 0]": {
+        "b_a4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 0, 1, 1, 1]": {
+        "b_a4": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "[0, 0, 1, 0, 0, 0]": {
+        "b_a4": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 1, 0, 0, 1]": {
+        "b_a4": [
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 1, 0, 1, 0]": {
+        "b_a4": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 1, 0, 1, 1]": {
+        "b_a4": [
+          0,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 0, 1, 1, 0, 0]": {
+        "b_a4": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 1, 1, 0, 1]": {
+        "b_a4": [
+          0,
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 1, 1, 1, 0]": {
+        "b_a4": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 1, 1, 1, 1]": {
+        "b_a4": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 0, 0, 0, 0]": {
+        "b_a4": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 0, 0, 0, 1]": {
+        "b_a4": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 0, 0, 1, 0]": {
+        "b_a4": [
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 0, 0, 1, 1]": {
+        "b_a4": [
+          1,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 0, 1, 0, 0]": {
+        "b_a4": [
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 0, 1, 0, 1]": {
+        "b_a4": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 0, 1, 1, 0]": {
+        "b_a4": [
+          1,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 0, 1, 1, 1]": {
+        "b_a4": [
+          1,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 1, 0, 0, 0]": {
+        "b_a4": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 1, 0, 0, 1]": {
+        "b_a4": [
+          1,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 1, 0, 1, 0]": {
+        "b_a4": [
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 1, 0, 1, 1]": {
+        "b_a4": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 1, 1, 0, 0]": {
+        "b_a4": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 1, 1, 0, 1]": {
+        "b_a4": [
+          1,
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 1, 1, 1, 0]": {
+        "b_a4": [
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 1, 1, 1, 1]": {
+        "b_a4": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 0, 0, 0, 0]": {
+        "b_a4": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 0, 0, 0, 1]": {
+        "b_a4": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 0, 0, 1, 0]": {
+        "b_a4": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 0, 0, 1, 1]": {
+        "b_a4": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 0, 1, 0, 0]": {
+        "b_a4": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 0, 1, 0, 1]": {
+        "b_a4": [
+          0,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 0, 1, 1, 0]": {
+        "b_a4": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 0, 1, 1, 1]": {
+        "b_a4": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 1, 0, 0, 0]": {
+        "b_a4": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 1, 0, 0, 1]": {
+        "b_a4": [
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 1, 0, 1, 0]": {
+        "b_a4": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 1, 0, 1, 1]": {
+        "b_a4": [
+          0,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 1, 1, 0, 0]": {
+        "b_a4": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 1, 1, 0, 1]": {
+        "b_a4": [
+          0,
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 1, 1, 1, 0]": {
+        "b_a4": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 1, 1, 1, 1]": {
+        "b_a4": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 0, 0, 0, 0]": {
+        "b_a4": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 0, 0, 0, 1]": {
+        "b_a4": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 0, 0, 1, 0]": {
+        "b_a4": [
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 0, 0, 1, 1]": {
+        "b_a4": [
+          1,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 0, 1, 0, 0]": {
+        "b_a4": [
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 0, 1, 0, 1]": {
+        "b_a4": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 0, 1, 1, 0]": {
+        "b_a4": [
+          1,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 0, 1, 1, 1]": {
+        "b_a4": [
+          1,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 1, 0, 0, 0]": {
+        "b_a4": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 1, 0, 0, 1]": {
+        "b_a4": [
+          1,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 1, 0, 1, 0]": {
+        "b_a4": [
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 1, 0, 1, 1]": {
+        "b_a4": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 1, 1, 0, 0]": {
+        "b_a4": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 1, 1, 0, 1]": {
+        "b_a4": [
+          1,
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 1, 1, 1, 0]": {
+        "b_a4": [
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 1, 1, 1, 1]": {
+        "b_a4": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "b_a2": {
+      "[0, 0, 0, 0, 0, 0, 0]": {
+        "b_a3": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 0, 0, 0, 0, 1]": {
+        "b_a3": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 0, 0, 0, 1, 0]": {
+        "b_a3": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 0, 0, 0, 1, 1]": {
+        "b_a3": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 0, 0, 0, 1, 0, 0]": {
+        "b_a3": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 0, 0, 1, 0, 1]": {
+        "b_a3": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 0, 0, 1, 1, 0]": {
+        "b_a3": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 0, 0, 1, 1, 1]": {
+        "b_a3": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "[0, 0, 0, 1, 0, 0, 0]": {
+        "b_a3": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 0, 1, 0, 0, 1]": {
+        "b_a3": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 0, 1, 0, 1, 0]": {
+        "b_a3": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 0, 1, 0, 1, 1]": {
+        "b_a3": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 0, 0, 1, 1, 0, 0]": {
+        "b_a3": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 0, 1, 1, 0, 1]": {
+        "b_a3": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 0, 1, 1, 1, 0]": {
+        "b_a3": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 0, 1, 1, 1, 1]": {
+        "b_a3": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "[0, 0, 1, 0, 0, 0, 0]": {
+        "b_a3": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 1, 0, 0, 0, 1]": {
+        "b_a3": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 1, 0, 0, 1, 0]": {
+        "b_a3": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 1, 0, 0, 1, 1]": {
+        "b_a3": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 0, 1, 0, 1, 0, 0]": {
+        "b_a3": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 1, 0, 1, 0, 1]": {
+        "b_a3": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 1, 0, 1, 1, 0]": {
+        "b_a3": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 1, 0, 1, 1, 1]": {
+        "b_a3": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "[0, 0, 1, 1, 0, 0, 0]": {
+        "b_a3": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 1, 1, 0, 0, 1]": {
+        "b_a3": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 1, 1, 0, 1, 0]": {
+        "b_a3": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 1, 1, 0, 1, 1]": {
+        "b_a3": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 0, 1, 1, 1, 0, 0]": {
+        "b_a3": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 1, 1, 1, 0, 1]": {
+        "b_a3": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 1, 1, 1, 1, 0]": {
+        "b_a3": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 1, 1, 1, 1, 1]": {
+        "b_a3": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 0, 0, 0, 0, 0]": {
+        "b_a3": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 0, 0, 0, 0, 1]": {
+        "b_a3": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 0, 0, 0, 1, 0]": {
+        "b_a3": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 0, 0, 0, 1, 1]": {
+        "b_a3": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 0, 0, 1, 0, 0]": {
+        "b_a3": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 0, 0, 1, 0, 1]": {
+        "b_a3": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 0, 0, 1, 1, 0]": {
+        "b_a3": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 0, 0, 1, 1, 1]": {
+        "b_a3": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 0, 1, 0, 0, 0]": {
+        "b_a3": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 0, 1, 0, 0, 1]": {
+        "b_a3": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 0, 1, 0, 1, 0]": {
+        "b_a3": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 0, 1, 0, 1, 1]": {
+        "b_a3": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 0, 1, 1, 0, 0]": {
+        "b_a3": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 0, 1, 1, 0, 1]": {
+        "b_a3": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 0, 1, 1, 1, 0]": {
+        "b_a3": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 0, 1, 1, 1, 1]": {
+        "b_a3": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 1, 0, 0, 0, 0]": {
+        "b_a3": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 1, 0, 0, 0, 1]": {
+        "b_a3": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 1, 0, 0, 1, 0]": {
+        "b_a3": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 1, 0, 0, 1, 1]": {
+        "b_a3": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 1, 0, 1, 0, 0]": {
+        "b_a3": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 1, 0, 1, 0, 1]": {
+        "b_a3": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 1, 0, 1, 1, 0]": {
+        "b_a3": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 1, 0, 1, 1, 1]": {
+        "b_a3": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 1, 1, 0, 0, 0]": {
+        "b_a3": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 1, 1, 0, 0, 1]": {
+        "b_a3": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 1, 1, 0, 1, 0]": {
+        "b_a3": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 1, 1, 0, 1, 1]": {
+        "b_a3": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 1, 1, 1, 0, 0]": {
+        "b_a3": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 1, 1, 1, 0, 1]": {
+        "b_a3": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 1, 1, 1, 1, 0]": {
+        "b_a3": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 1, 1, 1, 1, 1]": {
+        "b_a3": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 0, 0, 0, 0, 0]": {
+        "b_a3": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 0, 0, 0, 0, 1]": {
+        "b_a3": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 0, 0, 0, 1, 0]": {
+        "b_a3": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 0, 0, 0, 1, 1]": {
+        "b_a3": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 0, 0, 1, 0, 0]": {
+        "b_a3": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 0, 0, 1, 0, 1]": {
+        "b_a3": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 0, 0, 1, 1, 0]": {
+        "b_a3": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 0, 0, 1, 1, 1]": {
+        "b_a3": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 0, 1, 0, 0, 0]": {
+        "b_a3": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 0, 1, 0, 0, 1]": {
+        "b_a3": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 0, 1, 0, 1, 0]": {
+        "b_a3": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 0, 1, 0, 1, 1]": {
+        "b_a3": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 0, 1, 1, 0, 0]": {
+        "b_a3": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 0, 1, 1, 0, 1]": {
+        "b_a3": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 0, 1, 1, 1, 0]": {
+        "b_a3": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 0, 1, 1, 1, 1]": {
+        "b_a3": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 1, 0, 0, 0, 0]": {
+        "b_a3": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 1, 0, 0, 0, 1]": {
+        "b_a3": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 1, 0, 0, 1, 0]": {
+        "b_a3": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 1, 0, 0, 1, 1]": {
+        "b_a3": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 1, 0, 1, 0, 0]": {
+        "b_a3": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 1, 0, 1, 0, 1]": {
+        "b_a3": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 1, 0, 1, 1, 0]": {
+        "b_a3": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 1, 0, 1, 1, 1]": {
+        "b_a3": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 1, 1, 0, 0, 0]": {
+        "b_a3": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 1, 1, 0, 0, 1]": {
+        "b_a3": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 1, 1, 0, 1, 0]": {
+        "b_a3": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 1, 1, 0, 1, 1]": {
+        "b_a3": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 1, 1, 1, 0, 0]": {
+        "b_a3": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 1, 1, 1, 0, 1]": {
+        "b_a3": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 1, 1, 1, 1, 0]": {
+        "b_a3": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 1, 1, 1, 1, 1]": {
+        "b_a3": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 0, 0, 0, 0, 0]": {
+        "b_a3": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 0, 0, 0, 0, 1]": {
+        "b_a3": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 0, 0, 0, 1, 0]": {
+        "b_a3": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 0, 0, 0, 1, 1]": {
+        "b_a3": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 0, 0, 1, 0, 0]": {
+        "b_a3": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 0, 0, 1, 0, 1]": {
+        "b_a3": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 0, 0, 1, 1, 0]": {
+        "b_a3": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 0, 0, 1, 1, 1]": {
+        "b_a3": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 0, 1, 0, 0, 0]": {
+        "b_a3": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 0, 1, 0, 0, 1]": {
+        "b_a3": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 0, 1, 0, 1, 0]": {
+        "b_a3": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 0, 1, 0, 1, 1]": {
+        "b_a3": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 0, 1, 1, 0, 0]": {
+        "b_a3": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 0, 1, 1, 0, 1]": {
+        "b_a3": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 0, 1, 1, 1, 0]": {
+        "b_a3": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 0, 1, 1, 1, 1]": {
+        "b_a3": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 1, 0, 0, 0, 0]": {
+        "b_a3": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 1, 0, 0, 0, 1]": {
+        "b_a3": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 1, 0, 0, 1, 0]": {
+        "b_a3": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 1, 0, 0, 1, 1]": {
+        "b_a3": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 1, 0, 1, 0, 0]": {
+        "b_a3": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 1, 0, 1, 0, 1]": {
+        "b_a3": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 1, 0, 1, 1, 0]": {
+        "b_a3": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 1, 0, 1, 1, 1]": {
+        "b_a3": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 1, 1, 0, 0, 0]": {
+        "b_a3": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 1, 1, 0, 0, 1]": {
+        "b_a3": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 1, 1, 0, 1, 0]": {
+        "b_a3": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 1, 1, 0, 1, 1]": {
+        "b_a3": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 1, 1, 1, 0, 0]": {
+        "b_a3": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 1, 1, 1, 0, 1]": {
+        "b_a3": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 1, 1, 1, 1, 0]": {
+        "b_a3": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 1, 1, 1, 1, 1]": {
+        "b_a3": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "b_a1": {}
+  }
+}

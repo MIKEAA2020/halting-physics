@@ -1,0 +1,1265 @@
+{
+  "format": "minimal-cpsat-forbidden-tuples",
+  "variables": [
+    {
+      "name": "act_n3",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "act_n4",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "act_n5",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "act_n6",
+      "domain": [
+        0,
+        1
+      ]
+    }
+  ],
+  "forbidden_assignments": [
+    {
+      "name": "load_low__force_top_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_low__force_top_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_top_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_low__force_top_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_top_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_top_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_top_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_bot_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_low__force_bot_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_bot_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_bot_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_low__force_bot_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_bot_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_vert_tip",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_vert_tip",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_vert_tip",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_vert_tip",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_diag_14",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_diag_14",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_diag_14",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_diag_14",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_low__force_diag_14",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_diag_23",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_diag_23",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_diag_23",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_diag_23",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_diag_23",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_low__force_diag_23",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_diag_36",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_low__force_diag_45",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_top_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_top_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_high__force_top_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_top_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_top_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_high__force_top_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_top_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_top_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_top_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_high__force_top_right",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_top_right",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_top_right",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_top_right",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_bot_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_bot_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_high__force_bot_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_bot_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_bot_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_bot_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_high__force_bot_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_bot_left",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_vert_tip",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_vert_tip",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_high__force_vert_tip",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_high__force_vert_tip",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_vert_tip",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_high__force_vert_tip",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_high__force_vert_tip",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_vert_tip",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_high__force_vert_tip",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_high__force_vert_tip",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_vert_tip",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_high__force_vert_tip",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_high__force_diag_14",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_diag_14",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_diag_14",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_high__force_diag_23",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_diag_23",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_high__force_diag_23",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_high__force_diag_36",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_diag_36",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_diag_36",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_diag_36",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_diag_45",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_diag_45",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_high__force_diag_45",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_diag_45",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_high__force_diag_45",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_diag_45",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_diag_45",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_high__force_diag_45",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_high__force_diag_45",
+      "scope": [
+        "act_n3",
+        "act_n4",
+        "act_n5",
+        "act_n6"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1
+      ]
+    }
+  ]
+}

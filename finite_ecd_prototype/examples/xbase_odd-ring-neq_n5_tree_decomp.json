@@ -1,0 +1,42 @@
+{
+  "type": "TREE-DECOMP",
+  "root": "b1",
+  "bags": {
+    "b1": [
+      "x0",
+      "x1",
+      "x2"
+    ],
+    "b2": [
+      "x0",
+      "x2",
+      "x3"
+    ],
+    "b3": [
+      "x0",
+      "x3",
+      "x4"
+    ]
+  },
+  "edges": [
+    [
+      "b1",
+      "b2"
+    ],
+    [
+      "b2",
+      "b3"
+    ]
+  ],
+  "factor_to_bag": {
+    "neq0_1": "b1",
+    "neq1_2": "b1",
+    "neq2_3": "b2",
+    "neq3_4": "b3",
+    "neq4_0": "b3"
+  },
+  "metadata": {
+    "width": 2,
+    "family": "odd-ring-neq"
+  }
+}

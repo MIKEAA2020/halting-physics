@@ -1,0 +1,337 @@
+{
+  "type": "SPARSIFICATION-BATCH",
+  "status": "CERTIFIED",
+  "model": "two_spring_exact_affine",
+  "retained_map": {
+    "load_1": [
+      "a1",
+      "a2"
+    ],
+    "load_2": [
+      "a1",
+      "a2"
+    ]
+  },
+  "rows": [
+    {
+      "type": "SPARSIFICATION-ROW",
+      "model": "two_spring_exact_affine",
+      "row": "load_1",
+      "retained": [
+        "a1",
+        "a2"
+      ],
+      "assignment": {
+        "a1": 0,
+        "a2": 0
+      },
+      "omitted_interval": [
+        "0",
+        "0"
+      ],
+      "retained_response": "1/2",
+      "response_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "safe_interval": [
+        "-1/4",
+        "1/4"
+      ],
+      "inner": false,
+      "outer": false
+    },
+    {
+      "type": "SPARSIFICATION-ROW",
+      "model": "two_spring_exact_affine",
+      "row": "load_1",
+      "retained": [
+        "a1",
+        "a2"
+      ],
+      "assignment": {
+        "a1": 0,
+        "a2": 1
+      },
+      "omitted_interval": [
+        "0",
+        "0"
+      ],
+      "retained_response": "0",
+      "response_interval": [
+        "0",
+        "0"
+      ],
+      "safe_interval": [
+        "-1/4",
+        "1/4"
+      ],
+      "inner": true,
+      "outer": true
+    },
+    {
+      "type": "SPARSIFICATION-ROW",
+      "model": "two_spring_exact_affine",
+      "row": "load_1",
+      "retained": [
+        "a1",
+        "a2"
+      ],
+      "assignment": {
+        "a1": 1,
+        "a2": 0
+      },
+      "omitted_interval": [
+        "0",
+        "0"
+      ],
+      "retained_response": "0",
+      "response_interval": [
+        "0",
+        "0"
+      ],
+      "safe_interval": [
+        "-1/4",
+        "1/4"
+      ],
+      "inner": true,
+      "outer": true
+    },
+    {
+      "type": "SPARSIFICATION-ROW",
+      "model": "two_spring_exact_affine",
+      "row": "load_1",
+      "retained": [
+        "a1",
+        "a2"
+      ],
+      "assignment": {
+        "a1": 1,
+        "a2": 1
+      },
+      "omitted_interval": [
+        "0",
+        "0"
+      ],
+      "retained_response": "-1/2",
+      "response_interval": [
+        "-1/2",
+        "-1/2"
+      ],
+      "safe_interval": [
+        "-1/4",
+        "1/4"
+      ],
+      "inner": false,
+      "outer": false
+    },
+    {
+      "type": "SPARSIFICATION-ROW",
+      "model": "two_spring_exact_affine",
+      "row": "load_2",
+      "retained": [
+        "a1",
+        "a2"
+      ],
+      "assignment": {
+        "a1": 0,
+        "a2": 0
+      },
+      "omitted_interval": [
+        "0",
+        "0"
+      ],
+      "retained_response": "1",
+      "response_interval": [
+        "1",
+        "1"
+      ],
+      "safe_interval": [
+        "-1/4",
+        "1/4"
+      ],
+      "inner": false,
+      "outer": false
+    },
+    {
+      "type": "SPARSIFICATION-ROW",
+      "model": "two_spring_exact_affine",
+      "row": "load_2",
+      "retained": [
+        "a1",
+        "a2"
+      ],
+      "assignment": {
+        "a1": 0,
+        "a2": 1
+      },
+      "omitted_interval": [
+        "0",
+        "0"
+      ],
+      "retained_response": "1/2",
+      "response_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "safe_interval": [
+        "-1/4",
+        "1/4"
+      ],
+      "inner": false,
+      "outer": false
+    },
+    {
+      "type": "SPARSIFICATION-ROW",
+      "model": "two_spring_exact_affine",
+      "row": "load_2",
+      "retained": [
+        "a1",
+        "a2"
+      ],
+      "assignment": {
+        "a1": 1,
+        "a2": 0
+      },
+      "omitted_interval": [
+        "0",
+        "0"
+      ],
+      "retained_response": "1/2",
+      "response_interval": [
+        "1/2",
+        "1/2"
+      ],
+      "safe_interval": [
+        "-1/4",
+        "1/4"
+      ],
+      "inner": false,
+      "outer": false
+    },
+    {
+      "type": "SPARSIFICATION-ROW",
+      "model": "two_spring_exact_affine",
+      "row": "load_2",
+      "retained": [
+        "a1",
+        "a2"
+      ],
+      "assignment": {
+        "a1": 1,
+        "a2": 1
+      },
+      "omitted_interval": [
+        "0",
+        "0"
+      ],
+      "retained_response": "0",
+      "response_interval": [
+        "0",
+        "0"
+      ],
+      "safe_interval": [
+        "-1/4",
+        "1/4"
+      ],
+      "inner": true,
+      "outer": true
+    }
+  ],
+  "inner_instance": {
+    "variables": [
+      "a1",
+      "a2"
+    ],
+    "domains": {
+      "a1": [
+        0,
+        1
+      ],
+      "a2": [
+        0,
+        1
+      ]
+    },
+    "factors": [
+      {
+        "name": "load_1",
+        "scope": [
+          "a1",
+          "a2"
+        ],
+        "relation": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "name": "load_2",
+        "scope": [
+          "a1",
+          "a2"
+        ],
+        "relation": [
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ]
+  },
+  "outer_instance": {
+    "variables": [
+      "a1",
+      "a2"
+    ],
+    "domains": {
+      "a1": [
+        0,
+        1
+      ],
+      "a2": [
+        0,
+        1
+      ]
+    },
+    "factors": [
+      {
+        "name": "load_1",
+        "scope": [
+          "a1",
+          "a2"
+        ],
+        "relation": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "name": "load_2",
+        "scope": [
+          "a1",
+          "a2"
+        ],
+        "relation": [
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    ]
+  }
+}

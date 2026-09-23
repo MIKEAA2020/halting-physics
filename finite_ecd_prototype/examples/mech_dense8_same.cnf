@@ -1,0 +1,983 @@
+c var 1 a1
+c var 2 a2
+c var 3 a3
+c var 4 a4
+c var 5 a5
+c var 6 a6
+c var 7 a7
+c var 8 a8
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_low__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 0, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 0, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 0, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 0, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 0, 'a6': 1, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 0, 'a7': 1, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 0, 'a8': 1}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 0}
+c forbid load_high__u4 {'a1': 1, 'a2': 1, 'a3': 1, 'a4': 1, 'a5': 1, 'a6': 1, 'a7': 1, 'a8': 1}
+p cnf 8 487
+1 2 3 4 5 6 7 -8 0
+1 2 3 4 5 6 -7 8 0
+1 2 3 4 5 6 -7 -8 0
+1 2 3 4 5 -6 7 8 0
+1 2 3 4 5 -6 7 -8 0
+1 2 3 4 5 -6 -7 8 0
+1 2 3 4 5 -6 -7 -8 0
+1 2 3 4 -5 6 7 8 0
+1 2 3 4 -5 6 7 -8 0
+1 2 3 4 -5 6 -7 8 0
+1 2 3 4 -5 6 -7 -8 0
+1 2 3 4 -5 -6 7 8 0
+1 2 3 4 -5 -6 7 -8 0
+1 2 3 4 -5 -6 -7 8 0
+1 2 3 4 -5 -6 -7 -8 0
+1 2 3 -4 5 6 7 8 0
+1 2 3 -4 5 6 7 -8 0
+1 2 3 -4 5 6 -7 8 0
+1 2 3 -4 5 6 -7 -8 0
+1 2 3 -4 5 -6 7 8 0
+1 2 3 -4 5 -6 7 -8 0
+1 2 3 -4 5 -6 -7 8 0
+1 2 3 -4 5 -6 -7 -8 0
+1 2 3 -4 -5 6 7 8 0
+1 2 3 -4 -5 6 7 -8 0
+1 2 3 -4 -5 6 -7 8 0
+1 2 3 -4 -5 6 -7 -8 0
+1 2 3 -4 -5 -6 7 8 0
+1 2 3 -4 -5 -6 7 -8 0
+1 2 3 -4 -5 -6 -7 8 0
+1 2 3 -4 -5 -6 -7 -8 0
+1 2 -3 4 5 6 7 8 0
+1 2 -3 4 5 6 7 -8 0
+1 2 -3 4 5 6 -7 8 0
+1 2 -3 4 5 6 -7 -8 0
+1 2 -3 4 5 -6 7 8 0
+1 2 -3 4 5 -6 7 -8 0
+1 2 -3 4 5 -6 -7 8 0
+1 2 -3 4 5 -6 -7 -8 0
+1 2 -3 4 -5 6 7 8 0
+1 2 -3 4 -5 6 7 -8 0
+1 2 -3 4 -5 6 -7 8 0
+1 2 -3 4 -5 6 -7 -8 0
+1 2 -3 4 -5 -6 7 8 0
+1 2 -3 4 -5 -6 7 -8 0
+1 2 -3 4 -5 -6 -7 8 0
+1 2 -3 4 -5 -6 -7 -8 0
+1 2 -3 -4 5 6 7 8 0
+1 2 -3 -4 5 6 7 -8 0
+1 2 -3 -4 5 6 -7 8 0
+1 2 -3 -4 5 6 -7 -8 0
+1 2 -3 -4 5 -6 7 8 0
+1 2 -3 -4 5 -6 7 -8 0
+1 2 -3 -4 5 -6 -7 8 0
+1 2 -3 -4 5 -6 -7 -8 0
+1 2 -3 -4 -5 6 7 8 0
+1 2 -3 -4 -5 6 7 -8 0
+1 2 -3 -4 -5 6 -7 8 0
+1 2 -3 -4 -5 6 -7 -8 0
+1 2 -3 -4 -5 -6 7 8 0
+1 2 -3 -4 -5 -6 7 -8 0
+1 2 -3 -4 -5 -6 -7 8 0
+1 2 -3 -4 -5 -6 -7 -8 0
+1 -2 3 4 5 6 7 -8 0
+1 -2 3 4 5 6 -7 8 0
+1 -2 3 4 5 6 -7 -8 0
+1 -2 3 4 5 -6 7 8 0
+1 -2 3 4 5 -6 7 -8 0
+1 -2 3 4 5 -6 -7 8 0
+1 -2 3 4 5 -6 -7 -8 0
+1 -2 3 4 -5 6 7 8 0
+1 -2 3 4 -5 6 7 -8 0
+1 -2 3 4 -5 6 -7 8 0
+1 -2 3 4 -5 6 -7 -8 0
+1 -2 3 4 -5 -6 7 8 0
+1 -2 3 4 -5 -6 7 -8 0
+1 -2 3 4 -5 -6 -7 8 0
+1 -2 3 4 -5 -6 -7 -8 0
+1 -2 3 -4 5 6 7 8 0
+1 -2 3 -4 5 6 7 -8 0
+1 -2 3 -4 5 6 -7 8 0
+1 -2 3 -4 5 6 -7 -8 0
+1 -2 3 -4 5 -6 7 8 0
+1 -2 3 -4 5 -6 7 -8 0
+1 -2 3 -4 5 -6 -7 8 0
+1 -2 3 -4 5 -6 -7 -8 0
+1 -2 3 -4 -5 6 7 8 0
+1 -2 3 -4 -5 6 7 -8 0
+1 -2 3 -4 -5 6 -7 8 0
+1 -2 3 -4 -5 6 -7 -8 0
+1 -2 3 -4 -5 -6 7 8 0
+1 -2 3 -4 -5 -6 7 -8 0
+1 -2 3 -4 -5 -6 -7 8 0
+1 -2 3 -4 -5 -6 -7 -8 0
+1 -2 -3 4 5 6 7 8 0
+1 -2 -3 4 5 6 7 -8 0
+1 -2 -3 4 5 6 -7 8 0
+1 -2 -3 4 5 6 -7 -8 0
+1 -2 -3 4 5 -6 7 8 0
+1 -2 -3 4 5 -6 7 -8 0
+1 -2 -3 4 5 -6 -7 8 0
+1 -2 -3 4 5 -6 -7 -8 0
+1 -2 -3 4 -5 6 7 8 0
+1 -2 -3 4 -5 6 7 -8 0
+1 -2 -3 4 -5 6 -7 8 0
+1 -2 -3 4 -5 6 -7 -8 0
+1 -2 -3 4 -5 -6 7 8 0
+1 -2 -3 4 -5 -6 7 -8 0
+1 -2 -3 4 -5 -6 -7 8 0
+1 -2 -3 4 -5 -6 -7 -8 0
+1 -2 -3 -4 5 6 7 8 0
+1 -2 -3 -4 5 6 7 -8 0
+1 -2 -3 -4 5 6 -7 8 0
+1 -2 -3 -4 5 6 -7 -8 0
+1 -2 -3 -4 5 -6 7 8 0
+1 -2 -3 -4 5 -6 7 -8 0
+1 -2 -3 -4 5 -6 -7 8 0
+1 -2 -3 -4 5 -6 -7 -8 0
+1 -2 -3 -4 -5 6 7 8 0
+1 -2 -3 -4 -5 6 7 -8 0
+1 -2 -3 -4 -5 6 -7 8 0
+1 -2 -3 -4 -5 6 -7 -8 0
+1 -2 -3 -4 -5 -6 7 8 0
+1 -2 -3 -4 -5 -6 7 -8 0
+1 -2 -3 -4 -5 -6 -7 8 0
+1 -2 -3 -4 -5 -6 -7 -8 0
+-1 2 3 4 5 6 7 -8 0
+-1 2 3 4 5 6 -7 8 0
+-1 2 3 4 5 6 -7 -8 0
+-1 2 3 4 5 -6 7 8 0
+-1 2 3 4 5 -6 7 -8 0
+-1 2 3 4 5 -6 -7 8 0
+-1 2 3 4 5 -6 -7 -8 0
+-1 2 3 4 -5 6 7 8 0
+-1 2 3 4 -5 6 7 -8 0
+-1 2 3 4 -5 6 -7 8 0
+-1 2 3 4 -5 6 -7 -8 0
+-1 2 3 4 -5 -6 7 8 0
+-1 2 3 4 -5 -6 7 -8 0
+-1 2 3 4 -5 -6 -7 8 0
+-1 2 3 4 -5 -6 -7 -8 0
+-1 2 3 -4 5 6 7 8 0
+-1 2 3 -4 5 6 7 -8 0
+-1 2 3 -4 5 6 -7 8 0
+-1 2 3 -4 5 6 -7 -8 0
+-1 2 3 -4 5 -6 7 8 0
+-1 2 3 -4 5 -6 7 -8 0
+-1 2 3 -4 5 -6 -7 8 0
+-1 2 3 -4 5 -6 -7 -8 0
+-1 2 3 -4 -5 6 7 8 0
+-1 2 3 -4 -5 6 7 -8 0
+-1 2 3 -4 -5 6 -7 8 0
+-1 2 3 -4 -5 6 -7 -8 0
+-1 2 3 -4 -5 -6 7 8 0
+-1 2 3 -4 -5 -6 7 -8 0
+-1 2 3 -4 -5 -6 -7 8 0
+-1 2 3 -4 -5 -6 -7 -8 0
+-1 2 -3 4 5 6 7 8 0
+-1 2 -3 4 5 6 7 -8 0
+-1 2 -3 4 5 6 -7 8 0
+-1 2 -3 4 5 6 -7 -8 0
+-1 2 -3 4 5 -6 7 8 0
+-1 2 -3 4 5 -6 7 -8 0
+-1 2 -3 4 5 -6 -7 8 0
+-1 2 -3 4 5 -6 -7 -8 0
+-1 2 -3 4 -5 6 7 8 0
+-1 2 -3 4 -5 6 7 -8 0
+-1 2 -3 4 -5 6 -7 8 0
+-1 2 -3 4 -5 6 -7 -8 0
+-1 2 -3 4 -5 -6 7 8 0
+-1 2 -3 4 -5 -6 7 -8 0
+-1 2 -3 4 -5 -6 -7 8 0
+-1 2 -3 4 -5 -6 -7 -8 0
+-1 2 -3 -4 5 6 7 8 0
+-1 2 -3 -4 5 6 7 -8 0
+-1 2 -3 -4 5 6 -7 8 0
+-1 2 -3 -4 5 6 -7 -8 0
+-1 2 -3 -4 5 -6 7 8 0
+-1 2 -3 -4 5 -6 7 -8 0
+-1 2 -3 -4 5 -6 -7 8 0
+-1 2 -3 -4 5 -6 -7 -8 0
+-1 2 -3 -4 -5 6 7 8 0
+-1 2 -3 -4 -5 6 7 -8 0
+-1 2 -3 -4 -5 6 -7 8 0
+-1 2 -3 -4 -5 6 -7 -8 0
+-1 2 -3 -4 -5 -6 7 8 0
+-1 2 -3 -4 -5 -6 7 -8 0
+-1 2 -3 -4 -5 -6 -7 8 0
+-1 2 -3 -4 -5 -6 -7 -8 0
+-1 -2 3 4 5 6 7 8 0
+-1 -2 3 4 5 6 7 -8 0
+-1 -2 3 4 5 6 -7 8 0
+-1 -2 3 4 5 6 -7 -8 0
+-1 -2 3 4 5 -6 7 8 0
+-1 -2 3 4 5 -6 7 -8 0
+-1 -2 3 4 5 -6 -7 8 0
+-1 -2 3 4 5 -6 -7 -8 0
+-1 -2 3 4 -5 6 7 8 0
+-1 -2 3 4 -5 6 7 -8 0
+-1 -2 3 4 -5 6 -7 8 0
+-1 -2 3 4 -5 6 -7 -8 0
+-1 -2 3 4 -5 -6 7 8 0
+-1 -2 3 4 -5 -6 7 -8 0
+-1 -2 3 4 -5 -6 -7 8 0
+-1 -2 3 4 -5 -6 -7 -8 0
+-1 -2 3 -4 5 6 7 8 0
+-1 -2 3 -4 5 6 7 -8 0
+-1 -2 3 -4 5 6 -7 8 0
+-1 -2 3 -4 5 6 -7 -8 0
+-1 -2 3 -4 5 -6 7 8 0
+-1 -2 3 -4 5 -6 7 -8 0
+-1 -2 3 -4 5 -6 -7 8 0
+-1 -2 3 -4 5 -6 -7 -8 0
+-1 -2 3 -4 -5 6 7 8 0
+-1 -2 3 -4 -5 6 7 -8 0
+-1 -2 3 -4 -5 6 -7 8 0
+-1 -2 3 -4 -5 6 -7 -8 0
+-1 -2 3 -4 -5 -6 7 8 0
+-1 -2 3 -4 -5 -6 7 -8 0
+-1 -2 3 -4 -5 -6 -7 8 0
+-1 -2 3 -4 -5 -6 -7 -8 0
+-1 -2 -3 4 5 6 7 8 0
+-1 -2 -3 4 5 6 7 -8 0
+-1 -2 -3 4 5 6 -7 8 0
+-1 -2 -3 4 5 6 -7 -8 0
+-1 -2 -3 4 5 -6 7 8 0
+-1 -2 -3 4 5 -6 7 -8 0
+-1 -2 -3 4 5 -6 -7 8 0
+-1 -2 -3 4 5 -6 -7 -8 0
+-1 -2 -3 4 -5 6 7 8 0
+-1 -2 -3 4 -5 6 7 -8 0
+-1 -2 -3 4 -5 6 -7 8 0
+-1 -2 -3 4 -5 6 -7 -8 0
+-1 -2 -3 4 -5 -6 7 8 0
+-1 -2 -3 4 -5 -6 7 -8 0
+-1 -2 -3 4 -5 -6 -7 8 0
+-1 -2 -3 4 -5 -6 -7 -8 0
+-1 -2 -3 -4 5 6 7 8 0
+-1 -2 -3 -4 5 6 7 -8 0
+-1 -2 -3 -4 5 6 -7 8 0
+-1 -2 -3 -4 5 6 -7 -8 0
+-1 -2 -3 -4 5 -6 7 8 0
+-1 -2 -3 -4 5 -6 7 -8 0
+-1 -2 -3 -4 5 -6 -7 8 0
+-1 -2 -3 -4 5 -6 -7 -8 0
+-1 -2 -3 -4 -5 6 7 8 0
+-1 -2 -3 -4 -5 6 7 -8 0
+-1 -2 -3 -4 -5 6 -7 8 0
+-1 -2 -3 -4 -5 6 -7 -8 0
+-1 -2 -3 -4 -5 -6 7 8 0
+-1 -2 -3 -4 -5 -6 7 -8 0
+-1 -2 -3 -4 -5 -6 -7 8 0
+-1 -2 -3 -4 -5 -6 -7 -8 0
+1 2 3 4 5 6 7 8 0
+1 2 3 4 5 6 7 -8 0
+1 2 3 4 5 6 -7 8 0
+1 2 3 4 5 6 -7 -8 0
+1 2 3 4 5 -6 7 8 0
+1 2 3 4 5 -6 7 -8 0
+1 2 3 4 5 -6 -7 8 0
+1 2 3 4 5 -6 -7 -8 0
+1 2 3 4 -5 6 7 8 0
+1 2 3 4 -5 6 7 -8 0
+1 2 3 4 -5 6 -7 8 0
+1 2 3 4 -5 6 -7 -8 0
+1 2 3 4 -5 -6 7 8 0
+1 2 3 4 -5 -6 7 -8 0
+1 2 3 4 -5 -6 -7 8 0
+1 2 3 4 -5 -6 -7 -8 0
+1 2 3 -4 5 6 7 8 0
+1 2 3 -4 5 6 7 -8 0
+1 2 3 -4 5 6 -7 8 0
+1 2 3 -4 5 6 -7 -8 0
+1 2 3 -4 5 -6 7 8 0
+1 2 3 -4 5 -6 7 -8 0
+1 2 3 -4 5 -6 -7 8 0
+1 2 3 -4 5 -6 -7 -8 0
+1 2 3 -4 -5 6 7 8 0
+1 2 3 -4 -5 6 7 -8 0
+1 2 3 -4 -5 6 -7 8 0
+1 2 3 -4 -5 6 -7 -8 0
+1 2 3 -4 -5 -6 7 8 0
+1 2 3 -4 -5 -6 7 -8 0
+1 2 3 -4 -5 -6 -7 8 0
+1 2 3 -4 -5 -6 -7 -8 0
+1 2 -3 4 5 6 7 8 0
+1 2 -3 4 5 6 -7 -8 0
+1 2 -3 4 5 -6 7 -8 0
+1 2 -3 4 5 -6 -7 8 0
+1 2 -3 4 5 -6 -7 -8 0
+1 2 -3 4 -5 6 7 -8 0
+1 2 -3 4 -5 6 -7 8 0
+1 2 -3 4 -5 6 -7 -8 0
+1 2 -3 4 -5 -6 7 8 0
+1 2 -3 4 -5 -6 7 -8 0
+1 2 -3 4 -5 -6 -7 8 0
+1 2 -3 4 -5 -6 -7 -8 0
+1 2 -3 -4 5 6 7 -8 0
+1 2 -3 -4 5 6 -7 8 0
+1 2 -3 -4 5 6 -7 -8 0
+1 2 -3 -4 5 -6 7 8 0
+1 2 -3 -4 5 -6 7 -8 0
+1 2 -3 -4 5 -6 -7 8 0
+1 2 -3 -4 5 -6 -7 -8 0
+1 2 -3 -4 -5 6 7 8 0
+1 2 -3 -4 -5 6 7 -8 0
+1 2 -3 -4 -5 6 -7 8 0
+1 2 -3 -4 -5 6 -7 -8 0
+1 2 -3 -4 -5 -6 7 8 0
+1 2 -3 -4 -5 -6 7 -8 0
+1 2 -3 -4 -5 -6 -7 8 0
+1 2 -3 -4 -5 -6 -7 -8 0
+1 -2 3 4 5 6 7 8 0
+1 -2 3 4 5 6 -7 -8 0
+1 -2 3 4 5 -6 7 -8 0
+1 -2 3 4 5 -6 -7 8 0
+1 -2 3 4 5 -6 -7 -8 0
+1 -2 3 4 -5 6 7 -8 0
+1 -2 3 4 -5 6 -7 8 0
+1 -2 3 4 -5 6 -7 -8 0
+1 -2 3 4 -5 -6 7 8 0
+1 -2 3 4 -5 -6 7 -8 0
+1 -2 3 4 -5 -6 -7 8 0
+1 -2 3 4 -5 -6 -7 -8 0
+1 -2 3 -4 5 6 7 -8 0
+1 -2 3 -4 5 6 -7 8 0
+1 -2 3 -4 5 6 -7 -8 0
+1 -2 3 -4 5 -6 7 8 0
+1 -2 3 -4 5 -6 7 -8 0
+1 -2 3 -4 5 -6 -7 8 0
+1 -2 3 -4 5 -6 -7 -8 0
+1 -2 3 -4 -5 6 7 8 0
+1 -2 3 -4 -5 6 7 -8 0
+1 -2 3 -4 -5 6 -7 8 0
+1 -2 3 -4 -5 6 -7 -8 0
+1 -2 3 -4 -5 -6 7 8 0
+1 -2 3 -4 -5 -6 7 -8 0
+1 -2 3 -4 -5 -6 -7 8 0
+1 -2 3 -4 -5 -6 -7 -8 0
+1 -2 -3 4 5 6 7 -8 0
+1 -2 -3 4 5 6 -7 8 0
+1 -2 -3 4 5 6 -7 -8 0
+1 -2 -3 4 5 -6 7 8 0
+1 -2 -3 4 5 -6 7 -8 0
+1 -2 -3 4 5 -6 -7 8 0
+1 -2 -3 4 5 -6 -7 -8 0
+1 -2 -3 4 -5 6 7 8 0
+1 -2 -3 4 -5 6 7 -8 0
+1 -2 -3 4 -5 6 -7 8 0
+1 -2 -3 4 -5 6 -7 -8 0
+1 -2 -3 4 -5 -6 7 8 0
+1 -2 -3 4 -5 -6 7 -8 0
+1 -2 -3 4 -5 -6 -7 8 0
+1 -2 -3 4 -5 -6 -7 -8 0
+1 -2 -3 -4 5 6 7 8 0
+1 -2 -3 -4 5 6 7 -8 0
+1 -2 -3 -4 5 6 -7 8 0
+1 -2 -3 -4 5 6 -7 -8 0
+1 -2 -3 -4 5 -6 7 8 0
+1 -2 -3 -4 5 -6 7 -8 0
+1 -2 -3 -4 5 -6 -7 8 0
+1 -2 -3 -4 5 -6 -7 -8 0
+1 -2 -3 -4 -5 6 7 8 0
+1 -2 -3 -4 -5 6 7 -8 0
+1 -2 -3 -4 -5 6 -7 8 0
+1 -2 -3 -4 -5 6 -7 -8 0
+1 -2 -3 -4 -5 -6 7 8 0
+1 -2 -3 -4 -5 -6 7 -8 0
+1 -2 -3 -4 -5 -6 -7 8 0
+1 -2 -3 -4 -5 -6 -7 -8 0
+-1 2 3 4 5 6 7 8 0
+-1 2 3 4 5 6 -7 -8 0
+-1 2 3 4 5 -6 7 -8 0
+-1 2 3 4 5 -6 -7 8 0
+-1 2 3 4 5 -6 -7 -8 0
+-1 2 3 4 -5 6 7 -8 0
+-1 2 3 4 -5 6 -7 8 0
+-1 2 3 4 -5 6 -7 -8 0
+-1 2 3 4 -5 -6 7 8 0
+-1 2 3 4 -5 -6 7 -8 0
+-1 2 3 4 -5 -6 -7 8 0
+-1 2 3 4 -5 -6 -7 -8 0
+-1 2 3 -4 5 6 7 -8 0
+-1 2 3 -4 5 6 -7 8 0
+-1 2 3 -4 5 6 -7 -8 0
+-1 2 3 -4 5 -6 7 8 0
+-1 2 3 -4 5 -6 7 -8 0
+-1 2 3 -4 5 -6 -7 8 0
+-1 2 3 -4 5 -6 -7 -8 0
+-1 2 3 -4 -5 6 7 8 0
+-1 2 3 -4 -5 6 7 -8 0
+-1 2 3 -4 -5 6 -7 8 0
+-1 2 3 -4 -5 6 -7 -8 0
+-1 2 3 -4 -5 -6 7 8 0
+-1 2 3 -4 -5 -6 7 -8 0
+-1 2 3 -4 -5 -6 -7 8 0
+-1 2 3 -4 -5 -6 -7 -8 0
+-1 2 -3 4 5 6 7 8 0
+-1 2 -3 4 5 6 7 -8 0
+-1 2 -3 4 5 6 -7 8 0
+-1 2 -3 4 5 6 -7 -8 0
+-1 2 -3 4 5 -6 7 8 0
+-1 2 -3 4 5 -6 7 -8 0
+-1 2 -3 4 5 -6 -7 8 0
+-1 2 -3 4 5 -6 -7 -8 0
+-1 2 -3 4 -5 6 7 8 0
+-1 2 -3 4 -5 6 7 -8 0
+-1 2 -3 4 -5 6 -7 8 0
+-1 2 -3 4 -5 6 -7 -8 0
+-1 2 -3 4 -5 -6 7 8 0
+-1 2 -3 4 -5 -6 7 -8 0
+-1 2 -3 4 -5 -6 -7 8 0
+-1 2 -3 4 -5 -6 -7 -8 0
+-1 2 -3 -4 5 6 7 8 0
+-1 2 -3 -4 5 6 7 -8 0
+-1 2 -3 -4 5 6 -7 8 0
+-1 2 -3 -4 5 6 -7 -8 0
+-1 2 -3 -4 5 -6 7 8 0
+-1 2 -3 -4 5 -6 7 -8 0
+-1 2 -3 -4 5 -6 -7 8 0
+-1 2 -3 -4 5 -6 -7 -8 0
+-1 2 -3 -4 -5 6 7 8 0
+-1 2 -3 -4 -5 6 7 -8 0
+-1 2 -3 -4 -5 6 -7 8 0
+-1 2 -3 -4 -5 6 -7 -8 0
+-1 2 -3 -4 -5 -6 7 8 0
+-1 2 -3 -4 -5 -6 7 -8 0
+-1 2 -3 -4 -5 -6 -7 8 0
+-1 2 -3 -4 -5 -6 -7 -8 0
+-1 -2 3 4 5 6 7 8 0
+-1 -2 3 4 5 6 -7 -8 0
+-1 -2 3 4 5 -6 7 -8 0
+-1 -2 3 4 5 -6 -7 8 0
+-1 -2 3 4 5 -6 -7 -8 0
+-1 -2 3 4 -5 6 7 -8 0
+-1 -2 3 4 -5 6 -7 8 0
+-1 -2 3 4 -5 6 -7 -8 0
+-1 -2 3 4 -5 -6 7 8 0
+-1 -2 3 4 -5 -6 7 -8 0
+-1 -2 3 4 -5 -6 -7 8 0
+-1 -2 3 4 -5 -6 -7 -8 0
+-1 -2 3 -4 5 6 7 -8 0
+-1 -2 3 -4 5 6 -7 8 0
+-1 -2 3 -4 5 6 -7 -8 0
+-1 -2 3 -4 5 -6 7 8 0
+-1 -2 3 -4 5 -6 7 -8 0
+-1 -2 3 -4 5 -6 -7 8 0
+-1 -2 3 -4 5 -6 -7 -8 0
+-1 -2 3 -4 -5 6 7 8 0
+-1 -2 3 -4 -5 6 7 -8 0
+-1 -2 3 -4 -5 6 -7 8 0
+-1 -2 3 -4 -5 6 -7 -8 0
+-1 -2 3 -4 -5 -6 7 8 0
+-1 -2 3 -4 -5 -6 7 -8 0
+-1 -2 3 -4 -5 -6 -7 8 0
+-1 -2 3 -4 -5 -6 -7 -8 0
+-1 -2 -3 4 5 6 7 -8 0
+-1 -2 -3 4 5 6 -7 8 0
+-1 -2 -3 4 5 6 -7 -8 0
+-1 -2 -3 4 5 -6 7 8 0
+-1 -2 -3 4 5 -6 7 -8 0
+-1 -2 -3 4 5 -6 -7 8 0
+-1 -2 -3 4 5 -6 -7 -8 0
+-1 -2 -3 4 -5 6 7 8 0
+-1 -2 -3 4 -5 6 7 -8 0
+-1 -2 -3 4 -5 6 -7 8 0
+-1 -2 -3 4 -5 6 -7 -8 0
+-1 -2 -3 4 -5 -6 7 8 0
+-1 -2 -3 4 -5 -6 7 -8 0
+-1 -2 -3 4 -5 -6 -7 8 0
+-1 -2 -3 4 -5 -6 -7 -8 0
+-1 -2 -3 -4 5 6 7 8 0
+-1 -2 -3 -4 5 6 7 -8 0
+-1 -2 -3 -4 5 6 -7 8 0
+-1 -2 -3 -4 5 6 -7 -8 0
+-1 -2 -3 -4 5 -6 7 8 0
+-1 -2 -3 -4 5 -6 7 -8 0
+-1 -2 -3 -4 5 -6 -7 8 0
+-1 -2 -3 -4 5 -6 -7 -8 0
+-1 -2 -3 -4 -5 6 7 8 0
+-1 -2 -3 -4 -5 6 7 -8 0
+-1 -2 -3 -4 -5 6 -7 8 0
+-1 -2 -3 -4 -5 6 -7 -8 0
+-1 -2 -3 -4 -5 -6 7 8 0
+-1 -2 -3 -4 -5 -6 7 -8 0
+-1 -2 -3 -4 -5 -6 -7 8 0
+-1 -2 -3 -4 -5 -6 -7 -8 0

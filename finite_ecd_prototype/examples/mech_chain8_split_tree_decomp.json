@@ -1,0 +1,138 @@
+{
+  "type": "TREE-DECOMP",
+  "root": "b_p1__load_high",
+  "bags": {
+    "b_p1__load_high": [
+      "p1__load_high"
+    ],
+    "b_p1__load_low": [
+      "p1__load_low"
+    ],
+    "b_p2__load_high": [
+      "p2__load_high"
+    ],
+    "b_p2__load_low": [
+      "p2__load_low"
+    ],
+    "b_p3__load_high": [
+      "p3__load_high"
+    ],
+    "b_p3__load_low": [
+      "p3__load_low"
+    ],
+    "b_p4__load_high": [
+      "p4__load_high"
+    ],
+    "b_p4__load_low": [
+      "p4__load_low"
+    ],
+    "b_p5__load_high": [
+      "p5__load_high"
+    ],
+    "b_p5__load_low": [
+      "p5__load_low"
+    ],
+    "b_p6__load_high": [
+      "p6__load_high"
+    ],
+    "b_p6__load_low": [
+      "p6__load_low"
+    ],
+    "b_p7__load_high": [
+      "p7__load_high"
+    ],
+    "b_p7__load_low": [
+      "p7__load_low"
+    ],
+    "b_p8__load_high": [
+      "p8__load_high"
+    ],
+    "b_p8__load_low": [
+      "p8__load_low"
+    ]
+  },
+  "edges": [
+    [
+      "b_p1__load_high",
+      "b_p1__load_low"
+    ],
+    [
+      "b_p1__load_low",
+      "b_p2__load_high"
+    ],
+    [
+      "b_p2__load_high",
+      "b_p2__load_low"
+    ],
+    [
+      "b_p2__load_low",
+      "b_p3__load_high"
+    ],
+    [
+      "b_p3__load_high",
+      "b_p3__load_low"
+    ],
+    [
+      "b_p3__load_low",
+      "b_p4__load_high"
+    ],
+    [
+      "b_p4__load_high",
+      "b_p4__load_low"
+    ],
+    [
+      "b_p4__load_low",
+      "b_p5__load_high"
+    ],
+    [
+      "b_p5__load_high",
+      "b_p5__load_low"
+    ],
+    [
+      "b_p5__load_low",
+      "b_p6__load_high"
+    ],
+    [
+      "b_p6__load_high",
+      "b_p6__load_low"
+    ],
+    [
+      "b_p6__load_low",
+      "b_p7__load_high"
+    ],
+    [
+      "b_p7__load_high",
+      "b_p7__load_low"
+    ],
+    [
+      "b_p7__load_low",
+      "b_p8__load_high"
+    ],
+    [
+      "b_p8__load_high",
+      "b_p8__load_low"
+    ]
+  ],
+  "factor_to_bag": {
+    "load_low__t1": "b_p1__load_low",
+    "load_low__t2": "b_p2__load_low",
+    "load_low__t3": "b_p3__load_low",
+    "load_low__t4": "b_p4__load_low",
+    "load_low__t5": "b_p5__load_low",
+    "load_low__t6": "b_p6__load_low",
+    "load_low__t7": "b_p7__load_low",
+    "load_low__t8": "b_p8__load_low",
+    "load_high__t1": "b_p1__load_high",
+    "load_high__t2": "b_p2__load_high",
+    "load_high__t3": "b_p3__load_high",
+    "load_high__t4": "b_p4__load_high",
+    "load_high__t5": "b_p5__load_high",
+    "load_high__t6": "b_p6__load_high",
+    "load_high__t7": "b_p7__load_high",
+    "load_high__t8": "b_p8__load_high"
+  },
+  "metadata": {
+    "construction": "deterministic min-fill elimination",
+    "width": 0
+  }
+}

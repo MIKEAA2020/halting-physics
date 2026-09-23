@@ -1,0 +1,3815 @@
+{
+  "format": "minimal-cpsat-forbidden-tuples",
+  "variables": [
+    {
+      "name": "pair_v1_0__load_top",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "pair_v1_1__load_top",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "pair_d0_0p__load_top",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "pair_d0_0m__load_top",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "pair_d0_1p__load_top",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "pair_d0_1m__load_top",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "pair_v1_0__load_bot",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "pair_v1_1__load_bot",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "pair_d0_0p__load_bot",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "pair_d0_0m__load_bot",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "pair_d0_1p__load_bot",
+      "domain": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "pair_d0_1m__load_bot",
+      "domain": [
+        0,
+        1
+      ]
+    }
+  ],
+  "forbidden_assignments": [
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_h0_2",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_top__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_d0_0m",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_d0_0m",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_d0_0m",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_top__force_d0_1m",
+      "scope": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_0m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_d0_1m__load_top"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_h0_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_0",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_v1_1",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_d0_0p",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "load_bot__force_d0_1p",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_d0_1p",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "load_bot__force_d0_1p",
+      "scope": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_0m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_d0_1m__load_bot"
+      ],
+      "tuple": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    }
+  ]
+}

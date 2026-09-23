@@ -1,0 +1,405 @@
+c var 1 pair_v1_0__load_top
+c var 2 pair_v1_1__load_top
+c var 3 pair_d0_0p__load_top
+c var 4 pair_d0_0m__load_top
+c var 5 pair_d0_1p__load_top
+c var 6 pair_d0_1m__load_top
+c var 7 pair_v1_0__load_bot
+c var 8 pair_v1_1__load_bot
+c var 9 pair_d0_0p__load_bot
+c var 10 pair_d0_0m__load_bot
+c var 11 pair_d0_1p__load_bot
+c var 12 pair_d0_1m__load_bot
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_h0_2 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_v1_0 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_v1_0 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_v1_0 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_v1_0 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_v1_0 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_v1_0 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_v1_0 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_v1_0 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_v1_0 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_v1_0 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_v1_0 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_v1_0 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_v1_0 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_v1_1 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_v1_1 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_v1_1 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_v1_1 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_v1_1 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_v1_1 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_v1_1 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_v1_1 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_v1_1 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_v1_1 {'pair_v1_0__load_top': 0, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_v1_1 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_v1_1 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_v1_1 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_v1_1 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_v1_1 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_v1_1 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_v1_1 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_v1_1 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_v1_1 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_top__force_v1_1 {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_d0_0m {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_d0_0m {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 0, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_d0_0m {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 1, 'pair_d0_0p__load_top': 0, 'pair_d0_0m__load_top': 1, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 1}
+c forbid load_top__force_d0_1m {'pair_v1_0__load_top': 1, 'pair_v1_1__load_top': 0, 'pair_d0_0p__load_top': 1, 'pair_d0_0m__load_top': 0, 'pair_d0_1p__load_top': 1, 'pair_d0_1m__load_top': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_h0_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_v1_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_v1_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_v1_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_v1_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_v1_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_v1_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_v1_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_v1_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_v1_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_v1_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 0, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_v1_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_v1_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_v1_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_v1_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_v1_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_v1_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_v1_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_v1_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_v1_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_v1_0 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_v1_1 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_v1_1 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_v1_1 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_v1_1 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_v1_1 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_v1_1 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_v1_1 {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_v1_1 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_v1_1 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_v1_1 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_v1_1 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_v1_1 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_v1_1 {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_d0_0p {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 0, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 0, 'pair_d0_1m__load_bot': 1}
+c forbid load_bot__force_d0_1p {'pair_v1_0__load_bot': 0, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_d0_1p {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 0, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+c forbid load_bot__force_d0_1p {'pair_v1_0__load_bot': 1, 'pair_v1_1__load_bot': 1, 'pair_d0_0p__load_bot': 1, 'pair_d0_0m__load_bot': 1, 'pair_d0_1p__load_bot': 1, 'pair_d0_1m__load_bot': 0}
+p cnf 12 196
+1 2 3 4 5 6 0
+1 2 3 4 5 -6 0
+1 2 3 4 -5 6 0
+1 2 3 -4 5 6 0
+1 2 3 -4 5 -6 0
+1 2 3 -4 -5 6 0
+1 2 -3 4 5 6 0
+1 2 -3 4 5 -6 0
+1 2 -3 4 -5 6 0
+1 2 -3 4 -5 -6 0
+1 2 -3 -4 5 6 0
+1 2 -3 -4 5 -6 0
+1 2 -3 -4 -5 6 0
+1 2 -3 -4 -5 -6 0
+1 -2 3 4 5 6 0
+1 -2 3 4 5 -6 0
+1 -2 3 4 -5 6 0
+1 -2 3 4 -5 -6 0
+1 -2 3 -4 5 6 0
+1 -2 3 -4 5 -6 0
+1 -2 3 -4 -5 6 0
+1 -2 3 -4 -5 -6 0
+1 -2 -3 4 5 6 0
+1 -2 -3 4 5 -6 0
+1 -2 -3 4 -5 6 0
+1 -2 -3 4 -5 -6 0
+1 -2 -3 -4 5 6 0
+1 -2 -3 -4 5 -6 0
+1 -2 -3 -4 -5 6 0
+1 -2 -3 -4 -5 -6 0
+-1 2 3 4 5 6 0
+-1 2 3 4 5 -6 0
+-1 2 3 4 -5 6 0
+-1 2 3 4 -5 -6 0
+-1 2 3 -4 5 6 0
+-1 2 3 -4 5 -6 0
+-1 2 3 -4 -5 6 0
+-1 2 -3 4 5 6 0
+-1 2 -3 4 5 -6 0
+-1 2 -3 4 -5 6 0
+-1 2 -3 4 -5 -6 0
+-1 2 -3 -4 5 6 0
+-1 2 -3 -4 5 -6 0
+-1 2 -3 -4 -5 6 0
+-1 2 -3 -4 -5 -6 0
+-1 -2 3 4 5 6 0
+-1 -2 3 4 5 -6 0
+-1 -2 3 4 -5 6 0
+-1 -2 3 4 -5 -6 0
+-1 -2 3 -4 5 6 0
+-1 -2 3 -4 5 -6 0
+-1 -2 3 -4 -5 6 0
+-1 -2 3 -4 -5 -6 0
+-1 -2 -3 4 5 6 0
+-1 -2 -3 4 5 -6 0
+-1 -2 -3 4 -5 6 0
+-1 -2 -3 4 -5 -6 0
+-1 -2 -3 -4 5 6 0
+-1 -2 -3 -4 5 -6 0
+-1 -2 -3 -4 -5 6 0
+-1 -2 -3 -4 -5 -6 0
+-1 2 3 -4 5 6 0
+-1 2 3 -4 -5 6 0
+-1 2 3 -4 -5 -6 0
+-1 2 -3 -4 5 6 0
+-1 2 -3 -4 5 -6 0
+-1 2 -3 -4 -5 6 0
+-1 2 -3 -4 -5 -6 0
+-1 -2 3 -4 5 6 0
+-1 -2 3 -4 -5 6 0
+-1 -2 -3 -4 5 6 0
+-1 -2 -3 -4 5 -6 0
+-1 -2 -3 -4 -5 6 0
+-1 -2 -3 -4 -5 -6 0
+1 -2 3 4 5 -6 0
+1 -2 3 4 -5 6 0
+1 -2 3 4 -5 -6 0
+1 -2 3 -4 5 -6 0
+1 -2 3 -4 -5 6 0
+1 -2 3 -4 -5 -6 0
+1 -2 -3 4 -5 6 0
+1 -2 -3 4 -5 -6 0
+1 -2 -3 -4 -5 6 0
+1 -2 -3 -4 -5 -6 0
+-1 -2 3 4 5 -6 0
+-1 -2 3 4 -5 6 0
+-1 -2 3 4 -5 -6 0
+-1 -2 3 -4 5 -6 0
+-1 -2 3 -4 -5 6 0
+-1 -2 3 -4 -5 -6 0
+-1 -2 -3 4 -5 6 0
+-1 -2 -3 4 -5 -6 0
+-1 -2 -3 -4 -5 6 0
+-1 -2 -3 -4 -5 -6 0
+-1 2 3 -4 5 -6 0
+-1 -2 3 -4 5 -6 0
+-1 -2 3 -4 -5 -6 0
+-1 2 -3 4 -5 6 0
+7 8 9 10 11 12 0
+7 8 9 10 11 -12 0
+7 8 9 10 -11 12 0
+7 8 9 10 -11 -12 0
+7 8 9 -10 11 12 0
+7 8 9 -10 11 -12 0
+7 8 9 -10 -11 12 0
+7 8 9 -10 -11 -12 0
+7 8 -9 10 11 12 0
+7 8 -9 10 11 -12 0
+7 8 -9 10 -11 12 0
+7 8 -9 10 -11 -12 0
+7 8 -9 -10 11 -12 0
+7 8 -9 -10 -11 -12 0
+7 -8 9 10 11 12 0
+7 -8 9 10 11 -12 0
+7 -8 9 10 -11 12 0
+7 -8 9 10 -11 -12 0
+7 -8 9 -10 11 12 0
+7 -8 9 -10 11 -12 0
+7 -8 9 -10 -11 12 0
+7 -8 9 -10 -11 -12 0
+7 -8 -9 10 11 12 0
+7 -8 -9 10 11 -12 0
+7 -8 -9 10 -11 12 0
+7 -8 -9 10 -11 -12 0
+7 -8 -9 -10 11 12 0
+7 -8 -9 -10 11 -12 0
+7 -8 -9 -10 -11 -12 0
+-7 8 9 10 11 12 0
+-7 8 9 10 11 -12 0
+-7 8 9 10 -11 12 0
+-7 8 9 10 -11 -12 0
+-7 8 9 -10 11 12 0
+-7 8 9 -10 11 -12 0
+-7 8 9 -10 -11 12 0
+-7 8 9 -10 -11 -12 0
+-7 8 -9 10 11 12 0
+-7 8 -9 10 11 -12 0
+-7 8 -9 10 -11 12 0
+-7 8 -9 10 -11 -12 0
+-7 8 -9 -10 11 12 0
+-7 8 -9 -10 11 -12 0
+-7 8 -9 -10 -11 12 0
+-7 8 -9 -10 -11 -12 0
+-7 -8 9 10 11 12 0
+-7 -8 9 10 11 -12 0
+-7 -8 9 10 -11 12 0
+-7 -8 9 10 -11 -12 0
+-7 -8 9 -10 11 12 0
+-7 -8 9 -10 11 -12 0
+-7 -8 9 -10 -11 12 0
+-7 -8 9 -10 -11 -12 0
+-7 -8 -9 10 11 12 0
+-7 -8 -9 10 11 -12 0
+-7 -8 -9 10 -11 12 0
+-7 -8 -9 10 -11 -12 0
+-7 -8 -9 -10 11 12 0
+-7 -8 -9 -10 11 -12 0
+-7 -8 -9 -10 -11 12 0
+-7 -8 -9 -10 -11 -12 0
+-7 8 9 -10 11 12 0
+-7 8 9 -10 11 -12 0
+-7 8 9 -10 -11 12 0
+-7 8 9 -10 -11 -12 0
+-7 8 -9 10 11 12 0
+-7 8 -9 10 -11 12 0
+-7 8 -9 -10 11 12 0
+-7 8 -9 -10 11 -12 0
+-7 8 -9 -10 -11 12 0
+-7 8 -9 -10 -11 -12 0
+-7 -8 9 -10 11 12 0
+-7 -8 9 -10 11 -12 0
+-7 -8 9 -10 -11 12 0
+-7 -8 9 -10 -11 -12 0
+-7 -8 -9 10 11 12 0
+-7 -8 -9 10 -11 12 0
+-7 -8 -9 -10 11 12 0
+-7 -8 -9 -10 11 -12 0
+-7 -8 -9 -10 -11 12 0
+-7 -8 -9 -10 -11 -12 0
+7 -8 9 10 -11 12 0
+7 -8 9 10 -11 -12 0
+7 -8 9 -10 -11 12 0
+7 -8 9 -10 -11 -12 0
+7 -8 -9 10 -11 -12 0
+7 -8 -9 -10 -11 12 0
+7 -8 -9 -10 -11 -12 0
+-7 -8 9 10 -11 12 0
+-7 -8 9 10 -11 -12 0
+-7 -8 9 -10 -11 12 0
+-7 -8 9 -10 -11 -12 0
+-7 -8 -9 10 -11 -12 0
+-7 -8 -9 -10 -11 -12 0
+7 -8 9 -10 11 -12 0
+7 -8 -9 10 -11 12 0
+-7 -8 -9 10 -11 12 0
+-7 -8 -9 -10 -11 12 0

@@ -1,0 +1,3766 @@
+{
+  "type": "DP-OPTIMUM",
+  "status": "CERTIFIED-OPT",
+  "tree_decomp": {
+    "type": "TREE-DECOMP",
+    "root": "b_pair_d0_0m__load_bot",
+    "bags": {
+      "b_pair_d0_0m__load_bot": [
+        "pair_d0_0m__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_1m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot"
+      ],
+      "b_pair_d0_0p__load_bot": [
+        "pair_d0_0p__load_bot",
+        "pair_d0_1m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot"
+      ],
+      "b_pair_d0_1m__load_bot": [
+        "pair_d0_1m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot"
+      ],
+      "b_pair_d0_1p__load_bot": [
+        "pair_d0_1p__load_bot",
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot"
+      ],
+      "b_pair_v1_0__load_bot": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot"
+      ],
+      "b_pair_v1_1__load_bot": [
+        "pair_v1_1__load_bot"
+      ],
+      "b_pair_d0_0m__load_top": [
+        "pair_d0_0m__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_1m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top"
+      ],
+      "b_pair_d0_0p__load_top": [
+        "pair_d0_0p__load_top",
+        "pair_d0_1m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top"
+      ],
+      "b_pair_d0_1m__load_top": [
+        "pair_d0_1m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top"
+      ],
+      "b_pair_d0_1p__load_top": [
+        "pair_d0_1p__load_top",
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top"
+      ],
+      "b_pair_v1_0__load_top": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top"
+      ],
+      "b_pair_v1_1__load_top": [
+        "pair_v1_1__load_top"
+      ]
+    },
+    "edges": [
+      [
+        "b_pair_d0_0m__load_bot",
+        "b_pair_d0_0p__load_bot"
+      ],
+      [
+        "b_pair_d0_0p__load_bot",
+        "b_pair_d0_1m__load_bot"
+      ],
+      [
+        "b_pair_d0_1m__load_bot",
+        "b_pair_d0_1p__load_bot"
+      ],
+      [
+        "b_pair_d0_1p__load_bot",
+        "b_pair_v1_0__load_bot"
+      ],
+      [
+        "b_pair_v1_0__load_bot",
+        "b_pair_v1_1__load_bot"
+      ],
+      [
+        "b_pair_d0_0m__load_top",
+        "b_pair_d0_0p__load_top"
+      ],
+      [
+        "b_pair_d0_0p__load_top",
+        "b_pair_d0_1m__load_top"
+      ],
+      [
+        "b_pair_d0_1m__load_top",
+        "b_pair_d0_1p__load_top"
+      ],
+      [
+        "b_pair_d0_1p__load_top",
+        "b_pair_v1_0__load_top"
+      ],
+      [
+        "b_pair_v1_0__load_top",
+        "b_pair_v1_1__load_top"
+      ],
+      [
+        "b_pair_d0_0m__load_bot",
+        "b_pair_d0_0m__load_top"
+      ]
+    ],
+    "factor_to_bag": {
+      "load_top__force_h0_0": "b_pair_d0_0m__load_top",
+      "load_top__force_h0_1": "b_pair_d0_0p__load_top",
+      "load_top__force_h0_2": "b_pair_d0_0m__load_top",
+      "load_top__force_v1_0": "b_pair_d0_0m__load_top",
+      "load_top__force_v1_1": "b_pair_d0_0m__load_top",
+      "load_top__force_d0_0p": "b_pair_d0_0m__load_top",
+      "load_top__force_d0_0m": "b_pair_d0_0m__load_top",
+      "load_top__force_d0_1p": "b_pair_d0_0m__load_top",
+      "load_top__force_d0_1m": "b_pair_d0_0m__load_top",
+      "load_bot__force_h0_0": "b_pair_d0_0m__load_bot",
+      "load_bot__force_h0_1": "b_pair_d0_0p__load_bot",
+      "load_bot__force_h0_2": "b_pair_d0_0m__load_bot",
+      "load_bot__force_v1_0": "b_pair_d0_0m__load_bot",
+      "load_bot__force_v1_1": "b_pair_d0_0m__load_bot",
+      "load_bot__force_d0_0p": "b_pair_d0_0m__load_bot",
+      "load_bot__force_d0_0m": "b_pair_d0_0m__load_bot",
+      "load_bot__force_d0_1p": "b_pair_d0_0m__load_bot",
+      "load_bot__force_d0_1m": "b_pair_d0_0m__load_bot"
+    }
+  },
+  "root": "b_pair_d0_0m__load_bot",
+  "optimum_cost": 4,
+  "root_assignment": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "messages": {
+    "b_pair_d0_0m__load_bot": {
+      "bag": [
+        "pair_d0_0m__load_bot",
+        "pair_d0_0p__load_bot",
+        "pair_d0_1m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 4
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 5
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_pair_d0_0p__load_bot": {
+      "bag": [
+        "pair_d0_0p__load_bot",
+        "pair_d0_1m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        }
+      ]
+    },
+    "b_pair_d0_1m__load_bot": {
+      "bag": [
+        "pair_d0_1m__load_bot",
+        "pair_d0_1p__load_bot",
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        }
+      ]
+    },
+    "b_pair_d0_1p__load_bot": {
+      "bag": [
+        "pair_d0_1p__load_bot",
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        }
+      ]
+    },
+    "b_pair_v1_0__load_bot": {
+      "bag": [
+        "pair_v1_0__load_bot",
+        "pair_v1_1__load_bot"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1
+          ],
+          "cost": 0
+        }
+      ]
+    },
+    "b_pair_v1_1__load_bot": {
+      "bag": [
+        "pair_v1_1__load_bot"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": 0
+        }
+      ]
+    },
+    "b_pair_d0_0m__load_top": {
+      "bag": [
+        "pair_d0_0m__load_top",
+        "pair_d0_0p__load_top",
+        "pair_d0_1m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 2
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 3
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_pair_d0_0p__load_top": {
+      "bag": [
+        "pair_d0_0p__load_top",
+        "pair_d0_1m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        }
+      ]
+    },
+    "b_pair_d0_1m__load_top": {
+      "bag": [
+        "pair_d0_1m__load_top",
+        "pair_d0_1p__load_top",
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        }
+      ]
+    },
+    "b_pair_d0_1p__load_top": {
+      "bag": [
+        "pair_d0_1p__load_top",
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1
+          ],
+          "cost": 0
+        }
+      ]
+    },
+    "b_pair_v1_0__load_top": {
+      "bag": [
+        "pair_v1_0__load_top",
+        "pair_v1_1__load_top"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            0,
+            1
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1,
+            1
+          ],
+          "cost": 0
+        }
+      ]
+    },
+    "b_pair_v1_1__load_top": {
+      "bag": [
+        "pair_v1_1__load_top"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": 0
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": 0
+        }
+      ]
+    }
+  },
+  "argmins": {
+    "b_pair_v1_1__load_top": {
+      "[0]": {},
+      "[1]": {}
+    },
+    "b_pair_v1_0__load_top": {
+      "[0, 0]": {
+        "b_pair_v1_1__load_top": [
+          0
+        ]
+      },
+      "[0, 1]": {
+        "b_pair_v1_1__load_top": [
+          1
+        ]
+      },
+      "[1, 0]": {
+        "b_pair_v1_1__load_top": [
+          0
+        ]
+      },
+      "[1, 1]": {
+        "b_pair_v1_1__load_top": [
+          1
+        ]
+      }
+    },
+    "b_pair_v1_1__load_bot": {
+      "[0]": {},
+      "[1]": {}
+    },
+    "b_pair_d0_1p__load_top": {
+      "[0, 0, 0]": {
+        "b_pair_v1_0__load_top": [
+          0,
+          0
+        ]
+      },
+      "[0, 0, 1]": {
+        "b_pair_v1_0__load_top": [
+          0,
+          1
+        ]
+      },
+      "[0, 1, 0]": {
+        "b_pair_v1_0__load_top": [
+          1,
+          0
+        ]
+      },
+      "[0, 1, 1]": {
+        "b_pair_v1_0__load_top": [
+          1,
+          1
+        ]
+      },
+      "[1, 0, 0]": {
+        "b_pair_v1_0__load_top": [
+          0,
+          0
+        ]
+      },
+      "[1, 0, 1]": {
+        "b_pair_v1_0__load_top": [
+          0,
+          1
+        ]
+      },
+      "[1, 1, 0]": {
+        "b_pair_v1_0__load_top": [
+          1,
+          0
+        ]
+      },
+      "[1, 1, 1]": {
+        "b_pair_v1_0__load_top": [
+          1,
+          1
+        ]
+      }
+    },
+    "b_pair_v1_0__load_bot": {
+      "[0, 0]": {
+        "b_pair_v1_1__load_bot": [
+          0
+        ]
+      },
+      "[0, 1]": {
+        "b_pair_v1_1__load_bot": [
+          1
+        ]
+      },
+      "[1, 0]": {
+        "b_pair_v1_1__load_bot": [
+          0
+        ]
+      },
+      "[1, 1]": {
+        "b_pair_v1_1__load_bot": [
+          1
+        ]
+      }
+    },
+    "b_pair_d0_1m__load_top": {
+      "[0, 0, 0, 0]": {
+        "b_pair_d0_1p__load_top": [
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 0, 1]": {
+        "b_pair_d0_1p__load_top": [
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 1, 0]": {
+        "b_pair_d0_1p__load_top": [
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 1, 1]": {
+        "b_pair_d0_1p__load_top": [
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 0, 0]": {
+        "b_pair_d0_1p__load_top": [
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 0, 1]": {
+        "b_pair_d0_1p__load_top": [
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 1, 0]": {
+        "b_pair_d0_1p__load_top": [
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 1, 1]": {
+        "b_pair_d0_1p__load_top": [
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 0, 0]": {
+        "b_pair_d0_1p__load_top": [
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 0, 1]": {
+        "b_pair_d0_1p__load_top": [
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 1, 0]": {
+        "b_pair_d0_1p__load_top": [
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 1, 1]": {
+        "b_pair_d0_1p__load_top": [
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 0, 0]": {
+        "b_pair_d0_1p__load_top": [
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 0, 1]": {
+        "b_pair_d0_1p__load_top": [
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 1, 0]": {
+        "b_pair_d0_1p__load_top": [
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 1, 1]": {
+        "b_pair_d0_1p__load_top": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "b_pair_d0_1p__load_bot": {
+      "[0, 0, 0]": {
+        "b_pair_v1_0__load_bot": [
+          0,
+          0
+        ]
+      },
+      "[0, 0, 1]": {
+        "b_pair_v1_0__load_bot": [
+          0,
+          1
+        ]
+      },
+      "[0, 1, 0]": {
+        "b_pair_v1_0__load_bot": [
+          1,
+          0
+        ]
+      },
+      "[0, 1, 1]": {
+        "b_pair_v1_0__load_bot": [
+          1,
+          1
+        ]
+      },
+      "[1, 0, 0]": {
+        "b_pair_v1_0__load_bot": [
+          0,
+          0
+        ]
+      },
+      "[1, 0, 1]": {
+        "b_pair_v1_0__load_bot": [
+          0,
+          1
+        ]
+      },
+      "[1, 1, 0]": {
+        "b_pair_v1_0__load_bot": [
+          1,
+          0
+        ]
+      },
+      "[1, 1, 1]": {
+        "b_pair_v1_0__load_bot": [
+          1,
+          1
+        ]
+      }
+    },
+    "b_pair_d0_0p__load_top": {
+      "[0, 0, 0, 0, 0]": {
+        "b_pair_d0_1m__load_top": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 0, 0, 1]": {
+        "b_pair_d0_1m__load_top": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 0, 1, 0]": {
+        "b_pair_d0_1m__load_top": [
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 0, 1, 1]": {
+        "b_pair_d0_1m__load_top": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 0, 1, 0, 0]": {
+        "b_pair_d0_1m__load_top": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 1, 0, 1]": {
+        "b_pair_d0_1m__load_top": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 1, 1, 0]": {
+        "b_pair_d0_1m__load_top": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 1, 1, 1]": {
+        "b_pair_d0_1m__load_top": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 0, 0, 0]": {
+        "b_pair_d0_1m__load_top": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 0, 0, 1]": {
+        "b_pair_d0_1m__load_top": [
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 0, 1, 0]": {
+        "b_pair_d0_1m__load_top": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 0, 1, 1]": {
+        "b_pair_d0_1m__load_top": [
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 1, 0, 0]": {
+        "b_pair_d0_1m__load_top": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 1, 0, 1]": {
+        "b_pair_d0_1m__load_top": [
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 1, 1, 0]": {
+        "b_pair_d0_1m__load_top": [
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 1, 1, 1]": {
+        "b_pair_d0_1m__load_top": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 0, 0, 0]": {
+        "b_pair_d0_1m__load_top": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 0, 0, 1]": {
+        "b_pair_d0_1m__load_top": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 0, 1, 0]": {
+        "b_pair_d0_1m__load_top": [
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 0, 1, 1]": {
+        "b_pair_d0_1m__load_top": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 1, 0, 0]": {
+        "b_pair_d0_1m__load_top": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 1, 0, 1]": {
+        "b_pair_d0_1m__load_top": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 1, 1, 0]": {
+        "b_pair_d0_1m__load_top": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 1, 1, 1]": {
+        "b_pair_d0_1m__load_top": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 0, 0, 0]": {
+        "b_pair_d0_1m__load_top": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 0, 0, 1]": {
+        "b_pair_d0_1m__load_top": [
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 0, 1, 0]": {
+        "b_pair_d0_1m__load_top": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 0, 1, 1]": {
+        "b_pair_d0_1m__load_top": [
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 1, 0, 0]": {
+        "b_pair_d0_1m__load_top": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 1, 0, 1]": {
+        "b_pair_d0_1m__load_top": [
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 1, 1, 0]": {
+        "b_pair_d0_1m__load_top": [
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 1, 1, 1]": {
+        "b_pair_d0_1m__load_top": [
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "b_pair_d0_1m__load_bot": {
+      "[0, 0, 0, 0]": {
+        "b_pair_d0_1p__load_bot": [
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 0, 1]": {
+        "b_pair_d0_1p__load_bot": [
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 1, 0]": {
+        "b_pair_d0_1p__load_bot": [
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 1, 1]": {
+        "b_pair_d0_1p__load_bot": [
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 0, 0]": {
+        "b_pair_d0_1p__load_bot": [
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 0, 1]": {
+        "b_pair_d0_1p__load_bot": [
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 1, 0]": {
+        "b_pair_d0_1p__load_bot": [
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 1, 1]": {
+        "b_pair_d0_1p__load_bot": [
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 0, 0]": {
+        "b_pair_d0_1p__load_bot": [
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 0, 1]": {
+        "b_pair_d0_1p__load_bot": [
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 1, 0]": {
+        "b_pair_d0_1p__load_bot": [
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 1, 1]": {
+        "b_pair_d0_1p__load_bot": [
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 0, 0]": {
+        "b_pair_d0_1p__load_bot": [
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 0, 1]": {
+        "b_pair_d0_1p__load_bot": [
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 1, 0]": {
+        "b_pair_d0_1p__load_bot": [
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 1, 1]": {
+        "b_pair_d0_1p__load_bot": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "b_pair_d0_0m__load_top": {
+      "[0, 0, 1, 1, 0, 0]": {
+        "b_pair_d0_0p__load_top": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 1, 1, 0, 0]": {
+        "b_pair_d0_0p__load_top": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    "b_pair_d0_0p__load_bot": {
+      "[0, 0, 0, 0, 0]": {
+        "b_pair_d0_1m__load_bot": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 0, 0, 1]": {
+        "b_pair_d0_1m__load_bot": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 0, 1, 0]": {
+        "b_pair_d0_1m__load_bot": [
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 0, 1, 1]": {
+        "b_pair_d0_1m__load_bot": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 0, 1, 0, 0]": {
+        "b_pair_d0_1m__load_bot": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 0, 1, 0, 1]": {
+        "b_pair_d0_1m__load_bot": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 0, 1, 1, 0]": {
+        "b_pair_d0_1m__load_bot": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 0, 1, 1, 1]": {
+        "b_pair_d0_1m__load_bot": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 0, 0, 0]": {
+        "b_pair_d0_1m__load_bot": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 0, 0, 1]": {
+        "b_pair_d0_1m__load_bot": [
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 0, 1, 0]": {
+        "b_pair_d0_1m__load_bot": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 0, 1, 1]": {
+        "b_pair_d0_1m__load_bot": [
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "[0, 1, 1, 0, 0]": {
+        "b_pair_d0_1m__load_bot": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "[0, 1, 1, 0, 1]": {
+        "b_pair_d0_1m__load_bot": [
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "[0, 1, 1, 1, 0]": {
+        "b_pair_d0_1m__load_bot": [
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      "[0, 1, 1, 1, 1]": {
+        "b_pair_d0_1m__load_bot": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 0, 0, 0]": {
+        "b_pair_d0_1m__load_bot": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 0, 0, 1]": {
+        "b_pair_d0_1m__load_bot": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 0, 1, 0]": {
+        "b_pair_d0_1m__load_bot": [
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 0, 1, 1]": {
+        "b_pair_d0_1m__load_bot": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 0, 1, 0, 0]": {
+        "b_pair_d0_1m__load_bot": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 0, 1, 0, 1]": {
+        "b_pair_d0_1m__load_bot": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 0, 1, 1, 0]": {
+        "b_pair_d0_1m__load_bot": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 0, 1, 1, 1]": {
+        "b_pair_d0_1m__load_bot": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 0, 0, 0]": {
+        "b_pair_d0_1m__load_bot": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 0, 0, 1]": {
+        "b_pair_d0_1m__load_bot": [
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 0, 1, 0]": {
+        "b_pair_d0_1m__load_bot": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 0, 1, 1]": {
+        "b_pair_d0_1m__load_bot": [
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "[1, 1, 1, 0, 0]": {
+        "b_pair_d0_1m__load_bot": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 1, 0, 1]": {
+        "b_pair_d0_1m__load_bot": [
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "[1, 1, 1, 1, 0]": {
+        "b_pair_d0_1m__load_bot": [
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      "[1, 1, 1, 1, 1]": {
+        "b_pair_d0_1m__load_bot": [
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "b_pair_d0_0m__load_bot": {
+      "[1, 1, 0, 0, 0, 0]": {
+        "b_pair_d0_0p__load_bot": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "b_pair_d0_0m__load_top": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "[1, 1, 0, 1, 0, 0]": {
+        "b_pair_d0_0p__load_bot": [
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "b_pair_d0_0m__load_top": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "TREE-DECOMP",
+  "root": "bag0",
+  "bags": {
+    "bag0": [
+      "x",
+      "y"
+    ]
+  },
+  "edges": [],
+  "factor_to_bag": {
+    "xor": "bag0"
+  }
+}

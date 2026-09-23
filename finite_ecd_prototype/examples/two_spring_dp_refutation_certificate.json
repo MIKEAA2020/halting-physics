@@ -1,0 +1,63 @@
+{
+  "type": "DP-REFUTATION",
+  "status": "CERTIFIED-UNSAT",
+  "tree_decomp": {
+    "type": "TREE-DECOMP",
+    "root": "bag0",
+    "bags": {
+      "bag0": [
+        "a1",
+        "a2"
+      ]
+    },
+    "edges": [],
+    "factor_to_bag": {
+      "load_1": "bag0",
+      "load_2": "bag0"
+    }
+  },
+  "root": "bag0",
+  "optimum_cost": null,
+  "root_assignment": null,
+  "messages": {
+    "bag0": {
+      "bag": [
+        "a1",
+        "a2"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            0,
+            1
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1,
+            1
+          ],
+          "cost": null
+        }
+      ]
+    }
+  },
+  "argmins": {
+    "bag0": {}
+  }
+}

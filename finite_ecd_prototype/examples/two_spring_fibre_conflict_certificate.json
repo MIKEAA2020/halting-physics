@@ -1,0 +1,34 @@
+{
+  "type": "FIBRE-CONFLICT",
+  "observation": "same",
+  "witnesses": [
+    {
+      "action": [
+        0,
+        0
+      ],
+      "scenario": "load_1"
+    },
+    {
+      "action": [
+        0,
+        1
+      ],
+      "scenario": "load_2"
+    },
+    {
+      "action": [
+        1,
+        0
+      ],
+      "scenario": "load_2"
+    },
+    {
+      "action": [
+        1,
+        1
+      ],
+      "scenario": "load_1"
+    }
+  ]
+}

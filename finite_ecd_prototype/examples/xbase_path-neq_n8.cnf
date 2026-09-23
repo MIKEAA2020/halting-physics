@@ -1,0 +1,37 @@
+c var 1 x0
+c var 2 x1
+c var 3 x2
+c var 4 x3
+c var 5 x4
+c var 6 x5
+c var 7 x6
+c var 8 x7
+c forbid neq0_1 {'x0': 0, 'x1': 0}
+c forbid neq0_1 {'x0': 1, 'x1': 1}
+c forbid neq1_2 {'x1': 0, 'x2': 0}
+c forbid neq1_2 {'x1': 1, 'x2': 1}
+c forbid neq2_3 {'x2': 0, 'x3': 0}
+c forbid neq2_3 {'x2': 1, 'x3': 1}
+c forbid neq3_4 {'x3': 0, 'x4': 0}
+c forbid neq3_4 {'x3': 1, 'x4': 1}
+c forbid neq4_5 {'x4': 0, 'x5': 0}
+c forbid neq4_5 {'x4': 1, 'x5': 1}
+c forbid neq5_6 {'x5': 0, 'x6': 0}
+c forbid neq5_6 {'x5': 1, 'x6': 1}
+c forbid neq6_7 {'x6': 0, 'x7': 0}
+c forbid neq6_7 {'x6': 1, 'x7': 1}
+p cnf 8 14
+1 2 0
+-1 -2 0
+2 3 0
+-2 -3 0
+3 4 0
+-3 -4 0
+4 5 0
+-4 -5 0
+5 6 0
+-5 -6 0
+6 7 0
+-6 -7 0
+7 8 0
+-7 -8 0

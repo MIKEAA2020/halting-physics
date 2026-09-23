@@ -1,0 +1,11 @@
+{
+  "name": "four_actuator_frame_exact_affine",
+  "variables": ["a0", "a1", "a2", "a3"],
+  "domains": {"a0": [0, 1], "a1": [0, 1], "a2": [0, 1], "a3": [0, 1]},
+  "safe_interval": ["-1/4", "1/4"],
+  "rows": [
+    {"name": "left_load", "d": "1", "coeffs": {"a0": "-1/2", "a1": "-1/4", "a2": "-1/4"}},
+    {"name": "middle_load", "d": "1", "coeffs": {"a1": "-1/4", "a2": "-1/2", "a3": "-1/4"}},
+    {"name": "right_heavy_load", "d": "3/2", "coeffs": {"a0": "-1/4", "a1": "-1/4", "a2": "-1/2", "a3": "-1/2"}}
+  ]
+}

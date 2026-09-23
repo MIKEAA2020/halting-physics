@@ -1,0 +1,238 @@
+{
+  "name": "ten_bar_truss",
+  "kind": "truss",
+  "nodes": [
+    {
+      "id": "n1",
+      "x": "0",
+      "y": "4",
+      "support": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "id": "n2",
+      "x": "0",
+      "y": "0",
+      "support": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "id": "n3",
+      "x": "3",
+      "y": "4"
+    },
+    {
+      "id": "n4",
+      "x": "3",
+      "y": "0"
+    },
+    {
+      "id": "n5",
+      "x": "6",
+      "y": "4"
+    },
+    {
+      "id": "n6",
+      "x": "6",
+      "y": "0"
+    }
+  ],
+  "supports": [
+    {
+      "node": "n1"
+    },
+    {
+      "node": "n2"
+    }
+  ],
+  "members": [
+    {
+      "name": "top_left",
+      "a": "n1",
+      "b": "n3",
+      "k": "1"
+    },
+    {
+      "name": "top_right",
+      "a": "n3",
+      "b": "n5",
+      "k": "1"
+    },
+    {
+      "name": "bot_left",
+      "a": "n2",
+      "b": "n4",
+      "k": "1"
+    },
+    {
+      "name": "bot_right",
+      "a": "n4",
+      "b": "n6",
+      "k": "1"
+    },
+    {
+      "name": "vert_mid",
+      "a": "n3",
+      "b": "n4",
+      "k": "1"
+    },
+    {
+      "name": "vert_tip",
+      "a": "n5",
+      "b": "n6",
+      "k": "1"
+    },
+    {
+      "name": "diag_14",
+      "a": "n1",
+      "b": "n4",
+      "k": "1"
+    },
+    {
+      "name": "diag_23",
+      "a": "n2",
+      "b": "n3",
+      "k": "1"
+    },
+    {
+      "name": "diag_36",
+      "a": "n3",
+      "b": "n6",
+      "k": "1"
+    },
+    {
+      "name": "diag_45",
+      "a": "n4",
+      "b": "n5",
+      "k": "1"
+    }
+  ],
+  "actuators": [
+    {
+      "name": "act_n3",
+      "type": "node-force",
+      "node": "n3",
+      "components": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "name": "act_n4",
+      "type": "node-force",
+      "node": "n4",
+      "components": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "name": "act_n5",
+      "type": "node-force",
+      "node": "n5",
+      "components": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "name": "act_n6",
+      "type": "node-force",
+      "node": "n6",
+      "components": [
+        "0",
+        "1"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "load_low",
+      "forces": [
+        {
+          "node": "n5",
+          "components": [
+            "0",
+            "-1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "load_high",
+      "forces": [
+        {
+          "node": "n5",
+          "components": [
+            "0",
+            "-2"
+          ]
+        }
+      ]
+    }
+  ],
+  "monitors": [
+    {
+      "name": "force_top_left",
+      "type": "member-force",
+      "member": "top_left"
+    },
+    {
+      "name": "force_top_right",
+      "type": "member-force",
+      "member": "top_right"
+    },
+    {
+      "name": "force_bot_left",
+      "type": "member-force",
+      "member": "bot_left"
+    },
+    {
+      "name": "force_bot_right",
+      "type": "member-force",
+      "member": "bot_right"
+    },
+    {
+      "name": "force_vert_mid",
+      "type": "member-force",
+      "member": "vert_mid"
+    },
+    {
+      "name": "force_vert_tip",
+      "type": "member-force",
+      "member": "vert_tip"
+    },
+    {
+      "name": "force_diag_14",
+      "type": "member-force",
+      "member": "diag_14"
+    },
+    {
+      "name": "force_diag_23",
+      "type": "member-force",
+      "member": "diag_23"
+    },
+    {
+      "name": "force_diag_36",
+      "type": "member-force",
+      "member": "diag_36"
+    },
+    {
+      "name": "force_diag_45",
+      "type": "member-force",
+      "member": "diag_45"
+    }
+  ],
+  "actuator_domain": [
+    0,
+    1
+  ],
+  "safe_interval": [
+    "-3/4",
+    "3/4"
+  ]
+}

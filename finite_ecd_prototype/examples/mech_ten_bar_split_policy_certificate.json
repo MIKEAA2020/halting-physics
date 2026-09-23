@@ -1,0 +1,13 @@
+{
+  "type": "POLICY",
+  "assignment": {
+    "act_n3__load_high": 1,
+    "act_n4__load_high": 1,
+    "act_n5__load_high": 1,
+    "act_n6__load_high": 0,
+    "act_n3__load_low": 0,
+    "act_n4__load_low": 0,
+    "act_n5__load_low": 1,
+    "act_n6__load_low": 0
+  }
+}

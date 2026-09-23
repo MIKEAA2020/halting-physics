@@ -1,0 +1,98 @@
+{
+  "type": "TREE-DECOMP",
+  "root": "b_act_n3__load_high",
+  "bags": {
+    "b_act_n3__load_high": [
+      "act_n3__load_high",
+      "act_n4__load_high",
+      "act_n5__load_high",
+      "act_n6__load_high"
+    ],
+    "b_act_n4__load_high": [
+      "act_n4__load_high",
+      "act_n5__load_high",
+      "act_n6__load_high"
+    ],
+    "b_act_n5__load_high": [
+      "act_n5__load_high",
+      "act_n6__load_high"
+    ],
+    "b_act_n6__load_high": [
+      "act_n6__load_high"
+    ],
+    "b_act_n3__load_low": [
+      "act_n3__load_low",
+      "act_n4__load_low",
+      "act_n5__load_low",
+      "act_n6__load_low"
+    ],
+    "b_act_n4__load_low": [
+      "act_n4__load_low",
+      "act_n5__load_low",
+      "act_n6__load_low"
+    ],
+    "b_act_n5__load_low": [
+      "act_n5__load_low",
+      "act_n6__load_low"
+    ],
+    "b_act_n6__load_low": [
+      "act_n6__load_low"
+    ]
+  },
+  "edges": [
+    [
+      "b_act_n3__load_high",
+      "b_act_n4__load_high"
+    ],
+    [
+      "b_act_n4__load_high",
+      "b_act_n5__load_high"
+    ],
+    [
+      "b_act_n5__load_high",
+      "b_act_n6__load_high"
+    ],
+    [
+      "b_act_n3__load_low",
+      "b_act_n4__load_low"
+    ],
+    [
+      "b_act_n4__load_low",
+      "b_act_n5__load_low"
+    ],
+    [
+      "b_act_n5__load_low",
+      "b_act_n6__load_low"
+    ],
+    [
+      "b_act_n3__load_high",
+      "b_act_n3__load_low"
+    ]
+  ],
+  "factor_to_bag": {
+    "load_low__force_top_left": "b_act_n3__load_low",
+    "load_low__force_top_right": "b_act_n3__load_low",
+    "load_low__force_bot_left": "b_act_n3__load_low",
+    "load_low__force_bot_right": "b_act_n3__load_low",
+    "load_low__force_vert_mid": "b_act_n3__load_low",
+    "load_low__force_vert_tip": "b_act_n3__load_low",
+    "load_low__force_diag_14": "b_act_n3__load_low",
+    "load_low__force_diag_23": "b_act_n3__load_low",
+    "load_low__force_diag_36": "b_act_n3__load_low",
+    "load_low__force_diag_45": "b_act_n3__load_low",
+    "load_high__force_top_left": "b_act_n3__load_high",
+    "load_high__force_top_right": "b_act_n3__load_high",
+    "load_high__force_bot_left": "b_act_n3__load_high",
+    "load_high__force_bot_right": "b_act_n3__load_high",
+    "load_high__force_vert_mid": "b_act_n3__load_high",
+    "load_high__force_vert_tip": "b_act_n3__load_high",
+    "load_high__force_diag_14": "b_act_n3__load_high",
+    "load_high__force_diag_23": "b_act_n3__load_high",
+    "load_high__force_diag_36": "b_act_n3__load_high",
+    "load_high__force_diag_45": "b_act_n3__load_high"
+  },
+  "metadata": {
+    "construction": "deterministic min-fill elimination",
+    "width": 3
+  }
+}

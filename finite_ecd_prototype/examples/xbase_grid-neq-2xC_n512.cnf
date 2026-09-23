@@ -1,0 +1,3577 @@
+c var 1 x0_0
+c var 2 x0_1
+c var 3 x0_2
+c var 4 x0_3
+c var 5 x0_4
+c var 6 x0_5
+c var 7 x0_6
+c var 8 x0_7
+c var 9 x0_8
+c var 10 x0_9
+c var 11 x0_10
+c var 12 x0_11
+c var 13 x0_12
+c var 14 x0_13
+c var 15 x0_14
+c var 16 x0_15
+c var 17 x0_16
+c var 18 x0_17
+c var 19 x0_18
+c var 20 x0_19
+c var 21 x0_20
+c var 22 x0_21
+c var 23 x0_22
+c var 24 x0_23
+c var 25 x0_24
+c var 26 x0_25
+c var 27 x0_26
+c var 28 x0_27
+c var 29 x0_28
+c var 30 x0_29
+c var 31 x0_30
+c var 32 x0_31
+c var 33 x0_32
+c var 34 x0_33
+c var 35 x0_34
+c var 36 x0_35
+c var 37 x0_36
+c var 38 x0_37
+c var 39 x0_38
+c var 40 x0_39
+c var 41 x0_40
+c var 42 x0_41
+c var 43 x0_42
+c var 44 x0_43
+c var 45 x0_44
+c var 46 x0_45
+c var 47 x0_46
+c var 48 x0_47
+c var 49 x0_48
+c var 50 x0_49
+c var 51 x0_50
+c var 52 x0_51
+c var 53 x0_52
+c var 54 x0_53
+c var 55 x0_54
+c var 56 x0_55
+c var 57 x0_56
+c var 58 x0_57
+c var 59 x0_58
+c var 60 x0_59
+c var 61 x0_60
+c var 62 x0_61
+c var 63 x0_62
+c var 64 x0_63
+c var 65 x0_64
+c var 66 x0_65
+c var 67 x0_66
+c var 68 x0_67
+c var 69 x0_68
+c var 70 x0_69
+c var 71 x0_70
+c var 72 x0_71
+c var 73 x0_72
+c var 74 x0_73
+c var 75 x0_74
+c var 76 x0_75
+c var 77 x0_76
+c var 78 x0_77
+c var 79 x0_78
+c var 80 x0_79
+c var 81 x0_80
+c var 82 x0_81
+c var 83 x0_82
+c var 84 x0_83
+c var 85 x0_84
+c var 86 x0_85
+c var 87 x0_86
+c var 88 x0_87
+c var 89 x0_88
+c var 90 x0_89
+c var 91 x0_90
+c var 92 x0_91
+c var 93 x0_92
+c var 94 x0_93
+c var 95 x0_94
+c var 96 x0_95
+c var 97 x0_96
+c var 98 x0_97
+c var 99 x0_98
+c var 100 x0_99
+c var 101 x0_100
+c var 102 x0_101
+c var 103 x0_102
+c var 104 x0_103
+c var 105 x0_104
+c var 106 x0_105
+c var 107 x0_106
+c var 108 x0_107
+c var 109 x0_108
+c var 110 x0_109
+c var 111 x0_110
+c var 112 x0_111
+c var 113 x0_112
+c var 114 x0_113
+c var 115 x0_114
+c var 116 x0_115
+c var 117 x0_116
+c var 118 x0_117
+c var 119 x0_118
+c var 120 x0_119
+c var 121 x0_120
+c var 122 x0_121
+c var 123 x0_122
+c var 124 x0_123
+c var 125 x0_124
+c var 126 x0_125
+c var 127 x0_126
+c var 128 x0_127
+c var 129 x0_128
+c var 130 x0_129
+c var 131 x0_130
+c var 132 x0_131
+c var 133 x0_132
+c var 134 x0_133
+c var 135 x0_134
+c var 136 x0_135
+c var 137 x0_136
+c var 138 x0_137
+c var 139 x0_138
+c var 140 x0_139
+c var 141 x0_140
+c var 142 x0_141
+c var 143 x0_142
+c var 144 x0_143
+c var 145 x0_144
+c var 146 x0_145
+c var 147 x0_146
+c var 148 x0_147
+c var 149 x0_148
+c var 150 x0_149
+c var 151 x0_150
+c var 152 x0_151
+c var 153 x0_152
+c var 154 x0_153
+c var 155 x0_154
+c var 156 x0_155
+c var 157 x0_156
+c var 158 x0_157
+c var 159 x0_158
+c var 160 x0_159
+c var 161 x0_160
+c var 162 x0_161
+c var 163 x0_162
+c var 164 x0_163
+c var 165 x0_164
+c var 166 x0_165
+c var 167 x0_166
+c var 168 x0_167
+c var 169 x0_168
+c var 170 x0_169
+c var 171 x0_170
+c var 172 x0_171
+c var 173 x0_172
+c var 174 x0_173
+c var 175 x0_174
+c var 176 x0_175
+c var 177 x0_176
+c var 178 x0_177
+c var 179 x0_178
+c var 180 x0_179
+c var 181 x0_180
+c var 182 x0_181
+c var 183 x0_182
+c var 184 x0_183
+c var 185 x0_184
+c var 186 x0_185
+c var 187 x0_186
+c var 188 x0_187
+c var 189 x0_188
+c var 190 x0_189
+c var 191 x0_190
+c var 192 x0_191
+c var 193 x0_192
+c var 194 x0_193
+c var 195 x0_194
+c var 196 x0_195
+c var 197 x0_196
+c var 198 x0_197
+c var 199 x0_198
+c var 200 x0_199
+c var 201 x0_200
+c var 202 x0_201
+c var 203 x0_202
+c var 204 x0_203
+c var 205 x0_204
+c var 206 x0_205
+c var 207 x0_206
+c var 208 x0_207
+c var 209 x0_208
+c var 210 x0_209
+c var 211 x0_210
+c var 212 x0_211
+c var 213 x0_212
+c var 214 x0_213
+c var 215 x0_214
+c var 216 x0_215
+c var 217 x0_216
+c var 218 x0_217
+c var 219 x0_218
+c var 220 x0_219
+c var 221 x0_220
+c var 222 x0_221
+c var 223 x0_222
+c var 224 x0_223
+c var 225 x0_224
+c var 226 x0_225
+c var 227 x0_226
+c var 228 x0_227
+c var 229 x0_228
+c var 230 x0_229
+c var 231 x0_230
+c var 232 x0_231
+c var 233 x0_232
+c var 234 x0_233
+c var 235 x0_234
+c var 236 x0_235
+c var 237 x0_236
+c var 238 x0_237
+c var 239 x0_238
+c var 240 x0_239
+c var 241 x0_240
+c var 242 x0_241
+c var 243 x0_242
+c var 244 x0_243
+c var 245 x0_244
+c var 246 x0_245
+c var 247 x0_246
+c var 248 x0_247
+c var 249 x0_248
+c var 250 x0_249
+c var 251 x0_250
+c var 252 x0_251
+c var 253 x0_252
+c var 254 x0_253
+c var 255 x0_254
+c var 256 x0_255
+c var 257 x1_0
+c var 258 x1_1
+c var 259 x1_2
+c var 260 x1_3
+c var 261 x1_4
+c var 262 x1_5
+c var 263 x1_6
+c var 264 x1_7
+c var 265 x1_8
+c var 266 x1_9
+c var 267 x1_10
+c var 268 x1_11
+c var 269 x1_12
+c var 270 x1_13
+c var 271 x1_14
+c var 272 x1_15
+c var 273 x1_16
+c var 274 x1_17
+c var 275 x1_18
+c var 276 x1_19
+c var 277 x1_20
+c var 278 x1_21
+c var 279 x1_22
+c var 280 x1_23
+c var 281 x1_24
+c var 282 x1_25
+c var 283 x1_26
+c var 284 x1_27
+c var 285 x1_28
+c var 286 x1_29
+c var 287 x1_30
+c var 288 x1_31
+c var 289 x1_32
+c var 290 x1_33
+c var 291 x1_34
+c var 292 x1_35
+c var 293 x1_36
+c var 294 x1_37
+c var 295 x1_38
+c var 296 x1_39
+c var 297 x1_40
+c var 298 x1_41
+c var 299 x1_42
+c var 300 x1_43
+c var 301 x1_44
+c var 302 x1_45
+c var 303 x1_46
+c var 304 x1_47
+c var 305 x1_48
+c var 306 x1_49
+c var 307 x1_50
+c var 308 x1_51
+c var 309 x1_52
+c var 310 x1_53
+c var 311 x1_54
+c var 312 x1_55
+c var 313 x1_56
+c var 314 x1_57
+c var 315 x1_58
+c var 316 x1_59
+c var 317 x1_60
+c var 318 x1_61
+c var 319 x1_62
+c var 320 x1_63
+c var 321 x1_64
+c var 322 x1_65
+c var 323 x1_66
+c var 324 x1_67
+c var 325 x1_68
+c var 326 x1_69
+c var 327 x1_70
+c var 328 x1_71
+c var 329 x1_72
+c var 330 x1_73
+c var 331 x1_74
+c var 332 x1_75
+c var 333 x1_76
+c var 334 x1_77
+c var 335 x1_78
+c var 336 x1_79
+c var 337 x1_80
+c var 338 x1_81
+c var 339 x1_82
+c var 340 x1_83
+c var 341 x1_84
+c var 342 x1_85
+c var 343 x1_86
+c var 344 x1_87
+c var 345 x1_88
+c var 346 x1_89
+c var 347 x1_90
+c var 348 x1_91
+c var 349 x1_92
+c var 350 x1_93
+c var 351 x1_94
+c var 352 x1_95
+c var 353 x1_96
+c var 354 x1_97
+c var 355 x1_98
+c var 356 x1_99
+c var 357 x1_100
+c var 358 x1_101
+c var 359 x1_102
+c var 360 x1_103
+c var 361 x1_104
+c var 362 x1_105
+c var 363 x1_106
+c var 364 x1_107
+c var 365 x1_108
+c var 366 x1_109
+c var 367 x1_110
+c var 368 x1_111
+c var 369 x1_112
+c var 370 x1_113
+c var 371 x1_114
+c var 372 x1_115
+c var 373 x1_116
+c var 374 x1_117
+c var 375 x1_118
+c var 376 x1_119
+c var 377 x1_120
+c var 378 x1_121
+c var 379 x1_122
+c var 380 x1_123
+c var 381 x1_124
+c var 382 x1_125
+c var 383 x1_126
+c var 384 x1_127
+c var 385 x1_128
+c var 386 x1_129
+c var 387 x1_130
+c var 388 x1_131
+c var 389 x1_132
+c var 390 x1_133
+c var 391 x1_134
+c var 392 x1_135
+c var 393 x1_136
+c var 394 x1_137
+c var 395 x1_138
+c var 396 x1_139
+c var 397 x1_140
+c var 398 x1_141
+c var 399 x1_142
+c var 400 x1_143
+c var 401 x1_144
+c var 402 x1_145
+c var 403 x1_146
+c var 404 x1_147
+c var 405 x1_148
+c var 406 x1_149
+c var 407 x1_150
+c var 408 x1_151
+c var 409 x1_152
+c var 410 x1_153
+c var 411 x1_154
+c var 412 x1_155
+c var 413 x1_156
+c var 414 x1_157
+c var 415 x1_158
+c var 416 x1_159
+c var 417 x1_160
+c var 418 x1_161
+c var 419 x1_162
+c var 420 x1_163
+c var 421 x1_164
+c var 422 x1_165
+c var 423 x1_166
+c var 424 x1_167
+c var 425 x1_168
+c var 426 x1_169
+c var 427 x1_170
+c var 428 x1_171
+c var 429 x1_172
+c var 430 x1_173
+c var 431 x1_174
+c var 432 x1_175
+c var 433 x1_176
+c var 434 x1_177
+c var 435 x1_178
+c var 436 x1_179
+c var 437 x1_180
+c var 438 x1_181
+c var 439 x1_182
+c var 440 x1_183
+c var 441 x1_184
+c var 442 x1_185
+c var 443 x1_186
+c var 444 x1_187
+c var 445 x1_188
+c var 446 x1_189
+c var 447 x1_190
+c var 448 x1_191
+c var 449 x1_192
+c var 450 x1_193
+c var 451 x1_194
+c var 452 x1_195
+c var 453 x1_196
+c var 454 x1_197
+c var 455 x1_198
+c var 456 x1_199
+c var 457 x1_200
+c var 458 x1_201
+c var 459 x1_202
+c var 460 x1_203
+c var 461 x1_204
+c var 462 x1_205
+c var 463 x1_206
+c var 464 x1_207
+c var 465 x1_208
+c var 466 x1_209
+c var 467 x1_210
+c var 468 x1_211
+c var 469 x1_212
+c var 470 x1_213
+c var 471 x1_214
+c var 472 x1_215
+c var 473 x1_216
+c var 474 x1_217
+c var 475 x1_218
+c var 476 x1_219
+c var 477 x1_220
+c var 478 x1_221
+c var 479 x1_222
+c var 480 x1_223
+c var 481 x1_224
+c var 482 x1_225
+c var 483 x1_226
+c var 484 x1_227
+c var 485 x1_228
+c var 486 x1_229
+c var 487 x1_230
+c var 488 x1_231
+c var 489 x1_232
+c var 490 x1_233
+c var 491 x1_234
+c var 492 x1_235
+c var 493 x1_236
+c var 494 x1_237
+c var 495 x1_238
+c var 496 x1_239
+c var 497 x1_240
+c var 498 x1_241
+c var 499 x1_242
+c var 500 x1_243
+c var 501 x1_244
+c var 502 x1_245
+c var 503 x1_246
+c var 504 x1_247
+c var 505 x1_248
+c var 506 x1_249
+c var 507 x1_250
+c var 508 x1_251
+c var 509 x1_252
+c var 510 x1_253
+c var 511 x1_254
+c var 512 x1_255
+c forbid h0_0 {'x0_0': 0, 'x0_1': 0}
+c forbid h0_0 {'x0_0': 1, 'x0_1': 1}
+c forbid h0_1 {'x0_1': 0, 'x0_2': 0}
+c forbid h0_1 {'x0_1': 1, 'x0_2': 1}
+c forbid h0_2 {'x0_2': 0, 'x0_3': 0}
+c forbid h0_2 {'x0_2': 1, 'x0_3': 1}
+c forbid h0_3 {'x0_3': 0, 'x0_4': 0}
+c forbid h0_3 {'x0_3': 1, 'x0_4': 1}
+c forbid h0_4 {'x0_4': 0, 'x0_5': 0}
+c forbid h0_4 {'x0_4': 1, 'x0_5': 1}
+c forbid h0_5 {'x0_5': 0, 'x0_6': 0}
+c forbid h0_5 {'x0_5': 1, 'x0_6': 1}
+c forbid h0_6 {'x0_6': 0, 'x0_7': 0}
+c forbid h0_6 {'x0_6': 1, 'x0_7': 1}
+c forbid h0_7 {'x0_7': 0, 'x0_8': 0}
+c forbid h0_7 {'x0_7': 1, 'x0_8': 1}
+c forbid h0_8 {'x0_8': 0, 'x0_9': 0}
+c forbid h0_8 {'x0_8': 1, 'x0_9': 1}
+c forbid h0_9 {'x0_9': 0, 'x0_10': 0}
+c forbid h0_9 {'x0_9': 1, 'x0_10': 1}
+c forbid h0_10 {'x0_10': 0, 'x0_11': 0}
+c forbid h0_10 {'x0_10': 1, 'x0_11': 1}
+c forbid h0_11 {'x0_11': 0, 'x0_12': 0}
+c forbid h0_11 {'x0_11': 1, 'x0_12': 1}
+c forbid h0_12 {'x0_12': 0, 'x0_13': 0}
+c forbid h0_12 {'x0_12': 1, 'x0_13': 1}
+c forbid h0_13 {'x0_13': 0, 'x0_14': 0}
+c forbid h0_13 {'x0_13': 1, 'x0_14': 1}
+c forbid h0_14 {'x0_14': 0, 'x0_15': 0}
+c forbid h0_14 {'x0_14': 1, 'x0_15': 1}
+c forbid h0_15 {'x0_15': 0, 'x0_16': 0}
+c forbid h0_15 {'x0_15': 1, 'x0_16': 1}
+c forbid h0_16 {'x0_16': 0, 'x0_17': 0}
+c forbid h0_16 {'x0_16': 1, 'x0_17': 1}
+c forbid h0_17 {'x0_17': 0, 'x0_18': 0}
+c forbid h0_17 {'x0_17': 1, 'x0_18': 1}
+c forbid h0_18 {'x0_18': 0, 'x0_19': 0}
+c forbid h0_18 {'x0_18': 1, 'x0_19': 1}
+c forbid h0_19 {'x0_19': 0, 'x0_20': 0}
+c forbid h0_19 {'x0_19': 1, 'x0_20': 1}
+c forbid h0_20 {'x0_20': 0, 'x0_21': 0}
+c forbid h0_20 {'x0_20': 1, 'x0_21': 1}
+c forbid h0_21 {'x0_21': 0, 'x0_22': 0}
+c forbid h0_21 {'x0_21': 1, 'x0_22': 1}
+c forbid h0_22 {'x0_22': 0, 'x0_23': 0}
+c forbid h0_22 {'x0_22': 1, 'x0_23': 1}
+c forbid h0_23 {'x0_23': 0, 'x0_24': 0}
+c forbid h0_23 {'x0_23': 1, 'x0_24': 1}
+c forbid h0_24 {'x0_24': 0, 'x0_25': 0}
+c forbid h0_24 {'x0_24': 1, 'x0_25': 1}
+c forbid h0_25 {'x0_25': 0, 'x0_26': 0}
+c forbid h0_25 {'x0_25': 1, 'x0_26': 1}
+c forbid h0_26 {'x0_26': 0, 'x0_27': 0}
+c forbid h0_26 {'x0_26': 1, 'x0_27': 1}
+c forbid h0_27 {'x0_27': 0, 'x0_28': 0}
+c forbid h0_27 {'x0_27': 1, 'x0_28': 1}
+c forbid h0_28 {'x0_28': 0, 'x0_29': 0}
+c forbid h0_28 {'x0_28': 1, 'x0_29': 1}
+c forbid h0_29 {'x0_29': 0, 'x0_30': 0}
+c forbid h0_29 {'x0_29': 1, 'x0_30': 1}
+c forbid h0_30 {'x0_30': 0, 'x0_31': 0}
+c forbid h0_30 {'x0_30': 1, 'x0_31': 1}
+c forbid h0_31 {'x0_31': 0, 'x0_32': 0}
+c forbid h0_31 {'x0_31': 1, 'x0_32': 1}
+c forbid h0_32 {'x0_32': 0, 'x0_33': 0}
+c forbid h0_32 {'x0_32': 1, 'x0_33': 1}
+c forbid h0_33 {'x0_33': 0, 'x0_34': 0}
+c forbid h0_33 {'x0_33': 1, 'x0_34': 1}
+c forbid h0_34 {'x0_34': 0, 'x0_35': 0}
+c forbid h0_34 {'x0_34': 1, 'x0_35': 1}
+c forbid h0_35 {'x0_35': 0, 'x0_36': 0}
+c forbid h0_35 {'x0_35': 1, 'x0_36': 1}
+c forbid h0_36 {'x0_36': 0, 'x0_37': 0}
+c forbid h0_36 {'x0_36': 1, 'x0_37': 1}
+c forbid h0_37 {'x0_37': 0, 'x0_38': 0}
+c forbid h0_37 {'x0_37': 1, 'x0_38': 1}
+c forbid h0_38 {'x0_38': 0, 'x0_39': 0}
+c forbid h0_38 {'x0_38': 1, 'x0_39': 1}
+c forbid h0_39 {'x0_39': 0, 'x0_40': 0}
+c forbid h0_39 {'x0_39': 1, 'x0_40': 1}
+c forbid h0_40 {'x0_40': 0, 'x0_41': 0}
+c forbid h0_40 {'x0_40': 1, 'x0_41': 1}
+c forbid h0_41 {'x0_41': 0, 'x0_42': 0}
+c forbid h0_41 {'x0_41': 1, 'x0_42': 1}
+c forbid h0_42 {'x0_42': 0, 'x0_43': 0}
+c forbid h0_42 {'x0_42': 1, 'x0_43': 1}
+c forbid h0_43 {'x0_43': 0, 'x0_44': 0}
+c forbid h0_43 {'x0_43': 1, 'x0_44': 1}
+c forbid h0_44 {'x0_44': 0, 'x0_45': 0}
+c forbid h0_44 {'x0_44': 1, 'x0_45': 1}
+c forbid h0_45 {'x0_45': 0, 'x0_46': 0}
+c forbid h0_45 {'x0_45': 1, 'x0_46': 1}
+c forbid h0_46 {'x0_46': 0, 'x0_47': 0}
+c forbid h0_46 {'x0_46': 1, 'x0_47': 1}
+c forbid h0_47 {'x0_47': 0, 'x0_48': 0}
+c forbid h0_47 {'x0_47': 1, 'x0_48': 1}
+c forbid h0_48 {'x0_48': 0, 'x0_49': 0}
+c forbid h0_48 {'x0_48': 1, 'x0_49': 1}
+c forbid h0_49 {'x0_49': 0, 'x0_50': 0}
+c forbid h0_49 {'x0_49': 1, 'x0_50': 1}
+c forbid h0_50 {'x0_50': 0, 'x0_51': 0}
+c forbid h0_50 {'x0_50': 1, 'x0_51': 1}
+c forbid h0_51 {'x0_51': 0, 'x0_52': 0}
+c forbid h0_51 {'x0_51': 1, 'x0_52': 1}
+c forbid h0_52 {'x0_52': 0, 'x0_53': 0}
+c forbid h0_52 {'x0_52': 1, 'x0_53': 1}
+c forbid h0_53 {'x0_53': 0, 'x0_54': 0}
+c forbid h0_53 {'x0_53': 1, 'x0_54': 1}
+c forbid h0_54 {'x0_54': 0, 'x0_55': 0}
+c forbid h0_54 {'x0_54': 1, 'x0_55': 1}
+c forbid h0_55 {'x0_55': 0, 'x0_56': 0}
+c forbid h0_55 {'x0_55': 1, 'x0_56': 1}
+c forbid h0_56 {'x0_56': 0, 'x0_57': 0}
+c forbid h0_56 {'x0_56': 1, 'x0_57': 1}
+c forbid h0_57 {'x0_57': 0, 'x0_58': 0}
+c forbid h0_57 {'x0_57': 1, 'x0_58': 1}
+c forbid h0_58 {'x0_58': 0, 'x0_59': 0}
+c forbid h0_58 {'x0_58': 1, 'x0_59': 1}
+c forbid h0_59 {'x0_59': 0, 'x0_60': 0}
+c forbid h0_59 {'x0_59': 1, 'x0_60': 1}
+c forbid h0_60 {'x0_60': 0, 'x0_61': 0}
+c forbid h0_60 {'x0_60': 1, 'x0_61': 1}
+c forbid h0_61 {'x0_61': 0, 'x0_62': 0}
+c forbid h0_61 {'x0_61': 1, 'x0_62': 1}
+c forbid h0_62 {'x0_62': 0, 'x0_63': 0}
+c forbid h0_62 {'x0_62': 1, 'x0_63': 1}
+c forbid h0_63 {'x0_63': 0, 'x0_64': 0}
+c forbid h0_63 {'x0_63': 1, 'x0_64': 1}
+c forbid h0_64 {'x0_64': 0, 'x0_65': 0}
+c forbid h0_64 {'x0_64': 1, 'x0_65': 1}
+c forbid h0_65 {'x0_65': 0, 'x0_66': 0}
+c forbid h0_65 {'x0_65': 1, 'x0_66': 1}
+c forbid h0_66 {'x0_66': 0, 'x0_67': 0}
+c forbid h0_66 {'x0_66': 1, 'x0_67': 1}
+c forbid h0_67 {'x0_67': 0, 'x0_68': 0}
+c forbid h0_67 {'x0_67': 1, 'x0_68': 1}
+c forbid h0_68 {'x0_68': 0, 'x0_69': 0}
+c forbid h0_68 {'x0_68': 1, 'x0_69': 1}
+c forbid h0_69 {'x0_69': 0, 'x0_70': 0}
+c forbid h0_69 {'x0_69': 1, 'x0_70': 1}
+c forbid h0_70 {'x0_70': 0, 'x0_71': 0}
+c forbid h0_70 {'x0_70': 1, 'x0_71': 1}
+c forbid h0_71 {'x0_71': 0, 'x0_72': 0}
+c forbid h0_71 {'x0_71': 1, 'x0_72': 1}
+c forbid h0_72 {'x0_72': 0, 'x0_73': 0}
+c forbid h0_72 {'x0_72': 1, 'x0_73': 1}
+c forbid h0_73 {'x0_73': 0, 'x0_74': 0}
+c forbid h0_73 {'x0_73': 1, 'x0_74': 1}
+c forbid h0_74 {'x0_74': 0, 'x0_75': 0}
+c forbid h0_74 {'x0_74': 1, 'x0_75': 1}
+c forbid h0_75 {'x0_75': 0, 'x0_76': 0}
+c forbid h0_75 {'x0_75': 1, 'x0_76': 1}
+c forbid h0_76 {'x0_76': 0, 'x0_77': 0}
+c forbid h0_76 {'x0_76': 1, 'x0_77': 1}
+c forbid h0_77 {'x0_77': 0, 'x0_78': 0}
+c forbid h0_77 {'x0_77': 1, 'x0_78': 1}
+c forbid h0_78 {'x0_78': 0, 'x0_79': 0}
+c forbid h0_78 {'x0_78': 1, 'x0_79': 1}
+c forbid h0_79 {'x0_79': 0, 'x0_80': 0}
+c forbid h0_79 {'x0_79': 1, 'x0_80': 1}
+c forbid h0_80 {'x0_80': 0, 'x0_81': 0}
+c forbid h0_80 {'x0_80': 1, 'x0_81': 1}
+c forbid h0_81 {'x0_81': 0, 'x0_82': 0}
+c forbid h0_81 {'x0_81': 1, 'x0_82': 1}
+c forbid h0_82 {'x0_82': 0, 'x0_83': 0}
+c forbid h0_82 {'x0_82': 1, 'x0_83': 1}
+c forbid h0_83 {'x0_83': 0, 'x0_84': 0}
+c forbid h0_83 {'x0_83': 1, 'x0_84': 1}
+c forbid h0_84 {'x0_84': 0, 'x0_85': 0}
+c forbid h0_84 {'x0_84': 1, 'x0_85': 1}
+c forbid h0_85 {'x0_85': 0, 'x0_86': 0}
+c forbid h0_85 {'x0_85': 1, 'x0_86': 1}
+c forbid h0_86 {'x0_86': 0, 'x0_87': 0}
+c forbid h0_86 {'x0_86': 1, 'x0_87': 1}
+c forbid h0_87 {'x0_87': 0, 'x0_88': 0}
+c forbid h0_87 {'x0_87': 1, 'x0_88': 1}
+c forbid h0_88 {'x0_88': 0, 'x0_89': 0}
+c forbid h0_88 {'x0_88': 1, 'x0_89': 1}
+c forbid h0_89 {'x0_89': 0, 'x0_90': 0}
+c forbid h0_89 {'x0_89': 1, 'x0_90': 1}
+c forbid h0_90 {'x0_90': 0, 'x0_91': 0}
+c forbid h0_90 {'x0_90': 1, 'x0_91': 1}
+c forbid h0_91 {'x0_91': 0, 'x0_92': 0}
+c forbid h0_91 {'x0_91': 1, 'x0_92': 1}
+c forbid h0_92 {'x0_92': 0, 'x0_93': 0}
+c forbid h0_92 {'x0_92': 1, 'x0_93': 1}
+c forbid h0_93 {'x0_93': 0, 'x0_94': 0}
+c forbid h0_93 {'x0_93': 1, 'x0_94': 1}
+c forbid h0_94 {'x0_94': 0, 'x0_95': 0}
+c forbid h0_94 {'x0_94': 1, 'x0_95': 1}
+c forbid h0_95 {'x0_95': 0, 'x0_96': 0}
+c forbid h0_95 {'x0_95': 1, 'x0_96': 1}
+c forbid h0_96 {'x0_96': 0, 'x0_97': 0}
+c forbid h0_96 {'x0_96': 1, 'x0_97': 1}
+c forbid h0_97 {'x0_97': 0, 'x0_98': 0}
+c forbid h0_97 {'x0_97': 1, 'x0_98': 1}
+c forbid h0_98 {'x0_98': 0, 'x0_99': 0}
+c forbid h0_98 {'x0_98': 1, 'x0_99': 1}
+c forbid h0_99 {'x0_99': 0, 'x0_100': 0}
+c forbid h0_99 {'x0_99': 1, 'x0_100': 1}
+c forbid h0_100 {'x0_100': 0, 'x0_101': 0}
+c forbid h0_100 {'x0_100': 1, 'x0_101': 1}
+c forbid h0_101 {'x0_101': 0, 'x0_102': 0}
+c forbid h0_101 {'x0_101': 1, 'x0_102': 1}
+c forbid h0_102 {'x0_102': 0, 'x0_103': 0}
+c forbid h0_102 {'x0_102': 1, 'x0_103': 1}
+c forbid h0_103 {'x0_103': 0, 'x0_104': 0}
+c forbid h0_103 {'x0_103': 1, 'x0_104': 1}
+c forbid h0_104 {'x0_104': 0, 'x0_105': 0}
+c forbid h0_104 {'x0_104': 1, 'x0_105': 1}
+c forbid h0_105 {'x0_105': 0, 'x0_106': 0}
+c forbid h0_105 {'x0_105': 1, 'x0_106': 1}
+c forbid h0_106 {'x0_106': 0, 'x0_107': 0}
+c forbid h0_106 {'x0_106': 1, 'x0_107': 1}
+c forbid h0_107 {'x0_107': 0, 'x0_108': 0}
+c forbid h0_107 {'x0_107': 1, 'x0_108': 1}
+c forbid h0_108 {'x0_108': 0, 'x0_109': 0}
+c forbid h0_108 {'x0_108': 1, 'x0_109': 1}
+c forbid h0_109 {'x0_109': 0, 'x0_110': 0}
+c forbid h0_109 {'x0_109': 1, 'x0_110': 1}
+c forbid h0_110 {'x0_110': 0, 'x0_111': 0}
+c forbid h0_110 {'x0_110': 1, 'x0_111': 1}
+c forbid h0_111 {'x0_111': 0, 'x0_112': 0}
+c forbid h0_111 {'x0_111': 1, 'x0_112': 1}
+c forbid h0_112 {'x0_112': 0, 'x0_113': 0}
+c forbid h0_112 {'x0_112': 1, 'x0_113': 1}
+c forbid h0_113 {'x0_113': 0, 'x0_114': 0}
+c forbid h0_113 {'x0_113': 1, 'x0_114': 1}
+c forbid h0_114 {'x0_114': 0, 'x0_115': 0}
+c forbid h0_114 {'x0_114': 1, 'x0_115': 1}
+c forbid h0_115 {'x0_115': 0, 'x0_116': 0}
+c forbid h0_115 {'x0_115': 1, 'x0_116': 1}
+c forbid h0_116 {'x0_116': 0, 'x0_117': 0}
+c forbid h0_116 {'x0_116': 1, 'x0_117': 1}
+c forbid h0_117 {'x0_117': 0, 'x0_118': 0}
+c forbid h0_117 {'x0_117': 1, 'x0_118': 1}
+c forbid h0_118 {'x0_118': 0, 'x0_119': 0}
+c forbid h0_118 {'x0_118': 1, 'x0_119': 1}
+c forbid h0_119 {'x0_119': 0, 'x0_120': 0}
+c forbid h0_119 {'x0_119': 1, 'x0_120': 1}
+c forbid h0_120 {'x0_120': 0, 'x0_121': 0}
+c forbid h0_120 {'x0_120': 1, 'x0_121': 1}
+c forbid h0_121 {'x0_121': 0, 'x0_122': 0}
+c forbid h0_121 {'x0_121': 1, 'x0_122': 1}
+c forbid h0_122 {'x0_122': 0, 'x0_123': 0}
+c forbid h0_122 {'x0_122': 1, 'x0_123': 1}
+c forbid h0_123 {'x0_123': 0, 'x0_124': 0}
+c forbid h0_123 {'x0_123': 1, 'x0_124': 1}
+c forbid h0_124 {'x0_124': 0, 'x0_125': 0}
+c forbid h0_124 {'x0_124': 1, 'x0_125': 1}
+c forbid h0_125 {'x0_125': 0, 'x0_126': 0}
+c forbid h0_125 {'x0_125': 1, 'x0_126': 1}
+c forbid h0_126 {'x0_126': 0, 'x0_127': 0}
+c forbid h0_126 {'x0_126': 1, 'x0_127': 1}
+c forbid h0_127 {'x0_127': 0, 'x0_128': 0}
+c forbid h0_127 {'x0_127': 1, 'x0_128': 1}
+c forbid h0_128 {'x0_128': 0, 'x0_129': 0}
+c forbid h0_128 {'x0_128': 1, 'x0_129': 1}
+c forbid h0_129 {'x0_129': 0, 'x0_130': 0}
+c forbid h0_129 {'x0_129': 1, 'x0_130': 1}
+c forbid h0_130 {'x0_130': 0, 'x0_131': 0}
+c forbid h0_130 {'x0_130': 1, 'x0_131': 1}
+c forbid h0_131 {'x0_131': 0, 'x0_132': 0}
+c forbid h0_131 {'x0_131': 1, 'x0_132': 1}
+c forbid h0_132 {'x0_132': 0, 'x0_133': 0}
+c forbid h0_132 {'x0_132': 1, 'x0_133': 1}
+c forbid h0_133 {'x0_133': 0, 'x0_134': 0}
+c forbid h0_133 {'x0_133': 1, 'x0_134': 1}
+c forbid h0_134 {'x0_134': 0, 'x0_135': 0}
+c forbid h0_134 {'x0_134': 1, 'x0_135': 1}
+c forbid h0_135 {'x0_135': 0, 'x0_136': 0}
+c forbid h0_135 {'x0_135': 1, 'x0_136': 1}
+c forbid h0_136 {'x0_136': 0, 'x0_137': 0}
+c forbid h0_136 {'x0_136': 1, 'x0_137': 1}
+c forbid h0_137 {'x0_137': 0, 'x0_138': 0}
+c forbid h0_137 {'x0_137': 1, 'x0_138': 1}
+c forbid h0_138 {'x0_138': 0, 'x0_139': 0}
+c forbid h0_138 {'x0_138': 1, 'x0_139': 1}
+c forbid h0_139 {'x0_139': 0, 'x0_140': 0}
+c forbid h0_139 {'x0_139': 1, 'x0_140': 1}
+c forbid h0_140 {'x0_140': 0, 'x0_141': 0}
+c forbid h0_140 {'x0_140': 1, 'x0_141': 1}
+c forbid h0_141 {'x0_141': 0, 'x0_142': 0}
+c forbid h0_141 {'x0_141': 1, 'x0_142': 1}
+c forbid h0_142 {'x0_142': 0, 'x0_143': 0}
+c forbid h0_142 {'x0_142': 1, 'x0_143': 1}
+c forbid h0_143 {'x0_143': 0, 'x0_144': 0}
+c forbid h0_143 {'x0_143': 1, 'x0_144': 1}
+c forbid h0_144 {'x0_144': 0, 'x0_145': 0}
+c forbid h0_144 {'x0_144': 1, 'x0_145': 1}
+c forbid h0_145 {'x0_145': 0, 'x0_146': 0}
+c forbid h0_145 {'x0_145': 1, 'x0_146': 1}
+c forbid h0_146 {'x0_146': 0, 'x0_147': 0}
+c forbid h0_146 {'x0_146': 1, 'x0_147': 1}
+c forbid h0_147 {'x0_147': 0, 'x0_148': 0}
+c forbid h0_147 {'x0_147': 1, 'x0_148': 1}
+c forbid h0_148 {'x0_148': 0, 'x0_149': 0}
+c forbid h0_148 {'x0_148': 1, 'x0_149': 1}
+c forbid h0_149 {'x0_149': 0, 'x0_150': 0}
+c forbid h0_149 {'x0_149': 1, 'x0_150': 1}
+c forbid h0_150 {'x0_150': 0, 'x0_151': 0}
+c forbid h0_150 {'x0_150': 1, 'x0_151': 1}
+c forbid h0_151 {'x0_151': 0, 'x0_152': 0}
+c forbid h0_151 {'x0_151': 1, 'x0_152': 1}
+c forbid h0_152 {'x0_152': 0, 'x0_153': 0}
+c forbid h0_152 {'x0_152': 1, 'x0_153': 1}
+c forbid h0_153 {'x0_153': 0, 'x0_154': 0}
+c forbid h0_153 {'x0_153': 1, 'x0_154': 1}
+c forbid h0_154 {'x0_154': 0, 'x0_155': 0}
+c forbid h0_154 {'x0_154': 1, 'x0_155': 1}
+c forbid h0_155 {'x0_155': 0, 'x0_156': 0}
+c forbid h0_155 {'x0_155': 1, 'x0_156': 1}
+c forbid h0_156 {'x0_156': 0, 'x0_157': 0}
+c forbid h0_156 {'x0_156': 1, 'x0_157': 1}
+c forbid h0_157 {'x0_157': 0, 'x0_158': 0}
+c forbid h0_157 {'x0_157': 1, 'x0_158': 1}
+c forbid h0_158 {'x0_158': 0, 'x0_159': 0}
+c forbid h0_158 {'x0_158': 1, 'x0_159': 1}
+c forbid h0_159 {'x0_159': 0, 'x0_160': 0}
+c forbid h0_159 {'x0_159': 1, 'x0_160': 1}
+c forbid h0_160 {'x0_160': 0, 'x0_161': 0}
+c forbid h0_160 {'x0_160': 1, 'x0_161': 1}
+c forbid h0_161 {'x0_161': 0, 'x0_162': 0}
+c forbid h0_161 {'x0_161': 1, 'x0_162': 1}
+c forbid h0_162 {'x0_162': 0, 'x0_163': 0}
+c forbid h0_162 {'x0_162': 1, 'x0_163': 1}
+c forbid h0_163 {'x0_163': 0, 'x0_164': 0}
+c forbid h0_163 {'x0_163': 1, 'x0_164': 1}
+c forbid h0_164 {'x0_164': 0, 'x0_165': 0}
+c forbid h0_164 {'x0_164': 1, 'x0_165': 1}
+c forbid h0_165 {'x0_165': 0, 'x0_166': 0}
+c forbid h0_165 {'x0_165': 1, 'x0_166': 1}
+c forbid h0_166 {'x0_166': 0, 'x0_167': 0}
+c forbid h0_166 {'x0_166': 1, 'x0_167': 1}
+c forbid h0_167 {'x0_167': 0, 'x0_168': 0}
+c forbid h0_167 {'x0_167': 1, 'x0_168': 1}
+c forbid h0_168 {'x0_168': 0, 'x0_169': 0}
+c forbid h0_168 {'x0_168': 1, 'x0_169': 1}
+c forbid h0_169 {'x0_169': 0, 'x0_170': 0}
+c forbid h0_169 {'x0_169': 1, 'x0_170': 1}
+c forbid h0_170 {'x0_170': 0, 'x0_171': 0}
+c forbid h0_170 {'x0_170': 1, 'x0_171': 1}
+c forbid h0_171 {'x0_171': 0, 'x0_172': 0}
+c forbid h0_171 {'x0_171': 1, 'x0_172': 1}
+c forbid h0_172 {'x0_172': 0, 'x0_173': 0}
+c forbid h0_172 {'x0_172': 1, 'x0_173': 1}
+c forbid h0_173 {'x0_173': 0, 'x0_174': 0}
+c forbid h0_173 {'x0_173': 1, 'x0_174': 1}
+c forbid h0_174 {'x0_174': 0, 'x0_175': 0}
+c forbid h0_174 {'x0_174': 1, 'x0_175': 1}
+c forbid h0_175 {'x0_175': 0, 'x0_176': 0}
+c forbid h0_175 {'x0_175': 1, 'x0_176': 1}
+c forbid h0_176 {'x0_176': 0, 'x0_177': 0}
+c forbid h0_176 {'x0_176': 1, 'x0_177': 1}
+c forbid h0_177 {'x0_177': 0, 'x0_178': 0}
+c forbid h0_177 {'x0_177': 1, 'x0_178': 1}
+c forbid h0_178 {'x0_178': 0, 'x0_179': 0}
+c forbid h0_178 {'x0_178': 1, 'x0_179': 1}
+c forbid h0_179 {'x0_179': 0, 'x0_180': 0}
+c forbid h0_179 {'x0_179': 1, 'x0_180': 1}
+c forbid h0_180 {'x0_180': 0, 'x0_181': 0}
+c forbid h0_180 {'x0_180': 1, 'x0_181': 1}
+c forbid h0_181 {'x0_181': 0, 'x0_182': 0}
+c forbid h0_181 {'x0_181': 1, 'x0_182': 1}
+c forbid h0_182 {'x0_182': 0, 'x0_183': 0}
+c forbid h0_182 {'x0_182': 1, 'x0_183': 1}
+c forbid h0_183 {'x0_183': 0, 'x0_184': 0}
+c forbid h0_183 {'x0_183': 1, 'x0_184': 1}
+c forbid h0_184 {'x0_184': 0, 'x0_185': 0}
+c forbid h0_184 {'x0_184': 1, 'x0_185': 1}
+c forbid h0_185 {'x0_185': 0, 'x0_186': 0}
+c forbid h0_185 {'x0_185': 1, 'x0_186': 1}
+c forbid h0_186 {'x0_186': 0, 'x0_187': 0}
+c forbid h0_186 {'x0_186': 1, 'x0_187': 1}
+c forbid h0_187 {'x0_187': 0, 'x0_188': 0}
+c forbid h0_187 {'x0_187': 1, 'x0_188': 1}
+c forbid h0_188 {'x0_188': 0, 'x0_189': 0}
+c forbid h0_188 {'x0_188': 1, 'x0_189': 1}
+c forbid h0_189 {'x0_189': 0, 'x0_190': 0}
+c forbid h0_189 {'x0_189': 1, 'x0_190': 1}
+c forbid h0_190 {'x0_190': 0, 'x0_191': 0}
+c forbid h0_190 {'x0_190': 1, 'x0_191': 1}
+c forbid h0_191 {'x0_191': 0, 'x0_192': 0}
+c forbid h0_191 {'x0_191': 1, 'x0_192': 1}
+c forbid h0_192 {'x0_192': 0, 'x0_193': 0}
+c forbid h0_192 {'x0_192': 1, 'x0_193': 1}
+c forbid h0_193 {'x0_193': 0, 'x0_194': 0}
+c forbid h0_193 {'x0_193': 1, 'x0_194': 1}
+c forbid h0_194 {'x0_194': 0, 'x0_195': 0}
+c forbid h0_194 {'x0_194': 1, 'x0_195': 1}
+c forbid h0_195 {'x0_195': 0, 'x0_196': 0}
+c forbid h0_195 {'x0_195': 1, 'x0_196': 1}
+c forbid h0_196 {'x0_196': 0, 'x0_197': 0}
+c forbid h0_196 {'x0_196': 1, 'x0_197': 1}
+c forbid h0_197 {'x0_197': 0, 'x0_198': 0}
+c forbid h0_197 {'x0_197': 1, 'x0_198': 1}
+c forbid h0_198 {'x0_198': 0, 'x0_199': 0}
+c forbid h0_198 {'x0_198': 1, 'x0_199': 1}
+c forbid h0_199 {'x0_199': 0, 'x0_200': 0}
+c forbid h0_199 {'x0_199': 1, 'x0_200': 1}
+c forbid h0_200 {'x0_200': 0, 'x0_201': 0}
+c forbid h0_200 {'x0_200': 1, 'x0_201': 1}
+c forbid h0_201 {'x0_201': 0, 'x0_202': 0}
+c forbid h0_201 {'x0_201': 1, 'x0_202': 1}
+c forbid h0_202 {'x0_202': 0, 'x0_203': 0}
+c forbid h0_202 {'x0_202': 1, 'x0_203': 1}
+c forbid h0_203 {'x0_203': 0, 'x0_204': 0}
+c forbid h0_203 {'x0_203': 1, 'x0_204': 1}
+c forbid h0_204 {'x0_204': 0, 'x0_205': 0}
+c forbid h0_204 {'x0_204': 1, 'x0_205': 1}
+c forbid h0_205 {'x0_205': 0, 'x0_206': 0}
+c forbid h0_205 {'x0_205': 1, 'x0_206': 1}
+c forbid h0_206 {'x0_206': 0, 'x0_207': 0}
+c forbid h0_206 {'x0_206': 1, 'x0_207': 1}
+c forbid h0_207 {'x0_207': 0, 'x0_208': 0}
+c forbid h0_207 {'x0_207': 1, 'x0_208': 1}
+c forbid h0_208 {'x0_208': 0, 'x0_209': 0}
+c forbid h0_208 {'x0_208': 1, 'x0_209': 1}
+c forbid h0_209 {'x0_209': 0, 'x0_210': 0}
+c forbid h0_209 {'x0_209': 1, 'x0_210': 1}
+c forbid h0_210 {'x0_210': 0, 'x0_211': 0}
+c forbid h0_210 {'x0_210': 1, 'x0_211': 1}
+c forbid h0_211 {'x0_211': 0, 'x0_212': 0}
+c forbid h0_211 {'x0_211': 1, 'x0_212': 1}
+c forbid h0_212 {'x0_212': 0, 'x0_213': 0}
+c forbid h0_212 {'x0_212': 1, 'x0_213': 1}
+c forbid h0_213 {'x0_213': 0, 'x0_214': 0}
+c forbid h0_213 {'x0_213': 1, 'x0_214': 1}
+c forbid h0_214 {'x0_214': 0, 'x0_215': 0}
+c forbid h0_214 {'x0_214': 1, 'x0_215': 1}
+c forbid h0_215 {'x0_215': 0, 'x0_216': 0}
+c forbid h0_215 {'x0_215': 1, 'x0_216': 1}
+c forbid h0_216 {'x0_216': 0, 'x0_217': 0}
+c forbid h0_216 {'x0_216': 1, 'x0_217': 1}
+c forbid h0_217 {'x0_217': 0, 'x0_218': 0}
+c forbid h0_217 {'x0_217': 1, 'x0_218': 1}
+c forbid h0_218 {'x0_218': 0, 'x0_219': 0}
+c forbid h0_218 {'x0_218': 1, 'x0_219': 1}
+c forbid h0_219 {'x0_219': 0, 'x0_220': 0}
+c forbid h0_219 {'x0_219': 1, 'x0_220': 1}
+c forbid h0_220 {'x0_220': 0, 'x0_221': 0}
+c forbid h0_220 {'x0_220': 1, 'x0_221': 1}
+c forbid h0_221 {'x0_221': 0, 'x0_222': 0}
+c forbid h0_221 {'x0_221': 1, 'x0_222': 1}
+c forbid h0_222 {'x0_222': 0, 'x0_223': 0}
+c forbid h0_222 {'x0_222': 1, 'x0_223': 1}
+c forbid h0_223 {'x0_223': 0, 'x0_224': 0}
+c forbid h0_223 {'x0_223': 1, 'x0_224': 1}
+c forbid h0_224 {'x0_224': 0, 'x0_225': 0}
+c forbid h0_224 {'x0_224': 1, 'x0_225': 1}
+c forbid h0_225 {'x0_225': 0, 'x0_226': 0}
+c forbid h0_225 {'x0_225': 1, 'x0_226': 1}
+c forbid h0_226 {'x0_226': 0, 'x0_227': 0}
+c forbid h0_226 {'x0_226': 1, 'x0_227': 1}
+c forbid h0_227 {'x0_227': 0, 'x0_228': 0}
+c forbid h0_227 {'x0_227': 1, 'x0_228': 1}
+c forbid h0_228 {'x0_228': 0, 'x0_229': 0}
+c forbid h0_228 {'x0_228': 1, 'x0_229': 1}
+c forbid h0_229 {'x0_229': 0, 'x0_230': 0}
+c forbid h0_229 {'x0_229': 1, 'x0_230': 1}
+c forbid h0_230 {'x0_230': 0, 'x0_231': 0}
+c forbid h0_230 {'x0_230': 1, 'x0_231': 1}
+c forbid h0_231 {'x0_231': 0, 'x0_232': 0}
+c forbid h0_231 {'x0_231': 1, 'x0_232': 1}
+c forbid h0_232 {'x0_232': 0, 'x0_233': 0}
+c forbid h0_232 {'x0_232': 1, 'x0_233': 1}
+c forbid h0_233 {'x0_233': 0, 'x0_234': 0}
+c forbid h0_233 {'x0_233': 1, 'x0_234': 1}
+c forbid h0_234 {'x0_234': 0, 'x0_235': 0}
+c forbid h0_234 {'x0_234': 1, 'x0_235': 1}
+c forbid h0_235 {'x0_235': 0, 'x0_236': 0}
+c forbid h0_235 {'x0_235': 1, 'x0_236': 1}
+c forbid h0_236 {'x0_236': 0, 'x0_237': 0}
+c forbid h0_236 {'x0_236': 1, 'x0_237': 1}
+c forbid h0_237 {'x0_237': 0, 'x0_238': 0}
+c forbid h0_237 {'x0_237': 1, 'x0_238': 1}
+c forbid h0_238 {'x0_238': 0, 'x0_239': 0}
+c forbid h0_238 {'x0_238': 1, 'x0_239': 1}
+c forbid h0_239 {'x0_239': 0, 'x0_240': 0}
+c forbid h0_239 {'x0_239': 1, 'x0_240': 1}
+c forbid h0_240 {'x0_240': 0, 'x0_241': 0}
+c forbid h0_240 {'x0_240': 1, 'x0_241': 1}
+c forbid h0_241 {'x0_241': 0, 'x0_242': 0}
+c forbid h0_241 {'x0_241': 1, 'x0_242': 1}
+c forbid h0_242 {'x0_242': 0, 'x0_243': 0}
+c forbid h0_242 {'x0_242': 1, 'x0_243': 1}
+c forbid h0_243 {'x0_243': 0, 'x0_244': 0}
+c forbid h0_243 {'x0_243': 1, 'x0_244': 1}
+c forbid h0_244 {'x0_244': 0, 'x0_245': 0}
+c forbid h0_244 {'x0_244': 1, 'x0_245': 1}
+c forbid h0_245 {'x0_245': 0, 'x0_246': 0}
+c forbid h0_245 {'x0_245': 1, 'x0_246': 1}
+c forbid h0_246 {'x0_246': 0, 'x0_247': 0}
+c forbid h0_246 {'x0_246': 1, 'x0_247': 1}
+c forbid h0_247 {'x0_247': 0, 'x0_248': 0}
+c forbid h0_247 {'x0_247': 1, 'x0_248': 1}
+c forbid h0_248 {'x0_248': 0, 'x0_249': 0}
+c forbid h0_248 {'x0_248': 1, 'x0_249': 1}
+c forbid h0_249 {'x0_249': 0, 'x0_250': 0}
+c forbid h0_249 {'x0_249': 1, 'x0_250': 1}
+c forbid h0_250 {'x0_250': 0, 'x0_251': 0}
+c forbid h0_250 {'x0_250': 1, 'x0_251': 1}
+c forbid h0_251 {'x0_251': 0, 'x0_252': 0}
+c forbid h0_251 {'x0_251': 1, 'x0_252': 1}
+c forbid h0_252 {'x0_252': 0, 'x0_253': 0}
+c forbid h0_252 {'x0_252': 1, 'x0_253': 1}
+c forbid h0_253 {'x0_253': 0, 'x0_254': 0}
+c forbid h0_253 {'x0_253': 1, 'x0_254': 1}
+c forbid h0_254 {'x0_254': 0, 'x0_255': 0}
+c forbid h0_254 {'x0_254': 1, 'x0_255': 1}
+c forbid h1_0 {'x1_0': 0, 'x1_1': 0}
+c forbid h1_0 {'x1_0': 1, 'x1_1': 1}
+c forbid h1_1 {'x1_1': 0, 'x1_2': 0}
+c forbid h1_1 {'x1_1': 1, 'x1_2': 1}
+c forbid h1_2 {'x1_2': 0, 'x1_3': 0}
+c forbid h1_2 {'x1_2': 1, 'x1_3': 1}
+c forbid h1_3 {'x1_3': 0, 'x1_4': 0}
+c forbid h1_3 {'x1_3': 1, 'x1_4': 1}
+c forbid h1_4 {'x1_4': 0, 'x1_5': 0}
+c forbid h1_4 {'x1_4': 1, 'x1_5': 1}
+c forbid h1_5 {'x1_5': 0, 'x1_6': 0}
+c forbid h1_5 {'x1_5': 1, 'x1_6': 1}
+c forbid h1_6 {'x1_6': 0, 'x1_7': 0}
+c forbid h1_6 {'x1_6': 1, 'x1_7': 1}
+c forbid h1_7 {'x1_7': 0, 'x1_8': 0}
+c forbid h1_7 {'x1_7': 1, 'x1_8': 1}
+c forbid h1_8 {'x1_8': 0, 'x1_9': 0}
+c forbid h1_8 {'x1_8': 1, 'x1_9': 1}
+c forbid h1_9 {'x1_9': 0, 'x1_10': 0}
+c forbid h1_9 {'x1_9': 1, 'x1_10': 1}
+c forbid h1_10 {'x1_10': 0, 'x1_11': 0}
+c forbid h1_10 {'x1_10': 1, 'x1_11': 1}
+c forbid h1_11 {'x1_11': 0, 'x1_12': 0}
+c forbid h1_11 {'x1_11': 1, 'x1_12': 1}
+c forbid h1_12 {'x1_12': 0, 'x1_13': 0}
+c forbid h1_12 {'x1_12': 1, 'x1_13': 1}
+c forbid h1_13 {'x1_13': 0, 'x1_14': 0}
+c forbid h1_13 {'x1_13': 1, 'x1_14': 1}
+c forbid h1_14 {'x1_14': 0, 'x1_15': 0}
+c forbid h1_14 {'x1_14': 1, 'x1_15': 1}
+c forbid h1_15 {'x1_15': 0, 'x1_16': 0}
+c forbid h1_15 {'x1_15': 1, 'x1_16': 1}
+c forbid h1_16 {'x1_16': 0, 'x1_17': 0}
+c forbid h1_16 {'x1_16': 1, 'x1_17': 1}
+c forbid h1_17 {'x1_17': 0, 'x1_18': 0}
+c forbid h1_17 {'x1_17': 1, 'x1_18': 1}
+c forbid h1_18 {'x1_18': 0, 'x1_19': 0}
+c forbid h1_18 {'x1_18': 1, 'x1_19': 1}
+c forbid h1_19 {'x1_19': 0, 'x1_20': 0}
+c forbid h1_19 {'x1_19': 1, 'x1_20': 1}
+c forbid h1_20 {'x1_20': 0, 'x1_21': 0}
+c forbid h1_20 {'x1_20': 1, 'x1_21': 1}
+c forbid h1_21 {'x1_21': 0, 'x1_22': 0}
+c forbid h1_21 {'x1_21': 1, 'x1_22': 1}
+c forbid h1_22 {'x1_22': 0, 'x1_23': 0}
+c forbid h1_22 {'x1_22': 1, 'x1_23': 1}
+c forbid h1_23 {'x1_23': 0, 'x1_24': 0}
+c forbid h1_23 {'x1_23': 1, 'x1_24': 1}
+c forbid h1_24 {'x1_24': 0, 'x1_25': 0}
+c forbid h1_24 {'x1_24': 1, 'x1_25': 1}
+c forbid h1_25 {'x1_25': 0, 'x1_26': 0}
+c forbid h1_25 {'x1_25': 1, 'x1_26': 1}
+c forbid h1_26 {'x1_26': 0, 'x1_27': 0}
+c forbid h1_26 {'x1_26': 1, 'x1_27': 1}
+c forbid h1_27 {'x1_27': 0, 'x1_28': 0}
+c forbid h1_27 {'x1_27': 1, 'x1_28': 1}
+c forbid h1_28 {'x1_28': 0, 'x1_29': 0}
+c forbid h1_28 {'x1_28': 1, 'x1_29': 1}
+c forbid h1_29 {'x1_29': 0, 'x1_30': 0}
+c forbid h1_29 {'x1_29': 1, 'x1_30': 1}
+c forbid h1_30 {'x1_30': 0, 'x1_31': 0}
+c forbid h1_30 {'x1_30': 1, 'x1_31': 1}
+c forbid h1_31 {'x1_31': 0, 'x1_32': 0}
+c forbid h1_31 {'x1_31': 1, 'x1_32': 1}
+c forbid h1_32 {'x1_32': 0, 'x1_33': 0}
+c forbid h1_32 {'x1_32': 1, 'x1_33': 1}
+c forbid h1_33 {'x1_33': 0, 'x1_34': 0}
+c forbid h1_33 {'x1_33': 1, 'x1_34': 1}
+c forbid h1_34 {'x1_34': 0, 'x1_35': 0}
+c forbid h1_34 {'x1_34': 1, 'x1_35': 1}
+c forbid h1_35 {'x1_35': 0, 'x1_36': 0}
+c forbid h1_35 {'x1_35': 1, 'x1_36': 1}
+c forbid h1_36 {'x1_36': 0, 'x1_37': 0}
+c forbid h1_36 {'x1_36': 1, 'x1_37': 1}
+c forbid h1_37 {'x1_37': 0, 'x1_38': 0}
+c forbid h1_37 {'x1_37': 1, 'x1_38': 1}
+c forbid h1_38 {'x1_38': 0, 'x1_39': 0}
+c forbid h1_38 {'x1_38': 1, 'x1_39': 1}
+c forbid h1_39 {'x1_39': 0, 'x1_40': 0}
+c forbid h1_39 {'x1_39': 1, 'x1_40': 1}
+c forbid h1_40 {'x1_40': 0, 'x1_41': 0}
+c forbid h1_40 {'x1_40': 1, 'x1_41': 1}
+c forbid h1_41 {'x1_41': 0, 'x1_42': 0}
+c forbid h1_41 {'x1_41': 1, 'x1_42': 1}
+c forbid h1_42 {'x1_42': 0, 'x1_43': 0}
+c forbid h1_42 {'x1_42': 1, 'x1_43': 1}
+c forbid h1_43 {'x1_43': 0, 'x1_44': 0}
+c forbid h1_43 {'x1_43': 1, 'x1_44': 1}
+c forbid h1_44 {'x1_44': 0, 'x1_45': 0}
+c forbid h1_44 {'x1_44': 1, 'x1_45': 1}
+c forbid h1_45 {'x1_45': 0, 'x1_46': 0}
+c forbid h1_45 {'x1_45': 1, 'x1_46': 1}
+c forbid h1_46 {'x1_46': 0, 'x1_47': 0}
+c forbid h1_46 {'x1_46': 1, 'x1_47': 1}
+c forbid h1_47 {'x1_47': 0, 'x1_48': 0}
+c forbid h1_47 {'x1_47': 1, 'x1_48': 1}
+c forbid h1_48 {'x1_48': 0, 'x1_49': 0}
+c forbid h1_48 {'x1_48': 1, 'x1_49': 1}
+c forbid h1_49 {'x1_49': 0, 'x1_50': 0}
+c forbid h1_49 {'x1_49': 1, 'x1_50': 1}
+c forbid h1_50 {'x1_50': 0, 'x1_51': 0}
+c forbid h1_50 {'x1_50': 1, 'x1_51': 1}
+c forbid h1_51 {'x1_51': 0, 'x1_52': 0}
+c forbid h1_51 {'x1_51': 1, 'x1_52': 1}
+c forbid h1_52 {'x1_52': 0, 'x1_53': 0}
+c forbid h1_52 {'x1_52': 1, 'x1_53': 1}
+c forbid h1_53 {'x1_53': 0, 'x1_54': 0}
+c forbid h1_53 {'x1_53': 1, 'x1_54': 1}
+c forbid h1_54 {'x1_54': 0, 'x1_55': 0}
+c forbid h1_54 {'x1_54': 1, 'x1_55': 1}
+c forbid h1_55 {'x1_55': 0, 'x1_56': 0}
+c forbid h1_55 {'x1_55': 1, 'x1_56': 1}
+c forbid h1_56 {'x1_56': 0, 'x1_57': 0}
+c forbid h1_56 {'x1_56': 1, 'x1_57': 1}
+c forbid h1_57 {'x1_57': 0, 'x1_58': 0}
+c forbid h1_57 {'x1_57': 1, 'x1_58': 1}
+c forbid h1_58 {'x1_58': 0, 'x1_59': 0}
+c forbid h1_58 {'x1_58': 1, 'x1_59': 1}
+c forbid h1_59 {'x1_59': 0, 'x1_60': 0}
+c forbid h1_59 {'x1_59': 1, 'x1_60': 1}
+c forbid h1_60 {'x1_60': 0, 'x1_61': 0}
+c forbid h1_60 {'x1_60': 1, 'x1_61': 1}
+c forbid h1_61 {'x1_61': 0, 'x1_62': 0}
+c forbid h1_61 {'x1_61': 1, 'x1_62': 1}
+c forbid h1_62 {'x1_62': 0, 'x1_63': 0}
+c forbid h1_62 {'x1_62': 1, 'x1_63': 1}
+c forbid h1_63 {'x1_63': 0, 'x1_64': 0}
+c forbid h1_63 {'x1_63': 1, 'x1_64': 1}
+c forbid h1_64 {'x1_64': 0, 'x1_65': 0}
+c forbid h1_64 {'x1_64': 1, 'x1_65': 1}
+c forbid h1_65 {'x1_65': 0, 'x1_66': 0}
+c forbid h1_65 {'x1_65': 1, 'x1_66': 1}
+c forbid h1_66 {'x1_66': 0, 'x1_67': 0}
+c forbid h1_66 {'x1_66': 1, 'x1_67': 1}
+c forbid h1_67 {'x1_67': 0, 'x1_68': 0}
+c forbid h1_67 {'x1_67': 1, 'x1_68': 1}
+c forbid h1_68 {'x1_68': 0, 'x1_69': 0}
+c forbid h1_68 {'x1_68': 1, 'x1_69': 1}
+c forbid h1_69 {'x1_69': 0, 'x1_70': 0}
+c forbid h1_69 {'x1_69': 1, 'x1_70': 1}
+c forbid h1_70 {'x1_70': 0, 'x1_71': 0}
+c forbid h1_70 {'x1_70': 1, 'x1_71': 1}
+c forbid h1_71 {'x1_71': 0, 'x1_72': 0}
+c forbid h1_71 {'x1_71': 1, 'x1_72': 1}
+c forbid h1_72 {'x1_72': 0, 'x1_73': 0}
+c forbid h1_72 {'x1_72': 1, 'x1_73': 1}
+c forbid h1_73 {'x1_73': 0, 'x1_74': 0}
+c forbid h1_73 {'x1_73': 1, 'x1_74': 1}
+c forbid h1_74 {'x1_74': 0, 'x1_75': 0}
+c forbid h1_74 {'x1_74': 1, 'x1_75': 1}
+c forbid h1_75 {'x1_75': 0, 'x1_76': 0}
+c forbid h1_75 {'x1_75': 1, 'x1_76': 1}
+c forbid h1_76 {'x1_76': 0, 'x1_77': 0}
+c forbid h1_76 {'x1_76': 1, 'x1_77': 1}
+c forbid h1_77 {'x1_77': 0, 'x1_78': 0}
+c forbid h1_77 {'x1_77': 1, 'x1_78': 1}
+c forbid h1_78 {'x1_78': 0, 'x1_79': 0}
+c forbid h1_78 {'x1_78': 1, 'x1_79': 1}
+c forbid h1_79 {'x1_79': 0, 'x1_80': 0}
+c forbid h1_79 {'x1_79': 1, 'x1_80': 1}
+c forbid h1_80 {'x1_80': 0, 'x1_81': 0}
+c forbid h1_80 {'x1_80': 1, 'x1_81': 1}
+c forbid h1_81 {'x1_81': 0, 'x1_82': 0}
+c forbid h1_81 {'x1_81': 1, 'x1_82': 1}
+c forbid h1_82 {'x1_82': 0, 'x1_83': 0}
+c forbid h1_82 {'x1_82': 1, 'x1_83': 1}
+c forbid h1_83 {'x1_83': 0, 'x1_84': 0}
+c forbid h1_83 {'x1_83': 1, 'x1_84': 1}
+c forbid h1_84 {'x1_84': 0, 'x1_85': 0}
+c forbid h1_84 {'x1_84': 1, 'x1_85': 1}
+c forbid h1_85 {'x1_85': 0, 'x1_86': 0}
+c forbid h1_85 {'x1_85': 1, 'x1_86': 1}
+c forbid h1_86 {'x1_86': 0, 'x1_87': 0}
+c forbid h1_86 {'x1_86': 1, 'x1_87': 1}
+c forbid h1_87 {'x1_87': 0, 'x1_88': 0}
+c forbid h1_87 {'x1_87': 1, 'x1_88': 1}
+c forbid h1_88 {'x1_88': 0, 'x1_89': 0}
+c forbid h1_88 {'x1_88': 1, 'x1_89': 1}
+c forbid h1_89 {'x1_89': 0, 'x1_90': 0}
+c forbid h1_89 {'x1_89': 1, 'x1_90': 1}
+c forbid h1_90 {'x1_90': 0, 'x1_91': 0}
+c forbid h1_90 {'x1_90': 1, 'x1_91': 1}
+c forbid h1_91 {'x1_91': 0, 'x1_92': 0}
+c forbid h1_91 {'x1_91': 1, 'x1_92': 1}
+c forbid h1_92 {'x1_92': 0, 'x1_93': 0}
+c forbid h1_92 {'x1_92': 1, 'x1_93': 1}
+c forbid h1_93 {'x1_93': 0, 'x1_94': 0}
+c forbid h1_93 {'x1_93': 1, 'x1_94': 1}
+c forbid h1_94 {'x1_94': 0, 'x1_95': 0}
+c forbid h1_94 {'x1_94': 1, 'x1_95': 1}
+c forbid h1_95 {'x1_95': 0, 'x1_96': 0}
+c forbid h1_95 {'x1_95': 1, 'x1_96': 1}
+c forbid h1_96 {'x1_96': 0, 'x1_97': 0}
+c forbid h1_96 {'x1_96': 1, 'x1_97': 1}
+c forbid h1_97 {'x1_97': 0, 'x1_98': 0}
+c forbid h1_97 {'x1_97': 1, 'x1_98': 1}
+c forbid h1_98 {'x1_98': 0, 'x1_99': 0}
+c forbid h1_98 {'x1_98': 1, 'x1_99': 1}
+c forbid h1_99 {'x1_99': 0, 'x1_100': 0}
+c forbid h1_99 {'x1_99': 1, 'x1_100': 1}
+c forbid h1_100 {'x1_100': 0, 'x1_101': 0}
+c forbid h1_100 {'x1_100': 1, 'x1_101': 1}
+c forbid h1_101 {'x1_101': 0, 'x1_102': 0}
+c forbid h1_101 {'x1_101': 1, 'x1_102': 1}
+c forbid h1_102 {'x1_102': 0, 'x1_103': 0}
+c forbid h1_102 {'x1_102': 1, 'x1_103': 1}
+c forbid h1_103 {'x1_103': 0, 'x1_104': 0}
+c forbid h1_103 {'x1_103': 1, 'x1_104': 1}
+c forbid h1_104 {'x1_104': 0, 'x1_105': 0}
+c forbid h1_104 {'x1_104': 1, 'x1_105': 1}
+c forbid h1_105 {'x1_105': 0, 'x1_106': 0}
+c forbid h1_105 {'x1_105': 1, 'x1_106': 1}
+c forbid h1_106 {'x1_106': 0, 'x1_107': 0}
+c forbid h1_106 {'x1_106': 1, 'x1_107': 1}
+c forbid h1_107 {'x1_107': 0, 'x1_108': 0}
+c forbid h1_107 {'x1_107': 1, 'x1_108': 1}
+c forbid h1_108 {'x1_108': 0, 'x1_109': 0}
+c forbid h1_108 {'x1_108': 1, 'x1_109': 1}
+c forbid h1_109 {'x1_109': 0, 'x1_110': 0}
+c forbid h1_109 {'x1_109': 1, 'x1_110': 1}
+c forbid h1_110 {'x1_110': 0, 'x1_111': 0}
+c forbid h1_110 {'x1_110': 1, 'x1_111': 1}
+c forbid h1_111 {'x1_111': 0, 'x1_112': 0}
+c forbid h1_111 {'x1_111': 1, 'x1_112': 1}
+c forbid h1_112 {'x1_112': 0, 'x1_113': 0}
+c forbid h1_112 {'x1_112': 1, 'x1_113': 1}
+c forbid h1_113 {'x1_113': 0, 'x1_114': 0}
+c forbid h1_113 {'x1_113': 1, 'x1_114': 1}
+c forbid h1_114 {'x1_114': 0, 'x1_115': 0}
+c forbid h1_114 {'x1_114': 1, 'x1_115': 1}
+c forbid h1_115 {'x1_115': 0, 'x1_116': 0}
+c forbid h1_115 {'x1_115': 1, 'x1_116': 1}
+c forbid h1_116 {'x1_116': 0, 'x1_117': 0}
+c forbid h1_116 {'x1_116': 1, 'x1_117': 1}
+c forbid h1_117 {'x1_117': 0, 'x1_118': 0}
+c forbid h1_117 {'x1_117': 1, 'x1_118': 1}
+c forbid h1_118 {'x1_118': 0, 'x1_119': 0}
+c forbid h1_118 {'x1_118': 1, 'x1_119': 1}
+c forbid h1_119 {'x1_119': 0, 'x1_120': 0}
+c forbid h1_119 {'x1_119': 1, 'x1_120': 1}
+c forbid h1_120 {'x1_120': 0, 'x1_121': 0}
+c forbid h1_120 {'x1_120': 1, 'x1_121': 1}
+c forbid h1_121 {'x1_121': 0, 'x1_122': 0}
+c forbid h1_121 {'x1_121': 1, 'x1_122': 1}
+c forbid h1_122 {'x1_122': 0, 'x1_123': 0}
+c forbid h1_122 {'x1_122': 1, 'x1_123': 1}
+c forbid h1_123 {'x1_123': 0, 'x1_124': 0}
+c forbid h1_123 {'x1_123': 1, 'x1_124': 1}
+c forbid h1_124 {'x1_124': 0, 'x1_125': 0}
+c forbid h1_124 {'x1_124': 1, 'x1_125': 1}
+c forbid h1_125 {'x1_125': 0, 'x1_126': 0}
+c forbid h1_125 {'x1_125': 1, 'x1_126': 1}
+c forbid h1_126 {'x1_126': 0, 'x1_127': 0}
+c forbid h1_126 {'x1_126': 1, 'x1_127': 1}
+c forbid h1_127 {'x1_127': 0, 'x1_128': 0}
+c forbid h1_127 {'x1_127': 1, 'x1_128': 1}
+c forbid h1_128 {'x1_128': 0, 'x1_129': 0}
+c forbid h1_128 {'x1_128': 1, 'x1_129': 1}
+c forbid h1_129 {'x1_129': 0, 'x1_130': 0}
+c forbid h1_129 {'x1_129': 1, 'x1_130': 1}
+c forbid h1_130 {'x1_130': 0, 'x1_131': 0}
+c forbid h1_130 {'x1_130': 1, 'x1_131': 1}
+c forbid h1_131 {'x1_131': 0, 'x1_132': 0}
+c forbid h1_131 {'x1_131': 1, 'x1_132': 1}
+c forbid h1_132 {'x1_132': 0, 'x1_133': 0}
+c forbid h1_132 {'x1_132': 1, 'x1_133': 1}
+c forbid h1_133 {'x1_133': 0, 'x1_134': 0}
+c forbid h1_133 {'x1_133': 1, 'x1_134': 1}
+c forbid h1_134 {'x1_134': 0, 'x1_135': 0}
+c forbid h1_134 {'x1_134': 1, 'x1_135': 1}
+c forbid h1_135 {'x1_135': 0, 'x1_136': 0}
+c forbid h1_135 {'x1_135': 1, 'x1_136': 1}
+c forbid h1_136 {'x1_136': 0, 'x1_137': 0}
+c forbid h1_136 {'x1_136': 1, 'x1_137': 1}
+c forbid h1_137 {'x1_137': 0, 'x1_138': 0}
+c forbid h1_137 {'x1_137': 1, 'x1_138': 1}
+c forbid h1_138 {'x1_138': 0, 'x1_139': 0}
+c forbid h1_138 {'x1_138': 1, 'x1_139': 1}
+c forbid h1_139 {'x1_139': 0, 'x1_140': 0}
+c forbid h1_139 {'x1_139': 1, 'x1_140': 1}
+c forbid h1_140 {'x1_140': 0, 'x1_141': 0}
+c forbid h1_140 {'x1_140': 1, 'x1_141': 1}
+c forbid h1_141 {'x1_141': 0, 'x1_142': 0}
+c forbid h1_141 {'x1_141': 1, 'x1_142': 1}
+c forbid h1_142 {'x1_142': 0, 'x1_143': 0}
+c forbid h1_142 {'x1_142': 1, 'x1_143': 1}
+c forbid h1_143 {'x1_143': 0, 'x1_144': 0}
+c forbid h1_143 {'x1_143': 1, 'x1_144': 1}
+c forbid h1_144 {'x1_144': 0, 'x1_145': 0}
+c forbid h1_144 {'x1_144': 1, 'x1_145': 1}
+c forbid h1_145 {'x1_145': 0, 'x1_146': 0}
+c forbid h1_145 {'x1_145': 1, 'x1_146': 1}
+c forbid h1_146 {'x1_146': 0, 'x1_147': 0}
+c forbid h1_146 {'x1_146': 1, 'x1_147': 1}
+c forbid h1_147 {'x1_147': 0, 'x1_148': 0}
+c forbid h1_147 {'x1_147': 1, 'x1_148': 1}
+c forbid h1_148 {'x1_148': 0, 'x1_149': 0}
+c forbid h1_148 {'x1_148': 1, 'x1_149': 1}
+c forbid h1_149 {'x1_149': 0, 'x1_150': 0}
+c forbid h1_149 {'x1_149': 1, 'x1_150': 1}
+c forbid h1_150 {'x1_150': 0, 'x1_151': 0}
+c forbid h1_150 {'x1_150': 1, 'x1_151': 1}
+c forbid h1_151 {'x1_151': 0, 'x1_152': 0}
+c forbid h1_151 {'x1_151': 1, 'x1_152': 1}
+c forbid h1_152 {'x1_152': 0, 'x1_153': 0}
+c forbid h1_152 {'x1_152': 1, 'x1_153': 1}
+c forbid h1_153 {'x1_153': 0, 'x1_154': 0}
+c forbid h1_153 {'x1_153': 1, 'x1_154': 1}
+c forbid h1_154 {'x1_154': 0, 'x1_155': 0}
+c forbid h1_154 {'x1_154': 1, 'x1_155': 1}
+c forbid h1_155 {'x1_155': 0, 'x1_156': 0}
+c forbid h1_155 {'x1_155': 1, 'x1_156': 1}
+c forbid h1_156 {'x1_156': 0, 'x1_157': 0}
+c forbid h1_156 {'x1_156': 1, 'x1_157': 1}
+c forbid h1_157 {'x1_157': 0, 'x1_158': 0}
+c forbid h1_157 {'x1_157': 1, 'x1_158': 1}
+c forbid h1_158 {'x1_158': 0, 'x1_159': 0}
+c forbid h1_158 {'x1_158': 1, 'x1_159': 1}
+c forbid h1_159 {'x1_159': 0, 'x1_160': 0}
+c forbid h1_159 {'x1_159': 1, 'x1_160': 1}
+c forbid h1_160 {'x1_160': 0, 'x1_161': 0}
+c forbid h1_160 {'x1_160': 1, 'x1_161': 1}
+c forbid h1_161 {'x1_161': 0, 'x1_162': 0}
+c forbid h1_161 {'x1_161': 1, 'x1_162': 1}
+c forbid h1_162 {'x1_162': 0, 'x1_163': 0}
+c forbid h1_162 {'x1_162': 1, 'x1_163': 1}
+c forbid h1_163 {'x1_163': 0, 'x1_164': 0}
+c forbid h1_163 {'x1_163': 1, 'x1_164': 1}
+c forbid h1_164 {'x1_164': 0, 'x1_165': 0}
+c forbid h1_164 {'x1_164': 1, 'x1_165': 1}
+c forbid h1_165 {'x1_165': 0, 'x1_166': 0}
+c forbid h1_165 {'x1_165': 1, 'x1_166': 1}
+c forbid h1_166 {'x1_166': 0, 'x1_167': 0}
+c forbid h1_166 {'x1_166': 1, 'x1_167': 1}
+c forbid h1_167 {'x1_167': 0, 'x1_168': 0}
+c forbid h1_167 {'x1_167': 1, 'x1_168': 1}
+c forbid h1_168 {'x1_168': 0, 'x1_169': 0}
+c forbid h1_168 {'x1_168': 1, 'x1_169': 1}
+c forbid h1_169 {'x1_169': 0, 'x1_170': 0}
+c forbid h1_169 {'x1_169': 1, 'x1_170': 1}
+c forbid h1_170 {'x1_170': 0, 'x1_171': 0}
+c forbid h1_170 {'x1_170': 1, 'x1_171': 1}
+c forbid h1_171 {'x1_171': 0, 'x1_172': 0}
+c forbid h1_171 {'x1_171': 1, 'x1_172': 1}
+c forbid h1_172 {'x1_172': 0, 'x1_173': 0}
+c forbid h1_172 {'x1_172': 1, 'x1_173': 1}
+c forbid h1_173 {'x1_173': 0, 'x1_174': 0}
+c forbid h1_173 {'x1_173': 1, 'x1_174': 1}
+c forbid h1_174 {'x1_174': 0, 'x1_175': 0}
+c forbid h1_174 {'x1_174': 1, 'x1_175': 1}
+c forbid h1_175 {'x1_175': 0, 'x1_176': 0}
+c forbid h1_175 {'x1_175': 1, 'x1_176': 1}
+c forbid h1_176 {'x1_176': 0, 'x1_177': 0}
+c forbid h1_176 {'x1_176': 1, 'x1_177': 1}
+c forbid h1_177 {'x1_177': 0, 'x1_178': 0}
+c forbid h1_177 {'x1_177': 1, 'x1_178': 1}
+c forbid h1_178 {'x1_178': 0, 'x1_179': 0}
+c forbid h1_178 {'x1_178': 1, 'x1_179': 1}
+c forbid h1_179 {'x1_179': 0, 'x1_180': 0}
+c forbid h1_179 {'x1_179': 1, 'x1_180': 1}
+c forbid h1_180 {'x1_180': 0, 'x1_181': 0}
+c forbid h1_180 {'x1_180': 1, 'x1_181': 1}
+c forbid h1_181 {'x1_181': 0, 'x1_182': 0}
+c forbid h1_181 {'x1_181': 1, 'x1_182': 1}
+c forbid h1_182 {'x1_182': 0, 'x1_183': 0}
+c forbid h1_182 {'x1_182': 1, 'x1_183': 1}
+c forbid h1_183 {'x1_183': 0, 'x1_184': 0}
+c forbid h1_183 {'x1_183': 1, 'x1_184': 1}
+c forbid h1_184 {'x1_184': 0, 'x1_185': 0}
+c forbid h1_184 {'x1_184': 1, 'x1_185': 1}
+c forbid h1_185 {'x1_185': 0, 'x1_186': 0}
+c forbid h1_185 {'x1_185': 1, 'x1_186': 1}
+c forbid h1_186 {'x1_186': 0, 'x1_187': 0}
+c forbid h1_186 {'x1_186': 1, 'x1_187': 1}
+c forbid h1_187 {'x1_187': 0, 'x1_188': 0}
+c forbid h1_187 {'x1_187': 1, 'x1_188': 1}
+c forbid h1_188 {'x1_188': 0, 'x1_189': 0}
+c forbid h1_188 {'x1_188': 1, 'x1_189': 1}
+c forbid h1_189 {'x1_189': 0, 'x1_190': 0}
+c forbid h1_189 {'x1_189': 1, 'x1_190': 1}
+c forbid h1_190 {'x1_190': 0, 'x1_191': 0}
+c forbid h1_190 {'x1_190': 1, 'x1_191': 1}
+c forbid h1_191 {'x1_191': 0, 'x1_192': 0}
+c forbid h1_191 {'x1_191': 1, 'x1_192': 1}
+c forbid h1_192 {'x1_192': 0, 'x1_193': 0}
+c forbid h1_192 {'x1_192': 1, 'x1_193': 1}
+c forbid h1_193 {'x1_193': 0, 'x1_194': 0}
+c forbid h1_193 {'x1_193': 1, 'x1_194': 1}
+c forbid h1_194 {'x1_194': 0, 'x1_195': 0}
+c forbid h1_194 {'x1_194': 1, 'x1_195': 1}
+c forbid h1_195 {'x1_195': 0, 'x1_196': 0}
+c forbid h1_195 {'x1_195': 1, 'x1_196': 1}
+c forbid h1_196 {'x1_196': 0, 'x1_197': 0}
+c forbid h1_196 {'x1_196': 1, 'x1_197': 1}
+c forbid h1_197 {'x1_197': 0, 'x1_198': 0}
+c forbid h1_197 {'x1_197': 1, 'x1_198': 1}
+c forbid h1_198 {'x1_198': 0, 'x1_199': 0}
+c forbid h1_198 {'x1_198': 1, 'x1_199': 1}
+c forbid h1_199 {'x1_199': 0, 'x1_200': 0}
+c forbid h1_199 {'x1_199': 1, 'x1_200': 1}
+c forbid h1_200 {'x1_200': 0, 'x1_201': 0}
+c forbid h1_200 {'x1_200': 1, 'x1_201': 1}
+c forbid h1_201 {'x1_201': 0, 'x1_202': 0}
+c forbid h1_201 {'x1_201': 1, 'x1_202': 1}
+c forbid h1_202 {'x1_202': 0, 'x1_203': 0}
+c forbid h1_202 {'x1_202': 1, 'x1_203': 1}
+c forbid h1_203 {'x1_203': 0, 'x1_204': 0}
+c forbid h1_203 {'x1_203': 1, 'x1_204': 1}
+c forbid h1_204 {'x1_204': 0, 'x1_205': 0}
+c forbid h1_204 {'x1_204': 1, 'x1_205': 1}
+c forbid h1_205 {'x1_205': 0, 'x1_206': 0}
+c forbid h1_205 {'x1_205': 1, 'x1_206': 1}
+c forbid h1_206 {'x1_206': 0, 'x1_207': 0}
+c forbid h1_206 {'x1_206': 1, 'x1_207': 1}
+c forbid h1_207 {'x1_207': 0, 'x1_208': 0}
+c forbid h1_207 {'x1_207': 1, 'x1_208': 1}
+c forbid h1_208 {'x1_208': 0, 'x1_209': 0}
+c forbid h1_208 {'x1_208': 1, 'x1_209': 1}
+c forbid h1_209 {'x1_209': 0, 'x1_210': 0}
+c forbid h1_209 {'x1_209': 1, 'x1_210': 1}
+c forbid h1_210 {'x1_210': 0, 'x1_211': 0}
+c forbid h1_210 {'x1_210': 1, 'x1_211': 1}
+c forbid h1_211 {'x1_211': 0, 'x1_212': 0}
+c forbid h1_211 {'x1_211': 1, 'x1_212': 1}
+c forbid h1_212 {'x1_212': 0, 'x1_213': 0}
+c forbid h1_212 {'x1_212': 1, 'x1_213': 1}
+c forbid h1_213 {'x1_213': 0, 'x1_214': 0}
+c forbid h1_213 {'x1_213': 1, 'x1_214': 1}
+c forbid h1_214 {'x1_214': 0, 'x1_215': 0}
+c forbid h1_214 {'x1_214': 1, 'x1_215': 1}
+c forbid h1_215 {'x1_215': 0, 'x1_216': 0}
+c forbid h1_215 {'x1_215': 1, 'x1_216': 1}
+c forbid h1_216 {'x1_216': 0, 'x1_217': 0}
+c forbid h1_216 {'x1_216': 1, 'x1_217': 1}
+c forbid h1_217 {'x1_217': 0, 'x1_218': 0}
+c forbid h1_217 {'x1_217': 1, 'x1_218': 1}
+c forbid h1_218 {'x1_218': 0, 'x1_219': 0}
+c forbid h1_218 {'x1_218': 1, 'x1_219': 1}
+c forbid h1_219 {'x1_219': 0, 'x1_220': 0}
+c forbid h1_219 {'x1_219': 1, 'x1_220': 1}
+c forbid h1_220 {'x1_220': 0, 'x1_221': 0}
+c forbid h1_220 {'x1_220': 1, 'x1_221': 1}
+c forbid h1_221 {'x1_221': 0, 'x1_222': 0}
+c forbid h1_221 {'x1_221': 1, 'x1_222': 1}
+c forbid h1_222 {'x1_222': 0, 'x1_223': 0}
+c forbid h1_222 {'x1_222': 1, 'x1_223': 1}
+c forbid h1_223 {'x1_223': 0, 'x1_224': 0}
+c forbid h1_223 {'x1_223': 1, 'x1_224': 1}
+c forbid h1_224 {'x1_224': 0, 'x1_225': 0}
+c forbid h1_224 {'x1_224': 1, 'x1_225': 1}
+c forbid h1_225 {'x1_225': 0, 'x1_226': 0}
+c forbid h1_225 {'x1_225': 1, 'x1_226': 1}
+c forbid h1_226 {'x1_226': 0, 'x1_227': 0}
+c forbid h1_226 {'x1_226': 1, 'x1_227': 1}
+c forbid h1_227 {'x1_227': 0, 'x1_228': 0}
+c forbid h1_227 {'x1_227': 1, 'x1_228': 1}
+c forbid h1_228 {'x1_228': 0, 'x1_229': 0}
+c forbid h1_228 {'x1_228': 1, 'x1_229': 1}
+c forbid h1_229 {'x1_229': 0, 'x1_230': 0}
+c forbid h1_229 {'x1_229': 1, 'x1_230': 1}
+c forbid h1_230 {'x1_230': 0, 'x1_231': 0}
+c forbid h1_230 {'x1_230': 1, 'x1_231': 1}
+c forbid h1_231 {'x1_231': 0, 'x1_232': 0}
+c forbid h1_231 {'x1_231': 1, 'x1_232': 1}
+c forbid h1_232 {'x1_232': 0, 'x1_233': 0}
+c forbid h1_232 {'x1_232': 1, 'x1_233': 1}
+c forbid h1_233 {'x1_233': 0, 'x1_234': 0}
+c forbid h1_233 {'x1_233': 1, 'x1_234': 1}
+c forbid h1_234 {'x1_234': 0, 'x1_235': 0}
+c forbid h1_234 {'x1_234': 1, 'x1_235': 1}
+c forbid h1_235 {'x1_235': 0, 'x1_236': 0}
+c forbid h1_235 {'x1_235': 1, 'x1_236': 1}
+c forbid h1_236 {'x1_236': 0, 'x1_237': 0}
+c forbid h1_236 {'x1_236': 1, 'x1_237': 1}
+c forbid h1_237 {'x1_237': 0, 'x1_238': 0}
+c forbid h1_237 {'x1_237': 1, 'x1_238': 1}
+c forbid h1_238 {'x1_238': 0, 'x1_239': 0}
+c forbid h1_238 {'x1_238': 1, 'x1_239': 1}
+c forbid h1_239 {'x1_239': 0, 'x1_240': 0}
+c forbid h1_239 {'x1_239': 1, 'x1_240': 1}
+c forbid h1_240 {'x1_240': 0, 'x1_241': 0}
+c forbid h1_240 {'x1_240': 1, 'x1_241': 1}
+c forbid h1_241 {'x1_241': 0, 'x1_242': 0}
+c forbid h1_241 {'x1_241': 1, 'x1_242': 1}
+c forbid h1_242 {'x1_242': 0, 'x1_243': 0}
+c forbid h1_242 {'x1_242': 1, 'x1_243': 1}
+c forbid h1_243 {'x1_243': 0, 'x1_244': 0}
+c forbid h1_243 {'x1_243': 1, 'x1_244': 1}
+c forbid h1_244 {'x1_244': 0, 'x1_245': 0}
+c forbid h1_244 {'x1_244': 1, 'x1_245': 1}
+c forbid h1_245 {'x1_245': 0, 'x1_246': 0}
+c forbid h1_245 {'x1_245': 1, 'x1_246': 1}
+c forbid h1_246 {'x1_246': 0, 'x1_247': 0}
+c forbid h1_246 {'x1_246': 1, 'x1_247': 1}
+c forbid h1_247 {'x1_247': 0, 'x1_248': 0}
+c forbid h1_247 {'x1_247': 1, 'x1_248': 1}
+c forbid h1_248 {'x1_248': 0, 'x1_249': 0}
+c forbid h1_248 {'x1_248': 1, 'x1_249': 1}
+c forbid h1_249 {'x1_249': 0, 'x1_250': 0}
+c forbid h1_249 {'x1_249': 1, 'x1_250': 1}
+c forbid h1_250 {'x1_250': 0, 'x1_251': 0}
+c forbid h1_250 {'x1_250': 1, 'x1_251': 1}
+c forbid h1_251 {'x1_251': 0, 'x1_252': 0}
+c forbid h1_251 {'x1_251': 1, 'x1_252': 1}
+c forbid h1_252 {'x1_252': 0, 'x1_253': 0}
+c forbid h1_252 {'x1_252': 1, 'x1_253': 1}
+c forbid h1_253 {'x1_253': 0, 'x1_254': 0}
+c forbid h1_253 {'x1_253': 1, 'x1_254': 1}
+c forbid h1_254 {'x1_254': 0, 'x1_255': 0}
+c forbid h1_254 {'x1_254': 1, 'x1_255': 1}
+c forbid v0_0 {'x0_0': 0, 'x1_0': 0}
+c forbid v0_0 {'x0_0': 1, 'x1_0': 1}
+c forbid v0_1 {'x0_1': 0, 'x1_1': 0}
+c forbid v0_1 {'x0_1': 1, 'x1_1': 1}
+c forbid v0_2 {'x0_2': 0, 'x1_2': 0}
+c forbid v0_2 {'x0_2': 1, 'x1_2': 1}
+c forbid v0_3 {'x0_3': 0, 'x1_3': 0}
+c forbid v0_3 {'x0_3': 1, 'x1_3': 1}
+c forbid v0_4 {'x0_4': 0, 'x1_4': 0}
+c forbid v0_4 {'x0_4': 1, 'x1_4': 1}
+c forbid v0_5 {'x0_5': 0, 'x1_5': 0}
+c forbid v0_5 {'x0_5': 1, 'x1_5': 1}
+c forbid v0_6 {'x0_6': 0, 'x1_6': 0}
+c forbid v0_6 {'x0_6': 1, 'x1_6': 1}
+c forbid v0_7 {'x0_7': 0, 'x1_7': 0}
+c forbid v0_7 {'x0_7': 1, 'x1_7': 1}
+c forbid v0_8 {'x0_8': 0, 'x1_8': 0}
+c forbid v0_8 {'x0_8': 1, 'x1_8': 1}
+c forbid v0_9 {'x0_9': 0, 'x1_9': 0}
+c forbid v0_9 {'x0_9': 1, 'x1_9': 1}
+c forbid v0_10 {'x0_10': 0, 'x1_10': 0}
+c forbid v0_10 {'x0_10': 1, 'x1_10': 1}
+c forbid v0_11 {'x0_11': 0, 'x1_11': 0}
+c forbid v0_11 {'x0_11': 1, 'x1_11': 1}
+c forbid v0_12 {'x0_12': 0, 'x1_12': 0}
+c forbid v0_12 {'x0_12': 1, 'x1_12': 1}
+c forbid v0_13 {'x0_13': 0, 'x1_13': 0}
+c forbid v0_13 {'x0_13': 1, 'x1_13': 1}
+c forbid v0_14 {'x0_14': 0, 'x1_14': 0}
+c forbid v0_14 {'x0_14': 1, 'x1_14': 1}
+c forbid v0_15 {'x0_15': 0, 'x1_15': 0}
+c forbid v0_15 {'x0_15': 1, 'x1_15': 1}
+c forbid v0_16 {'x0_16': 0, 'x1_16': 0}
+c forbid v0_16 {'x0_16': 1, 'x1_16': 1}
+c forbid v0_17 {'x0_17': 0, 'x1_17': 0}
+c forbid v0_17 {'x0_17': 1, 'x1_17': 1}
+c forbid v0_18 {'x0_18': 0, 'x1_18': 0}
+c forbid v0_18 {'x0_18': 1, 'x1_18': 1}
+c forbid v0_19 {'x0_19': 0, 'x1_19': 0}
+c forbid v0_19 {'x0_19': 1, 'x1_19': 1}
+c forbid v0_20 {'x0_20': 0, 'x1_20': 0}
+c forbid v0_20 {'x0_20': 1, 'x1_20': 1}
+c forbid v0_21 {'x0_21': 0, 'x1_21': 0}
+c forbid v0_21 {'x0_21': 1, 'x1_21': 1}
+c forbid v0_22 {'x0_22': 0, 'x1_22': 0}
+c forbid v0_22 {'x0_22': 1, 'x1_22': 1}
+c forbid v0_23 {'x0_23': 0, 'x1_23': 0}
+c forbid v0_23 {'x0_23': 1, 'x1_23': 1}
+c forbid v0_24 {'x0_24': 0, 'x1_24': 0}
+c forbid v0_24 {'x0_24': 1, 'x1_24': 1}
+c forbid v0_25 {'x0_25': 0, 'x1_25': 0}
+c forbid v0_25 {'x0_25': 1, 'x1_25': 1}
+c forbid v0_26 {'x0_26': 0, 'x1_26': 0}
+c forbid v0_26 {'x0_26': 1, 'x1_26': 1}
+c forbid v0_27 {'x0_27': 0, 'x1_27': 0}
+c forbid v0_27 {'x0_27': 1, 'x1_27': 1}
+c forbid v0_28 {'x0_28': 0, 'x1_28': 0}
+c forbid v0_28 {'x0_28': 1, 'x1_28': 1}
+c forbid v0_29 {'x0_29': 0, 'x1_29': 0}
+c forbid v0_29 {'x0_29': 1, 'x1_29': 1}
+c forbid v0_30 {'x0_30': 0, 'x1_30': 0}
+c forbid v0_30 {'x0_30': 1, 'x1_30': 1}
+c forbid v0_31 {'x0_31': 0, 'x1_31': 0}
+c forbid v0_31 {'x0_31': 1, 'x1_31': 1}
+c forbid v0_32 {'x0_32': 0, 'x1_32': 0}
+c forbid v0_32 {'x0_32': 1, 'x1_32': 1}
+c forbid v0_33 {'x0_33': 0, 'x1_33': 0}
+c forbid v0_33 {'x0_33': 1, 'x1_33': 1}
+c forbid v0_34 {'x0_34': 0, 'x1_34': 0}
+c forbid v0_34 {'x0_34': 1, 'x1_34': 1}
+c forbid v0_35 {'x0_35': 0, 'x1_35': 0}
+c forbid v0_35 {'x0_35': 1, 'x1_35': 1}
+c forbid v0_36 {'x0_36': 0, 'x1_36': 0}
+c forbid v0_36 {'x0_36': 1, 'x1_36': 1}
+c forbid v0_37 {'x0_37': 0, 'x1_37': 0}
+c forbid v0_37 {'x0_37': 1, 'x1_37': 1}
+c forbid v0_38 {'x0_38': 0, 'x1_38': 0}
+c forbid v0_38 {'x0_38': 1, 'x1_38': 1}
+c forbid v0_39 {'x0_39': 0, 'x1_39': 0}
+c forbid v0_39 {'x0_39': 1, 'x1_39': 1}
+c forbid v0_40 {'x0_40': 0, 'x1_40': 0}
+c forbid v0_40 {'x0_40': 1, 'x1_40': 1}
+c forbid v0_41 {'x0_41': 0, 'x1_41': 0}
+c forbid v0_41 {'x0_41': 1, 'x1_41': 1}
+c forbid v0_42 {'x0_42': 0, 'x1_42': 0}
+c forbid v0_42 {'x0_42': 1, 'x1_42': 1}
+c forbid v0_43 {'x0_43': 0, 'x1_43': 0}
+c forbid v0_43 {'x0_43': 1, 'x1_43': 1}
+c forbid v0_44 {'x0_44': 0, 'x1_44': 0}
+c forbid v0_44 {'x0_44': 1, 'x1_44': 1}
+c forbid v0_45 {'x0_45': 0, 'x1_45': 0}
+c forbid v0_45 {'x0_45': 1, 'x1_45': 1}
+c forbid v0_46 {'x0_46': 0, 'x1_46': 0}
+c forbid v0_46 {'x0_46': 1, 'x1_46': 1}
+c forbid v0_47 {'x0_47': 0, 'x1_47': 0}
+c forbid v0_47 {'x0_47': 1, 'x1_47': 1}
+c forbid v0_48 {'x0_48': 0, 'x1_48': 0}
+c forbid v0_48 {'x0_48': 1, 'x1_48': 1}
+c forbid v0_49 {'x0_49': 0, 'x1_49': 0}
+c forbid v0_49 {'x0_49': 1, 'x1_49': 1}
+c forbid v0_50 {'x0_50': 0, 'x1_50': 0}
+c forbid v0_50 {'x0_50': 1, 'x1_50': 1}
+c forbid v0_51 {'x0_51': 0, 'x1_51': 0}
+c forbid v0_51 {'x0_51': 1, 'x1_51': 1}
+c forbid v0_52 {'x0_52': 0, 'x1_52': 0}
+c forbid v0_52 {'x0_52': 1, 'x1_52': 1}
+c forbid v0_53 {'x0_53': 0, 'x1_53': 0}
+c forbid v0_53 {'x0_53': 1, 'x1_53': 1}
+c forbid v0_54 {'x0_54': 0, 'x1_54': 0}
+c forbid v0_54 {'x0_54': 1, 'x1_54': 1}
+c forbid v0_55 {'x0_55': 0, 'x1_55': 0}
+c forbid v0_55 {'x0_55': 1, 'x1_55': 1}
+c forbid v0_56 {'x0_56': 0, 'x1_56': 0}
+c forbid v0_56 {'x0_56': 1, 'x1_56': 1}
+c forbid v0_57 {'x0_57': 0, 'x1_57': 0}
+c forbid v0_57 {'x0_57': 1, 'x1_57': 1}
+c forbid v0_58 {'x0_58': 0, 'x1_58': 0}
+c forbid v0_58 {'x0_58': 1, 'x1_58': 1}
+c forbid v0_59 {'x0_59': 0, 'x1_59': 0}
+c forbid v0_59 {'x0_59': 1, 'x1_59': 1}
+c forbid v0_60 {'x0_60': 0, 'x1_60': 0}
+c forbid v0_60 {'x0_60': 1, 'x1_60': 1}
+c forbid v0_61 {'x0_61': 0, 'x1_61': 0}
+c forbid v0_61 {'x0_61': 1, 'x1_61': 1}
+c forbid v0_62 {'x0_62': 0, 'x1_62': 0}
+c forbid v0_62 {'x0_62': 1, 'x1_62': 1}
+c forbid v0_63 {'x0_63': 0, 'x1_63': 0}
+c forbid v0_63 {'x0_63': 1, 'x1_63': 1}
+c forbid v0_64 {'x0_64': 0, 'x1_64': 0}
+c forbid v0_64 {'x0_64': 1, 'x1_64': 1}
+c forbid v0_65 {'x0_65': 0, 'x1_65': 0}
+c forbid v0_65 {'x0_65': 1, 'x1_65': 1}
+c forbid v0_66 {'x0_66': 0, 'x1_66': 0}
+c forbid v0_66 {'x0_66': 1, 'x1_66': 1}
+c forbid v0_67 {'x0_67': 0, 'x1_67': 0}
+c forbid v0_67 {'x0_67': 1, 'x1_67': 1}
+c forbid v0_68 {'x0_68': 0, 'x1_68': 0}
+c forbid v0_68 {'x0_68': 1, 'x1_68': 1}
+c forbid v0_69 {'x0_69': 0, 'x1_69': 0}
+c forbid v0_69 {'x0_69': 1, 'x1_69': 1}
+c forbid v0_70 {'x0_70': 0, 'x1_70': 0}
+c forbid v0_70 {'x0_70': 1, 'x1_70': 1}
+c forbid v0_71 {'x0_71': 0, 'x1_71': 0}
+c forbid v0_71 {'x0_71': 1, 'x1_71': 1}
+c forbid v0_72 {'x0_72': 0, 'x1_72': 0}
+c forbid v0_72 {'x0_72': 1, 'x1_72': 1}
+c forbid v0_73 {'x0_73': 0, 'x1_73': 0}
+c forbid v0_73 {'x0_73': 1, 'x1_73': 1}
+c forbid v0_74 {'x0_74': 0, 'x1_74': 0}
+c forbid v0_74 {'x0_74': 1, 'x1_74': 1}
+c forbid v0_75 {'x0_75': 0, 'x1_75': 0}
+c forbid v0_75 {'x0_75': 1, 'x1_75': 1}
+c forbid v0_76 {'x0_76': 0, 'x1_76': 0}
+c forbid v0_76 {'x0_76': 1, 'x1_76': 1}
+c forbid v0_77 {'x0_77': 0, 'x1_77': 0}
+c forbid v0_77 {'x0_77': 1, 'x1_77': 1}
+c forbid v0_78 {'x0_78': 0, 'x1_78': 0}
+c forbid v0_78 {'x0_78': 1, 'x1_78': 1}
+c forbid v0_79 {'x0_79': 0, 'x1_79': 0}
+c forbid v0_79 {'x0_79': 1, 'x1_79': 1}
+c forbid v0_80 {'x0_80': 0, 'x1_80': 0}
+c forbid v0_80 {'x0_80': 1, 'x1_80': 1}
+c forbid v0_81 {'x0_81': 0, 'x1_81': 0}
+c forbid v0_81 {'x0_81': 1, 'x1_81': 1}
+c forbid v0_82 {'x0_82': 0, 'x1_82': 0}
+c forbid v0_82 {'x0_82': 1, 'x1_82': 1}
+c forbid v0_83 {'x0_83': 0, 'x1_83': 0}
+c forbid v0_83 {'x0_83': 1, 'x1_83': 1}
+c forbid v0_84 {'x0_84': 0, 'x1_84': 0}
+c forbid v0_84 {'x0_84': 1, 'x1_84': 1}
+c forbid v0_85 {'x0_85': 0, 'x1_85': 0}
+c forbid v0_85 {'x0_85': 1, 'x1_85': 1}
+c forbid v0_86 {'x0_86': 0, 'x1_86': 0}
+c forbid v0_86 {'x0_86': 1, 'x1_86': 1}
+c forbid v0_87 {'x0_87': 0, 'x1_87': 0}
+c forbid v0_87 {'x0_87': 1, 'x1_87': 1}
+c forbid v0_88 {'x0_88': 0, 'x1_88': 0}
+c forbid v0_88 {'x0_88': 1, 'x1_88': 1}
+c forbid v0_89 {'x0_89': 0, 'x1_89': 0}
+c forbid v0_89 {'x0_89': 1, 'x1_89': 1}
+c forbid v0_90 {'x0_90': 0, 'x1_90': 0}
+c forbid v0_90 {'x0_90': 1, 'x1_90': 1}
+c forbid v0_91 {'x0_91': 0, 'x1_91': 0}
+c forbid v0_91 {'x0_91': 1, 'x1_91': 1}
+c forbid v0_92 {'x0_92': 0, 'x1_92': 0}
+c forbid v0_92 {'x0_92': 1, 'x1_92': 1}
+c forbid v0_93 {'x0_93': 0, 'x1_93': 0}
+c forbid v0_93 {'x0_93': 1, 'x1_93': 1}
+c forbid v0_94 {'x0_94': 0, 'x1_94': 0}
+c forbid v0_94 {'x0_94': 1, 'x1_94': 1}
+c forbid v0_95 {'x0_95': 0, 'x1_95': 0}
+c forbid v0_95 {'x0_95': 1, 'x1_95': 1}
+c forbid v0_96 {'x0_96': 0, 'x1_96': 0}
+c forbid v0_96 {'x0_96': 1, 'x1_96': 1}
+c forbid v0_97 {'x0_97': 0, 'x1_97': 0}
+c forbid v0_97 {'x0_97': 1, 'x1_97': 1}
+c forbid v0_98 {'x0_98': 0, 'x1_98': 0}
+c forbid v0_98 {'x0_98': 1, 'x1_98': 1}
+c forbid v0_99 {'x0_99': 0, 'x1_99': 0}
+c forbid v0_99 {'x0_99': 1, 'x1_99': 1}
+c forbid v0_100 {'x0_100': 0, 'x1_100': 0}
+c forbid v0_100 {'x0_100': 1, 'x1_100': 1}
+c forbid v0_101 {'x0_101': 0, 'x1_101': 0}
+c forbid v0_101 {'x0_101': 1, 'x1_101': 1}
+c forbid v0_102 {'x0_102': 0, 'x1_102': 0}
+c forbid v0_102 {'x0_102': 1, 'x1_102': 1}
+c forbid v0_103 {'x0_103': 0, 'x1_103': 0}
+c forbid v0_103 {'x0_103': 1, 'x1_103': 1}
+c forbid v0_104 {'x0_104': 0, 'x1_104': 0}
+c forbid v0_104 {'x0_104': 1, 'x1_104': 1}
+c forbid v0_105 {'x0_105': 0, 'x1_105': 0}
+c forbid v0_105 {'x0_105': 1, 'x1_105': 1}
+c forbid v0_106 {'x0_106': 0, 'x1_106': 0}
+c forbid v0_106 {'x0_106': 1, 'x1_106': 1}
+c forbid v0_107 {'x0_107': 0, 'x1_107': 0}
+c forbid v0_107 {'x0_107': 1, 'x1_107': 1}
+c forbid v0_108 {'x0_108': 0, 'x1_108': 0}
+c forbid v0_108 {'x0_108': 1, 'x1_108': 1}
+c forbid v0_109 {'x0_109': 0, 'x1_109': 0}
+c forbid v0_109 {'x0_109': 1, 'x1_109': 1}
+c forbid v0_110 {'x0_110': 0, 'x1_110': 0}
+c forbid v0_110 {'x0_110': 1, 'x1_110': 1}
+c forbid v0_111 {'x0_111': 0, 'x1_111': 0}
+c forbid v0_111 {'x0_111': 1, 'x1_111': 1}
+c forbid v0_112 {'x0_112': 0, 'x1_112': 0}
+c forbid v0_112 {'x0_112': 1, 'x1_112': 1}
+c forbid v0_113 {'x0_113': 0, 'x1_113': 0}
+c forbid v0_113 {'x0_113': 1, 'x1_113': 1}
+c forbid v0_114 {'x0_114': 0, 'x1_114': 0}
+c forbid v0_114 {'x0_114': 1, 'x1_114': 1}
+c forbid v0_115 {'x0_115': 0, 'x1_115': 0}
+c forbid v0_115 {'x0_115': 1, 'x1_115': 1}
+c forbid v0_116 {'x0_116': 0, 'x1_116': 0}
+c forbid v0_116 {'x0_116': 1, 'x1_116': 1}
+c forbid v0_117 {'x0_117': 0, 'x1_117': 0}
+c forbid v0_117 {'x0_117': 1, 'x1_117': 1}
+c forbid v0_118 {'x0_118': 0, 'x1_118': 0}
+c forbid v0_118 {'x0_118': 1, 'x1_118': 1}
+c forbid v0_119 {'x0_119': 0, 'x1_119': 0}
+c forbid v0_119 {'x0_119': 1, 'x1_119': 1}
+c forbid v0_120 {'x0_120': 0, 'x1_120': 0}
+c forbid v0_120 {'x0_120': 1, 'x1_120': 1}
+c forbid v0_121 {'x0_121': 0, 'x1_121': 0}
+c forbid v0_121 {'x0_121': 1, 'x1_121': 1}
+c forbid v0_122 {'x0_122': 0, 'x1_122': 0}
+c forbid v0_122 {'x0_122': 1, 'x1_122': 1}
+c forbid v0_123 {'x0_123': 0, 'x1_123': 0}
+c forbid v0_123 {'x0_123': 1, 'x1_123': 1}
+c forbid v0_124 {'x0_124': 0, 'x1_124': 0}
+c forbid v0_124 {'x0_124': 1, 'x1_124': 1}
+c forbid v0_125 {'x0_125': 0, 'x1_125': 0}
+c forbid v0_125 {'x0_125': 1, 'x1_125': 1}
+c forbid v0_126 {'x0_126': 0, 'x1_126': 0}
+c forbid v0_126 {'x0_126': 1, 'x1_126': 1}
+c forbid v0_127 {'x0_127': 0, 'x1_127': 0}
+c forbid v0_127 {'x0_127': 1, 'x1_127': 1}
+c forbid v0_128 {'x0_128': 0, 'x1_128': 0}
+c forbid v0_128 {'x0_128': 1, 'x1_128': 1}
+c forbid v0_129 {'x0_129': 0, 'x1_129': 0}
+c forbid v0_129 {'x0_129': 1, 'x1_129': 1}
+c forbid v0_130 {'x0_130': 0, 'x1_130': 0}
+c forbid v0_130 {'x0_130': 1, 'x1_130': 1}
+c forbid v0_131 {'x0_131': 0, 'x1_131': 0}
+c forbid v0_131 {'x0_131': 1, 'x1_131': 1}
+c forbid v0_132 {'x0_132': 0, 'x1_132': 0}
+c forbid v0_132 {'x0_132': 1, 'x1_132': 1}
+c forbid v0_133 {'x0_133': 0, 'x1_133': 0}
+c forbid v0_133 {'x0_133': 1, 'x1_133': 1}
+c forbid v0_134 {'x0_134': 0, 'x1_134': 0}
+c forbid v0_134 {'x0_134': 1, 'x1_134': 1}
+c forbid v0_135 {'x0_135': 0, 'x1_135': 0}
+c forbid v0_135 {'x0_135': 1, 'x1_135': 1}
+c forbid v0_136 {'x0_136': 0, 'x1_136': 0}
+c forbid v0_136 {'x0_136': 1, 'x1_136': 1}
+c forbid v0_137 {'x0_137': 0, 'x1_137': 0}
+c forbid v0_137 {'x0_137': 1, 'x1_137': 1}
+c forbid v0_138 {'x0_138': 0, 'x1_138': 0}
+c forbid v0_138 {'x0_138': 1, 'x1_138': 1}
+c forbid v0_139 {'x0_139': 0, 'x1_139': 0}
+c forbid v0_139 {'x0_139': 1, 'x1_139': 1}
+c forbid v0_140 {'x0_140': 0, 'x1_140': 0}
+c forbid v0_140 {'x0_140': 1, 'x1_140': 1}
+c forbid v0_141 {'x0_141': 0, 'x1_141': 0}
+c forbid v0_141 {'x0_141': 1, 'x1_141': 1}
+c forbid v0_142 {'x0_142': 0, 'x1_142': 0}
+c forbid v0_142 {'x0_142': 1, 'x1_142': 1}
+c forbid v0_143 {'x0_143': 0, 'x1_143': 0}
+c forbid v0_143 {'x0_143': 1, 'x1_143': 1}
+c forbid v0_144 {'x0_144': 0, 'x1_144': 0}
+c forbid v0_144 {'x0_144': 1, 'x1_144': 1}
+c forbid v0_145 {'x0_145': 0, 'x1_145': 0}
+c forbid v0_145 {'x0_145': 1, 'x1_145': 1}
+c forbid v0_146 {'x0_146': 0, 'x1_146': 0}
+c forbid v0_146 {'x0_146': 1, 'x1_146': 1}
+c forbid v0_147 {'x0_147': 0, 'x1_147': 0}
+c forbid v0_147 {'x0_147': 1, 'x1_147': 1}
+c forbid v0_148 {'x0_148': 0, 'x1_148': 0}
+c forbid v0_148 {'x0_148': 1, 'x1_148': 1}
+c forbid v0_149 {'x0_149': 0, 'x1_149': 0}
+c forbid v0_149 {'x0_149': 1, 'x1_149': 1}
+c forbid v0_150 {'x0_150': 0, 'x1_150': 0}
+c forbid v0_150 {'x0_150': 1, 'x1_150': 1}
+c forbid v0_151 {'x0_151': 0, 'x1_151': 0}
+c forbid v0_151 {'x0_151': 1, 'x1_151': 1}
+c forbid v0_152 {'x0_152': 0, 'x1_152': 0}
+c forbid v0_152 {'x0_152': 1, 'x1_152': 1}
+c forbid v0_153 {'x0_153': 0, 'x1_153': 0}
+c forbid v0_153 {'x0_153': 1, 'x1_153': 1}
+c forbid v0_154 {'x0_154': 0, 'x1_154': 0}
+c forbid v0_154 {'x0_154': 1, 'x1_154': 1}
+c forbid v0_155 {'x0_155': 0, 'x1_155': 0}
+c forbid v0_155 {'x0_155': 1, 'x1_155': 1}
+c forbid v0_156 {'x0_156': 0, 'x1_156': 0}
+c forbid v0_156 {'x0_156': 1, 'x1_156': 1}
+c forbid v0_157 {'x0_157': 0, 'x1_157': 0}
+c forbid v0_157 {'x0_157': 1, 'x1_157': 1}
+c forbid v0_158 {'x0_158': 0, 'x1_158': 0}
+c forbid v0_158 {'x0_158': 1, 'x1_158': 1}
+c forbid v0_159 {'x0_159': 0, 'x1_159': 0}
+c forbid v0_159 {'x0_159': 1, 'x1_159': 1}
+c forbid v0_160 {'x0_160': 0, 'x1_160': 0}
+c forbid v0_160 {'x0_160': 1, 'x1_160': 1}
+c forbid v0_161 {'x0_161': 0, 'x1_161': 0}
+c forbid v0_161 {'x0_161': 1, 'x1_161': 1}
+c forbid v0_162 {'x0_162': 0, 'x1_162': 0}
+c forbid v0_162 {'x0_162': 1, 'x1_162': 1}
+c forbid v0_163 {'x0_163': 0, 'x1_163': 0}
+c forbid v0_163 {'x0_163': 1, 'x1_163': 1}
+c forbid v0_164 {'x0_164': 0, 'x1_164': 0}
+c forbid v0_164 {'x0_164': 1, 'x1_164': 1}
+c forbid v0_165 {'x0_165': 0, 'x1_165': 0}
+c forbid v0_165 {'x0_165': 1, 'x1_165': 1}
+c forbid v0_166 {'x0_166': 0, 'x1_166': 0}
+c forbid v0_166 {'x0_166': 1, 'x1_166': 1}
+c forbid v0_167 {'x0_167': 0, 'x1_167': 0}
+c forbid v0_167 {'x0_167': 1, 'x1_167': 1}
+c forbid v0_168 {'x0_168': 0, 'x1_168': 0}
+c forbid v0_168 {'x0_168': 1, 'x1_168': 1}
+c forbid v0_169 {'x0_169': 0, 'x1_169': 0}
+c forbid v0_169 {'x0_169': 1, 'x1_169': 1}
+c forbid v0_170 {'x0_170': 0, 'x1_170': 0}
+c forbid v0_170 {'x0_170': 1, 'x1_170': 1}
+c forbid v0_171 {'x0_171': 0, 'x1_171': 0}
+c forbid v0_171 {'x0_171': 1, 'x1_171': 1}
+c forbid v0_172 {'x0_172': 0, 'x1_172': 0}
+c forbid v0_172 {'x0_172': 1, 'x1_172': 1}
+c forbid v0_173 {'x0_173': 0, 'x1_173': 0}
+c forbid v0_173 {'x0_173': 1, 'x1_173': 1}
+c forbid v0_174 {'x0_174': 0, 'x1_174': 0}
+c forbid v0_174 {'x0_174': 1, 'x1_174': 1}
+c forbid v0_175 {'x0_175': 0, 'x1_175': 0}
+c forbid v0_175 {'x0_175': 1, 'x1_175': 1}
+c forbid v0_176 {'x0_176': 0, 'x1_176': 0}
+c forbid v0_176 {'x0_176': 1, 'x1_176': 1}
+c forbid v0_177 {'x0_177': 0, 'x1_177': 0}
+c forbid v0_177 {'x0_177': 1, 'x1_177': 1}
+c forbid v0_178 {'x0_178': 0, 'x1_178': 0}
+c forbid v0_178 {'x0_178': 1, 'x1_178': 1}
+c forbid v0_179 {'x0_179': 0, 'x1_179': 0}
+c forbid v0_179 {'x0_179': 1, 'x1_179': 1}
+c forbid v0_180 {'x0_180': 0, 'x1_180': 0}
+c forbid v0_180 {'x0_180': 1, 'x1_180': 1}
+c forbid v0_181 {'x0_181': 0, 'x1_181': 0}
+c forbid v0_181 {'x0_181': 1, 'x1_181': 1}
+c forbid v0_182 {'x0_182': 0, 'x1_182': 0}
+c forbid v0_182 {'x0_182': 1, 'x1_182': 1}
+c forbid v0_183 {'x0_183': 0, 'x1_183': 0}
+c forbid v0_183 {'x0_183': 1, 'x1_183': 1}
+c forbid v0_184 {'x0_184': 0, 'x1_184': 0}
+c forbid v0_184 {'x0_184': 1, 'x1_184': 1}
+c forbid v0_185 {'x0_185': 0, 'x1_185': 0}
+c forbid v0_185 {'x0_185': 1, 'x1_185': 1}
+c forbid v0_186 {'x0_186': 0, 'x1_186': 0}
+c forbid v0_186 {'x0_186': 1, 'x1_186': 1}
+c forbid v0_187 {'x0_187': 0, 'x1_187': 0}
+c forbid v0_187 {'x0_187': 1, 'x1_187': 1}
+c forbid v0_188 {'x0_188': 0, 'x1_188': 0}
+c forbid v0_188 {'x0_188': 1, 'x1_188': 1}
+c forbid v0_189 {'x0_189': 0, 'x1_189': 0}
+c forbid v0_189 {'x0_189': 1, 'x1_189': 1}
+c forbid v0_190 {'x0_190': 0, 'x1_190': 0}
+c forbid v0_190 {'x0_190': 1, 'x1_190': 1}
+c forbid v0_191 {'x0_191': 0, 'x1_191': 0}
+c forbid v0_191 {'x0_191': 1, 'x1_191': 1}
+c forbid v0_192 {'x0_192': 0, 'x1_192': 0}
+c forbid v0_192 {'x0_192': 1, 'x1_192': 1}
+c forbid v0_193 {'x0_193': 0, 'x1_193': 0}
+c forbid v0_193 {'x0_193': 1, 'x1_193': 1}
+c forbid v0_194 {'x0_194': 0, 'x1_194': 0}
+c forbid v0_194 {'x0_194': 1, 'x1_194': 1}
+c forbid v0_195 {'x0_195': 0, 'x1_195': 0}
+c forbid v0_195 {'x0_195': 1, 'x1_195': 1}
+c forbid v0_196 {'x0_196': 0, 'x1_196': 0}
+c forbid v0_196 {'x0_196': 1, 'x1_196': 1}
+c forbid v0_197 {'x0_197': 0, 'x1_197': 0}
+c forbid v0_197 {'x0_197': 1, 'x1_197': 1}
+c forbid v0_198 {'x0_198': 0, 'x1_198': 0}
+c forbid v0_198 {'x0_198': 1, 'x1_198': 1}
+c forbid v0_199 {'x0_199': 0, 'x1_199': 0}
+c forbid v0_199 {'x0_199': 1, 'x1_199': 1}
+c forbid v0_200 {'x0_200': 0, 'x1_200': 0}
+c forbid v0_200 {'x0_200': 1, 'x1_200': 1}
+c forbid v0_201 {'x0_201': 0, 'x1_201': 0}
+c forbid v0_201 {'x0_201': 1, 'x1_201': 1}
+c forbid v0_202 {'x0_202': 0, 'x1_202': 0}
+c forbid v0_202 {'x0_202': 1, 'x1_202': 1}
+c forbid v0_203 {'x0_203': 0, 'x1_203': 0}
+c forbid v0_203 {'x0_203': 1, 'x1_203': 1}
+c forbid v0_204 {'x0_204': 0, 'x1_204': 0}
+c forbid v0_204 {'x0_204': 1, 'x1_204': 1}
+c forbid v0_205 {'x0_205': 0, 'x1_205': 0}
+c forbid v0_205 {'x0_205': 1, 'x1_205': 1}
+c forbid v0_206 {'x0_206': 0, 'x1_206': 0}
+c forbid v0_206 {'x0_206': 1, 'x1_206': 1}
+c forbid v0_207 {'x0_207': 0, 'x1_207': 0}
+c forbid v0_207 {'x0_207': 1, 'x1_207': 1}
+c forbid v0_208 {'x0_208': 0, 'x1_208': 0}
+c forbid v0_208 {'x0_208': 1, 'x1_208': 1}
+c forbid v0_209 {'x0_209': 0, 'x1_209': 0}
+c forbid v0_209 {'x0_209': 1, 'x1_209': 1}
+c forbid v0_210 {'x0_210': 0, 'x1_210': 0}
+c forbid v0_210 {'x0_210': 1, 'x1_210': 1}
+c forbid v0_211 {'x0_211': 0, 'x1_211': 0}
+c forbid v0_211 {'x0_211': 1, 'x1_211': 1}
+c forbid v0_212 {'x0_212': 0, 'x1_212': 0}
+c forbid v0_212 {'x0_212': 1, 'x1_212': 1}
+c forbid v0_213 {'x0_213': 0, 'x1_213': 0}
+c forbid v0_213 {'x0_213': 1, 'x1_213': 1}
+c forbid v0_214 {'x0_214': 0, 'x1_214': 0}
+c forbid v0_214 {'x0_214': 1, 'x1_214': 1}
+c forbid v0_215 {'x0_215': 0, 'x1_215': 0}
+c forbid v0_215 {'x0_215': 1, 'x1_215': 1}
+c forbid v0_216 {'x0_216': 0, 'x1_216': 0}
+c forbid v0_216 {'x0_216': 1, 'x1_216': 1}
+c forbid v0_217 {'x0_217': 0, 'x1_217': 0}
+c forbid v0_217 {'x0_217': 1, 'x1_217': 1}
+c forbid v0_218 {'x0_218': 0, 'x1_218': 0}
+c forbid v0_218 {'x0_218': 1, 'x1_218': 1}
+c forbid v0_219 {'x0_219': 0, 'x1_219': 0}
+c forbid v0_219 {'x0_219': 1, 'x1_219': 1}
+c forbid v0_220 {'x0_220': 0, 'x1_220': 0}
+c forbid v0_220 {'x0_220': 1, 'x1_220': 1}
+c forbid v0_221 {'x0_221': 0, 'x1_221': 0}
+c forbid v0_221 {'x0_221': 1, 'x1_221': 1}
+c forbid v0_222 {'x0_222': 0, 'x1_222': 0}
+c forbid v0_222 {'x0_222': 1, 'x1_222': 1}
+c forbid v0_223 {'x0_223': 0, 'x1_223': 0}
+c forbid v0_223 {'x0_223': 1, 'x1_223': 1}
+c forbid v0_224 {'x0_224': 0, 'x1_224': 0}
+c forbid v0_224 {'x0_224': 1, 'x1_224': 1}
+c forbid v0_225 {'x0_225': 0, 'x1_225': 0}
+c forbid v0_225 {'x0_225': 1, 'x1_225': 1}
+c forbid v0_226 {'x0_226': 0, 'x1_226': 0}
+c forbid v0_226 {'x0_226': 1, 'x1_226': 1}
+c forbid v0_227 {'x0_227': 0, 'x1_227': 0}
+c forbid v0_227 {'x0_227': 1, 'x1_227': 1}
+c forbid v0_228 {'x0_228': 0, 'x1_228': 0}
+c forbid v0_228 {'x0_228': 1, 'x1_228': 1}
+c forbid v0_229 {'x0_229': 0, 'x1_229': 0}
+c forbid v0_229 {'x0_229': 1, 'x1_229': 1}
+c forbid v0_230 {'x0_230': 0, 'x1_230': 0}
+c forbid v0_230 {'x0_230': 1, 'x1_230': 1}
+c forbid v0_231 {'x0_231': 0, 'x1_231': 0}
+c forbid v0_231 {'x0_231': 1, 'x1_231': 1}
+c forbid v0_232 {'x0_232': 0, 'x1_232': 0}
+c forbid v0_232 {'x0_232': 1, 'x1_232': 1}
+c forbid v0_233 {'x0_233': 0, 'x1_233': 0}
+c forbid v0_233 {'x0_233': 1, 'x1_233': 1}
+c forbid v0_234 {'x0_234': 0, 'x1_234': 0}
+c forbid v0_234 {'x0_234': 1, 'x1_234': 1}
+c forbid v0_235 {'x0_235': 0, 'x1_235': 0}
+c forbid v0_235 {'x0_235': 1, 'x1_235': 1}
+c forbid v0_236 {'x0_236': 0, 'x1_236': 0}
+c forbid v0_236 {'x0_236': 1, 'x1_236': 1}
+c forbid v0_237 {'x0_237': 0, 'x1_237': 0}
+c forbid v0_237 {'x0_237': 1, 'x1_237': 1}
+c forbid v0_238 {'x0_238': 0, 'x1_238': 0}
+c forbid v0_238 {'x0_238': 1, 'x1_238': 1}
+c forbid v0_239 {'x0_239': 0, 'x1_239': 0}
+c forbid v0_239 {'x0_239': 1, 'x1_239': 1}
+c forbid v0_240 {'x0_240': 0, 'x1_240': 0}
+c forbid v0_240 {'x0_240': 1, 'x1_240': 1}
+c forbid v0_241 {'x0_241': 0, 'x1_241': 0}
+c forbid v0_241 {'x0_241': 1, 'x1_241': 1}
+c forbid v0_242 {'x0_242': 0, 'x1_242': 0}
+c forbid v0_242 {'x0_242': 1, 'x1_242': 1}
+c forbid v0_243 {'x0_243': 0, 'x1_243': 0}
+c forbid v0_243 {'x0_243': 1, 'x1_243': 1}
+c forbid v0_244 {'x0_244': 0, 'x1_244': 0}
+c forbid v0_244 {'x0_244': 1, 'x1_244': 1}
+c forbid v0_245 {'x0_245': 0, 'x1_245': 0}
+c forbid v0_245 {'x0_245': 1, 'x1_245': 1}
+c forbid v0_246 {'x0_246': 0, 'x1_246': 0}
+c forbid v0_246 {'x0_246': 1, 'x1_246': 1}
+c forbid v0_247 {'x0_247': 0, 'x1_247': 0}
+c forbid v0_247 {'x0_247': 1, 'x1_247': 1}
+c forbid v0_248 {'x0_248': 0, 'x1_248': 0}
+c forbid v0_248 {'x0_248': 1, 'x1_248': 1}
+c forbid v0_249 {'x0_249': 0, 'x1_249': 0}
+c forbid v0_249 {'x0_249': 1, 'x1_249': 1}
+c forbid v0_250 {'x0_250': 0, 'x1_250': 0}
+c forbid v0_250 {'x0_250': 1, 'x1_250': 1}
+c forbid v0_251 {'x0_251': 0, 'x1_251': 0}
+c forbid v0_251 {'x0_251': 1, 'x1_251': 1}
+c forbid v0_252 {'x0_252': 0, 'x1_252': 0}
+c forbid v0_252 {'x0_252': 1, 'x1_252': 1}
+c forbid v0_253 {'x0_253': 0, 'x1_253': 0}
+c forbid v0_253 {'x0_253': 1, 'x1_253': 1}
+c forbid v0_254 {'x0_254': 0, 'x1_254': 0}
+c forbid v0_254 {'x0_254': 1, 'x1_254': 1}
+c forbid v0_255 {'x0_255': 0, 'x1_255': 0}
+c forbid v0_255 {'x0_255': 1, 'x1_255': 1}
+p cnf 512 1532
+1 2 0
+-1 -2 0
+2 3 0
+-2 -3 0
+3 4 0
+-3 -4 0
+4 5 0
+-4 -5 0
+5 6 0
+-5 -6 0
+6 7 0
+-6 -7 0
+7 8 0
+-7 -8 0
+8 9 0
+-8 -9 0
+9 10 0
+-9 -10 0
+10 11 0
+-10 -11 0
+11 12 0
+-11 -12 0
+12 13 0
+-12 -13 0
+13 14 0
+-13 -14 0
+14 15 0
+-14 -15 0
+15 16 0
+-15 -16 0
+16 17 0
+-16 -17 0
+17 18 0
+-17 -18 0
+18 19 0
+-18 -19 0
+19 20 0
+-19 -20 0
+20 21 0
+-20 -21 0
+21 22 0
+-21 -22 0
+22 23 0
+-22 -23 0
+23 24 0
+-23 -24 0
+24 25 0
+-24 -25 0
+25 26 0
+-25 -26 0
+26 27 0
+-26 -27 0
+27 28 0
+-27 -28 0
+28 29 0
+-28 -29 0
+29 30 0
+-29 -30 0
+30 31 0
+-30 -31 0
+31 32 0
+-31 -32 0
+32 33 0
+-32 -33 0
+33 34 0
+-33 -34 0
+34 35 0
+-34 -35 0
+35 36 0
+-35 -36 0
+36 37 0
+-36 -37 0
+37 38 0
+-37 -38 0
+38 39 0
+-38 -39 0
+39 40 0
+-39 -40 0
+40 41 0
+-40 -41 0
+41 42 0
+-41 -42 0
+42 43 0
+-42 -43 0
+43 44 0
+-43 -44 0
+44 45 0
+-44 -45 0
+45 46 0
+-45 -46 0
+46 47 0
+-46 -47 0
+47 48 0
+-47 -48 0
+48 49 0
+-48 -49 0
+49 50 0
+-49 -50 0
+50 51 0
+-50 -51 0
+51 52 0
+-51 -52 0
+52 53 0
+-52 -53 0
+53 54 0
+-53 -54 0
+54 55 0
+-54 -55 0
+55 56 0
+-55 -56 0
+56 57 0
+-56 -57 0
+57 58 0
+-57 -58 0
+58 59 0
+-58 -59 0
+59 60 0
+-59 -60 0
+60 61 0
+-60 -61 0
+61 62 0
+-61 -62 0
+62 63 0
+-62 -63 0
+63 64 0
+-63 -64 0
+64 65 0
+-64 -65 0
+65 66 0
+-65 -66 0
+66 67 0
+-66 -67 0
+67 68 0
+-67 -68 0
+68 69 0
+-68 -69 0
+69 70 0
+-69 -70 0
+70 71 0
+-70 -71 0
+71 72 0
+-71 -72 0
+72 73 0
+-72 -73 0
+73 74 0
+-73 -74 0
+74 75 0
+-74 -75 0
+75 76 0
+-75 -76 0
+76 77 0
+-76 -77 0
+77 78 0
+-77 -78 0
+78 79 0
+-78 -79 0
+79 80 0
+-79 -80 0
+80 81 0
+-80 -81 0
+81 82 0
+-81 -82 0
+82 83 0
+-82 -83 0
+83 84 0
+-83 -84 0
+84 85 0
+-84 -85 0
+85 86 0
+-85 -86 0
+86 87 0
+-86 -87 0
+87 88 0
+-87 -88 0
+88 89 0
+-88 -89 0
+89 90 0
+-89 -90 0
+90 91 0
+-90 -91 0
+91 92 0
+-91 -92 0
+92 93 0
+-92 -93 0
+93 94 0
+-93 -94 0
+94 95 0
+-94 -95 0
+95 96 0
+-95 -96 0
+96 97 0
+-96 -97 0
+97 98 0
+-97 -98 0
+98 99 0
+-98 -99 0
+99 100 0
+-99 -100 0
+100 101 0
+-100 -101 0
+101 102 0
+-101 -102 0
+102 103 0
+-102 -103 0
+103 104 0
+-103 -104 0
+104 105 0
+-104 -105 0
+105 106 0
+-105 -106 0
+106 107 0
+-106 -107 0
+107 108 0
+-107 -108 0
+108 109 0
+-108 -109 0
+109 110 0
+-109 -110 0
+110 111 0
+-110 -111 0
+111 112 0
+-111 -112 0
+112 113 0
+-112 -113 0
+113 114 0
+-113 -114 0
+114 115 0
+-114 -115 0
+115 116 0
+-115 -116 0
+116 117 0
+-116 -117 0
+117 118 0
+-117 -118 0
+118 119 0
+-118 -119 0
+119 120 0
+-119 -120 0
+120 121 0
+-120 -121 0
+121 122 0
+-121 -122 0
+122 123 0
+-122 -123 0
+123 124 0
+-123 -124 0
+124 125 0
+-124 -125 0
+125 126 0
+-125 -126 0
+126 127 0
+-126 -127 0
+127 128 0
+-127 -128 0
+128 129 0
+-128 -129 0
+129 130 0
+-129 -130 0
+130 131 0
+-130 -131 0
+131 132 0
+-131 -132 0
+132 133 0
+-132 -133 0
+133 134 0
+-133 -134 0
+134 135 0
+-134 -135 0
+135 136 0
+-135 -136 0
+136 137 0
+-136 -137 0
+137 138 0
+-137 -138 0
+138 139 0
+-138 -139 0
+139 140 0
+-139 -140 0
+140 141 0
+-140 -141 0
+141 142 0
+-141 -142 0
+142 143 0
+-142 -143 0
+143 144 0
+-143 -144 0
+144 145 0
+-144 -145 0
+145 146 0
+-145 -146 0
+146 147 0
+-146 -147 0
+147 148 0
+-147 -148 0
+148 149 0
+-148 -149 0
+149 150 0
+-149 -150 0
+150 151 0
+-150 -151 0
+151 152 0
+-151 -152 0
+152 153 0
+-152 -153 0
+153 154 0
+-153 -154 0
+154 155 0
+-154 -155 0
+155 156 0
+-155 -156 0
+156 157 0
+-156 -157 0
+157 158 0
+-157 -158 0
+158 159 0
+-158 -159 0
+159 160 0
+-159 -160 0
+160 161 0
+-160 -161 0
+161 162 0
+-161 -162 0
+162 163 0
+-162 -163 0
+163 164 0
+-163 -164 0
+164 165 0
+-164 -165 0
+165 166 0
+-165 -166 0
+166 167 0
+-166 -167 0
+167 168 0
+-167 -168 0
+168 169 0
+-168 -169 0
+169 170 0
+-169 -170 0
+170 171 0
+-170 -171 0
+171 172 0
+-171 -172 0
+172 173 0
+-172 -173 0
+173 174 0
+-173 -174 0
+174 175 0
+-174 -175 0
+175 176 0
+-175 -176 0
+176 177 0
+-176 -177 0
+177 178 0
+-177 -178 0
+178 179 0
+-178 -179 0
+179 180 0
+-179 -180 0
+180 181 0
+-180 -181 0
+181 182 0
+-181 -182 0
+182 183 0
+-182 -183 0
+183 184 0
+-183 -184 0
+184 185 0
+-184 -185 0
+185 186 0
+-185 -186 0
+186 187 0
+-186 -187 0
+187 188 0
+-187 -188 0
+188 189 0
+-188 -189 0
+189 190 0
+-189 -190 0
+190 191 0
+-190 -191 0
+191 192 0
+-191 -192 0
+192 193 0
+-192 -193 0
+193 194 0
+-193 -194 0
+194 195 0
+-194 -195 0
+195 196 0
+-195 -196 0
+196 197 0
+-196 -197 0
+197 198 0
+-197 -198 0
+198 199 0
+-198 -199 0
+199 200 0
+-199 -200 0
+200 201 0
+-200 -201 0
+201 202 0
+-201 -202 0
+202 203 0
+-202 -203 0
+203 204 0
+-203 -204 0
+204 205 0
+-204 -205 0
+205 206 0
+-205 -206 0
+206 207 0
+-206 -207 0
+207 208 0
+-207 -208 0
+208 209 0
+-208 -209 0
+209 210 0
+-209 -210 0
+210 211 0
+-210 -211 0
+211 212 0
+-211 -212 0
+212 213 0
+-212 -213 0
+213 214 0
+-213 -214 0
+214 215 0
+-214 -215 0
+215 216 0
+-215 -216 0
+216 217 0
+-216 -217 0
+217 218 0
+-217 -218 0
+218 219 0
+-218 -219 0
+219 220 0
+-219 -220 0
+220 221 0
+-220 -221 0
+221 222 0
+-221 -222 0
+222 223 0
+-222 -223 0
+223 224 0
+-223 -224 0
+224 225 0
+-224 -225 0
+225 226 0
+-225 -226 0
+226 227 0
+-226 -227 0
+227 228 0
+-227 -228 0
+228 229 0
+-228 -229 0
+229 230 0
+-229 -230 0
+230 231 0
+-230 -231 0
+231 232 0
+-231 -232 0
+232 233 0
+-232 -233 0
+233 234 0
+-233 -234 0
+234 235 0
+-234 -235 0
+235 236 0
+-235 -236 0
+236 237 0
+-236 -237 0
+237 238 0
+-237 -238 0
+238 239 0
+-238 -239 0
+239 240 0
+-239 -240 0
+240 241 0
+-240 -241 0
+241 242 0
+-241 -242 0
+242 243 0
+-242 -243 0
+243 244 0
+-243 -244 0
+244 245 0
+-244 -245 0
+245 246 0
+-245 -246 0
+246 247 0
+-246 -247 0
+247 248 0
+-247 -248 0
+248 249 0
+-248 -249 0
+249 250 0
+-249 -250 0
+250 251 0
+-250 -251 0
+251 252 0
+-251 -252 0
+252 253 0
+-252 -253 0
+253 254 0
+-253 -254 0
+254 255 0
+-254 -255 0
+255 256 0
+-255 -256 0
+257 258 0
+-257 -258 0
+258 259 0
+-258 -259 0
+259 260 0
+-259 -260 0
+260 261 0
+-260 -261 0
+261 262 0
+-261 -262 0
+262 263 0
+-262 -263 0
+263 264 0
+-263 -264 0
+264 265 0
+-264 -265 0
+265 266 0
+-265 -266 0
+266 267 0
+-266 -267 0
+267 268 0
+-267 -268 0
+268 269 0
+-268 -269 0
+269 270 0
+-269 -270 0
+270 271 0
+-270 -271 0
+271 272 0
+-271 -272 0
+272 273 0
+-272 -273 0
+273 274 0
+-273 -274 0
+274 275 0
+-274 -275 0
+275 276 0
+-275 -276 0
+276 277 0
+-276 -277 0
+277 278 0
+-277 -278 0
+278 279 0
+-278 -279 0
+279 280 0
+-279 -280 0
+280 281 0
+-280 -281 0
+281 282 0
+-281 -282 0
+282 283 0
+-282 -283 0
+283 284 0
+-283 -284 0
+284 285 0
+-284 -285 0
+285 286 0
+-285 -286 0
+286 287 0
+-286 -287 0
+287 288 0
+-287 -288 0
+288 289 0
+-288 -289 0
+289 290 0
+-289 -290 0
+290 291 0
+-290 -291 0
+291 292 0
+-291 -292 0
+292 293 0
+-292 -293 0
+293 294 0
+-293 -294 0
+294 295 0
+-294 -295 0
+295 296 0
+-295 -296 0
+296 297 0
+-296 -297 0
+297 298 0
+-297 -298 0
+298 299 0
+-298 -299 0
+299 300 0
+-299 -300 0
+300 301 0
+-300 -301 0
+301 302 0
+-301 -302 0
+302 303 0
+-302 -303 0
+303 304 0
+-303 -304 0
+304 305 0
+-304 -305 0
+305 306 0
+-305 -306 0
+306 307 0
+-306 -307 0
+307 308 0
+-307 -308 0
+308 309 0
+-308 -309 0
+309 310 0
+-309 -310 0
+310 311 0
+-310 -311 0
+311 312 0
+-311 -312 0
+312 313 0
+-312 -313 0
+313 314 0
+-313 -314 0
+314 315 0
+-314 -315 0
+315 316 0
+-315 -316 0
+316 317 0
+-316 -317 0
+317 318 0
+-317 -318 0
+318 319 0
+-318 -319 0
+319 320 0
+-319 -320 0
+320 321 0
+-320 -321 0
+321 322 0
+-321 -322 0
+322 323 0
+-322 -323 0
+323 324 0
+-323 -324 0
+324 325 0
+-324 -325 0
+325 326 0
+-325 -326 0
+326 327 0
+-326 -327 0
+327 328 0
+-327 -328 0
+328 329 0
+-328 -329 0
+329 330 0
+-329 -330 0
+330 331 0
+-330 -331 0
+331 332 0
+-331 -332 0
+332 333 0
+-332 -333 0
+333 334 0
+-333 -334 0
+334 335 0
+-334 -335 0
+335 336 0
+-335 -336 0
+336 337 0
+-336 -337 0
+337 338 0
+-337 -338 0
+338 339 0
+-338 -339 0
+339 340 0
+-339 -340 0
+340 341 0
+-340 -341 0
+341 342 0
+-341 -342 0
+342 343 0
+-342 -343 0
+343 344 0
+-343 -344 0
+344 345 0
+-344 -345 0
+345 346 0
+-345 -346 0
+346 347 0
+-346 -347 0
+347 348 0
+-347 -348 0
+348 349 0
+-348 -349 0
+349 350 0
+-349 -350 0
+350 351 0
+-350 -351 0
+351 352 0
+-351 -352 0
+352 353 0
+-352 -353 0
+353 354 0
+-353 -354 0
+354 355 0
+-354 -355 0
+355 356 0
+-355 -356 0
+356 357 0
+-356 -357 0
+357 358 0
+-357 -358 0
+358 359 0
+-358 -359 0
+359 360 0
+-359 -360 0
+360 361 0
+-360 -361 0
+361 362 0
+-361 -362 0
+362 363 0
+-362 -363 0
+363 364 0
+-363 -364 0
+364 365 0
+-364 -365 0
+365 366 0
+-365 -366 0
+366 367 0
+-366 -367 0
+367 368 0
+-367 -368 0
+368 369 0
+-368 -369 0
+369 370 0
+-369 -370 0
+370 371 0
+-370 -371 0
+371 372 0
+-371 -372 0
+372 373 0
+-372 -373 0
+373 374 0
+-373 -374 0
+374 375 0
+-374 -375 0
+375 376 0
+-375 -376 0
+376 377 0
+-376 -377 0
+377 378 0
+-377 -378 0
+378 379 0
+-378 -379 0
+379 380 0
+-379 -380 0
+380 381 0
+-380 -381 0
+381 382 0
+-381 -382 0
+382 383 0
+-382 -383 0
+383 384 0
+-383 -384 0
+384 385 0
+-384 -385 0
+385 386 0
+-385 -386 0
+386 387 0
+-386 -387 0
+387 388 0
+-387 -388 0
+388 389 0
+-388 -389 0
+389 390 0
+-389 -390 0
+390 391 0
+-390 -391 0
+391 392 0
+-391 -392 0
+392 393 0
+-392 -393 0
+393 394 0
+-393 -394 0
+394 395 0
+-394 -395 0
+395 396 0
+-395 -396 0
+396 397 0
+-396 -397 0
+397 398 0
+-397 -398 0
+398 399 0
+-398 -399 0
+399 400 0
+-399 -400 0
+400 401 0
+-400 -401 0
+401 402 0
+-401 -402 0
+402 403 0
+-402 -403 0
+403 404 0
+-403 -404 0
+404 405 0
+-404 -405 0
+405 406 0
+-405 -406 0
+406 407 0
+-406 -407 0
+407 408 0
+-407 -408 0
+408 409 0
+-408 -409 0
+409 410 0
+-409 -410 0
+410 411 0
+-410 -411 0
+411 412 0
+-411 -412 0
+412 413 0
+-412 -413 0
+413 414 0
+-413 -414 0
+414 415 0
+-414 -415 0
+415 416 0
+-415 -416 0
+416 417 0
+-416 -417 0
+417 418 0
+-417 -418 0
+418 419 0
+-418 -419 0
+419 420 0
+-419 -420 0
+420 421 0
+-420 -421 0
+421 422 0
+-421 -422 0
+422 423 0
+-422 -423 0
+423 424 0
+-423 -424 0
+424 425 0
+-424 -425 0
+425 426 0
+-425 -426 0
+426 427 0
+-426 -427 0
+427 428 0
+-427 -428 0
+428 429 0
+-428 -429 0
+429 430 0
+-429 -430 0
+430 431 0
+-430 -431 0
+431 432 0
+-431 -432 0
+432 433 0
+-432 -433 0
+433 434 0
+-433 -434 0
+434 435 0
+-434 -435 0
+435 436 0
+-435 -436 0
+436 437 0
+-436 -437 0
+437 438 0
+-437 -438 0
+438 439 0
+-438 -439 0
+439 440 0
+-439 -440 0
+440 441 0
+-440 -441 0
+441 442 0
+-441 -442 0
+442 443 0
+-442 -443 0
+443 444 0
+-443 -444 0
+444 445 0
+-444 -445 0
+445 446 0
+-445 -446 0
+446 447 0
+-446 -447 0
+447 448 0
+-447 -448 0
+448 449 0
+-448 -449 0
+449 450 0
+-449 -450 0
+450 451 0
+-450 -451 0
+451 452 0
+-451 -452 0
+452 453 0
+-452 -453 0
+453 454 0
+-453 -454 0
+454 455 0
+-454 -455 0
+455 456 0
+-455 -456 0
+456 457 0
+-456 -457 0
+457 458 0
+-457 -458 0
+458 459 0
+-458 -459 0
+459 460 0
+-459 -460 0
+460 461 0
+-460 -461 0
+461 462 0
+-461 -462 0
+462 463 0
+-462 -463 0
+463 464 0
+-463 -464 0
+464 465 0
+-464 -465 0
+465 466 0
+-465 -466 0
+466 467 0
+-466 -467 0
+467 468 0
+-467 -468 0
+468 469 0
+-468 -469 0
+469 470 0
+-469 -470 0
+470 471 0
+-470 -471 0
+471 472 0
+-471 -472 0
+472 473 0
+-472 -473 0
+473 474 0
+-473 -474 0
+474 475 0
+-474 -475 0
+475 476 0
+-475 -476 0
+476 477 0
+-476 -477 0
+477 478 0
+-477 -478 0
+478 479 0
+-478 -479 0
+479 480 0
+-479 -480 0
+480 481 0
+-480 -481 0
+481 482 0
+-481 -482 0
+482 483 0
+-482 -483 0
+483 484 0
+-483 -484 0
+484 485 0
+-484 -485 0
+485 486 0
+-485 -486 0
+486 487 0
+-486 -487 0
+487 488 0
+-487 -488 0
+488 489 0
+-488 -489 0
+489 490 0
+-489 -490 0
+490 491 0
+-490 -491 0
+491 492 0
+-491 -492 0
+492 493 0
+-492 -493 0
+493 494 0
+-493 -494 0
+494 495 0
+-494 -495 0
+495 496 0
+-495 -496 0
+496 497 0
+-496 -497 0
+497 498 0
+-497 -498 0
+498 499 0
+-498 -499 0
+499 500 0
+-499 -500 0
+500 501 0
+-500 -501 0
+501 502 0
+-501 -502 0
+502 503 0
+-502 -503 0
+503 504 0
+-503 -504 0
+504 505 0
+-504 -505 0
+505 506 0
+-505 -506 0
+506 507 0
+-506 -507 0
+507 508 0
+-507 -508 0
+508 509 0
+-508 -509 0
+509 510 0
+-509 -510 0
+510 511 0
+-510 -511 0
+511 512 0
+-511 -512 0
+1 257 0
+-1 -257 0
+2 258 0
+-2 -258 0
+3 259 0
+-3 -259 0
+4 260 0
+-4 -260 0
+5 261 0
+-5 -261 0
+6 262 0
+-6 -262 0
+7 263 0
+-7 -263 0
+8 264 0
+-8 -264 0
+9 265 0
+-9 -265 0
+10 266 0
+-10 -266 0
+11 267 0
+-11 -267 0
+12 268 0
+-12 -268 0
+13 269 0
+-13 -269 0
+14 270 0
+-14 -270 0
+15 271 0
+-15 -271 0
+16 272 0
+-16 -272 0
+17 273 0
+-17 -273 0
+18 274 0
+-18 -274 0
+19 275 0
+-19 -275 0
+20 276 0
+-20 -276 0
+21 277 0
+-21 -277 0
+22 278 0
+-22 -278 0
+23 279 0
+-23 -279 0
+24 280 0
+-24 -280 0
+25 281 0
+-25 -281 0
+26 282 0
+-26 -282 0
+27 283 0
+-27 -283 0
+28 284 0
+-28 -284 0
+29 285 0
+-29 -285 0
+30 286 0
+-30 -286 0
+31 287 0
+-31 -287 0
+32 288 0
+-32 -288 0
+33 289 0
+-33 -289 0
+34 290 0
+-34 -290 0
+35 291 0
+-35 -291 0
+36 292 0
+-36 -292 0
+37 293 0
+-37 -293 0
+38 294 0
+-38 -294 0
+39 295 0
+-39 -295 0
+40 296 0
+-40 -296 0
+41 297 0
+-41 -297 0
+42 298 0
+-42 -298 0
+43 299 0
+-43 -299 0
+44 300 0
+-44 -300 0
+45 301 0
+-45 -301 0
+46 302 0
+-46 -302 0
+47 303 0
+-47 -303 0
+48 304 0
+-48 -304 0
+49 305 0
+-49 -305 0
+50 306 0
+-50 -306 0
+51 307 0
+-51 -307 0
+52 308 0
+-52 -308 0
+53 309 0
+-53 -309 0
+54 310 0
+-54 -310 0
+55 311 0
+-55 -311 0
+56 312 0
+-56 -312 0
+57 313 0
+-57 -313 0
+58 314 0
+-58 -314 0
+59 315 0
+-59 -315 0
+60 316 0
+-60 -316 0
+61 317 0
+-61 -317 0
+62 318 0
+-62 -318 0
+63 319 0
+-63 -319 0
+64 320 0
+-64 -320 0
+65 321 0
+-65 -321 0
+66 322 0
+-66 -322 0
+67 323 0
+-67 -323 0
+68 324 0
+-68 -324 0
+69 325 0
+-69 -325 0
+70 326 0
+-70 -326 0
+71 327 0
+-71 -327 0
+72 328 0
+-72 -328 0
+73 329 0
+-73 -329 0
+74 330 0
+-74 -330 0
+75 331 0
+-75 -331 0
+76 332 0
+-76 -332 0
+77 333 0
+-77 -333 0
+78 334 0
+-78 -334 0
+79 335 0
+-79 -335 0
+80 336 0
+-80 -336 0
+81 337 0
+-81 -337 0
+82 338 0
+-82 -338 0
+83 339 0
+-83 -339 0
+84 340 0
+-84 -340 0
+85 341 0
+-85 -341 0
+86 342 0
+-86 -342 0
+87 343 0
+-87 -343 0
+88 344 0
+-88 -344 0
+89 345 0
+-89 -345 0
+90 346 0
+-90 -346 0
+91 347 0
+-91 -347 0
+92 348 0
+-92 -348 0
+93 349 0
+-93 -349 0
+94 350 0
+-94 -350 0
+95 351 0
+-95 -351 0
+96 352 0
+-96 -352 0
+97 353 0
+-97 -353 0
+98 354 0
+-98 -354 0
+99 355 0
+-99 -355 0
+100 356 0
+-100 -356 0
+101 357 0
+-101 -357 0
+102 358 0
+-102 -358 0
+103 359 0
+-103 -359 0
+104 360 0
+-104 -360 0
+105 361 0
+-105 -361 0
+106 362 0
+-106 -362 0
+107 363 0
+-107 -363 0
+108 364 0
+-108 -364 0
+109 365 0
+-109 -365 0
+110 366 0
+-110 -366 0
+111 367 0
+-111 -367 0
+112 368 0
+-112 -368 0
+113 369 0
+-113 -369 0
+114 370 0
+-114 -370 0
+115 371 0
+-115 -371 0
+116 372 0
+-116 -372 0
+117 373 0
+-117 -373 0
+118 374 0
+-118 -374 0
+119 375 0
+-119 -375 0
+120 376 0
+-120 -376 0
+121 377 0
+-121 -377 0
+122 378 0
+-122 -378 0
+123 379 0
+-123 -379 0
+124 380 0
+-124 -380 0
+125 381 0
+-125 -381 0
+126 382 0
+-126 -382 0
+127 383 0
+-127 -383 0
+128 384 0
+-128 -384 0
+129 385 0
+-129 -385 0
+130 386 0
+-130 -386 0
+131 387 0
+-131 -387 0
+132 388 0
+-132 -388 0
+133 389 0
+-133 -389 0
+134 390 0
+-134 -390 0
+135 391 0
+-135 -391 0
+136 392 0
+-136 -392 0
+137 393 0
+-137 -393 0
+138 394 0
+-138 -394 0
+139 395 0
+-139 -395 0
+140 396 0
+-140 -396 0
+141 397 0
+-141 -397 0
+142 398 0
+-142 -398 0
+143 399 0
+-143 -399 0
+144 400 0
+-144 -400 0
+145 401 0
+-145 -401 0
+146 402 0
+-146 -402 0
+147 403 0
+-147 -403 0
+148 404 0
+-148 -404 0
+149 405 0
+-149 -405 0
+150 406 0
+-150 -406 0
+151 407 0
+-151 -407 0
+152 408 0
+-152 -408 0
+153 409 0
+-153 -409 0
+154 410 0
+-154 -410 0
+155 411 0
+-155 -411 0
+156 412 0
+-156 -412 0
+157 413 0
+-157 -413 0
+158 414 0
+-158 -414 0
+159 415 0
+-159 -415 0
+160 416 0
+-160 -416 0
+161 417 0
+-161 -417 0
+162 418 0
+-162 -418 0
+163 419 0
+-163 -419 0
+164 420 0
+-164 -420 0
+165 421 0
+-165 -421 0
+166 422 0
+-166 -422 0
+167 423 0
+-167 -423 0
+168 424 0
+-168 -424 0
+169 425 0
+-169 -425 0
+170 426 0
+-170 -426 0
+171 427 0
+-171 -427 0
+172 428 0
+-172 -428 0
+173 429 0
+-173 -429 0
+174 430 0
+-174 -430 0
+175 431 0
+-175 -431 0
+176 432 0
+-176 -432 0
+177 433 0
+-177 -433 0
+178 434 0
+-178 -434 0
+179 435 0
+-179 -435 0
+180 436 0
+-180 -436 0
+181 437 0
+-181 -437 0
+182 438 0
+-182 -438 0
+183 439 0
+-183 -439 0
+184 440 0
+-184 -440 0
+185 441 0
+-185 -441 0
+186 442 0
+-186 -442 0
+187 443 0
+-187 -443 0
+188 444 0
+-188 -444 0
+189 445 0
+-189 -445 0
+190 446 0
+-190 -446 0
+191 447 0
+-191 -447 0
+192 448 0
+-192 -448 0
+193 449 0
+-193 -449 0
+194 450 0
+-194 -450 0
+195 451 0
+-195 -451 0
+196 452 0
+-196 -452 0
+197 453 0
+-197 -453 0
+198 454 0
+-198 -454 0
+199 455 0
+-199 -455 0
+200 456 0
+-200 -456 0
+201 457 0
+-201 -457 0
+202 458 0
+-202 -458 0
+203 459 0
+-203 -459 0
+204 460 0
+-204 -460 0
+205 461 0
+-205 -461 0
+206 462 0
+-206 -462 0
+207 463 0
+-207 -463 0
+208 464 0
+-208 -464 0
+209 465 0
+-209 -465 0
+210 466 0
+-210 -466 0
+211 467 0
+-211 -467 0
+212 468 0
+-212 -468 0
+213 469 0
+-213 -469 0
+214 470 0
+-214 -470 0
+215 471 0
+-215 -471 0
+216 472 0
+-216 -472 0
+217 473 0
+-217 -473 0
+218 474 0
+-218 -474 0
+219 475 0
+-219 -475 0
+220 476 0
+-220 -476 0
+221 477 0
+-221 -477 0
+222 478 0
+-222 -478 0
+223 479 0
+-223 -479 0
+224 480 0
+-224 -480 0
+225 481 0
+-225 -481 0
+226 482 0
+-226 -482 0
+227 483 0
+-227 -483 0
+228 484 0
+-228 -484 0
+229 485 0
+-229 -485 0
+230 486 0
+-230 -486 0
+231 487 0
+-231 -487 0
+232 488 0
+-232 -488 0
+233 489 0
+-233 -489 0
+234 490 0
+-234 -490 0
+235 491 0
+-235 -491 0
+236 492 0
+-236 -492 0
+237 493 0
+-237 -493 0
+238 494 0
+-238 -494 0
+239 495 0
+-239 -495 0
+240 496 0
+-240 -496 0
+241 497 0
+-241 -497 0
+242 498 0
+-242 -498 0
+243 499 0
+-243 -499 0
+244 500 0
+-244 -500 0
+245 501 0
+-245 -501 0
+246 502 0
+-246 -502 0
+247 503 0
+-247 -503 0
+248 504 0
+-248 -504 0
+249 505 0
+-249 -505 0
+250 506 0
+-250 -506 0
+251 507 0
+-251 -507 0
+252 508 0
+-252 -508 0
+253 509 0
+-253 -509 0
+254 510 0
+-254 -510 0
+255 511 0
+-255 -511 0
+256 512 0
+-256 -512 0

@@ -1,0 +1,249 @@
+{
+  "type": "DP-REFUTATION",
+  "status": "CERTIFIED-UNSAT",
+  "tree_decomp": {
+    "type": "TREE-DECOMP",
+    "root": "b_p1",
+    "bags": {
+      "b_p1": [
+        "p1"
+      ],
+      "b_p2": [
+        "p2"
+      ],
+      "b_p3": [
+        "p3"
+      ],
+      "b_p4": [
+        "p4"
+      ],
+      "b_p5": [
+        "p5"
+      ],
+      "b_p6": [
+        "p6"
+      ],
+      "b_p7": [
+        "p7"
+      ],
+      "b_p8": [
+        "p8"
+      ]
+    },
+    "edges": [
+      [
+        "b_p1",
+        "b_p2"
+      ],
+      [
+        "b_p2",
+        "b_p3"
+      ],
+      [
+        "b_p3",
+        "b_p4"
+      ],
+      [
+        "b_p4",
+        "b_p5"
+      ],
+      [
+        "b_p5",
+        "b_p6"
+      ],
+      [
+        "b_p6",
+        "b_p7"
+      ],
+      [
+        "b_p7",
+        "b_p8"
+      ]
+    ],
+    "factor_to_bag": {
+      "load_low__t1": "b_p1",
+      "load_low__t2": "b_p2",
+      "load_low__t3": "b_p3",
+      "load_low__t4": "b_p4",
+      "load_low__t5": "b_p5",
+      "load_low__t6": "b_p6",
+      "load_low__t7": "b_p7",
+      "load_low__t8": "b_p8",
+      "load_high__t1": "b_p1",
+      "load_high__t2": "b_p2",
+      "load_high__t3": "b_p3",
+      "load_high__t4": "b_p4",
+      "load_high__t5": "b_p5",
+      "load_high__t6": "b_p6",
+      "load_high__t7": "b_p7",
+      "load_high__t8": "b_p8"
+    }
+  },
+  "root": "b_p1",
+  "optimum_cost": null,
+  "root_assignment": null,
+  "messages": {
+    "b_p1": {
+      "bag": [
+        "p1"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p2": {
+      "bag": [
+        "p2"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p3": {
+      "bag": [
+        "p3"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p4": {
+      "bag": [
+        "p4"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p5": {
+      "bag": [
+        "p5"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p6": {
+      "bag": [
+        "p6"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p7": {
+      "bag": [
+        "p7"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    },
+    "b_p8": {
+      "bag": [
+        "p8"
+      ],
+      "table": [
+        {
+          "assignment": [
+            0
+          ],
+          "cost": null
+        },
+        {
+          "assignment": [
+            1
+          ],
+          "cost": null
+        }
+      ]
+    }
+  },
+  "argmins": {
+    "b_p8": {},
+    "b_p7": {},
+    "b_p6": {},
+    "b_p5": {},
+    "b_p4": {},
+    "b_p3": {},
+    "b_p2": {},
+    "b_p1": {}
+  }
+}

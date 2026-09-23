@@ -1,0 +1,13 @@
+{
+  "type": "TREE-DECOMP",
+  "root": "b01",
+  "bags": {
+    "b01": ["x0", "x1"],
+    "b12": ["x1", "x2"]
+  },
+  "edges": [["b01", "b12"]],
+  "factor_to_bag": {
+    "neq01": "b01",
+    "neq12": "b12"
+  }
+}
