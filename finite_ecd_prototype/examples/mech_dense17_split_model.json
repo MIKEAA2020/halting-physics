@@ -1,0 +1,214 @@
+{
+  "name": "dense_chain_17",
+  "kind": "scalar-chain",
+  "nodes": 17,
+  "springs": [
+    {
+      "name": "s1",
+      "k": "1"
+    },
+    {
+      "name": "s2",
+      "k": "2"
+    },
+    {
+      "name": "s3",
+      "k": "1"
+    },
+    {
+      "name": "s4",
+      "k": "2"
+    },
+    {
+      "name": "s5",
+      "k": "1"
+    },
+    {
+      "name": "s6",
+      "k": "2"
+    },
+    {
+      "name": "s7",
+      "k": "1"
+    },
+    {
+      "name": "s8",
+      "k": "2"
+    },
+    {
+      "name": "s9",
+      "k": "1"
+    },
+    {
+      "name": "s10",
+      "k": "2"
+    },
+    {
+      "name": "s11",
+      "k": "1"
+    },
+    {
+      "name": "s12",
+      "k": "2"
+    },
+    {
+      "name": "s13",
+      "k": "1"
+    },
+    {
+      "name": "s14",
+      "k": "2"
+    },
+    {
+      "name": "s15",
+      "k": "1"
+    },
+    {
+      "name": "s16",
+      "k": "2"
+    },
+    {
+      "name": "s17",
+      "k": "1"
+    }
+  ],
+  "actuators": [
+    {
+      "name": "a1",
+      "type": "node-force",
+      "node": 1,
+      "component": "-1/2"
+    },
+    {
+      "name": "a2",
+      "type": "node-force",
+      "node": 2,
+      "component": "-1/2"
+    },
+    {
+      "name": "a3",
+      "type": "node-force",
+      "node": 3,
+      "component": "-1/2"
+    },
+    {
+      "name": "a4",
+      "type": "node-force",
+      "node": 4,
+      "component": "-1/2"
+    },
+    {
+      "name": "a5",
+      "type": "node-force",
+      "node": 5,
+      "component": "-1/2"
+    },
+    {
+      "name": "a6",
+      "type": "node-force",
+      "node": 6,
+      "component": "-1/2"
+    },
+    {
+      "name": "a7",
+      "type": "node-force",
+      "node": 7,
+      "component": "-1/2"
+    },
+    {
+      "name": "a8",
+      "type": "node-force",
+      "node": 8,
+      "component": "-1/2"
+    },
+    {
+      "name": "a9",
+      "type": "node-force",
+      "node": 9,
+      "component": "-1/2"
+    },
+    {
+      "name": "a10",
+      "type": "node-force",
+      "node": 10,
+      "component": "-1/2"
+    },
+    {
+      "name": "a11",
+      "type": "node-force",
+      "node": 11,
+      "component": "-1/2"
+    },
+    {
+      "name": "a12",
+      "type": "node-force",
+      "node": 12,
+      "component": "-1/2"
+    },
+    {
+      "name": "a13",
+      "type": "node-force",
+      "node": 13,
+      "component": "-1/2"
+    },
+    {
+      "name": "a14",
+      "type": "node-force",
+      "node": 14,
+      "component": "-1/2"
+    },
+    {
+      "name": "a15",
+      "type": "node-force",
+      "node": 15,
+      "component": "-1/2"
+    },
+    {
+      "name": "a16",
+      "type": "node-force",
+      "node": 16,
+      "component": "-1/2"
+    },
+    {
+      "name": "a17",
+      "type": "node-force",
+      "node": 17,
+      "component": "-1/2"
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "load_low",
+      "forces": [
+        {
+          "node": 1,
+          "component": "1"
+        }
+      ]
+    },
+    {
+      "name": "load_high",
+      "forces": [
+        {
+          "node": 17,
+          "component": "1"
+        }
+      ]
+    }
+  ],
+  "monitors": [
+    {
+      "name": "u8",
+      "type": "node-displacement",
+      "node": 8
+    }
+  ],
+  "actuator_domain": [
+    0,
+    1
+  ],
+  "safe_interval": [
+    "1/4",
+    "9/8"
+  ]
+}

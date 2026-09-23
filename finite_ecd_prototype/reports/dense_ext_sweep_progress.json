@@ -1,0 +1,381 @@
+{
+  "dense-chain|17|same": {
+    "encoded": {
+      "cnf_clauses": 262002,
+      "encode_seconds": 2.341379
+    },
+    "variables": 17,
+    "factors": 2,
+    "native": {
+      "status": "DP-REFUTATION",
+      "dp_status": "CERTIFIED-UNSAT",
+      "certificate_verified": true,
+      "certificate_errors": [],
+      "optimum_cost": null,
+      "dp_seconds": 4.706496,
+      "verify_seconds": 6.683265,
+      "certificate_bytes": 120199215,
+      "wall_seconds": 15.20398,
+      "peak_rss_kib": 914816,
+      "certificate_file": "examples/mech_dense17_same_native_dp_certificate.json"
+    },
+    "external": {
+      "kissat": {
+        "solver": "kissat",
+        "classification": "UNSAT",
+        "seconds_median": 15.951488,
+        "seconds_min": 15.710797,
+        "seconds_max": 16.073694,
+        "peak_rss_kib": 97492,
+        "returncode": 20,
+        "cross_check": {
+          "status": "VERIFIED-UNSAT",
+          "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+          "native_certificate": "DP-REFUTATION verified"
+        }
+      },
+      "z3": {
+        "solver": "z3",
+        "classification": "UNSAT",
+        "seconds_median": 4.900781,
+        "seconds_min": 4.854419,
+        "seconds_max": 4.970038,
+        "peak_rss_kib": 95376,
+        "returncode": 0,
+        "cross_check": {
+          "status": "VERIFIED-UNSAT",
+          "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+          "native_certificate": "DP-REFUTATION verified"
+        }
+      },
+      "minisat": {
+        "solver": "minisat",
+        "classification": null,
+        "seconds_median": 60.00426,
+        "seconds_min": 60.004249,
+        "seconds_max": 60.005632,
+        "peak_rss_kib": 50612,
+        "returncode": -9,
+        "cross_check": {
+          "status": "INCONCLUSIVE",
+          "reason": "external run did not produce a recognised status"
+        }
+      },
+      "cpsat": {
+        "solver": "cpsat",
+        "classification": null,
+        "seconds_median": 40.033651,
+        "seconds_min": 40.031113,
+        "seconds_max": 41.641875,
+        "peak_rss_kib": 841200,
+        "returncode": 0,
+        "cross_check": {
+          "status": "INCONCLUSIVE",
+          "reason": "external run did not produce a recognised status"
+        },
+        "build_seconds": 4.477149219000239,
+        "solve_seconds": 34.304628293999485,
+        "inner_peak_rss_kib": 838944
+      },
+      "highs": {
+        "solver": "highs",
+        "classification": null,
+        "seconds_median": 67.666693,
+        "seconds_min": 62.703926,
+        "seconds_max": 68.584856,
+        "peak_rss_kib": 1013060,
+        "returncode": 0,
+        "cross_check": {
+          "status": "INCONCLUSIVE",
+          "reason": "external run did not produce a recognised status"
+        },
+        "build_seconds": 2.608434619000036,
+        "solve_seconds": 64.97349760299949,
+        "inner_peak_rss_kib": 1012488
+      }
+    }
+  },
+  "dense-chain|17|split": {
+    "encoded": {
+      "cnf_clauses": 262002,
+      "encode_seconds": 2.483291
+    },
+    "variables": 34,
+    "factors": 2,
+    "native": {
+      "status": "DP-OPTIMUM",
+      "dp_status": "CERTIFIED-OPT",
+      "certificate_verified": true,
+      "certificate_errors": [],
+      "optimum_cost": 2,
+      "dp_seconds": 9.806918,
+      "verify_seconds": 13.554966,
+      "policy_verified": true,
+      "policy_errors": [],
+      "policy_seconds": 0.000665,
+      "certificate_bytes": 243237822,
+      "wall_seconds": 30.885745,
+      "peak_rss_kib": 1815396,
+      "certificate_file": "examples/mech_dense17_split_native_dp_certificate.json"
+    },
+    "external": {
+      "kissat": {
+        "solver": "kissat",
+        "classification": "SAT",
+        "seconds_median": 0.80778,
+        "seconds_min": 0.805107,
+        "seconds_max": 0.808337,
+        "peak_rss_kib": 87368,
+        "returncode": 10,
+        "cross_check": {
+          "status": "VERIFIED-SAT",
+          "external_status": "CERTIFIED-SAT-EXTERNAL",
+          "model_policy_verified": true
+        }
+      },
+      "z3": {
+        "solver": "z3",
+        "classification": "SAT",
+        "seconds_median": 0.75152,
+        "seconds_min": 0.744297,
+        "seconds_max": 0.765715,
+        "peak_rss_kib": 83956,
+        "returncode": 0,
+        "cross_check": {
+          "status": "VERIFIED-SAT",
+          "external_status": "CERTIFIED-SAT-EXTERNAL",
+          "model_policy_verified": true
+        }
+      },
+      "minisat": {
+        "solver": "minisat",
+        "classification": null,
+        "seconds_median": 60.003563,
+        "seconds_min": 60.003038,
+        "seconds_max": 60.00382,
+        "peak_rss_kib": 59484,
+        "returncode": -9,
+        "cross_check": {
+          "status": "INCONCLUSIVE",
+          "reason": "external run did not produce a recognised status"
+        }
+      },
+      "cpsat": {
+        "solver": "cpsat",
+        "classification": "SAT",
+        "seconds_median": 8.812713,
+        "seconds_min": 8.777222,
+        "seconds_max": 8.934264,
+        "peak_rss_kib": 909164,
+        "returncode": 0,
+        "cross_check": {
+          "status": "VERIFIED-SAT",
+          "external_status": "CERTIFIED-SAT-EXTERNAL",
+          "model_policy_verified": true
+        },
+        "build_seconds": 4.364228053000261,
+        "solve_seconds": 2.9632463060006557,
+        "inner_peak_rss_kib": 909024
+      },
+      "highs": {
+        "solver": "highs",
+        "classification": "SAT",
+        "seconds_median": 13.019827,
+        "seconds_min": 12.99676,
+        "seconds_max": 13.262117,
+        "peak_rss_kib": 819004,
+        "returncode": 0,
+        "cross_check": {
+          "status": "VERIFIED-SAT",
+          "external_status": "CERTIFIED-SAT-EXTERNAL",
+          "model_policy_verified": true
+        },
+        "build_seconds": 3.04063762000078,
+        "solve_seconds": 9.87069409400101,
+        "inner_peak_rss_kib": 818776
+      }
+    }
+  },
+  "dense-chain|18|same": {
+    "encoded": {
+      "cnf_clauses": 524123,
+      "encode_seconds": 4.974121
+    },
+    "variables": 18,
+    "factors": 2,
+    "native": {
+      "status": "DP-REFUTATION",
+      "dp_status": "CERTIFIED-UNSAT",
+      "certificate_verified": true,
+      "certificate_errors": [],
+      "optimum_cost": null,
+      "dp_seconds": 10.027667,
+      "verify_seconds": 13.765432,
+      "certificate_bytes": 252451552,
+      "wall_seconds": 31.581674,
+      "peak_rss_kib": 1884304,
+      "certificate_file": "examples/mech_dense18_same_native_dp_certificate.json"
+    },
+    "external": {
+      "kissat": {
+        "solver": "kissat",
+        "classification": "UNSAT",
+        "seconds_median": 52.181671,
+        "seconds_min": 52.163551,
+        "seconds_max": 52.275336,
+        "peak_rss_kib": 172016,
+        "returncode": 20,
+        "cross_check": {
+          "status": "VERIFIED-UNSAT",
+          "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+          "native_certificate": "DP-REFUTATION verified"
+        }
+      },
+      "z3": {
+        "solver": "z3",
+        "classification": null,
+        "seconds_median": 60.006331,
+        "seconds_min": 60.006256,
+        "seconds_max": 60.006749,
+        "peak_rss_kib": 230068,
+        "returncode": -9,
+        "cross_check": {
+          "status": "INCONCLUSIVE",
+          "reason": "external run did not produce a recognised status"
+        }
+      },
+      "minisat": {
+        "solver": "minisat",
+        "classification": null,
+        "seconds_median": 60.006197,
+        "seconds_min": 60.006153,
+        "seconds_max": 60.006303,
+        "peak_rss_kib": 98168,
+        "returncode": -9,
+        "cross_check": {
+          "status": "INCONCLUSIVE",
+          "reason": "external run did not produce a recognised status"
+        }
+      },
+      "cpsat": {
+        "solver": "cpsat",
+        "classification": null,
+        "seconds_median": 90.049657,
+        "seconds_min": 90.048807,
+        "seconds_max": 90.056612,
+        "peak_rss_kib": 1627120,
+        "returncode": -9,
+        "cross_check": {
+          "status": "INCONCLUSIVE",
+          "reason": "external run did not produce a recognised status"
+        }
+      },
+      "highs": {
+        "solver": "highs",
+        "classification": null,
+        "seconds_median": 75.861866,
+        "seconds_min": 74.73607,
+        "seconds_max": 77.195711,
+        "peak_rss_kib": 1962444,
+        "returncode": 0,
+        "cross_check": {
+          "status": "INCONCLUSIVE",
+          "reason": "external run did not produce a recognised status"
+        },
+        "build_seconds": 5.118757322999954,
+        "solve_seconds": 71.96357846200044,
+        "inner_peak_rss_kib": 1957712
+      }
+    }
+  },
+  "dense-chain|18|split": {
+    "encoded": {
+      "cnf_clauses": 524123,
+      "encode_seconds": 5.229787
+    },
+    "variables": 36,
+    "factors": 2,
+    "native": {
+      "status": "INCONCLUSIVE",
+      "reason": "native runner output unparsable",
+      "returncode": 1,
+      "wall_seconds": 63.304609
+    },
+    "external": {
+      "minisat": {
+        "solver": "minisat",
+        "classification": null,
+        "seconds_median": 60.005629,
+        "seconds_min": 60.005522,
+        "seconds_max": 60.006726,
+        "peak_rss_kib": 103604,
+        "returncode": -9,
+        "cross_check": {
+          "status": "INCONCLUSIVE",
+          "reason": "external run did not produce a recognised status"
+        }
+      },
+      "kissat": {
+        "solver": "kissat",
+        "classification": "SAT",
+        "seconds_median": 3.30071,
+        "seconds_min": 3.262507,
+        "seconds_max": 3.303399,
+        "peak_rss_kib": 142888,
+        "returncode": 10,
+        "cross_check": {
+          "status": "VERIFIED-SAT",
+          "external_status": "CERTIFIED-SAT-EXTERNAL",
+          "model_policy_verified": true
+        }
+      },
+      "z3": {
+        "solver": "z3",
+        "classification": "SAT",
+        "seconds_median": 1.708595,
+        "seconds_min": 1.593204,
+        "seconds_max": 1.71859,
+        "peak_rss_kib": 87572,
+        "returncode": 0,
+        "cross_check": {
+          "status": "VERIFIED-SAT",
+          "external_status": "CERTIFIED-SAT-EXTERNAL",
+          "model_policy_verified": true
+        }
+      },
+      "cpsat": {
+        "solver": "cpsat",
+        "classification": null,
+        "seconds_median": 90.053643,
+        "seconds_min": 84.107862,
+        "seconds_max": 90.060516,
+        "peak_rss_kib": 1819160,
+        "returncode": 0,
+        "cross_check": {
+          "status": "INCONCLUSIVE",
+          "reason": "external run did not produce a recognised status"
+        },
+        "build_seconds": 8.163489032000143,
+        "solve_seconds": 73.06176206500095,
+        "inner_peak_rss_kib": 1819160
+      },
+      "highs": {
+        "solver": "highs",
+        "classification": "SAT",
+        "seconds_median": 29.886979,
+        "seconds_min": 28.948192,
+        "seconds_max": 30.580984,
+        "peak_rss_kib": 1664904,
+        "returncode": 0,
+        "cross_check": {
+          "status": "VERIFIED-SAT",
+          "external_status": "CERTIFIED-SAT-EXTERNAL",
+          "model_policy_verified": true
+        },
+        "build_seconds": 6.162806369000464,
+        "solve_seconds": 24.253754150999157,
+        "inner_peak_rss_kib": 1664904
+      }
+    }
+  }
+}

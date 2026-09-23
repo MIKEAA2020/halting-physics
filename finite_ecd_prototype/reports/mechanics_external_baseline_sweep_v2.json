@@ -1,0 +1,1575 @@
+{
+  "status": "COMPLETE",
+  "phase": "6 comparative scaling study on mechanics instances",
+  "protocol": {
+    "timeout_seconds": 60.0,
+    "memory_limit_bytes": 3221225472,
+    "memory_limit_note": "address space cap applied to every solver process and to the native runner",
+    "repetitions": 3,
+    "timing": "wall clock over the whole process; median of repetitions reported",
+    "determinism": "single-threaded configurations; CP-SAT num_workers=1 with random_seed=1; minisat and kissat default deterministic configurations; no randomization flags otherwise",
+    "hardware": {
+      "cpu": "Intel(R) Xeon(R) Processor",
+      "cores": 2,
+      "ram_total": "3.9Gi",
+      "os": "glibc 2.41",
+      "kernel": "5.10.134-013.15.kangaroo.al8.x86_64",
+      "machine_python": "3.12.14",
+      "note": "wall-clock timings are whole-process and include solver startup; machine is a shared two-core virtual machine"
+    },
+    "solvers": {
+      "minisat": "minisat 2.2 series (arminbiere mirror commit 16982a5, gcc 14.2, -O3)",
+      "kissat": "kissat 4.0.4 (commit 8af8e56, gcc 14.2, -O3)",
+      "z3": "Z3 version 5.1.0 - 64 bit",
+      "cpsat": "OR-Tools CP-SAT 9.15.6755",
+      "highs": "HiGHS MILP 1.15.1"
+    },
+    "native_pipeline": "native_dp_runner.py: load instance, tree-decomposition DP, certificate re-verification, policy reconstruction and verification, certificate emission; bounded by the same timeout and address-space cap",
+    "fe_accounting": "FE preprocessing and certified relation generation are recorded separately from the recorded mechanics benchmark suite and excluded from both native and external timings",
+    "cross_check_discipline": "external SAT models are verified natively as policies on the original instance; external UNSAT answers are cross-checked against verified DP-REFUTATION certificates; solver logs are not certificates"
+  },
+  "cases": [
+    {
+      "family": "ten-bar",
+      "size": 1,
+      "observation": "same",
+      "instance": "examples/mech_ten_bar_same_instance.json",
+      "variables": 4,
+      "factors": 20,
+      "cnf_clauses": 82,
+      "encode_seconds": 0.000327,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 0.0114,
+        "fe_verify_seconds": 0.0107,
+        "instance_bytes": 21366,
+        "row_batch_bytes": 29797
+      },
+      "expected": "UNSAT",
+      "native": {
+        "status": "DP-REFUTATION",
+        "dp_status": "CERTIFIED-UNSAT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": null,
+        "dp_seconds": 0.000573,
+        "verify_seconds": 0.00061,
+        "certificate_bytes": 7164,
+        "wall_seconds": 0.115043,
+        "peak_rss_kib": 18964,
+        "certificate_file": "examples/mech_ten_bar_same_native_dp_certificate.json"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "UNSAT",
+          "seconds_median": 0.002793,
+          "seconds_min": 0.002541,
+          "seconds_max": 0.003198,
+          "peak_rss_kib": 16960,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "UNSAT",
+          "seconds_median": 0.002189,
+          "seconds_min": 0.002063,
+          "seconds_max": 0.002224,
+          "peak_rss_kib": 16960,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "UNSAT",
+          "seconds_median": 0.003118,
+          "seconds_min": 0.002815,
+          "seconds_max": 0.003354,
+          "peak_rss_kib": 16964,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "UNSAT",
+          "seconds_median": 1.203357,
+          "seconds_min": 1.146329,
+          "seconds_max": 1.228354,
+          "peak_rss_kib": 107636,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 1.1262045860003127,
+          "solve_seconds": 0.0017963509999390226,
+          "inner_peak_rss_kib": 101768
+        },
+        {
+          "solver": "highs",
+          "classification": "UNSAT",
+          "seconds_median": 0.220245,
+          "seconds_min": 0.214205,
+          "seconds_max": 0.237637,
+          "peak_rss_kib": 42652,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 0.19085344099994472,
+          "solve_seconds": 0.0006420539998543973,
+          "inner_peak_rss_kib": 40168
+        }
+      ]
+    },
+    {
+      "family": "ten-bar",
+      "size": 1,
+      "observation": "split",
+      "instance": "examples/mech_ten_bar_split_instance.json",
+      "variables": 8,
+      "factors": 20,
+      "cnf_clauses": 82,
+      "encode_seconds": 0.000341,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 0.0102,
+        "fe_verify_seconds": 0.0105,
+        "instance_bytes": 22875,
+        "row_batch_bytes": 29797
+      },
+      "expected": "SAT",
+      "native": {
+        "status": "DP-OPTIMUM",
+        "dp_status": "CERTIFIED-OPT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": 4,
+        "dp_seconds": 0.000978,
+        "verify_seconds": 0.001151,
+        "policy_verified": true,
+        "policy_errors": [],
+        "policy_seconds": 0.000243,
+        "certificate_bytes": 15118,
+        "wall_seconds": 0.115187,
+        "peak_rss_kib": 19144,
+        "certificate_file": "examples/mech_ten_bar_split_native_dp_certificate.json"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "SAT",
+          "seconds_median": 0.002568,
+          "seconds_min": 0.002357,
+          "seconds_max": 0.002838,
+          "peak_rss_kib": 17072,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "SAT",
+          "seconds_median": 0.001899,
+          "seconds_min": 0.001895,
+          "seconds_max": 0.001903,
+          "peak_rss_kib": 17076,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "SAT",
+          "seconds_median": 0.002833,
+          "seconds_min": 0.002798,
+          "seconds_max": 0.00294,
+          "peak_rss_kib": 17076,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "SAT",
+          "seconds_median": 1.189319,
+          "seconds_min": 1.168305,
+          "seconds_max": 1.201482,
+          "peak_rss_kib": 108104,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 1.0982377059999635,
+          "solve_seconds": 0.002266507000058482,
+          "inner_peak_rss_kib": 105504
+        },
+        {
+          "solver": "highs",
+          "classification": "SAT",
+          "seconds_median": 0.229324,
+          "seconds_min": 0.22865,
+          "seconds_max": 0.241231,
+          "peak_rss_kib": 42840,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 0.17637264799986951,
+          "solve_seconds": 0.0059287089998179,
+          "inner_peak_rss_kib": 40284
+        }
+      ]
+    },
+    {
+      "family": "chain-pretension",
+      "size": 256,
+      "observation": "same",
+      "instance": "examples/mech_chain256_same_instance.json",
+      "variables": 256,
+      "factors": 512,
+      "cnf_clauses": 512,
+      "encode_seconds": 0.001489,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 0.6049,
+        "fe_verify_seconds": 0.6218,
+        "instance_bytes": 99578,
+        "row_batch_bytes": 186322
+      },
+      "expected": "UNSAT",
+      "native": {
+        "status": "DP-REFUTATION",
+        "dp_status": "CERTIFIED-UNSAT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": null,
+        "dp_seconds": 0.011669,
+        "verify_seconds": 0.01717,
+        "certificate_bytes": 117087,
+        "wall_seconds": 0.115175,
+        "peak_rss_kib": 20908,
+        "certificate_file": "examples/mech_chain256_same_native_dp_certificate.json"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "UNSAT",
+          "seconds_median": 0.002526,
+          "seconds_min": 0.002411,
+          "seconds_max": 0.002828,
+          "peak_rss_kib": 18056,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "UNSAT",
+          "seconds_median": 0.001916,
+          "seconds_min": 0.001866,
+          "seconds_max": 0.001953,
+          "peak_rss_kib": 18056,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "UNSAT",
+          "seconds_median": 0.002798,
+          "seconds_min": 0.002749,
+          "seconds_max": 0.002858,
+          "peak_rss_kib": 18056,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "UNSAT",
+          "seconds_median": 1.195436,
+          "seconds_min": 1.173603,
+          "seconds_max": 1.205484,
+          "peak_rss_kib": 105184,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 1.0766386759996749,
+          "solve_seconds": 0.0011046660001738928,
+          "inner_peak_rss_kib": 101868
+        },
+        {
+          "solver": "highs",
+          "classification": "UNSAT",
+          "seconds_median": 0.280376,
+          "seconds_min": 0.249786,
+          "seconds_max": 0.296171,
+          "peak_rss_kib": 42576,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 0.23842354399994292,
+          "solve_seconds": 0.0006260159998419113,
+          "inner_peak_rss_kib": 40388
+        }
+      ]
+    },
+    {
+      "family": "chain-pretension",
+      "size": 256,
+      "observation": "split",
+      "instance": "examples/mech_chain256_split_instance.json",
+      "variables": 512,
+      "factors": 512,
+      "cnf_clauses": 512,
+      "encode_seconds": 0.001677,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 0.6071,
+        "fe_verify_seconds": 0.6232,
+        "instance_bytes": 145847,
+        "row_batch_bytes": 186322
+      },
+      "expected": "SAT",
+      "native": {
+        "status": "DP-OPTIMUM",
+        "dp_status": "CERTIFIED-OPT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": 257,
+        "dp_seconds": 0.031372,
+        "verify_seconds": 0.050806,
+        "policy_verified": true,
+        "policy_errors": [],
+        "policy_seconds": 0.002687,
+        "certificate_bytes": 299906,
+        "wall_seconds": 0.215454,
+        "peak_rss_kib": 23116,
+        "certificate_file": "examples/mech_chain256_split_native_dp_certificate.json"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "SAT",
+          "seconds_median": 0.00278,
+          "seconds_min": 0.002679,
+          "seconds_max": 0.00344,
+          "peak_rss_kib": 18652,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "SAT",
+          "seconds_median": 0.002079,
+          "seconds_min": 0.002049,
+          "seconds_max": 0.002081,
+          "peak_rss_kib": 18660,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "SAT",
+          "seconds_median": 0.003273,
+          "seconds_min": 0.003213,
+          "seconds_max": 0.003387,
+          "peak_rss_kib": 18660,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "SAT",
+          "seconds_median": 1.189682,
+          "seconds_min": 1.189184,
+          "seconds_max": 1.200431,
+          "peak_rss_kib": 106976,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 1.0953954859996884,
+          "solve_seconds": 0.0021234480000202893,
+          "inner_peak_rss_kib": 105932
+        },
+        {
+          "solver": "highs",
+          "classification": "SAT",
+          "seconds_median": 0.22399,
+          "seconds_min": 0.222086,
+          "seconds_max": 0.244514,
+          "peak_rss_kib": 42772,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 0.173735052000211,
+          "solve_seconds": 0.0005450129997370823,
+          "inner_peak_rss_kib": 40344
+        }
+      ]
+    },
+    {
+      "family": "chain-pretension",
+      "size": 1024,
+      "observation": "same",
+      "instance": "examples/mech_chain1024_same_instance.json",
+      "variables": 1024,
+      "factors": 2048,
+      "cnf_clauses": 2048,
+      "encode_seconds": 0.005747,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 10.6066,
+        "fe_verify_seconds": 10.7139,
+        "instance_bytes": 400044,
+        "row_batch_bytes": 747238
+      },
+      "expected": "UNSAT",
+      "native": {
+        "status": "DP-REFUTATION",
+        "dp_status": "CERTIFIED-UNSAT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": null,
+        "dp_seconds": 0.089424,
+        "verify_seconds": 0.156489,
+        "certificate_bytes": 471409,
+        "wall_seconds": 0.365844,
+        "peak_rss_kib": 26604,
+        "certificate_file": "examples/mech_chain1024_same_native_dp_certificate.json"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "UNSAT",
+          "seconds_median": 0.002826,
+          "seconds_min": 0.002629,
+          "seconds_max": 0.003535,
+          "peak_rss_kib": 20920,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "UNSAT",
+          "seconds_median": 0.00216,
+          "seconds_min": 0.002134,
+          "seconds_max": 0.002161,
+          "peak_rss_kib": 20920,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "UNSAT",
+          "seconds_median": 0.003634,
+          "seconds_min": 0.003567,
+          "seconds_max": 0.003654,
+          "peak_rss_kib": 20920,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "UNSAT",
+          "seconds_median": 1.200857,
+          "seconds_min": 1.196578,
+          "seconds_max": 1.374008,
+          "peak_rss_kib": 106012,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 1.1029036049999377,
+          "solve_seconds": 0.001323361000231671,
+          "inner_peak_rss_kib": 102592
+        },
+        {
+          "solver": "highs",
+          "classification": "UNSAT",
+          "seconds_median": 0.230353,
+          "seconds_min": 0.225213,
+          "seconds_max": 0.243453,
+          "peak_rss_kib": 42748,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 0.1815239370002928,
+          "solve_seconds": 0.0008903610000743356,
+          "inner_peak_rss_kib": 40524
+        }
+      ]
+    },
+    {
+      "family": "chain-pretension",
+      "size": 1024,
+      "observation": "split",
+      "instance": "examples/mech_chain1024_split_instance.json",
+      "variables": 2048,
+      "factors": 2048,
+      "cnf_clauses": 2048,
+      "encode_seconds": 0.007582,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 10.3292,
+        "fe_verify_seconds": 10.5963,
+        "instance_bytes": 586164,
+        "row_batch_bytes": 747238
+      },
+      "expected": "SAT",
+      "native": {
+        "status": "DP-OPTIMUM",
+        "dp_status": "CERTIFIED-OPT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": 1025,
+        "dp_seconds": 0.294863,
+        "verify_seconds": 0.555293,
+        "policy_verified": true,
+        "policy_errors": [],
+        "policy_seconds": 0.010763,
+        "certificate_bytes": 1206698,
+        "wall_seconds": 1.017057,
+        "peak_rss_kib": 35660,
+        "certificate_file": "examples/mech_chain1024_split_native_dp_certificate.json"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "SAT",
+          "seconds_median": 0.003292,
+          "seconds_min": 0.003227,
+          "seconds_max": 0.004034,
+          "peak_rss_kib": 23000,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "SAT",
+          "seconds_median": 0.002484,
+          "seconds_min": 0.002475,
+          "seconds_max": 0.002495,
+          "peak_rss_kib": 23000,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "SAT",
+          "seconds_median": 0.004617,
+          "seconds_min": 0.004565,
+          "seconds_max": 0.004733,
+          "peak_rss_kib": 23000,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "SAT",
+          "seconds_median": 1.203282,
+          "seconds_min": 1.199444,
+          "seconds_max": 1.37053,
+          "peak_rss_kib": 109640,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 1.097830686999714,
+          "solve_seconds": 0.0022474130000773584,
+          "inner_peak_rss_kib": 107380
+        },
+        {
+          "solver": "highs",
+          "classification": "SAT",
+          "seconds_median": 0.238021,
+          "seconds_min": 0.227724,
+          "seconds_max": 0.259852,
+          "peak_rss_kib": 42464,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 0.18760069600011775,
+          "solve_seconds": 0.0012809569998353254,
+          "inner_peak_rss_kib": 40328
+        }
+      ]
+    },
+    {
+      "family": "dense-chain",
+      "size": 8,
+      "observation": "same",
+      "instance": "examples/mech_dense8_same_instance.json",
+      "variables": 8,
+      "factors": 2,
+      "cnf_clauses": 487,
+      "encode_seconds": 0.002127,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 0.0062,
+        "fe_verify_seconds": 0.0062,
+        "instance_bytes": 4478,
+        "row_batch_bytes": 5907
+      },
+      "expected": "UNSAT",
+      "native": {
+        "status": "DP-REFUTATION",
+        "dp_status": "CERTIFIED-UNSAT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": null,
+        "dp_seconds": 0.00606,
+        "verify_seconds": 0.008698,
+        "certificate_bytes": 130883,
+        "wall_seconds": 0.115315,
+        "peak_rss_kib": 20104,
+        "certificate_file": "examples/mech_dense8_same_native_dp_certificate.json"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "UNSAT",
+          "seconds_median": 0.00394,
+          "seconds_min": 0.003892,
+          "seconds_max": 0.004348,
+          "peak_rss_kib": 17816,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "UNSAT",
+          "seconds_median": 0.00245,
+          "seconds_min": 0.002428,
+          "seconds_max": 0.002523,
+          "peak_rss_kib": 17816,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "UNSAT",
+          "seconds_median": 0.003616,
+          "seconds_min": 0.003509,
+          "seconds_max": 0.003737,
+          "peak_rss_kib": 17820,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "UNSAT",
+          "seconds_median": 1.191478,
+          "seconds_min": 1.189675,
+          "seconds_max": 1.193609,
+          "peak_rss_kib": 107712,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 1.094079800000145,
+          "solve_seconds": 0.005564176999996562,
+          "inner_peak_rss_kib": 101864
+        },
+        {
+          "solver": "highs",
+          "classification": "UNSAT",
+          "seconds_median": 0.233012,
+          "seconds_min": 0.219275,
+          "seconds_max": 0.239734,
+          "peak_rss_kib": 42648,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 0.1714627059996019,
+          "solve_seconds": 0.0036334230003376433,
+          "inner_peak_rss_kib": 40296
+        }
+      ]
+    },
+    {
+      "family": "dense-chain",
+      "size": 8,
+      "observation": "split",
+      "instance": "examples/mech_dense8_split_instance.json",
+      "variables": 16,
+      "factors": 2,
+      "cnf_clauses": 487,
+      "encode_seconds": 0.002302,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 0.0061,
+        "fe_verify_seconds": 0.0062,
+        "instance_bytes": 5887,
+        "row_batch_bytes": 5907
+      },
+      "expected": "SAT",
+      "native": {
+        "status": "DP-OPTIMUM",
+        "dp_status": "CERTIFIED-OPT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": 2,
+        "dp_seconds": 0.01209,
+        "verify_seconds": 0.017439,
+        "policy_verified": true,
+        "policy_errors": [],
+        "policy_seconds": 0.000143,
+        "certificate_bytes": 276563,
+        "wall_seconds": 0.11543,
+        "peak_rss_kib": 21824,
+        "certificate_file": "examples/mech_dense8_split_native_dp_certificate.json"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "SAT",
+          "seconds_median": 0.00424,
+          "seconds_min": 0.004231,
+          "seconds_max": 0.004878,
+          "peak_rss_kib": 17988,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "SAT",
+          "seconds_median": 0.003901,
+          "seconds_min": 0.003858,
+          "seconds_max": 0.003922,
+          "peak_rss_kib": 17988,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "SAT",
+          "seconds_median": 0.003656,
+          "seconds_min": 0.003472,
+          "seconds_max": 0.003774,
+          "peak_rss_kib": 17988,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "SAT",
+          "seconds_median": 1.194513,
+          "seconds_min": 1.184751,
+          "seconds_max": 1.287826,
+          "peak_rss_kib": 108652,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 1.0869247440000436,
+          "solve_seconds": 0.005011858999750984,
+          "inner_peak_rss_kib": 106000
+        },
+        {
+          "solver": "highs",
+          "classification": "SAT",
+          "seconds_median": 0.265188,
+          "seconds_min": 0.245582,
+          "seconds_max": 0.266244,
+          "peak_rss_kib": 42636,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 0.20153369599984217,
+          "solve_seconds": 0.010473944000295887,
+          "inner_peak_rss_kib": 40036
+        }
+      ]
+    },
+    {
+      "family": "dense-chain",
+      "size": 16,
+      "observation": "same",
+      "instance": "examples/mech_dense16_same_instance.json",
+      "variables": 16,
+      "factors": 2,
+      "cnf_clauses": 130942,
+      "encode_seconds": 1.03293,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 2.6681,
+        "fe_verify_seconds": 2.6618,
+        "instance_bytes": 32016,
+        "row_batch_bytes": 37525
+      },
+      "expected": "UNSAT",
+      "native": {
+        "status": "DP-REFUTATION",
+        "dp_status": "CERTIFIED-UNSAT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": null,
+        "dp_seconds": 2.16357,
+        "verify_seconds": 3.139559,
+        "certificate_bytes": 57087388,
+        "wall_seconds": 7.179435,
+        "peak_rss_kib": 451540,
+        "certificate_file": "examples/mech_dense16_same_native_dp_certificate.json"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": null,
+          "seconds_median": 60.003739,
+          "seconds_min": 60.003623,
+          "seconds_max": 60.00374,
+          "peak_rss_kib": 108776,
+          "returncode": -9,
+          "cross_check": {
+            "status": "INCONCLUSIVE",
+            "reason": "external run did not produce a recognised status"
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "UNSAT",
+          "seconds_median": 3.775779,
+          "seconds_min": 3.762095,
+          "seconds_max": 3.819576,
+          "peak_rss_kib": 108780,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "UNSAT",
+          "seconds_median": 1.65818,
+          "seconds_min": 1.646638,
+          "seconds_max": 1.65976,
+          "peak_rss_kib": 108780,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "UNSAT",
+          "seconds_median": 50.310507,
+          "seconds_min": 50.134351,
+          "seconds_max": 50.331518,
+          "peak_rss_kib": 485704,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 2.5658012559997587,
+          "solve_seconds": 47.016364105999855,
+          "inner_peak_rss_kib": 485704
+        },
+        {
+          "solver": "highs",
+          "classification": null,
+          "seconds_median": 61.403048,
+          "seconds_min": 61.375028,
+          "seconds_max": 67.434253,
+          "peak_rss_kib": 534524,
+          "returncode": 0,
+          "cross_check": {
+            "status": "INCONCLUSIVE",
+            "reason": "external run did not produce a recognised status"
+          },
+          "build_seconds": 1.3021073950003483,
+          "solve_seconds": 66.06428576799954,
+          "inner_peak_rss_kib": 534316
+        }
+      ]
+    },
+    {
+      "family": "dense-chain",
+      "size": 16,
+      "observation": "split",
+      "instance": "examples/mech_dense16_split_instance.json",
+      "variables": 32,
+      "factors": 2,
+      "cnf_clauses": 130942,
+      "encode_seconds": 1.156334,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 2.656,
+        "fe_verify_seconds": 2.672,
+        "instance_bytes": 34854,
+        "row_batch_bytes": 37525
+      },
+      "expected": "SAT",
+      "native": {
+        "status": "DP-OPTIMUM",
+        "dp_status": "CERTIFIED-OPT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": 2,
+        "dp_seconds": 4.752847,
+        "verify_seconds": 6.278579,
+        "policy_verified": true,
+        "policy_errors": [],
+        "policy_seconds": 0.000613,
+        "certificate_bytes": 115626447,
+        "wall_seconds": 15.100085,
+        "peak_rss_kib": 874388,
+        "certificate_file": "examples/mech_dense16_split_native_dp_certificate.json"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": null,
+          "seconds_median": 60.003326,
+          "seconds_min": 60.003014,
+          "seconds_max": 60.00333,
+          "peak_rss_kib": 79260,
+          "returncode": -9,
+          "cross_check": {
+            "status": "INCONCLUSIVE",
+            "reason": "external run did not produce a recognised status"
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "SAT",
+          "seconds_median": 0.377121,
+          "seconds_min": 0.37229,
+          "seconds_max": 0.381228,
+          "peak_rss_kib": 79260,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "SAT",
+          "seconds_median": 0.365101,
+          "seconds_min": 0.356744,
+          "seconds_max": 0.384456,
+          "peak_rss_kib": 79260,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "SAT",
+          "seconds_median": 5.261798,
+          "seconds_min": 5.189729,
+          "seconds_max": 5.443599,
+          "peak_rss_kib": 473016,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 2.6198730470000555,
+          "solve_seconds": 1.9617475489999379,
+          "inner_peak_rss_kib": 472456
+        },
+        {
+          "solver": "highs",
+          "classification": "SAT",
+          "seconds_median": 5.46573,
+          "seconds_min": 5.442598,
+          "seconds_max": 5.489981,
+          "peak_rss_kib": 379900,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 1.4585886309996567,
+          "solve_seconds": 3.956306605000009,
+          "inner_peak_rss_kib": 378840
+        }
+      ]
+    },
+    {
+      "family": "lattice",
+      "size": 1,
+      "observation": "same",
+      "instance": "examples/mech_latticeC1_same_instance.json",
+      "variables": 6,
+      "factors": 18,
+      "cnf_clauses": 196,
+      "encode_seconds": 0.000957,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 0.0169,
+        "fe_verify_seconds": 0.0167,
+        "instance_bytes": 86469,
+        "row_batch_bytes": 102535
+      },
+      "expected": "UNSAT",
+      "native": {
+        "status": "DP-REFUTATION",
+        "dp_status": "CERTIFIED-UNSAT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": null,
+        "dp_seconds": 0.001701,
+        "verify_seconds": 0.002214,
+        "certificate_bytes": 29659,
+        "wall_seconds": 0.115414,
+        "peak_rss_kib": 19448,
+        "certificate_file": "examples/mech_latticeC1_same_native_dp_certificate.json"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "UNSAT",
+          "seconds_median": 0.003044,
+          "seconds_min": 0.002894,
+          "seconds_max": 0.00353,
+          "peak_rss_kib": 18008,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "UNSAT",
+          "seconds_median": 0.002311,
+          "seconds_min": 0.002287,
+          "seconds_max": 0.002382,
+          "peak_rss_kib": 18008,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "UNSAT",
+          "seconds_median": 0.003122,
+          "seconds_min": 0.002973,
+          "seconds_max": 0.00325,
+          "peak_rss_kib": 18008,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "UNSAT",
+          "seconds_median": 1.175973,
+          "seconds_min": 1.166352,
+          "seconds_max": 1.286596,
+          "peak_rss_kib": 107484,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 1.0785350269998162,
+          "solve_seconds": 0.002282135000314156,
+          "inner_peak_rss_kib": 101536
+        },
+        {
+          "solver": "highs",
+          "classification": "UNSAT",
+          "seconds_median": 0.244599,
+          "seconds_min": 0.241022,
+          "seconds_max": 0.263457,
+          "peak_rss_kib": 42604,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 0.18495168100025694,
+          "solve_seconds": 0.0012347779997980979,
+          "inner_peak_rss_kib": 40048
+        }
+      ]
+    },
+    {
+      "family": "lattice",
+      "size": 1,
+      "observation": "split",
+      "instance": "examples/mech_latticeC1_split_instance.json",
+      "variables": 12,
+      "factors": 18,
+      "cnf_clauses": 196,
+      "encode_seconds": 0.001086,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 0.0164,
+        "fe_verify_seconds": 0.0167,
+        "instance_bytes": 88520,
+        "row_batch_bytes": 102535
+      },
+      "expected": "SAT",
+      "native": {
+        "status": "DP-OPTIMUM",
+        "dp_status": "CERTIFIED-OPT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": 4,
+        "dp_seconds": 0.003214,
+        "verify_seconds": 0.004328,
+        "policy_verified": true,
+        "policy_errors": [],
+        "policy_seconds": 0.000925,
+        "certificate_bytes": 61916,
+        "wall_seconds": 0.115355,
+        "peak_rss_kib": 19832,
+        "certificate_file": "examples/mech_latticeC1_split_native_dp_certificate.json"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "SAT",
+          "seconds_median": 0.003065,
+          "seconds_min": 0.002911,
+          "seconds_max": 0.00337,
+          "peak_rss_kib": 18016,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "SAT",
+          "seconds_median": 0.002377,
+          "seconds_min": 0.00233,
+          "seconds_max": 0.002426,
+          "peak_rss_kib": 18016,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "SAT",
+          "seconds_median": 0.003197,
+          "seconds_min": 0.003161,
+          "seconds_max": 0.003293,
+          "peak_rss_kib": 18016,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "SAT",
+          "seconds_median": 1.286236,
+          "seconds_min": 1.168657,
+          "seconds_max": 1.302429,
+          "peak_rss_kib": 108240,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 1.1615669669999988,
+          "solve_seconds": 0.003071674999773677,
+          "inner_peak_rss_kib": 105616
+        },
+        {
+          "solver": "highs",
+          "classification": "SAT",
+          "seconds_median": 0.220134,
+          "seconds_min": 0.217344,
+          "seconds_max": 0.238255,
+          "peak_rss_kib": 42604,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 0.19042835099980948,
+          "solve_seconds": 0.0014712659999531752,
+          "inner_peak_rss_kib": 40204
+        }
+      ]
+    },
+    {
+      "family": "lattice",
+      "size": 2,
+      "observation": "same",
+      "instance": "examples/mech_latticeC2_same_instance.json",
+      "variables": 12,
+      "factors": 36,
+      "cnf_clauses": 26568,
+      "encode_seconds": 0.256921,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 3.3583,
+        "fe_verify_seconds": 3.5018,
+        "instance_bytes": 21290991,
+        "row_batch_bytes": 24219525
+      },
+      "expected": "UNSAT",
+      "native": {
+        "status": "DP-REFUTATION",
+        "dp_status": "CERTIFIED-UNSAT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": null,
+        "dp_seconds": 0.133174,
+        "verify_seconds": 0.188132,
+        "certificate_bytes": 2849955,
+        "wall_seconds": 0.919169,
+        "peak_rss_kib": 100460,
+        "certificate_file": "examples/mech_latticeC2_same_native_dp_certificate.json"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "UNSAT",
+          "seconds_median": 1.983644,
+          "seconds_min": 1.982334,
+          "seconds_max": 1.988667,
+          "peak_rss_kib": 108620,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "UNSAT",
+          "seconds_median": 0.137078,
+          "seconds_min": 0.1361,
+          "seconds_max": 0.13843,
+          "peak_rss_kib": 108620,
+          "returncode": 20,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "UNSAT",
+          "seconds_median": 0.468202,
+          "seconds_min": 0.468062,
+          "seconds_max": 0.469817,
+          "peak_rss_kib": 108620,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "UNSAT",
+          "seconds_median": 2.541634,
+          "seconds_min": 2.53381,
+          "seconds_max": 2.689806,
+          "peak_rss_kib": 165108,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 1.3285182689996873,
+          "solve_seconds": 1.017387453000083,
+          "inner_peak_rss_kib": 165108
+        },
+        {
+          "solver": "highs",
+          "classification": "UNSAT",
+          "seconds_median": 6.099881,
+          "seconds_min": 6.051165,
+          "seconds_max": 6.268277,
+          "peak_rss_kib": 108620,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-UNSAT",
+            "external_status": "CERTIFIED-UNSAT-EXTERNAL",
+            "native_certificate": "DP-REFUTATION verified"
+          },
+          "build_seconds": 0.40720871199982867,
+          "solve_seconds": 5.804435575000298,
+          "inner_peak_rss_kib": 108620
+        }
+      ]
+    },
+    {
+      "family": "lattice",
+      "size": 2,
+      "observation": "split",
+      "instance": "examples/mech_latticeC2_split_instance.json",
+      "variables": 24,
+      "factors": 36,
+      "cnf_clauses": 26568,
+      "encode_seconds": 0.259971,
+      "fe_preprocessing": {
+        "fe_generate_seconds": 3.4039,
+        "fe_verify_seconds": 3.4788,
+        "instance_bytes": 21297412,
+        "row_batch_bytes": 24219525
+      },
+      "expected": "SAT",
+      "native": {
+        "status": "DP-OPTIMUM",
+        "dp_status": "CERTIFIED-OPT",
+        "certificate_verified": true,
+        "certificate_errors": [],
+        "optimum_cost": 10,
+        "dp_seconds": 0.274074,
+        "verify_seconds": 0.328048,
+        "policy_verified": true,
+        "policy_errors": [],
+        "policy_seconds": 0.18076,
+        "certificate_bytes": 5796262,
+        "wall_seconds": 1.470024,
+        "peak_rss_kib": 134788,
+        "certificate_file": "examples/mech_latticeC2_split_native_dp_certificate.json"
+      },
+      "external": [
+        {
+          "solver": "minisat",
+          "classification": "SAT",
+          "seconds_median": 1.292376,
+          "seconds_min": 1.279679,
+          "seconds_max": 1.300802,
+          "peak_rss_kib": 121476,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "kissat",
+          "classification": "SAT",
+          "seconds_median": 0.035119,
+          "seconds_min": 0.034038,
+          "seconds_max": 0.036981,
+          "peak_rss_kib": 121476,
+          "returncode": 10,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "z3",
+          "classification": "SAT",
+          "seconds_median": 0.563501,
+          "seconds_min": 0.559028,
+          "seconds_max": 0.56649,
+          "peak_rss_kib": 121476,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          }
+        },
+        {
+          "solver": "cpsat",
+          "classification": "SAT",
+          "seconds_median": 1.802591,
+          "seconds_min": 1.679112,
+          "seconds_max": 2.067433,
+          "peak_rss_kib": 164360,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 1.3282164759998523,
+          "solve_seconds": 0.14989568600003622,
+          "inner_peak_rss_kib": 161192
+        },
+        {
+          "solver": "highs",
+          "classification": "SAT",
+          "seconds_median": 1.071659,
+          "seconds_min": 1.04381,
+          "seconds_max": 1.203808,
+          "peak_rss_kib": 121476,
+          "returncode": 0,
+          "cross_check": {
+            "status": "VERIFIED-SAT",
+            "external_status": "CERTIFIED-SAT-EXTERNAL",
+            "model_policy_verified": true
+          },
+          "build_seconds": 0.5054810199999338,
+          "solve_seconds": 0.6311053909998918,
+          "inner_peak_rss_kib": 121476
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "instances": 14,
+    "native_certificates_verified": 14,
+    "native_policies_verified": 7,
+    "native_inconclusive": 0,
+    "external_runs": 70,
+    "external_sat_cross_checked": 34,
+    "external_unsat_cross_checked": 33,
+    "external_inconclusive": 3,
+    "external_rejected": 0,
+    "status_agreement_with_native": 67
+  }
+}

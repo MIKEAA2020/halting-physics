@@ -1,0 +1,152 @@
+{
+  "status": "COMPLETE",
+  "purpose": "checksum manifest for dense-chain n=17/18 extension artifacts that exceed the repository per-file size limit",
+  "limit_note": "GitHub refuses files above 100 MB (hard limit, would require Git LFS); the recorded study therefore archives checksums and sizes here and deposits every small artifact",
+  "large_artifacts": [
+    {
+      "file": "examples/mech_dense17_same.cnf",
+      "sha256": "ed3dda6fab54547cb8efe6ec0463a1dd89c5500e94761adcce26eedfadae052f",
+      "bytes": 62095416,
+      "deposited": false,
+      "reason": "exceeds the repository 100 MB per-file limit",
+      "regeneration": "regenerable: baseline_encode.py to_dimacs on the archived instance"
+    },
+    {
+      "file": "examples/mech_dense17_same.lp",
+      "sha256": "634ce1e76fee82c37c35e44e7bb70e3a625647b31671182385e60b397dc92145",
+      "bytes": 31765762,
+      "deposited": false,
+      "reason": "exceeds the repository 100 MB per-file limit",
+      "regeneration": "regenerable: baseline_encode.py to_milp_lp on the archived instance"
+    },
+    {
+      "file": "examples/mech_dense17_same_cpsat.json",
+      "sha256": "0a35078480a7b17cc0396b0c51fdd543afc3437bd313d8d2e44c68d69681b300",
+      "bytes": 137683453,
+      "deposited": false,
+      "reason": "exceeds the repository 100 MB per-file limit",
+      "regeneration": "regenerable: baseline_encode.py to_cpsat_json on the archived instance"
+    },
+    {
+      "file": "examples/mech_dense17_same_dp_certificate.json",
+      "sha256": "a1e3e8f6cd3b01b66a0bef53eb84a4574fcf29bb8802f28299446eac8bf0b1ec",
+      "bytes": 120199215,
+      "deposited": false,
+      "reason": "exceeds the repository 100 MB per-file limit",
+      "regeneration": "regenerable: mechanics_benchmarks.run_case / native_dp_runner.py on the archived instance and decomposition; this round's bounded native runs re-emitted byte-identical copies (sha256-equal, verified for dense17 same/split and dense18 same)"
+    },
+    {
+      "file": "examples/mech_dense17_same_native_dp_certificate.json",
+      "sha256": "a1e3e8f6cd3b01b66a0bef53eb84a4574fcf29bb8802f28299446eac8bf0b1ec",
+      "bytes": 120199215,
+      "deposited": false,
+      "reason": "exceeds the repository 100 MB per-file limit",
+      "regeneration": "regenerable: mechanics_benchmarks.run_case / native_dp_runner.py on the archived instance and decomposition; this round's bounded native runs re-emitted byte-identical copies (sha256-equal, verified for dense17 same/split and dense18 same)"
+    },
+    {
+      "file": "examples/mech_dense17_split.cnf",
+      "sha256": "3f92041ce5b73ec2af882e4a861587a6b09770550fc2eccea081e5d8c10b389e",
+      "bytes": 110040583,
+      "deposited": false,
+      "reason": "exceeds the repository 100 MB per-file limit",
+      "regeneration": "regenerable: baseline_encode.py to_dimacs on the archived instance"
+    },
+    {
+      "file": "examples/mech_dense17_split.lp",
+      "sha256": "41dba8e8312a9b8e466908c91ec55363c25ed0c026bd7bebfd6fee4cf3d7b67b",
+      "bytes": 78532396,
+      "deposited": false,
+      "reason": "exceeds the repository 100 MB per-file limit",
+      "regeneration": "regenerable: baseline_encode.py to_milp_lp on the archived instance"
+    },
+    {
+      "file": "examples/mech_dense17_split_cpsat.json",
+      "sha256": "6457a68ab511d6ff6fdf3b5b3b2b086767be861f0423aecd637e862a989e1140",
+      "bytes": 184451379,
+      "deposited": false,
+      "reason": "exceeds the repository 100 MB per-file limit",
+      "regeneration": "regenerable: baseline_encode.py to_cpsat_json on the archived instance"
+    },
+    {
+      "file": "examples/mech_dense17_split_dp_certificate.json",
+      "sha256": "e8b84d2ab1ffeec2384aa0c9207c4b4ca760dfcdad3c08b4d71f74084c9d9b54",
+      "bytes": 243237822,
+      "deposited": false,
+      "reason": "exceeds the repository 100 MB per-file limit",
+      "regeneration": "regenerable: mechanics_benchmarks.run_case / native_dp_runner.py on the archived instance and decomposition; this round's bounded native runs re-emitted byte-identical copies (sha256-equal, verified for dense17 same/split and dense18 same)"
+    },
+    {
+      "file": "examples/mech_dense17_split_native_dp_certificate.json",
+      "sha256": "e8b84d2ab1ffeec2384aa0c9207c4b4ca760dfcdad3c08b4d71f74084c9d9b54",
+      "bytes": 243237822,
+      "deposited": false,
+      "reason": "exceeds the repository 100 MB per-file limit",
+      "regeneration": "regenerable: mechanics_benchmarks.run_case / native_dp_runner.py on the archived instance and decomposition; this round's bounded native runs re-emitted byte-identical copies (sha256-equal, verified for dense17 same/split and dense18 same)"
+    },
+    {
+      "file": "examples/mech_dense18_same.cnf",
+      "sha256": "1de482800f6291c1dd2468eecb21978cbd7783b7d40a14f3fc1602befc9d676c",
+      "bytes": 131293916,
+      "deposited": false,
+      "reason": "exceeds the repository 100 MB per-file limit",
+      "regeneration": "regenerable: baseline_encode.py to_dimacs on the archived instance"
+    },
+    {
+      "file": "examples/mech_dense18_same.lp",
+      "sha256": "e63f5a3407748777306a9ef17ea0512973034a469ac760d733857b5a9b23f798",
+      "bytes": 66840610,
+      "deposited": false,
+      "reason": "exceeds the repository 100 MB per-file limit",
+      "regeneration": "regenerable: baseline_encode.py to_milp_lp on the archived instance"
+    },
+    {
+      "file": "examples/mech_dense18_same_cpsat.json",
+      "sha256": "be8e6d4d3dfd6d6625867187d20cee0d0e3aea94b57f8da197aaaa7fef590e1f",
+      "bytes": 289055306,
+      "deposited": false,
+      "reason": "exceeds the repository 100 MB per-file limit",
+      "regeneration": "regenerable: baseline_encode.py to_cpsat_json on the archived instance"
+    },
+    {
+      "file": "examples/mech_dense18_same_dp_certificate.json",
+      "sha256": "7449bba67cb83739e44c7e3c705b99e33cca8d9ecd755eb377d7607fc8c57c9a",
+      "bytes": 252451552,
+      "deposited": false,
+      "reason": "exceeds the repository 100 MB per-file limit",
+      "regeneration": "regenerable: mechanics_benchmarks.run_case / native_dp_runner.py on the archived instance and decomposition; this round's bounded native runs re-emitted byte-identical copies (sha256-equal, verified for dense17 same/split and dense18 same)"
+    },
+    {
+      "file": "examples/mech_dense18_same_native_dp_certificate.json",
+      "sha256": "7449bba67cb83739e44c7e3c705b99e33cca8d9ecd755eb377d7607fc8c57c9a",
+      "bytes": 252451552,
+      "deposited": false,
+      "reason": "exceeds the repository 100 MB per-file limit",
+      "regeneration": "regenerable: mechanics_benchmarks.run_case / native_dp_runner.py on the archived instance and decomposition; this round's bounded native runs re-emitted byte-identical copies (sha256-equal, verified for dense17 same/split and dense18 same)"
+    },
+    {
+      "file": "examples/mech_dense18_split.cnf",
+      "sha256": "28ba76092b08fd848bbdfe1f0e77c9a6dbb8f01d6835ba62ce489f59809b8714",
+      "bytes": 232710173,
+      "deposited": false,
+      "reason": "exceeds the repository 100 MB per-file limit",
+      "regeneration": "regenerable: baseline_encode.py to_dimacs on the archived instance"
+    },
+    {
+      "file": "examples/mech_dense18_split.lp",
+      "sha256": "585342898c8f9167a8c8912e2eb06a9d63b4042deee9aca63fa0ab9a176a9ded",
+      "bytes": 165898885,
+      "deposited": false,
+      "reason": "exceeds the repository 100 MB per-file limit",
+      "regeneration": "regenerable: baseline_encode.py to_milp_lp on the archived instance"
+    },
+    {
+      "file": "examples/mech_dense18_split_cpsat.json",
+      "sha256": "c5d9b6a079471d9dd3425329b1508288c0c828a7d61302803fb0949393751a06",
+      "bytes": 388114949,
+      "deposited": false,
+      "reason": "exceeds the repository 100 MB per-file limit",
+      "regeneration": "regenerable: baseline_encode.py to_cpsat_json on the archived instance"
+    }
+  ],
+  "deposited_small_artifacts_count": 37
+}
