@@ -384,3 +384,47 @@ including both version pins (12/9) and all ten new bibitems; mechanical
 checks: 47 labels / 24 cited bibitems (companion + appendix), 302 labels /
 32 cited bibitems (main), no duplicate labels, no stale references. No
 recorded artifact or earlier version was modified.
+
+## Round 9
+
+**Owner directive.** Do new research for sensor-design hardness and the
+FPT framing if merited; decide whether the material belongs in a separate
+monograph, a supplementary document, or the same book.
+
+**Research.** Literature passes confirmed the anchors (set cover
+W[2]-complete under the standard parameterisation; bounded-treewidth CSP
+as the FPT lineage the companion already cites; sensor-placement hardness
+literature confined to formalisms disjoint from the finite one-shot
+model). The complete reduction was constructed and verified: pair-core
+set-cover instances (single observation value, two actions, singleton
+admissible sets, one candidate sensor per covering set) make repairing
+subfamilies exactly the covers, budget preserved, so NP-completeness and
+W[2]-hardness both hold; the scoping to listed candidate families is
+necessary and is recorded as the boundary (unrestricted synthesis admits
+a single all-separating sensor on this construction).
+
+**Placement decision.** Same book (the companion): the content is small,
+completes statements the companion already makes (the §7 two-task
+closing sentence, the §5 complexity table, the introduction's
+parameterised-calibration promise), and needs no apparatus beyond
+Theorem 7.1 and two already-cited sources. A separate monograph or
+supplementary would require a research programme (bicriteria
+width-and-repair design, approximation, ETH-tight bounds) that is not
+established; those stay documented open boundaries. Main v46 is the
+one-line mutual pin bump; appendix v9 is unchanged.
+
+**Changes.** Companion v13 (eight sites: contribution clause; complexity
+table row; §5 direct-reduction prose; Remark 6.4 fixed-parameter reading;
+Proposition 7.3 sensor-design hardness with proof; §13 frontier
+parenthetical; Appendix B set-cover construction with W[2] transfer and
+the unrestricted-formulation boundary; pin to main v46). Main v46 (pin to
+companion v13). Plan v27 (Round 9 section with the research record, the
+adjudication, the placement rationale, verification, and updated
+remaining items).
+
+**Verification.** Tectonic: companion v13 = v12's exact underfull profile
+at +2-line shift, zero overfull, zero errors, zero undefined references;
+main v46 = v45's exact profile (nine overfull, fifty-five underfull,
+identical positions and badness), zero errors. pdftotext confirms all
+insertions render; mechanical checks pass (49 labels, no duplicates, 24
+bibliography items all cited, no new bibliography items).
