@@ -323,3 +323,64 @@ zero undefined references) and companion v11 with v10's underfull set and
 zero overfull boxes; all new cross-references resolve in both PDFs; the
 withdrawal footnote, both version pins, and the two repository URLs render
 correctly. No recorded artifact or earlier version was modified.
+
+## Round 8: Round-8 candidate incorporation, register scan, and mutual re-pinning (companion v12 / appendix v9 / main v45)
+
+Owner directives: include the round-8 incorporation candidates only if
+highly merited; address remaining plan-v25 points at root cause; address
+the withdrawn footnote if there is still defect; scan for meta-commentary,
+informal chat jargon, self-referential or editorial comments, over-hedging,
+and internal jargon.
+
+- Re-downloaded the workspace release and mined the companion source draft
+  again for the six ranked candidates. Adjudication: three included
+  (finite effective collapse proposition, relation-to-prior-work passage,
+  observation-identification width warning), three declined with documented
+  reasons (sensor-design hardness and the FPT framing are gated on writing
+  complete reductions; the claim-boundary anchor bibitems would decorate
+  declined-scope statements).
+- Companion v12: new §1 subsection "Relation to prior work" (seven new
+  bibitems, all load-bearing in the passage; honest novelty boundary: the
+  engines are classical, the assembly and its recorded execution are the
+  contribution); new §2 Proposition (Finite effective collapse) + remark
+  (unrestricted catalogues collapse the set/effective distinction; the
+  remaining separations are declared-catalogue and budget; a timeout or
+  table-size limit is inconclusive, not evidence of non-existence); new §5
+  Proposition (Identification can destroy low width) + remark (primal graph
+  defined at first use; the matching→quotient construction; the
+  graph-colouring hardness instantiation citing gareyjohnson79; width is
+  measured after the identifications the interface enforces); §11's
+  same/split definition gains the identification cross-reference and the
+  minimum-fill heuristic gains the George/Lipton–Tarjan citation; register
+  fixes (phase-6 gloss, ETH/FE/OOM expansions, "the artifact release", two
+  pre-introduction "artifact report" captions → "the artifact's recorded
+  reports", DP-OPTIMUM grammar+width-DP double citation, seven -ize
+  normalisations, five quantized→quantised, spaced em-dash); pin bumped to
+  main v45; \input appendix v9.
+- Appendix v9: the dense-family subsection gains a label and the positional
+  "subsection below" self-reference becomes a cross-reference; otherwise
+  unchanged.
+- Main v45: the relation subsection gains the decentralised-control
+  paragraph (Witsenhausen, Papadimitriou–Tsitsiklis, Bernstein et al.;
+  three new bibitems, all cited); WKL expanded at first use (abstract and
+  §1), CSP parenthesised, MILP expanded; register fixes from the scan
+  (realisation/realises, accompanying algorithmic programme, normalised,
+  temporal "now" dropped, "The common content of these results"); pins
+  bumped to companion v12 / appendix v9.
+- Withdrawn-footnote re-verification: counters internally consistent, both
+  round-10 micro-edits in place, cross-references resolve, "this article"
+  consistent with the companion's self-reference lexicon; verdict: no
+  remaining defect, no edit made to the passage.
+- Register-scan false positive documented: the appendix's
+  VERIFIED-SAT/VERIFIED-UNSAT tokens are genuine recorded artifact field
+  values (repro_report.json), correctly documented, retained.
+
+Verification: tectonic compiles main v45 with exactly v44's nine-overfull
+profile at shifted positions (identical badness values; zero errors, zero
+undefined references) and companion v12 with exactly v11's five-warning
+underfull class at shifted positions (zero overfull, zero errors, zero
+undefined references); pdftotext confirms every insertion renders,
+including both version pins (12/9) and all ten new bibitems; mechanical
+checks: 47 labels / 24 cited bibitems (companion + appendix), 302 labels /
+32 cited bibitems (main), no duplicate labels, no stale references. No
+recorded artifact or earlier version was modified.
